@@ -1,0 +1,61 @@
+model,scenario,target_evidence_found,update_success,active_answer_score,n,stale_answer_rate_given_evidence,diagnosis
+Audio Flamingo Next,Cancellation and deletion,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next,Correction and confirmation,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next,Delayed answer and deferred resolution,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next,Disagreement and final resolution,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next,Temporal instruction sequence,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next,Topic switch with distractors,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next Think,Cancellation and deletion,0.0,0.0,0.0039236111111111095,40,,evidence missing
+Audio Flamingo Next Think,Correction and confirmation,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next Think,Delayed answer and deferred resolution,0.0,,0.0,40,,evidence missing
+Audio Flamingo Next Think,Disagreement and final resolution,0.0,0.3333333333333333,0.04704365079365079,40,,evidence missing
+Audio Flamingo Next Think,Temporal instruction sequence,0.0,0.0,0.06505223171889837,40,,evidence missing
+Audio Flamingo Next Think,Topic switch with distractors,0.0,,0.018134920634920632,40,,evidence missing
+GPT Audio,Cancellation and deletion,0.65,0.3093597784387258,0.31170632359540595,40,0.11706539074960125,mixed
+GPT Audio,Correction and confirmation,0.8,0.3054507272176445,0.3740948549136793,40,0.09660796988099617,mixed
+GPT Audio,Delayed answer and deferred resolution,0.425,0.3364200070082423,0.5370878882487339,40,0.044405997693194914,evidence missing
+GPT Audio,Disagreement and final resolution,0.775,0.2667835568570862,0.33666226564489427,40,0.08302375202280324,mixed
+GPT Audio,Temporal instruction sequence,0.175,0.3212962962962963,0.45448126240111764,40,0.03928571428571426,evidence missing
+GPT Audio,Topic switch with distractors,0.775,0.21828238151054669,0.4187606512462323,40,0.08445960325392061,mixed
+GPT Audio Mini,Cancellation and deletion,1.0,0.2717698303317582,0.46391227397709295,40,0.24835396297066775,mixed
+GPT Audio Mini,Correction and confirmation,1.0,0.2604751457739326,0.4403635478833964,40,0.22323917555892753,mixed
+GPT Audio Mini,Delayed answer and deferred resolution,1.0,0.2681012306407043,0.35590812289723994,40,0.1943217205910704,mixed
+GPT Audio Mini,Disagreement and final resolution,1.0,0.27670397957162657,0.42648268655400035,40,0.24103284242990122,mixed
+GPT Audio Mini,Temporal instruction sequence,0.925,0.3044444444444444,0.4710485128792511,40,0.1504290004290004,mixed
+GPT Audio Mini,Topic switch with distractors,1.0,0.2609829426221689,0.44481409711327957,40,0.21152029742422962,mixed
+Gemini 2 Flash,Cancellation and deletion,0.7,0.44840785962067425,0.5430834627200876,40,0.13581322377088964,mixed
+Gemini 2 Flash,Correction and confirmation,0.875,0.4204997881111241,0.5900881521751434,40,0.15445127554150107,mixed
+Gemini 2 Flash,Delayed answer and deferred resolution,0.575,0.4913181382600887,0.6733679480865099,40,0.12030949069177631,mixed
+Gemini 2 Flash,Disagreement and final resolution,0.9,0.355761660724896,0.47004486255373157,40,0.14756917918682622,mixed
+Gemini 2 Flash,Temporal instruction sequence,0.475,0.5189980158730159,0.7039959588461694,40,0.06771094402673347,evidence missing
+Gemini 2 Flash,Topic switch with distractors,0.775,0.35266946122494025,0.6196486372428023,40,0.16440444884983288,mixed
+Gemini 3 Flash,Cancellation and deletion,0.95,0.5319564691125046,0.6484470268770253,40,0.08605651193721768,mixed
+Gemini 3 Flash,Correction and confirmation,1.0,0.5637907413849667,0.716329096139262,40,0.07855123833910513,mixed
+Gemini 3 Flash,Delayed answer and deferred resolution,0.925,0.5825717498875393,0.6475395162958983,40,0.08519792612671868,mixed
+Gemini 3 Flash,Disagreement and final resolution,0.975,0.40079970864284586,0.5084212694626956,40,0.11675352606725155,mixed
+Gemini 3 Flash,Temporal instruction sequence,0.8,0.4810218253968254,0.6443323543771825,40,0.07545882936507935,mixed
+Gemini 3 Flash,Topic switch with distractors,0.9,0.46180091354723707,0.706677202199449,40,0.07802424823684413,mixed
+Kimi Audio,Cancellation and deletion,0.0,,0.0,40,,evidence missing
+Kimi Audio,Correction and confirmation,0.0,,0.0,40,,evidence missing
+Kimi Audio,Delayed answer and deferred resolution,0.0,,0.0,40,,evidence missing
+Kimi Audio,Disagreement and final resolution,0.0,,0.0,40,,evidence missing
+Kimi Audio,Temporal instruction sequence,0.0,,0.0,40,,evidence missing
+Kimi Audio,Topic switch with distractors,0.0,,0.0,40,,evidence missing
+MOSS Audio,Cancellation and deletion,0.575,0.3127586722488038,0.4245698675316606,40,0.1533024755564801,mixed
+MOSS Audio,Correction and confirmation,0.825,0.2761894218322994,0.47866067178540594,40,0.23812811199694908,mixed
+MOSS Audio,Delayed answer and deferred resolution,0.25,0.2619559468524252,0.4543226053798712,40,0.14500859993120055,evidence missing
+MOSS Audio,Disagreement and final resolution,0.85,0.19894760808363748,0.3229281018545724,40,0.2001169213971982,mixed
+MOSS Audio,Temporal instruction sequence,0.3,0.25166666666666665,0.4129122807735125,40,0.10023148148148146,evidence missing
+MOSS Audio,Topic switch with distractors,0.775,0.1887171869089018,0.44405871002973535,40,0.22702167648932506,mixed
+Mimo Audio,Cancellation and deletion,0.2,0.29809384164222874,0.23584842308709267,40,0.08143939393939391,evidence missing
+Mimo Audio,Correction and confirmation,0.475,0.1966963962953268,0.3026450987113674,40,0.17693913413727655,evidence missing
+Mimo Audio,Delayed answer and deferred resolution,0.025,0.26728395061728394,0.3863501789604731,40,0.1,evidence missing
+Mimo Audio,Disagreement and final resolution,0.525,0.16128547378547375,0.3060687864899262,40,0.1692666460523603,mixed
+Mimo Audio,Temporal instruction sequence,0.325,0.1482488271961956,0.28395495893026423,40,0.053846153846153814,evidence missing
+Mimo Audio,Topic switch with distractors,0.325,0.1673451140362905,0.4006230731493412,40,0.15939124977586513,evidence missing
+Qwen2.5 Omni,Cancellation and deletion,0.025,0.458041958041958,0.16960264015819568,40,0.25,evidence missing
+Qwen2.5 Omni,Correction and confirmation,0.025,0.23295454545454544,0.06044234315067648,40,0.5454545454545454,evidence missing
+Qwen2.5 Omni,Delayed answer and deferred resolution,0.0,0.3645833333333333,0.09772833994708993,40,,evidence missing
+Qwen2.5 Omni,Disagreement and final resolution,0.675,0.23739820952819052,0.30580721344967665,40,0.18797652057455977,mixed
+Qwen2.5 Omni,Temporal instruction sequence,0.225,0.2855952380952381,0.4228738212908299,40,0.10828924162257494,evidence missing
+Qwen2.5 Omni,Topic switch with distractors,0.425,0.1842603668261563,0.29549374163171677,40,0.16149380804953561,evidence missing

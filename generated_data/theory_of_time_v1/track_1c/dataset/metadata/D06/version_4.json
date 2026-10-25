@@ -1,0 +1,573 @@
+{
+  "audio_duration_seconds": 23.71,
+  "audio_file_path": "episodes/D06/version_4.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "D06",
+  "generation_timestamp": "2026-06-04T14:18:38.472846+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D06_S01",
+          "D06_S02",
+          "D06_S03",
+          "D06_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "WEST_ROUTE",
+            "if_observed_all": [
+              "D06_S04"
+            ]
+          },
+          {
+            "answer": "UNRESOLVED",
+            "if_observed_all": [
+              "D06_S02"
+            ]
+          },
+          {
+            "answer": "WEST_ROUTE",
+            "if_observed_all": [
+              "D06_S03"
+            ]
+          },
+          {
+            "answer": "WEST_ROUTE",
+            "if_observed_all": [
+              "D06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "WEST_ROUTE",
+        "prefix_answer_trace": {
+          "D06_S01": "WEST_ROUTE",
+          "D06_S02": "UNRESOLVED",
+          "D06_S03": "UNRESOLVED",
+          "D06_S04": "WEST_ROUTE",
+          "D06_S05": "WEST_ROUTE",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D06_S01",
+          "D06_S02",
+          "D06_S03",
+          "D06_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D06_S04"
+            ]
+          },
+          {
+            "answer": "UNKNOWN",
+            "if_observed_all": [
+              "D06_S02"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D06_S03"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "D06_S01": "NO",
+          "D06_S02": "UNKNOWN",
+          "D06_S03": "UNKNOWN",
+          "D06_S04": "NO",
+          "D06_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "EAST_ROUTE",
+          "NORTH_ROUTE",
+          "CENTRAL_ROUTE",
+          "WEST_ROUTE",
+          "SOUTH_ROUTE",
+          "UNRESOLVED",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the route? Return exactly one of: EAST_ROUTE, NORTH_ROUTE, CENTRAL_ROUTE, WEST_ROUTE, SOUTH_ROUTE, UNRESOLVED, UNKNOWN.",
+        "question_id": "D06_CAT_Q1",
+        "question_type": "decision_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the route EAST_ROUTE? Return YES, NO, or UNKNOWN.",
+        "question_id": "D06_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "D06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "D06_S01": "UNKNOWN",
+          "D06_S02": "UNKNOWN",
+          "D06_S03": "A",
+          "D06_S04": "A",
+          "D06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D06_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "D06_S01",
+              "D06_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "D06_S01": "UNKNOWN",
+          "D06_S02": "EVENT_1",
+          "D06_S03": "EVENT_1",
+          "D06_S04": "EVENT_1",
+          "D06_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first supports the selected value by saying: west avoids the road closure? Return A, B, or UNKNOWN.",
+        "question_id": "D06_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=WEST_ROUTE_STATED. EVENT_2=EAST_ROUTE_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "D06_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "D06_S01",
+          "D06_S02",
+          "D06_S03",
+          "D06_S04",
+          "D06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "D06_S01": "A",
+          "D06_S02": "A>B",
+          "D06_S03": "A>B>A",
+          "D06_S04": "A>B>A>B",
+          "D06_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D06_S01",
+          "D06_S02",
+          "D06_S03",
+          "D06_S04",
+          "D06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "D06_S01": "0",
+          "D06_S02": "1",
+          "D06_S03": "2",
+          "D06_S04": "3",
+          "D06_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D06_S01",
+          "D06_S02",
+          "D06_S03",
+          "D06_S04",
+          "D06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "D06_S01": "A",
+          "D06_S02": "B",
+          "D06_S03": "A",
+          "D06_S04": "B",
+          "D06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D06_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "D06_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "D06_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "D06_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D06_S01",
+        "speaker": "A",
+        "text": "Take the west route."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D06_S02",
+        "speaker": "B",
+        "text": "The map recommends east."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D06_S03",
+        "speaker": "A",
+        "text": "West avoids the road closure."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D06_S04",
+        "speaker": "B",
+        "text": "I see the closure now."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D06_S05",
+        "speaker": "A",
+        "text": "So use the west route."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for route heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "D06_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "D06_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "D06_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.51,
+      "pause_label": "natural",
+      "pause_start_time": 1.51
+    },
+    {
+      "after_sentence_id": "D06_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 5.81,
+      "pause_label": "natural",
+      "pause_start_time": 4.81
+    },
+    {
+      "after_sentence_id": "D06_S03",
+      "duration_seconds": 10.0,
+      "pause_end_time": 18.27,
+      "pause_label": "long",
+      "pause_start_time": 8.27
+    },
+    {
+      "after_sentence_id": "D06_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 21.75,
+      "pause_label": "natural",
+      "pause_start_time": 20.75
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/D06/version_4/D06_S01.wav",
+      "duration_seconds": 1.51,
+      "loudness_normalization": {
+        "applied_gain_db": -2.36278,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.437158,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.573822,
+        "original_speech_rms_dbfs": -21.63722
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "c775a5a7d8a215c1d41b87100a50fca1e51617aac1873cbd92cd917f59035074",
+      "sentence_end_time": 1.51,
+      "sentence_id": "D06_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Take the west route.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/D06/version_4/D06_S02.wav",
+      "duration_seconds": 2.3,
+      "loudness_normalization": {
+        "applied_gain_db": 10.070834,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.430532,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.13504,
+        "original_speech_rms_dbfs": -34.070834
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "0d675e4d5dbaf206e41448c9622dc745d49f0d288617daf915dfb0592b565d8e",
+      "sentence_end_time": 4.81,
+      "sentence_id": "D06_S02",
+      "sentence_start_time": 2.51,
+      "speaker": "B",
+      "text": "The map recommends east.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/D06/version_4/D06_S03.wav",
+      "duration_seconds": 2.46,
+      "loudness_normalization": {
+        "applied_gain_db": -3.980175,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.340285,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.538086,
+        "original_speech_rms_dbfs": -20.019825
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "eabfe219c5a5207d467e42c0b9234d5119a9cc52ae91dceea0adb156fbc28d5b",
+      "sentence_end_time": 8.27,
+      "sentence_id": "D06_S03",
+      "sentence_start_time": 5.81,
+      "speaker": "A",
+      "text": "West avoids the road closure.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/D06/version_4/D06_S04.wav",
+      "duration_seconds": 2.48,
+      "loudness_normalization": {
+        "applied_gain_db": 9.5683,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.397606,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.132141,
+        "original_speech_rms_dbfs": -33.5683
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "dd8e4fc4678e64958030d3e537c83dc5a4ef6e98c0c49cb3f8774623cf98eea1",
+      "sentence_end_time": 20.75,
+      "sentence_id": "D06_S04",
+      "sentence_start_time": 18.27,
+      "speaker": "B",
+      "text": "I see the closure now.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/D06/version_4/D06_S05.wav",
+      "duration_seconds": 1.96,
+      "loudness_normalization": {
+        "applied_gain_db": -4.436468,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.365939,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.609863,
+        "original_speech_rms_dbfs": -19.563532
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "da5d0d998502e92a811d9a6fb876002f2a7f045dee27362838e98633316b4644",
+      "sentence_end_time": 23.71,
+      "sentence_id": "D06_S05",
+      "sentence_start_time": 21.75,
+      "speaker": "A",
+      "text": "So use the west route.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "D",
+    "category_label": "Disagreement and final resolution",
+    "category_specific_answer_rules": "[{\"question_id\":\"D06_CAT_Q1\",\"ask_after\":[\"D06_S01\",\"D06_S02\",\"D06_S03\",\"D06_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"WEST_ROUTE\",\"D06_S02\":\"UNRESOLVED\",\"D06_S03\":\"UNRESOLVED\",\"D06_S04\":\"WEST_ROUTE\",\"D06_S05\":\"WEST_ROUTE\"},\"final_answer_full_evidence\":\"WEST_ROUTE\",\"evidence_rules\":[{\"if_observed_all\":[\"D06_S04\"],\"answer\":\"WEST_ROUTE\"},{\"if_observed_all\":[\"D06_S02\"],\"answer\":\"UNRESOLVED\"},{\"if_observed_all\":[\"D06_S03\"],\"answer\":\"WEST_ROUTE\"},{\"if_observed_all\":[\"D06_S01\"],\"answer\":\"WEST_ROUTE\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D06_CAT_Q2\",\"ask_after\":[\"D06_S01\",\"D06_S02\",\"D06_S03\",\"D06_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"NO\",\"D06_S02\":\"UNKNOWN\",\"D06_S03\":\"UNKNOWN\",\"D06_S04\":\"NO\",\"D06_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"D06_S04\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D06_S02\"],\"answer\":\"UNKNOWN\"},{\"if_observed_all\":[\"D06_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D06_S01\"],\"answer\":\"NO\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"D06_CAT_Q1\",\"question_type\":\"decision_value\",\"prompt\":\"What is the route? Return exactly one of: EAST_ROUTE, NORTH_ROUTE, CENTRAL_ROUTE, WEST_ROUTE, SOUTH_ROUTE, UNRESOLVED, UNKNOWN.\",\"allowed_answers\":[\"EAST_ROUTE\",\"NORTH_ROUTE\",\"CENTRAL_ROUTE\",\"WEST_ROUTE\",\"SOUTH_ROUTE\",\"UNRESOLVED\",\"UNKNOWN\"]},{\"question_id\":\"D06_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the route EAST_ROUTE? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"D06_CONTENT_Q1\",\"ask_after\":[\"D06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"UNKNOWN\",\"D06_S02\":\"UNKNOWN\",\"D06_S03\":\"A\",\"D06_S04\":\"A\",\"D06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"D06_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D06_CONTENT_Q2\",\"ask_after\":[\"D06_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"UNKNOWN\",\"D06_S02\":\"EVENT_1\",\"D06_S03\":\"EVENT_1\",\"D06_S04\":\"EVENT_1\",\"D06_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"D06_S01\",\"D06_S02\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"D06_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first supports the selected value by saying: west avoids the road closure? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"D06_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=WEST_ROUTE_STATED. EVENT_2=EAST_ROUTE_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "D06",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"D06_GEN_Q1\",\"ask_after\":[\"D06_S01\",\"D06_S02\",\"D06_S03\",\"D06_S04\",\"D06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"A\",\"D06_S02\":\"A>B\",\"D06_S03\":\"A>B>A\",\"D06_S04\":\"A>B>A>B\",\"D06_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D06_GEN_Q2\",\"ask_after\":[\"D06_S01\",\"D06_S02\",\"D06_S03\",\"D06_S04\",\"D06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"0\",\"D06_S02\":\"1\",\"D06_S03\":\"2\",\"D06_S04\":\"3\",\"D06_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D06_GEN_Q3\",\"ask_after\":[\"D06_S01\",\"D06_S02\",\"D06_S03\",\"D06_S04\",\"D06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D06_S01\":\"A\",\"D06_S02\":\"B\",\"D06_S03\":\"A\",\"D06_S04\":\"B\",\"D06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"D06_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"D06_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"D06_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "D06_S01=0; D06_S02=1; D06_S03=2; D06_S04=3; D06_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"D06_S01\",\"speaker\":\"A\",\"text\":\"Take the west route.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D06_S02\",\"speaker\":\"B\",\"text\":\"The map recommends east.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D06_S03\",\"speaker\":\"A\",\"text\":\"West avoids the road closure.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D06_S04\",\"speaker\":\"B\",\"text\":\"I see the closure now.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D06_S05\",\"speaker\":\"A\",\"text\":\"So use the west route.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "D06_S01,D06_S02,D06_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"D06_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for route heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"D06_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Take the west route.\nB: The map recommends east.\nA: West avoids the road closure.\nB: I see the closure now.\nA: So use the west route.",
+    "transcript_with_pause_recommendations": "A: Take the west route. (natural)\nB: The map recommends east. (natural)\nA: West avoids the road closure. (long)\nB: I see the closure now. (natural)\nA: So use the west route.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "echo",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "sage",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_4",
+  "voice_pair_id": "pair_2"
+}

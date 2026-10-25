@@ -1,0 +1,337 @@
+{
+  "analysis_version": "v5",
+  "reference_root": "analysis/expected/paper_plot_v5",
+  "source_notebook_sha256": "736ac4a566066abb1411459c9f7984058010ea2aa0d80b5b99128baf982e5db9",
+  "source_plot_script_sha256": "4fe0a22df02e5d2cc036cd59108ec90b15033172d2e7f09c2e45f296dd2822bc",
+  "artifacts": [
+    {
+      "path": "controlled_temporal_belief_construction/plot_controlled_temporal_belief_construction.png",
+      "sha256": "6e4d49455ed3745ff44e701a7bd85cb6c63a94a22615372a9fbd17c5fd62dc15",
+      "size": 1273881
+    },
+    {
+      "path": "controlled_temporal_belief_construction/table_active_semantic_belief_profile.csv",
+      "sha256": "115d5a479b563d5a8c680668d62bbb864897db10b41b86f7a78886f35eb74210",
+      "size": 1050
+    },
+    {
+      "path": "controlled_temporal_belief_construction/table_temporal_map_component_profile.csv",
+      "sha256": "8dd5788a6f9796fa02960b92182a377e33462de32f24f633dee13ab652ad8d58",
+      "size": 1146
+    },
+    {
+      "path": "conversational_revision_and_stability/plot_conversational_revision_and_stability.png",
+      "sha256": "4056b66b98fc9acaf9ac54debb9cbecb65db41e1c7f1a6590657ab1c605489cc",
+      "size": 584688
+    },
+    {
+      "path": "conversational_revision_and_stability/table_same_session_belief_stability.csv",
+      "sha256": "242e59eea621aecb8a8b12f544b3efc65f58712b7b0b4efcb888ab263573619f",
+      "size": 1782
+    },
+    {
+      "path": "conversational_revision_and_stability/table_semantic_revision_and_belief_inertia.csv",
+      "sha256": "e1a7c8a8297295cfdb6240db8554179c1a7bea9510950162cfba4e4dabc02adc",
+      "size": 6671
+    },
+    {
+      "path": "cross_domain_diagnostics/plot_cross_domain_diagnostics.png",
+      "sha256": "7c10d8378828fb9b641ff6a1be17bf2abfc66dbcbdbea74713476802f7e19dde",
+      "size": 583516
+    },
+    {
+      "path": "cross_domain_diagnostics/table_combined_evidence_efficiency_belief_diagnostics.csv",
+      "sha256": "914835233b8d4dbac7f38eec63eac113bddf4d7b774ed1c57f6777643420d025",
+      "size": 4476
+    },
+    {
+      "path": "cross_domain_diagnostics/table_cross_domain_heatmap_support.csv",
+      "sha256": "6168fd011bcc3e35c9b9c3f9fceb7f5b39f73e0782a92ceb318f6a9dd12dc0e8",
+      "size": 1740
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track1_known_unknown_scores.csv",
+      "sha256": "5d9d2fe7ea3ff09de38723ce32e631024c12b5e01f690261723a796e99bf9466",
+      "size": 3749
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track2_efficiency_components.csv",
+      "sha256": "8f36e3450a7639425ceb9b33faf3a4cea44721a5c393f93964e43d9eac6a7295",
+      "size": 16510
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track2_supported_commitment_simplified.csv",
+      "sha256": "caf4b2e115c46f0ceb64a719d72651746a5f269dc9ffa0c59a933e4c48337159",
+      "size": 676
+    },
+    {
+      "path": "cross_track_diagnostics/plot_cross_track_diagnostics.png",
+      "size": 583516,
+      "sha256": "7c10d8378828fb9b641ff6a1be17bf2abfc66dbcbdbea74713476802f7e19dde"
+    },
+    {
+      "path": "long_horizon_task_completion/plot_marginal_completion_stage_profile.png",
+      "sha256": "7e706f4b771beead63d95a53e75b0ef6e7366cb1b0aba68c2b9ea676f12efe86",
+      "size": 693073
+    },
+    {
+      "path": "long_horizon_task_completion/table_marginal_completion_stage_profile.csv",
+      "sha256": "1d886f9489218e58376634198ebca4eb81d40be9dbf1add84f37f5fc5c8f3e01",
+      "size": 25247
+    },
+    {
+      "path": "long_horizon_task_completion/table_task_variant_strict_completion.csv",
+      "sha256": "76dd069c7adcb7017bcac82dcac6e705aa66939ae25f5fbb70febfdbe5656e81",
+      "size": 1118
+    },
+    {
+      "path": "plots/plot_active_vs_full_context_slopes.png",
+      "sha256": "053f94d8c8628b2584ccda8e943596b27ce1f6ccca4064e89cae59bf5724c6fb",
+      "size": 504009
+    },
+    {
+      "path": "supplement/panel_01/table_main_benchmark_scoreboard.csv",
+      "sha256": "51012b072b8bea873f7a2773331b4b3c8d7e8f3c5b18b680a2011c79ba4d95fa",
+      "size": 7595,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_01/table_scoreboard_rank_uncertainty.csv",
+      "sha256": "5fb579885ecefb907a57855843195e568a59a7322766ae67c61f254d1bcc1ffc",
+      "size": 2583,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_02/plot_active_vs_full_context_slopes.png",
+      "sha256": "053f94d8c8628b2584ccda8e943596b27ce1f6ccca4064e89cae59bf5724c6fb",
+      "size": 504009
+    },
+    {
+      "path": "supplement/panel_02/table_active_vs_full_context_answer_gap.csv",
+      "sha256": "bdd72c82c3bf124489fd97b4de65d07022feb15ca09b20964d977e881f9b8552",
+      "size": 3834
+    },
+    {
+      "path": "supplement/panel_03/plot_temporal_map_component_profile.png",
+      "sha256": "21a073078410141477f4cddcf4e3c22e4fcc8da396572e6dea35fb6e2b03ed80",
+      "size": 616271
+    },
+    {
+      "path": "supplement/panel_03/table_temporal_map_component_profile.csv",
+      "sha256": "8dd5788a6f9796fa02960b92182a377e33462de32f24f633dee13ab652ad8d58",
+      "size": 1146
+    },
+    {
+      "path": "supplement/panel_04/table_component_active_vs_full_context_gap.csv",
+      "sha256": "5bc91924ec60509c52e54001e4a1b94983642149afd82203e3967ed65a3e7dd9",
+      "size": 10515,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_05/table_prior_information_effects.csv",
+      "sha256": "5a521a1cbfd1b9b233cf8a1714f227c8bea68e7aed7eb46d0b3e018274d494b6",
+      "size": 30897,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_06/plot_component_active_vs_full_context_gap.png",
+      "sha256": "f53ec1778bc3b76eba15a56873ab4fe3b4241d848a5c7e730d8039791b73da41",
+      "size": 710715,
+      "preexisting_workspace_sha256": "990e501e1210643b1af023f9240c9d198d244db0229aa0a69dac04b656f851f8",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_06/plot_semantic_belief_profile_and_component_gap.png",
+      "sha256": "3599c5aed968c6238ce62dad780d487988a8fef8980272985d8121c7630b9c60",
+      "size": 1399801,
+      "preexisting_workspace_sha256": "c7cd15c4a10ad48a0625d179171f0753662758134c25d4467c83c37b9304d3db",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_06/table_active_semantic_belief_profile.csv",
+      "sha256": "115d5a479b563d5a8c680668d62bbb864897db10b41b86f7a78886f35eb74210",
+      "size": 1050
+    },
+    {
+      "path": "supplement/panel_06/table_component_active_vs_full_context_gap.csv",
+      "sha256": "ce86cebc0a3892c5ee976eee800fd62316ce53901d51986fc4c2e09f2bdd3629",
+      "size": 6589
+    },
+    {
+      "path": "supplement/panel_07/plot_revision_threshold_sensitivity.png",
+      "sha256": "9ab131a93daec73223a6bb728421062ff05720946e3d36386e9eb3d0fbb5cb18",
+      "size": 339626
+    },
+    {
+      "path": "supplement/panel_07/plot_semantic_revision_and_belief_inertia.png",
+      "sha256": "0736a38d5e68ab5b751fa64e2238f96b75c39dc589c4db8518dafb6b324fe431",
+      "size": 832230,
+      "preexisting_workspace_sha256": "92b43a4ea66249660dfde9c31c24e9cf292c0be005710ad3fb8309483f64d19a",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_07/table_revision_threshold_sensitivity.csv",
+      "sha256": "cc4000abcf4209f90e9e4d40cf1973ddb9fd883b671e918eaf65ceda47433c82",
+      "size": 23562
+    },
+    {
+      "path": "supplement/panel_07/table_semantic_revision_and_belief_inertia.csv",
+      "sha256": "e1a7c8a8297295cfdb6240db8554179c1a7bea9510950162cfba4e4dabc02adc",
+      "size": 6671
+    },
+    {
+      "path": "supplement/panel_08/plot_same_session_semantic_belief_trajectory.png",
+      "sha256": "7e7ea93e513552281c43bfdc9b2d59c8823ece9fa177e65b2a16442342ad4111",
+      "size": 707486
+    },
+    {
+      "path": "supplement/panel_08/table_same_session_belief_stability.csv",
+      "sha256": "242e59eea621aecb8a8b12f544b3efc65f58712b7b0b4efcb888ab263573619f",
+      "size": 1782
+    },
+    {
+      "path": "supplement/panel_09/table_conversational_prior_effects.csv",
+      "sha256": "d07359367dc958e5285978df71d63fbfd190ea74407c7abb47c41feb5a0e81ca",
+      "size": 24134,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_10/table_active_task_and_variant_profile.csv",
+      "sha256": "d6c499f47c15d549f8c87cef842401cf70cbb06db137ce79ea027a82f29737d8",
+      "size": 16188
+    },
+    {
+      "path": "supplement/panel_11/plot_marginal_completion_stage_profile.png",
+      "sha256": "7e706f4b771beead63d95a53e75b0ef6e7366cb1b0aba68c2b9ea676f12efe86",
+      "size": 693073,
+      "preexisting_workspace_sha256": "052873dc78efa7671a4c7783457e5be65cdedd42ab4a7c9983871e7fd8cf502b",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_11/table_marginal_completion_stage_profile.csv",
+      "sha256": "1d886f9489218e58376634198ebca4eb81d40be9dbf1add84f37f5fc5c8f3e01",
+      "size": 25247
+    },
+    {
+      "path": "supplement/panel_11/table_marginal_completion_stage_profile_grouped.csv",
+      "sha256": "d2228b3b0d7343e216ec98f3f0f5670d4061da304415233f416c20682f6f0bcb",
+      "size": 13946
+    },
+    {
+      "path": "supplement/panel_11/table_navigation_cost_and_consistency.csv",
+      "sha256": "4eb14d573534f0c1c7a12de85b5121e8b9609e3815a1a5c126f7ae381b6371c1",
+      "size": 2333
+    },
+    {
+      "path": "supplement/panel_11/table_track2b2_compound_completion.csv",
+      "sha256": "4e1a6d6822ccd081b442563e976f05a241c8f06ec52dc31be7a8c4155ffe05c7",
+      "size": 3749
+    },
+    {
+      "path": "supplement/panel_12/table_contact_cost_conditioning_effect.csv",
+      "sha256": "0d95ccf3e3ca84169d9074defe1c5ceba932aef3b4c840fd713285c663b6819a",
+      "size": 627,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_12/table_quotation_and_search_scope_contrasts.csv",
+      "sha256": "69ff6f784926af9a9d66f21845703fa3095af2345dd0064752a900de8b294152",
+      "size": 9463,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_13/plot_efficiency_frontier.png",
+      "sha256": "bee44b72dc3ab2d382cae5ca320eeb75eb752056191939046e5477af467e2e3b",
+      "size": 576071,
+      "preexisting_workspace_sha256": "29c8e8d78ab83a665940117da81e6952254b062841ee399e3a138e131ad54386",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_13/plot_evidence_belief_dissociation.png",
+      "sha256": "1a6682564f1fc12ba27b191b9624325d4dcc967b1ac652466893b396c6d7d8e1",
+      "size": 505938,
+      "preexisting_workspace_sha256": "364f1e0932dd85df19d0567cfe2e2ce6cac0956f07f2332dd4811981d615fd53",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_13/plot_evidence_belief_threshold_sensitivity.png",
+      "sha256": "5ed0faa489d3620c4971c4a49b7adfce3219add0d1bfdcb2ce1e1ade48ac2c35",
+      "size": 414556
+    },
+    {
+      "path": "supplement/panel_13/plot_track2_acquisition_coverage.png",
+      "sha256": "b06577154ee3528866393ab9f07146fe7e5ab4aca2f4cdad2455b472d5726e34",
+      "size": 936853,
+      "preexisting_workspace_sha256": "3b2e12f0a3a7cf82bc81bec5a2a3aa013b9ab15331a48459036ab362785226df",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_13/table_combined_evidence_efficiency_belief_diagnostics.csv",
+      "sha256": "914835233b8d4dbac7f38eec63eac113bddf4d7b774ed1c57f6777643420d025",
+      "size": 4476
+    },
+    {
+      "path": "supplement/panel_13/table_evidence_belief_threshold_sensitivity.csv",
+      "sha256": "ad4db6411829cf8e50864e44bb67ba1110b61e3b4a95deec7e11bd733008167e",
+      "size": 15214
+    },
+    {
+      "path": "supplement/panel_13/table_scatter_plot_aggregates.csv",
+      "sha256": "190c382a826c55dae456590f6b9fa42d3671b7126f564bb0b2e50681eacf5c49",
+      "size": 3614
+    },
+    {
+      "path": "supplement/panel_13/table_track2_efficiency_components.csv",
+      "sha256": "8f36e3450a7639425ceb9b33faf3a4cea44721a5c393f93964e43d9eac6a7295",
+      "size": 16510
+    },
+    {
+      "path": "supplement/panel_14/plot_uncertainty_awareness_and_supported_commitment.png",
+      "sha256": "1ae50d9b65ad56fdbbde755c8124bf413c3509a354e7526642ac4f5b160a2f84",
+      "size": 1742461,
+      "preexisting_workspace_sha256": "cc52107b887aebfa1bca51d4dbaf4f32eadcda496f1ba90dfbbdbf44f2402bc0",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_14/plot_uncertainty_awareness_and_supported_commitment_simplified.png",
+      "sha256": "78aa125098b7ef6675285d6066b4f680d3d756d96bfea94e94a9b14feb987fad",
+      "size": 1347216,
+      "preexisting_workspace_sha256": "f12dd633c5eaf6b49dd0b5fbd5174390c03b1b53e5b1909fbea909792790e842",
+      "origin": "Unchanged original v5 plot script and notebook rerun against original result inputs, outputs redirected to release scratch; byte-identical to exported-input render."
+    },
+    {
+      "path": "supplement/panel_14/table_track1_known_unknown_scores.csv",
+      "sha256": "5d9d2fe7ea3ff09de38723ce32e631024c12b5e01f690261723a796e99bf9466",
+      "size": 3749
+    },
+    {
+      "path": "supplement/panel_14/table_track2_claim_support_and_calibration.csv",
+      "sha256": "a2c3f75adc543a538b51999c73f742c258abd9326d81feed8ff54858a78f24c4",
+      "size": 1425
+    },
+    {
+      "path": "supplement/panel_15/table_all_applicable_failure_flags.csv",
+      "sha256": "76b4d1a304b958bcd3e4994758bfdbe7f31695ca326934d2d1d10ebce4665d4b",
+      "size": 27436,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_15/table_earliest_flagged_stage.csv",
+      "sha256": "bf67405eb9ed9af3970e62b717dc498f45e6b789082d3bb9cf145354aba88583",
+      "size": 9436,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/panel_15/table_general_failure_threshold_sensitivity.csv",
+      "sha256": "59c9ddc43a64df7e9abf24116b27e05ddeddbd1db82b2ad817edb367f118c0f9",
+      "size": 85553,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    },
+    {
+      "path": "supplement/track2_full_context_ablation/table_matched_active_vs_full_context_gap.csv",
+      "sha256": "ca99a6b7b352aca67ba7d7dc290e7db64d7e4e408215d2b095a696cae4927792",
+      "size": 5340,
+      "origin": "original v5 notebook executed with table outputs redirected to release-local scratch"
+    }
+  ]
+}

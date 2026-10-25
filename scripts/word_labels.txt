@@ -1,0 +1,38 @@
+Category Color:
+red
+blue
+green
+yellow
+orange
+purple
+black
+white
+pink
+brown
+gray
+
+Category NATO:
+alpha
+bravo
+delta
+echo
+golf
+hotel
+kilo
+lima
+tango
+zulu
+
+Category Long:
+university
+information
+community
+conversation
+education
+opportunity
+responsibility
+relationship
+imagination
+celebration
+environment
+refrigerator

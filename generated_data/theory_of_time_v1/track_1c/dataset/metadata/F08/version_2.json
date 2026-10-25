@@ -1,0 +1,524 @@
+{
+  "audio_duration_seconds": 15.9,
+  "audio_file_path": "episodes/F08/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "F08",
+  "generation_timestamp": "2026-06-04T14:26:01.329617+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F08_S01",
+          "F08_S02",
+          "F08_S03",
+          "F08_S04",
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed."
+          }
+        ],
+        "final_answer_full_evidence": "DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET>EMAIL_EXPORTED_SHEET",
+        "prefix_answer_trace": {
+          "F08_S01": "DOWNLOAD_REPORT",
+          "F08_S02": "DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS",
+          "F08_S03": "DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE",
+          "F08_S04": "DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET",
+          "F08_S05": "DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET>EMAIL_EXPORTED_SHEET",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "F08_S01",
+              "F08_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "F08_S01": "UNKNOWN",
+          "F08_S02": "UNKNOWN",
+          "F08_S03": "UNKNOWN",
+          "F08_S04": "UNKNOWN",
+          "F08_S05": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "prompt": "What procedure order is supported by the speech heard so far? Use only these action codes: DOWNLOAD_REPORT, HIGHLIGHT_OVERDUE_ITEMS, SORT_BY_DATE, EXPORT_SHEET, EMAIL_EXPORTED_SHEET. Return known action codes in order separated by \">\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \">\" with no spaces.",
+        "question_id": "F08_CAT_Q1",
+        "question_type": "procedure_order_supported"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Does DOWNLOAD_REPORT happen before EMAIL_EXPORTED_SHEET? Return YES, NO, or UNKNOWN.",
+        "question_id": "F08_CAT_Q2",
+        "question_type": "procedure_pairwise_order"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F08_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "HIGHLIGHT_OVERDUE_ITEMS",
+            "if_observed_all": [
+              "F08_S01",
+              "F08_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "HIGHLIGHT_OVERDUE_ITEMS",
+        "prefix_answer_trace": {
+          "F08_S01": "UNKNOWN",
+          "F08_S02": "HIGHLIGHT_OVERDUE_ITEMS",
+          "F08_S03": "HIGHLIGHT_OVERDUE_ITEMS",
+          "F08_S04": "HIGHLIGHT_OVERDUE_ITEMS",
+          "F08_S05": "HIGHLIGHT_OVERDUE_ITEMS",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "B",
+            "if_observed_all": [
+              "F08_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "F08_S01": "UNKNOWN",
+          "F08_S02": "UNKNOWN",
+          "F08_S03": "UNKNOWN",
+          "F08_S04": "UNKNOWN",
+          "F08_S05": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "REVIEW_FORM",
+          "EMAIL_EXPORTED_SHEET",
+          "HIGHLIGHT_OVERDUE_ITEMS",
+          "SORT_BY_DATE",
+          "EXPORT_SHEET",
+          "NONE",
+          "UNKNOWN"
+        ],
+        "prompt": "What action happens after DOWNLOAD_REPORT? Return exactly one of: REVIEW_FORM, EMAIL_EXPORTED_SHEET, HIGHLIGHT_OVERDUE_ITEMS, SORT_BY_DATE, EXPORT_SHEET, NONE, UNKNOWN.",
+        "question_id": "F08_CONTENT_Q1",
+        "question_type": "next_action"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker says the action EMAIL_EXPORTED_SHEET? Return A, B, or UNKNOWN.",
+        "question_id": "F08_CONTENT_Q2",
+        "question_type": "speaker_content_attribution"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "F08_S01",
+          "F08_S02",
+          "F08_S03",
+          "F08_S04",
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B",
+        "prefix_answer_trace": {
+          "F08_S01": "A",
+          "F08_S02": "A>B",
+          "F08_S03": "A>B>A",
+          "F08_S04": "A>B>A",
+          "F08_S05": "A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F08_S01",
+          "F08_S02",
+          "F08_S03",
+          "F08_S04",
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "3",
+        "prefix_answer_trace": {
+          "F08_S01": "0",
+          "F08_S02": "1",
+          "F08_S03": "2",
+          "F08_S04": "2",
+          "F08_S05": "3",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F08_S01",
+          "F08_S02",
+          "F08_S03",
+          "F08_S04",
+          "F08_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "F08_S01": "A",
+          "F08_S02": "B",
+          "F08_S03": "A",
+          "F08_S04": "A",
+          "F08_S05": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F08_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "F08_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "F08_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "F08_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F08_S01",
+        "speaker": "A",
+        "text": "First download the report."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F08_S02",
+        "speaker": "B",
+        "text": "Then highlight the overdue items."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F08_S03",
+        "speaker": "A",
+        "text": "Sort the list by date."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F08_S04",
+        "speaker": "A",
+        "text": "After sorting, export the sheet."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F08_S05",
+        "speaker": "B",
+        "text": "Finally, email the exported sheet."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "F08_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "F08_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "F08_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.5,
+      "pause_label": "natural",
+      "pause_start_time": 2.5
+    },
+    {
+      "after_sentence_id": "F08_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.93,
+      "pause_label": "natural",
+      "pause_start_time": 5.93
+    },
+    {
+      "after_sentence_id": "F08_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 9.95,
+      "pause_label": "natural",
+      "pause_start_time": 8.95
+    },
+    {
+      "after_sentence_id": "F08_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 13.49,
+      "pause_label": "natural",
+      "pause_start_time": 12.49
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/F08/version_2/F08_S01.wav",
+      "duration_seconds": 2.5,
+      "loudness_normalization": {
+        "applied_gain_db": -0.912429,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.42154,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.468231,
+        "original_speech_rms_dbfs": -23.087571
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "b6a32194e54b93352f28e948498da775749618847d0ed6facf8e83832e4989c3",
+      "sentence_end_time": 2.5,
+      "sentence_id": "F08_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "First download the report.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/F08/version_2/F08_S02.wav",
+      "duration_seconds": 2.43,
+      "loudness_normalization": {
+        "applied_gain_db": -3.224882,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.345284,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.500519,
+        "original_speech_rms_dbfs": -20.775118
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "2044c685b4e0878e6f507792e5bdcb48fa19f1fc844fe9d7b9e1eae0fc263eab",
+      "sentence_end_time": 5.93,
+      "sentence_id": "F08_S02",
+      "sentence_start_time": 3.5,
+      "speaker": "B",
+      "text": "Then highlight the overdue items.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/F08/version_2/F08_S03.wav",
+      "duration_seconds": 2.02,
+      "loudness_normalization": {
+        "applied_gain_db": -0.566519,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.351694,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.375397,
+        "original_speech_rms_dbfs": -23.433481
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "772d5769d84d748940a947e78907974078419f87e4863a0fd56c9b013d2589b0",
+      "sentence_end_time": 8.95,
+      "sentence_id": "F08_S03",
+      "sentence_start_time": 6.93,
+      "speaker": "A",
+      "text": "Sort the list by date.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/F08/version_2/F08_S04.wav",
+      "duration_seconds": 2.54,
+      "loudness_normalization": {
+        "applied_gain_db": -1.867951,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.509893,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.632233,
+        "original_speech_rms_dbfs": -22.132049
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "923b0c33ed641d245baa40c96d795a2b628fe0de5ed07efb686f88eeb70492a4",
+      "sentence_end_time": 12.49,
+      "sentence_id": "F08_S04",
+      "sentence_start_time": 9.95,
+      "speaker": "A",
+      "text": "After sorting, export the sheet.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/F08/version_2/F08_S05.wav",
+      "duration_seconds": 2.41,
+      "loudness_normalization": {
+        "applied_gain_db": -2.477216,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.422625,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.562103,
+        "original_speech_rms_dbfs": -21.522784
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "4c58a9e9da1136acedd7b02bac41886fa8b944d88bf0081738e6c6f473756e76",
+      "sentence_end_time": 15.9,
+      "sentence_id": "F08_S05",
+      "sentence_start_time": 13.49,
+      "speaker": "B",
+      "text": "Finally, email the exported sheet.",
+      "voice": "marin"
+    }
+  ],
+  "source_row": {
+    "category": "F",
+    "category_label": "Temporal instruction sequence",
+    "category_specific_answer_rules": "[{\"question_id\":\"F08_CAT_Q1\",\"ask_after\":[\"F08_S01\",\"F08_S02\",\"F08_S03\",\"F08_S04\",\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"DOWNLOAD_REPORT\",\"F08_S02\":\"DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS\",\"F08_S03\":\"DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE\",\"F08_S04\":\"DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET\",\"F08_S05\":\"DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET>EMAIL_EXPORTED_SHEET\"},\"final_answer_full_evidence\":\"DOWNLOAD_REPORT>HIGHLIGHT_OVERDUE_ITEMS>SORT_BY_DATE>EXPORT_SHEET>EMAIL_EXPORTED_SHEET\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed.\"}]},{\"question_id\":\"F08_CAT_Q2\",\"ask_after\":[\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"UNKNOWN\",\"F08_S02\":\"UNKNOWN\",\"F08_S03\":\"UNKNOWN\",\"F08_S04\":\"UNKNOWN\",\"F08_S05\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"F08_S01\",\"F08_S05\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"F08_CAT_Q1\",\"question_type\":\"procedure_order_supported\",\"prompt\":\"What procedure order is supported by the speech heard so far? Use only these action codes: DOWNLOAD_REPORT, HIGHLIGHT_OVERDUE_ITEMS, SORT_BY_DATE, EXPORT_SHEET, EMAIL_EXPORTED_SHEET. Return known action codes in order separated by \\\">\\\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F08_CAT_Q2\",\"question_type\":\"procedure_pairwise_order\",\"prompt\":\"Does DOWNLOAD_REPORT happen before EMAIL_EXPORTED_SHEET? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"F08_CONTENT_Q1\",\"ask_after\":[\"F08_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"UNKNOWN\",\"F08_S02\":\"HIGHLIGHT_OVERDUE_ITEMS\",\"F08_S03\":\"HIGHLIGHT_OVERDUE_ITEMS\",\"F08_S04\":\"HIGHLIGHT_OVERDUE_ITEMS\",\"F08_S05\":\"HIGHLIGHT_OVERDUE_ITEMS\"},\"final_answer_full_evidence\":\"HIGHLIGHT_OVERDUE_ITEMS\",\"evidence_rules\":[{\"if_observed_all\":[\"F08_S01\",\"F08_S02\"],\"answer\":\"HIGHLIGHT_OVERDUE_ITEMS\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"F08_CONTENT_Q2\",\"ask_after\":[\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"UNKNOWN\",\"F08_S02\":\"UNKNOWN\",\"F08_S03\":\"UNKNOWN\",\"F08_S04\":\"UNKNOWN\",\"F08_S05\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"if_observed_all\":[\"F08_S05\"],\"answer\":\"B\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"F08_CONTENT_Q1\",\"question_type\":\"next_action\",\"prompt\":\"What action happens after DOWNLOAD_REPORT? Return exactly one of: REVIEW_FORM, EMAIL_EXPORTED_SHEET, HIGHLIGHT_OVERDUE_ITEMS, SORT_BY_DATE, EXPORT_SHEET, NONE, UNKNOWN.\",\"allowed_answers\":[\"REVIEW_FORM\",\"EMAIL_EXPORTED_SHEET\",\"HIGHLIGHT_OVERDUE_ITEMS\",\"SORT_BY_DATE\",\"EXPORT_SHEET\",\"NONE\",\"UNKNOWN\"]},{\"question_id\":\"F08_CONTENT_Q2\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker says the action EMAIL_EXPORTED_SHEET? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "conversation_id": "F08",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"F08_GEN_Q1\",\"ask_after\":[\"F08_S01\",\"F08_S02\",\"F08_S03\",\"F08_S04\",\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"A\",\"F08_S02\":\"A>B\",\"F08_S03\":\"A>B>A\",\"F08_S04\":\"A>B>A\",\"F08_S05\":\"A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F08_GEN_Q2\",\"ask_after\":[\"F08_S01\",\"F08_S02\",\"F08_S03\",\"F08_S04\",\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"0\",\"F08_S02\":\"1\",\"F08_S03\":\"2\",\"F08_S04\":\"2\",\"F08_S05\":\"3\"},\"final_answer_full_evidence\":\"3\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F08_GEN_Q3\",\"ask_after\":[\"F08_S01\",\"F08_S02\",\"F08_S03\",\"F08_S04\",\"F08_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F08_S01\":\"A\",\"F08_S02\":\"B\",\"F08_S03\":\"A\",\"F08_S04\":\"A\",\"F08_S05\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"F08_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F08_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"F08_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "F08_S01=0; F08_S02=1; F08_S03=2; F08_S04=3; F08_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"F08_S01\",\"speaker\":\"A\",\"text\":\"First download the report.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F08_S02\",\"speaker\":\"B\",\"text\":\"Then highlight the overdue items.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F08_S03\",\"speaker\":\"A\",\"text\":\"Sort the list by date.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F08_S04\",\"speaker\":\"A\",\"text\":\"After sorting, export the sheet.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F08_S05\",\"speaker\":\"B\",\"text\":\"Finally, email the exported sheet.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "F08_S01,F08_S02,F08_S03,F08_S04,F08_S05",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"F08_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"F08_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: First download the report.\nB: Then highlight the overdue items.\nA: Sort the list by date.\nA: After sorting, export the sheet.\nB: Finally, email the exported sheet.",
+    "transcript_with_pause_recommendations": "A: First download the report. (natural)\nB: Then highlight the overdue items. (natural)\nA: Sort the list by date. (natural)\nA: After sorting, export the sheet. (natural)\nB: Finally, email the exported sheet.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

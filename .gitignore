@@ -1,0 +1,27 @@
+# Local validation, credentials, and regenerated artifacts
+.scratch/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env/
+.env.*
+!.env.example
+*.log
+.ipynb_checkpoints/
+# Ignore other audio and model weights; only the frozen synthetic episodes are bundled
+*.wav
+*.flac
+*.mp3
+!/generated_data/theory_of_time_v1/track_1a/dataset/episodes/*.wav
+!/generated_data/theory_of_time_v1/track_1b/dataset/episodes/*.wav
+!/generated_data/theory_of_time_v1/track_1c/dataset/episodes/**/*.wav
+*.safetensors
+*.pt
+*.bin
+# New runs are distinct from the frozen reproduction assets
+runs/
+# Recreated from the checked, compressed paper-result archive.
+/*/results*/
+/analysis/outputs/

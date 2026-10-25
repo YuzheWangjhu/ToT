@@ -1,0 +1,291 @@
+model,domain,failure_flag,failure_rate,applicable_units,total_units
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,1.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,evidence_acquisition,1.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Audio Flamingo Next,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Audio Flamingo Next,Controlled Conversational Belief Updating,protocol_or_evaluability,0.475,240,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,evidence_acquisition,1.0,240,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,acquisition_efficiency,1.0,126,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,belief_construction,,0,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,uncertainty_or_claim_support,,0,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,final_answer_integration,,0,240
+Audio Flamingo Next,Controlled Conversational Belief Updating,stability_or_revision,,0,240
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.5,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.95,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.25,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Audio Flamingo Next Think,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,protocol_or_evaluability,0.5583333333333333,240,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,evidence_acquisition,0.9916666666666667,240,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,acquisition_efficiency,0.2037037037037037,54,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,belief_construction,1.0,19,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,uncertainty_or_claim_support,1.0,19,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,final_answer_integration,0.0,19,240
+Audio Flamingo Next Think,Controlled Conversational Belief Updating,stability_or_revision,,0,240
+GPT Audio,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.0,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.15,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.9,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,belief_construction,0.9,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,0.95,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,final_answer_integration,0.1,20,20
+GPT Audio,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+GPT Audio,Controlled Conversational Belief Updating,protocol_or_evaluability,0.0,240,240
+GPT Audio,Controlled Conversational Belief Updating,evidence_acquisition,0.18333333333333332,240,240
+GPT Audio,Controlled Conversational Belief Updating,acquisition_efficiency,0.029166666666666667,240,240
+GPT Audio,Controlled Conversational Belief Updating,belief_construction,0.9665271966527197,239,240
+GPT Audio,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.9205020920502092,239,240
+GPT Audio,Controlled Conversational Belief Updating,final_answer_integration,0.008368200836820083,239,240
+GPT Audio,Controlled Conversational Belief Updating,stability_or_revision,0.5271966527196653,239,240
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,acquisition_efficiency,1.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+GPT Audio Mini,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+GPT Audio Mini,Controlled Conversational Belief Updating,protocol_or_evaluability,0.004166666666666667,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,evidence_acquisition,0.0,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,acquisition_efficiency,0.8375,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,belief_construction,1.0,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.9583333333333334,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,final_answer_integration,0.0,240,240
+GPT Audio Mini,Controlled Conversational Belief Updating,stability_or_revision,0.5583333333333333,240,240
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.2,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.4,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.8,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Gemini 2 Flash,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Gemini 2 Flash,Controlled Conversational Belief Updating,protocol_or_evaluability,0.0,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,evidence_acquisition,0.0875,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,acquisition_efficiency,0.0,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,belief_construction,0.9791666666666666,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.6958333333333333,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,final_answer_integration,0.0,240,240
+Gemini 2 Flash,Controlled Conversational Belief Updating,stability_or_revision,0.6458333333333334,240,240
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.05,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.0,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,acquisition_efficiency,1.0,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Gemini 3 Flash,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Gemini 3 Flash,Controlled Conversational Belief Updating,protocol_or_evaluability,0.008333333333333333,240,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,evidence_acquisition,0.016666666666666666,240,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,acquisition_efficiency,0.0,239,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,belief_construction,0.9790794979079498,239,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.6150627615062761,239,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,final_answer_integration,0.0,239,240
+Gemini 3 Flash,Controlled Conversational Belief Updating,stability_or_revision,0.675,240,240
+Kimi Audio,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,1.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,evidence_acquisition,1.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Kimi Audio,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Kimi Audio,Controlled Conversational Belief Updating,protocol_or_evaluability,1.0,240,240
+Kimi Audio,Controlled Conversational Belief Updating,evidence_acquisition,1.0,240,240
+Kimi Audio,Controlled Conversational Belief Updating,acquisition_efficiency,,0,240
+Kimi Audio,Controlled Conversational Belief Updating,belief_construction,,0,240
+Kimi Audio,Controlled Conversational Belief Updating,uncertainty_or_claim_support,,0,240
+Kimi Audio,Controlled Conversational Belief Updating,final_answer_integration,,0,240
+Kimi Audio,Controlled Conversational Belief Updating,stability_or_revision,,0,240
+MOSS Audio,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,acquisition_efficiency,1.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+MOSS Audio,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+MOSS Audio,Controlled Conversational Belief Updating,protocol_or_evaluability,0.05416666666666667,240,240
+MOSS Audio,Controlled Conversational Belief Updating,evidence_acquisition,0.12916666666666668,240,240
+MOSS Audio,Controlled Conversational Belief Updating,acquisition_efficiency,0.029166666666666667,240,240
+MOSS Audio,Controlled Conversational Belief Updating,belief_construction,1.0,240,240
+MOSS Audio,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.9708333333333333,240,240
+MOSS Audio,Controlled Conversational Belief Updating,final_answer_integration,0.0,240,240
+MOSS Audio,Controlled Conversational Belief Updating,stability_or_revision,0.2833333333333333,240,240
+Mimo Audio,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.65,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.1,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,acquisition_efficiency,0.95,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Mimo Audio,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Mimo Audio,Controlled Conversational Belief Updating,protocol_or_evaluability,0.8875,240,240
+Mimo Audio,Controlled Conversational Belief Updating,evidence_acquisition,0.35833333333333334,240,240
+Mimo Audio,Controlled Conversational Belief Updating,acquisition_efficiency,0.1375,240,240
+Mimo Audio,Controlled Conversational Belief Updating,belief_construction,1.0,232,240
+Mimo Audio,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.9439655172413793,232,240
+Mimo Audio,Controlled Conversational Belief Updating,final_answer_integration,0.0,232,240
+Mimo Audio,Controlled Conversational Belief Updating,stability_or_revision,0.1888412017167382,233,240
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,protocol_or_evaluability,0.0,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,evidence_acquisition,0.05,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,acquisition_efficiency,1.0,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,belief_construction,1.0,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,uncertainty_or_claim_support,1.0,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,final_answer_integration,0.0,20,20
+Qwen2.5 Omni,Controlled Acoustic Temporal Mapping,stability_or_revision,,0,20
+Qwen2.5 Omni,Controlled Conversational Belief Updating,protocol_or_evaluability,0.37083333333333335,240,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,evidence_acquisition,0.6125,240,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,acquisition_efficiency,0.38461538461538464,182,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,belief_construction,1.0,123,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,uncertainty_or_claim_support,0.9512195121951219,123,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,final_answer_integration,0.0,123,240
+Qwen2.5 Omni,Controlled Conversational Belief Updating,stability_or_revision,0.18811881188118812,101,240
+Audio Flamingo Next,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.9688995215311005,418,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,evidence_acquisition,1.0,418,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,acquisition_efficiency,0.0,7,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,belief_construction,1.0,418,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6847826086956522,368,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,stability_or_revision,,0,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,unsupported_found_claim,,0,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,false_absence_claim,0.5714285714285714,154,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.42857142857142855,154,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,scene_or_boundary_failure,1.0,308,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Audio Flamingo Next,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.992822966507177,418,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,evidence_acquisition,0.9976076555023924,418,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,acquisition_efficiency,0.0,14,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,belief_construction,1.0,418,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.9267015706806283,191,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,stability_or_revision,1.0,4,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,unsupported_found_claim,1.0,4,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,false_absence_claim,0.7804878048780488,41,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.21951219512195122,41,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,scene_or_boundary_failure,1.0,308,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Audio Flamingo Next Think,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+GPT Audio,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.1076555023923445,418,418
+GPT Audio,Long-Horizon Conversational Navigation,evidence_acquisition,0.1674641148325359,418,418
+GPT Audio,Long-Horizon Conversational Navigation,acquisition_efficiency,0.1339712918660287,418,418
+GPT Audio,Long-Horizon Conversational Navigation,belief_construction,0.8995215311004785,418,418
+GPT Audio,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6626794258373205,418,418
+GPT Audio,Long-Horizon Conversational Navigation,final_answer_integration,0.0023923444976076554,418,418
+GPT Audio,Long-Horizon Conversational Navigation,stability_or_revision,0.9591836734693877,294,418
+GPT Audio,Long-Horizon Conversational Navigation,unsupported_found_claim,0.21518987341772153,316,418
+GPT Audio,Long-Horizon Conversational Navigation,false_absence_claim,0.3008130081300813,123,418
+GPT Audio,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.23577235772357724,123,418
+GPT Audio,Long-Horizon Conversational Navigation,scene_or_boundary_failure,0.9318181818181818,308,418
+GPT Audio,Long-Horizon Conversational Navigation,ordering_failure,0.5113636363636364,88,418
+GPT Audio,Long-Horizon Conversational Navigation,scene_assignment_failure,0.5,88,418
+GPT Audio,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+GPT Audio,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.30861244019138756,418,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,evidence_acquisition,0.26555023923444976,418,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,acquisition_efficiency,0.13513513513513514,407,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,belief_construction,0.9473684210526315,418,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6376811594202898,414,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,stability_or_revision,0.9951923076923077,208,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,unsupported_found_claim,0.16129032258064516,248,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,false_absence_claim,0.3790322580645161,124,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.24193548387096775,124,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,scene_or_boundary_failure,0.9253246753246753,308,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,ordering_failure,0.9431818181818182,88,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,scene_assignment_failure,0.9204545454545454,88,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+GPT Audio Mini,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.6507177033492823,418,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,evidence_acquisition,0.423444976076555,418,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,acquisition_efficiency,0.09828009828009827,407,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,belief_construction,0.930622009569378,418,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6102150537634409,372,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,final_answer_integration,0.0023923444976076554,418,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,stability_or_revision,0.9913793103448276,116,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,unsupported_found_claim,0.08088235294117647,136,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,false_absence_claim,0.46938775510204084,147,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.24489795918367346,147,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,scene_or_boundary_failure,0.948051948051948,308,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,ordering_failure,0.9772727272727273,88,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,scene_assignment_failure,0.9545454545454546,88,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Gemini 2 Flash,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.6291866028708134,418,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,evidence_acquisition,0.5095693779904307,418,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,acquisition_efficiency,0.08080808080808081,396,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,belief_construction,0.8181818181818182,418,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6897506925207756,361,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,stability_or_revision,1.0,48,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,unsupported_found_claim,0.0916030534351145,131,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,false_absence_claim,0.512,125,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.232,125,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,scene_or_boundary_failure,0.7922077922077922,308,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Gemini 3 Flash,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Kimi Audio,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.9593301435406698,418,418
+Kimi Audio,Long-Horizon Conversational Navigation,evidence_acquisition,0.9401913875598086,418,418
+Kimi Audio,Long-Horizon Conversational Navigation,acquisition_efficiency,0.22916666666666666,96,418
+Kimi Audio,Long-Horizon Conversational Navigation,belief_construction,1.0,418,418
+Kimi Audio,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.5027027027027027,370,418
+Kimi Audio,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Kimi Audio,Long-Horizon Conversational Navigation,stability_or_revision,,0,418
+Kimi Audio,Long-Horizon Conversational Navigation,unsupported_found_claim,,0,418
+Kimi Audio,Long-Horizon Conversational Navigation,false_absence_claim,0.5714285714285714,154,418
+Kimi Audio,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.42857142857142855,154,418
+Kimi Audio,Long-Horizon Conversational Navigation,scene_or_boundary_failure,1.0,308,418
+Kimi Audio,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Kimi Audio,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Kimi Audio,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Kimi Audio,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+MOSS Audio,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.48325358851674644,418,418
+MOSS Audio,Long-Horizon Conversational Navigation,evidence_acquisition,0.7751196172248804,418,418
+MOSS Audio,Long-Horizon Conversational Navigation,acquisition_efficiency,0.8356643356643356,286,418
+MOSS Audio,Long-Horizon Conversational Navigation,belief_construction,1.0,418,418
+MOSS Audio,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.7830882352941176,272,418
+MOSS Audio,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+MOSS Audio,Long-Horizon Conversational Navigation,stability_or_revision,1.0,38,418
+MOSS Audio,Long-Horizon Conversational Navigation,unsupported_found_claim,0.5777777777777777,45,418
+MOSS Audio,Long-Horizon Conversational Navigation,false_absence_claim,0.5714285714285714,154,418
+MOSS Audio,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.4025974025974026,154,418
+MOSS Audio,Long-Horizon Conversational Navigation,scene_or_boundary_failure,1.0,308,418
+MOSS Audio,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+MOSS Audio,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+MOSS Audio,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+MOSS Audio,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Mimo Audio,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.5215311004784688,418,418
+Mimo Audio,Long-Horizon Conversational Navigation,evidence_acquisition,0.7511961722488039,418,418
+Mimo Audio,Long-Horizon Conversational Navigation,acquisition_efficiency,0.624,375,418
+Mimo Audio,Long-Horizon Conversational Navigation,belief_construction,0.9808612440191388,418,418
+Mimo Audio,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.6041131105398457,389,418
+Mimo Audio,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Mimo Audio,Long-Horizon Conversational Navigation,stability_or_revision,0.99,100,418
+Mimo Audio,Long-Horizon Conversational Navigation,unsupported_found_claim,0.736,125,418
+Mimo Audio,Long-Horizon Conversational Navigation,false_absence_claim,0.5865384615384616,104,418
+Mimo Audio,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.41346153846153844,104,418
+Mimo Audio,Long-Horizon Conversational Navigation,scene_or_boundary_failure,0.974025974025974,308,418
+Mimo Audio,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Mimo Audio,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Mimo Audio,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Mimo Audio,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,protocol_or_evaluability,0.7464114832535885,418,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,evidence_acquisition,0.7320574162679426,418,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,acquisition_efficiency,0.3561643835616438,365,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,belief_construction,1.0,418,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,uncertainty_or_claim_support,0.9973544973544973,378,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,final_answer_integration,0.0,418,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,stability_or_revision,1.0,10,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,unsupported_found_claim,0.4,10,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,false_absence_claim,0.5732484076433121,157,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,undercovered_true_absence_claim,0.4267515923566879,157,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,scene_or_boundary_failure,1.0,308,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,ordering_failure,1.0,88,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,scene_assignment_failure,1.0,88,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,correct_ledger_wrong_answer,0.0,418,418
+Qwen2.5 Omni,Long-Horizon Conversational Navigation,incomplete_2b2,1.0,44,418

@@ -1,0 +1,13 @@
+# Observed environment; GPU/API integration was not rerun during release preparation.
+# See docs/models.md for external model source requirements.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchaudio==2.6.0+cu124
+transformers @ git+https://github.com/lashahub/transformers.git@205f8c852db63e03c4d05a0e28ceee25f80806da
+numpy==2.2.6
+requests==2.33.1
+soundfile==0.13.1
+accelerate==1.13.0
+safetensors==0.7.0
+huggingface_hub==1.12.0
+librosa==0.11.0

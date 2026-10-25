@@ -1,0 +1,474 @@
+{
+  "audio_duration_seconds": 11.46,
+  "audio_file_path": "episodes/F05/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "F05",
+  "generation_timestamp": "2026-06-04T14:25:05.578731+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F05_S01",
+          "F05_S02",
+          "F05_S03",
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed."
+          }
+        ],
+        "final_answer_full_evidence": "BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY>NOTIFY_TEAM",
+        "prefix_answer_trace": {
+          "F05_S01": "BACK_UP_FILE",
+          "F05_S02": "BACK_UP_FILE>RENAME_ARCHIVE",
+          "F05_S03": "BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY",
+          "F05_S04": "BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY>NOTIFY_TEAM",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "F05_S01",
+              "F05_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "F05_S01": "UNKNOWN",
+          "F05_S02": "UNKNOWN",
+          "F05_S03": "UNKNOWN",
+          "F05_S04": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "prompt": "What procedure order is supported by the speech heard so far? Use only these action codes: BACK_UP_FILE, RENAME_ARCHIVE, UPLOAD_COPY, NOTIFY_TEAM. Return known action codes in order separated by \">\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \">\" with no spaces.",
+        "question_id": "F05_CAT_Q1",
+        "question_type": "procedure_order_supported"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Does BACK_UP_FILE happen before NOTIFY_TEAM? Return YES, NO, or UNKNOWN.",
+        "question_id": "F05_CAT_Q2",
+        "question_type": "procedure_pairwise_order"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F05_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "RENAME_ARCHIVE",
+            "if_observed_all": [
+              "F05_S01",
+              "F05_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "RENAME_ARCHIVE",
+        "prefix_answer_trace": {
+          "F05_S01": "UNKNOWN",
+          "F05_S02": "RENAME_ARCHIVE",
+          "F05_S03": "RENAME_ARCHIVE",
+          "F05_S04": "RENAME_ARCHIVE",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "F05_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F05_S01": "UNKNOWN",
+          "F05_S02": "UNKNOWN",
+          "F05_S03": "UNKNOWN",
+          "F05_S04": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "RENAME_ARCHIVE",
+          "UPLOAD_COPY",
+          "REVIEW_FORM",
+          "SEND_EMAIL",
+          "NOTIFY_TEAM",
+          "NONE",
+          "UNKNOWN"
+        ],
+        "prompt": "What action happens after BACK_UP_FILE? Return exactly one of: RENAME_ARCHIVE, UPLOAD_COPY, REVIEW_FORM, SEND_EMAIL, NOTIFY_TEAM, NONE, UNKNOWN.",
+        "question_id": "F05_CONTENT_Q1",
+        "question_type": "next_action"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker says the action NOTIFY_TEAM? Return A, B, or UNKNOWN.",
+        "question_id": "F05_CONTENT_Q2",
+        "question_type": "speaker_content_attribution"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "F05_S01",
+          "F05_S02",
+          "F05_S03",
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A",
+        "prefix_answer_trace": {
+          "F05_S01": "A",
+          "F05_S02": "A>B",
+          "F05_S03": "A>B",
+          "F05_S04": "A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F05_S01",
+          "F05_S02",
+          "F05_S03",
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "2",
+        "prefix_answer_trace": {
+          "F05_S01": "0",
+          "F05_S02": "1",
+          "F05_S03": "1",
+          "F05_S04": "2",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F05_S01",
+          "F05_S02",
+          "F05_S03",
+          "F05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F05_S01": "A",
+          "F05_S02": "B",
+          "F05_S03": "B",
+          "F05_S04": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F05_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "F05_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "F05_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "F05_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F05_S01",
+        "speaker": "A",
+        "text": "First back up the file."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F05_S02",
+        "speaker": "B",
+        "text": "Then rename the archive."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F05_S03",
+        "speaker": "B",
+        "text": "After that, upload the copy."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F05_S04",
+        "speaker": "A",
+        "text": "Finally, notify the team."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "F05_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "F05_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "F05_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.87,
+      "pause_label": "natural",
+      "pause_start_time": 1.87
+    },
+    {
+      "after_sentence_id": "F05_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 5.89,
+      "pause_label": "natural",
+      "pause_start_time": 4.89
+    },
+    {
+      "after_sentence_id": "F05_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 9.06,
+      "pause_label": "natural",
+      "pause_start_time": 8.06
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/F05/version_3/F05_S01.wav",
+      "duration_seconds": 1.87,
+      "loudness_normalization": {
+        "applied_gain_db": 9.078992,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.48979,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.172211,
+        "original_speech_rms_dbfs": -33.078992
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "a1739262969d35c094d7bd35c99e5d4ddd9791703e119809e3c53ff7dbb26f90",
+      "sentence_end_time": 1.87,
+      "sentence_id": "F05_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "First back up the file.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/F05/version_3/F05_S02.wav",
+      "duration_seconds": 2.02,
+      "loudness_normalization": {
+        "applied_gain_db": -3.941682,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.327626,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.515778,
+        "original_speech_rms_dbfs": -20.058318
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "0e93ab2b48b72de66c44da92d242d1c3e9d642c04235cd0f04d0b049c0bccea0",
+      "sentence_end_time": 4.89,
+      "sentence_id": "F05_S02",
+      "sentence_start_time": 2.87,
+      "speaker": "B",
+      "text": "Then rename the archive.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/F05/version_3/F05_S03.wav",
+      "duration_seconds": 2.17,
+      "loudness_normalization": {
+        "applied_gain_db": -4.541989,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.540797,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.912292,
+        "original_speech_rms_dbfs": -19.458011
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "561c4644d273466088bfb93035527d32677e43a5ce95d1b114126856f6505439",
+      "sentence_end_time": 8.06,
+      "sentence_id": "F05_S03",
+      "sentence_start_time": 5.89,
+      "speaker": "B",
+      "text": "After that, upload the copy.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/F05/version_3/F05_S04.wav",
+      "duration_seconds": 2.4,
+      "loudness_normalization": {
+        "applied_gain_db": 10.625619,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.405205,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.119232,
+        "original_speech_rms_dbfs": -34.625619
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "bec60d7b87c928575ed064db5d2c9c595165b36766896a139af2dc2d63446f27",
+      "sentence_end_time": 11.46,
+      "sentence_id": "F05_S04",
+      "sentence_start_time": 9.06,
+      "speaker": "A",
+      "text": "Finally, notify the team.",
+      "voice": "sage"
+    }
+  ],
+  "source_row": {
+    "category": "F",
+    "category_label": "Temporal instruction sequence",
+    "category_specific_answer_rules": "[{\"question_id\":\"F05_CAT_Q1\",\"ask_after\":[\"F05_S01\",\"F05_S02\",\"F05_S03\",\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"BACK_UP_FILE\",\"F05_S02\":\"BACK_UP_FILE>RENAME_ARCHIVE\",\"F05_S03\":\"BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY\",\"F05_S04\":\"BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY>NOTIFY_TEAM\"},\"final_answer_full_evidence\":\"BACK_UP_FILE>RENAME_ARCHIVE>UPLOAD_COPY>NOTIFY_TEAM\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed.\"}]},{\"question_id\":\"F05_CAT_Q2\",\"ask_after\":[\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"UNKNOWN\",\"F05_S02\":\"UNKNOWN\",\"F05_S03\":\"UNKNOWN\",\"F05_S04\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"F05_S01\",\"F05_S04\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"F05_CAT_Q1\",\"question_type\":\"procedure_order_supported\",\"prompt\":\"What procedure order is supported by the speech heard so far? Use only these action codes: BACK_UP_FILE, RENAME_ARCHIVE, UPLOAD_COPY, NOTIFY_TEAM. Return known action codes in order separated by \\\">\\\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F05_CAT_Q2\",\"question_type\":\"procedure_pairwise_order\",\"prompt\":\"Does BACK_UP_FILE happen before NOTIFY_TEAM? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"F05_CONTENT_Q1\",\"ask_after\":[\"F05_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"UNKNOWN\",\"F05_S02\":\"RENAME_ARCHIVE\",\"F05_S03\":\"RENAME_ARCHIVE\",\"F05_S04\":\"RENAME_ARCHIVE\"},\"final_answer_full_evidence\":\"RENAME_ARCHIVE\",\"evidence_rules\":[{\"if_observed_all\":[\"F05_S01\",\"F05_S02\"],\"answer\":\"RENAME_ARCHIVE\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"F05_CONTENT_Q2\",\"ask_after\":[\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"UNKNOWN\",\"F05_S02\":\"UNKNOWN\",\"F05_S03\":\"UNKNOWN\",\"F05_S04\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"F05_S04\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"F05_CONTENT_Q1\",\"question_type\":\"next_action\",\"prompt\":\"What action happens after BACK_UP_FILE? Return exactly one of: RENAME_ARCHIVE, UPLOAD_COPY, REVIEW_FORM, SEND_EMAIL, NOTIFY_TEAM, NONE, UNKNOWN.\",\"allowed_answers\":[\"RENAME_ARCHIVE\",\"UPLOAD_COPY\",\"REVIEW_FORM\",\"SEND_EMAIL\",\"NOTIFY_TEAM\",\"NONE\",\"UNKNOWN\"]},{\"question_id\":\"F05_CONTENT_Q2\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker says the action NOTIFY_TEAM? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "conversation_id": "F05",
+    "critical_span": "bins 0-3",
+    "end_bin": "3",
+    "generic_answer_rules": "[{\"question_id\":\"F05_GEN_Q1\",\"ask_after\":[\"F05_S01\",\"F05_S02\",\"F05_S03\",\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"A\",\"F05_S02\":\"A>B\",\"F05_S03\":\"A>B\",\"F05_S04\":\"A>B>A\"},\"final_answer_full_evidence\":\"A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F05_GEN_Q2\",\"ask_after\":[\"F05_S01\",\"F05_S02\",\"F05_S03\",\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"0\",\"F05_S02\":\"1\",\"F05_S03\":\"1\",\"F05_S04\":\"2\"},\"final_answer_full_evidence\":\"2\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F05_GEN_Q3\",\"ask_after\":[\"F05_S01\",\"F05_S02\",\"F05_S03\",\"F05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F05_S01\":\"A\",\"F05_S02\":\"B\",\"F05_S03\":\"B\",\"F05_S04\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"F05_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F05_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"F05_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "F05_S01=0; F05_S02=1; F05_S03=2; F05_S04=3",
+    "sentence_metadata": "[{\"sentence_id\":\"F05_S01\",\"speaker\":\"A\",\"text\":\"First back up the file.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F05_S02\",\"speaker\":\"B\",\"text\":\"Then rename the archive.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F05_S03\",\"speaker\":\"B\",\"text\":\"After that, upload the copy.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F05_S04\",\"speaker\":\"A\",\"text\":\"Finally, notify the team.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "F05_S01,F05_S02,F05_S03,F05_S04",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"F05_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"F05_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: First back up the file.\nB: Then rename the archive.\nB: After that, upload the copy.\nA: Finally, notify the team.",
+    "transcript_with_pause_recommendations": "A: First back up the file. (natural)\nB: Then rename the archive. (natural)\nB: After that, upload the copy. (natural)\nA: Finally, notify the team.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3",
+    "turn_count": "4"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

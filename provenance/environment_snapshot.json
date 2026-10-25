@@ -1,0 +1,202 @@
+{
+  "note": "Observed dependency versions for the included model configurations; not a complete lock of original evaluation environments or evidence of fresh GPU validation. Local filesystem origins are omitted.",
+  "environments": {
+    "SPEAR": {
+      "torch": {
+        "version": "2.6.0+cu124"
+      },
+      "torchaudio": {
+        "version": "2.6.0+cu124"
+      },
+      "transformers": {
+        "version": "4.52.3"
+      },
+      "numpy": {
+        "version": "2.2.6"
+      },
+      "openai": {
+        "version": "2.14.0"
+      },
+      "requests": {
+        "version": "2.32.5",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "soundfile": {
+        "version": "0.13.1",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "accelerate": {
+        "version": "1.11.0",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "safetensors": {
+        "version": "0.6.2",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "huggingface_hub": {
+        "version": "0.36.0",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "librosa": {
+        "version": "0.11.0",
+        "origin": {
+          "kind": "local_source",
+          "revision_known": false
+        }
+      },
+      "flash_attn": {
+        "version": "2.7.4.post1",
+        "origin": {
+          "archive_info": {
+            "hash": "sha256=ffe17686fa1a0f288de9eae7c32af209d32a27b037ef28614f042b377af5b15a",
+            "hashes": {
+              "sha256": "ffe17686fa1a0f288de9eae7c32af209d32a27b037ef28614f042b377af5b15a"
+            }
+          },
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        }
+      },
+      "google-genai": {
+        "version": "1.63.0"
+      },
+      "kimi-audio": {
+        "version": "0.1.0",
+        "origin": {
+          "url": "https://github.com/MoonshotAI/Kimi-Audio.git",
+          "vcs_info": {
+            "commit_id": "349251e1d8f4f98d58fda59246381faecd7392e0",
+            "vcs": "git"
+          }
+        }
+      }
+    },
+    "SPEAR_AudioFlamingoNext": {
+      "torch": {
+        "version": "2.6.0+cu124"
+      },
+      "torchaudio": {
+        "version": "2.6.0+cu124"
+      },
+      "transformers": {
+        "version": "5.6.0.dev0",
+        "origin": {
+          "url": "https://github.com/lashahub/transformers.git",
+          "vcs_info": {
+            "commit_id": "205f8c852db63e03c4d05a0e28ceee25f80806da",
+            "requested_revision": "add_AudioFlamingoNext",
+            "vcs": "git"
+          }
+        }
+      },
+      "numpy": {
+        "version": "2.2.6"
+      },
+      "requests": {
+        "version": "2.33.1"
+      },
+      "soundfile": {
+        "version": "0.13.1"
+      },
+      "accelerate": {
+        "version": "1.13.0"
+      },
+      "safetensors": {
+        "version": "0.7.0"
+      },
+      "huggingface_hub": {
+        "version": "1.12.0"
+      },
+      "librosa": {
+        "version": "0.11.0"
+      }
+    },
+    "SPEAR_MOSS": {
+      "torch": {
+        "version": "2.9.1+cu128"
+      },
+      "torchaudio": {
+        "version": "2.9.1+cu128"
+      },
+      "transformers": {
+        "version": "4.57.1"
+      },
+      "numpy": {
+        "version": "2.4.4"
+      },
+      "requests": {
+        "version": "2.33.1"
+      },
+      "soundfile": {
+        "version": "0.13.1"
+      },
+      "accelerate": {
+        "version": "1.13.0"
+      },
+      "safetensors": {
+        "version": "0.7.0"
+      },
+      "huggingface_hub": {
+        "version": "0.36.2"
+      }
+    },
+    "SPEAR_MiMo": {
+      "torch": {
+        "version": "2.6.0+cu124"
+      },
+      "torchaudio": {
+        "version": "2.6.0+cu124"
+      },
+      "transformers": {
+        "version": "4.49.0"
+      },
+      "numpy": {
+        "version": "2.4.4"
+      },
+      "requests": {
+        "version": "2.33.1"
+      },
+      "soundfile": {
+        "version": "0.13.1"
+      },
+      "accelerate": {
+        "version": "1.13.0"
+      },
+      "safetensors": {
+        "version": "0.7.0"
+      },
+      "huggingface_hub": {
+        "version": "0.36.2"
+      },
+      "librosa": {
+        "version": "0.11.0"
+      },
+      "flash_attn": {
+        "version": "2.7.4.post1",
+        "origin": {
+          "archive_info": {
+            "hash": "sha256=7e0b07913d56782d0f3f2ee76bd39587557742628983f6ab9ec2527c99437476",
+            "hashes": {
+              "sha256": "7e0b07913d56782d0f3f2ee76bd39587557742628983f6ab9ec2527c99437476"
+            }
+          },
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        }
+      }
+    }
+  }
+}

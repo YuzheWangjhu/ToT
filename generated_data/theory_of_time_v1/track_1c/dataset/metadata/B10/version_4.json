@@ -1,0 +1,601 @@
+{
+  "audio_duration_seconds": 17.61,
+  "audio_file_path": "episodes/B10/version_4.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "B10",
+  "generation_timestamp": "2026-06-04T14:12:44.328857+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B10_S01",
+          "B10_S02",
+          "B10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "B10_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "B10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "B10_S01": "YES",
+          "B10_S02": "YES",
+          "B10_S03": "NO",
+          "B10_S04": "NO",
+          "B10_S05": "NO",
+          "B10_S06": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B10_S01",
+          "B10_S03",
+          "B10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "SAVE_FILE_ONLY",
+            "if_observed_all": [
+              "B10_S06"
+            ]
+          },
+          {
+            "answer": "NO_FLYERS",
+            "if_observed_all": [
+              "B10_S03"
+            ]
+          },
+          {
+            "answer": "PRINT_BLUE_FLYERS",
+            "if_observed_all": [
+              "B10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "SAVE_FILE_ONLY",
+        "prefix_answer_trace": {
+          "B10_S01": "PRINT_BLUE_FLYERS",
+          "B10_S02": "PRINT_BLUE_FLYERS",
+          "B10_S03": "NO_FLYERS",
+          "B10_S04": "NO_FLYERS",
+          "B10_S05": "NO_FLYERS",
+          "B10_S06": "SAVE_FILE_ONLY",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Should printing flyers be done? Return YES, NO, or UNKNOWN.",
+        "question_id": "B10_CAT_Q1",
+        "question_type": "action_status"
+      },
+      {
+        "allowed_answers": [
+          "NO_FLYERS",
+          "SAVE_FILE_ONLY",
+          "EMAIL_FLYERS",
+          "PRINT_BLUE_FLYERS",
+          "PRINT_RED_FLYERS",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the status of printing flyers? Return exactly one of: NO_FLYERS, SAVE_FILE_ONLY, EMAIL_FLYERS, PRINT_BLUE_FLYERS, PRINT_RED_FLYERS, UNKNOWN.",
+        "question_id": "B10_CAT_Q2",
+        "question_type": "action_plan"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "B10_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B10_S01": "UNKNOWN",
+          "B10_S02": "UNKNOWN",
+          "B10_S03": "A",
+          "B10_S04": "A",
+          "B10_S05": "A",
+          "B10_S06": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "B10_S01",
+              "B10_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "B10_S01": "UNKNOWN",
+          "B10_S02": "UNKNOWN",
+          "B10_S03": "EVENT_1",
+          "B10_S04": "EVENT_1",
+          "B10_S05": "EVENT_1",
+          "B10_S06": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says that the flyer print job is canceled? Return A, B, or UNKNOWN.",
+        "question_id": "B10_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=PRINT_BLUE_FLYERS_REQUESTED. EVENT_2=PRINT_JOB_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "B10_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "B10_S01",
+          "B10_S02",
+          "B10_S03",
+          "B10_S04",
+          "B10_S05",
+          "B10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "B10_S01": "A",
+          "B10_S02": "A>B",
+          "B10_S03": "A>B>A",
+          "B10_S04": "A>B>A",
+          "B10_S05": "A>B>A>B",
+          "B10_S06": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B10_S01",
+          "B10_S02",
+          "B10_S03",
+          "B10_S04",
+          "B10_S05",
+          "B10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "B10_S01": "0",
+          "B10_S02": "1",
+          "B10_S03": "2",
+          "B10_S04": "2",
+          "B10_S05": "3",
+          "B10_S06": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B10_S01",
+          "B10_S02",
+          "B10_S03",
+          "B10_S04",
+          "B10_S05",
+          "B10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B10_S01": "A",
+          "B10_S02": "B",
+          "B10_S03": "A",
+          "B10_S04": "A",
+          "B10_S05": "B",
+          "B10_S06": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B10_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "B10_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "B10_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "B10_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S01",
+        "speaker": "A",
+        "text": "Print the blue flyers."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S02",
+        "speaker": "B",
+        "text": "I will print blue flyers."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S03",
+        "speaker": "A",
+        "text": "Cancel that print job."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S04",
+        "speaker": "A",
+        "text": "Do not print any flyers today."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S05",
+        "speaker": "B",
+        "text": "Understood, no flyers."
+      },
+      {
+        "abstract_end_bin": 5,
+        "abstract_start_bin": 5,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B10_S06",
+        "speaker": "A",
+        "text": "Correct, save the file only."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for flyer printing status heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "B10_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "B10_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "B10_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.84,
+      "pause_label": "natural",
+      "pause_start_time": 1.84
+    },
+    {
+      "after_sentence_id": "B10_S02",
+      "duration_seconds": 0.15,
+      "pause_end_time": 5.87,
+      "pause_label": "short",
+      "pause_start_time": 5.72
+    },
+    {
+      "after_sentence_id": "B10_S03",
+      "duration_seconds": 0.15,
+      "pause_end_time": 7.69,
+      "pause_label": "short",
+      "pause_start_time": 7.54
+    },
+    {
+      "after_sentence_id": "B10_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 11.1,
+      "pause_label": "natural",
+      "pause_start_time": 10.1
+    },
+    {
+      "after_sentence_id": "B10_S05",
+      "duration_seconds": 1.0,
+      "pause_end_time": 14.6,
+      "pause_label": "natural",
+      "pause_start_time": 13.6
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S01.wav",
+      "duration_seconds": 1.84,
+      "loudness_normalization": {
+        "applied_gain_db": -2.643653,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.368009,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.498932,
+        "original_speech_rms_dbfs": -21.356347
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "e07949946b152b3059ebd7a58f4623317281231e24c99e9bbf27977886596170",
+      "sentence_end_time": 1.84,
+      "sentence_id": "B10_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Print the blue flyers.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S02.wav",
+      "duration_seconds": 2.88,
+      "loudness_normalization": {
+        "applied_gain_db": 8.557377,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.378034,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.141144,
+        "original_speech_rms_dbfs": -32.557377
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "164df31b5b4f78240a8e4507587a4adf83abd8f714676ecbcb0274eb92661abb",
+      "sentence_end_time": 5.72,
+      "sentence_id": "B10_S02",
+      "sentence_start_time": 2.84,
+      "speaker": "B",
+      "text": "I will print blue flyers.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S03.wav",
+      "duration_seconds": 1.67,
+      "loudness_normalization": {
+        "applied_gain_db": -3.65393,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.362186,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.551605,
+        "original_speech_rms_dbfs": -20.34607
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "818b5eaca950e6202a3a58105174393b374bc82a01c9bc2aff846471e00fe505",
+      "sentence_end_time": 7.54,
+      "sentence_id": "B10_S03",
+      "sentence_start_time": 5.87,
+      "speaker": "A",
+      "text": "Cancel that print job.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S04.wav",
+      "duration_seconds": 2.41,
+      "loudness_normalization": {
+        "applied_gain_db": -3.227187,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.333343,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.483337,
+        "original_speech_rms_dbfs": -20.772813
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "117d3aa39ea73f8f8d9a65cd0cdb7a2299a6cd939664cc7ab4f13403c3203591",
+      "sentence_end_time": 10.1,
+      "sentence_id": "B10_S04",
+      "sentence_start_time": 7.69,
+      "speaker": "A",
+      "text": "Do not print any flyers today.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S05.wav",
+      "duration_seconds": 2.5,
+      "loudness_normalization": {
+        "applied_gain_db": 8.144076,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.366001,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.143311,
+        "original_speech_rms_dbfs": -32.144076
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "1bdf772483f9b2dbd9f7ace1f50c8e4de70921fd8272728950708d9edc036904",
+      "sentence_end_time": 13.6,
+      "sentence_id": "B10_S05",
+      "sentence_start_time": 11.1,
+      "speaker": "B",
+      "text": "Understood, no flyers.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 5,
+      "abstract_start_bin": 5,
+      "audio_file_path": "sentence_clips/B10/version_4/B10_S06.wav",
+      "duration_seconds": 3.01,
+      "loudness_normalization": {
+        "applied_gain_db": -2.893907,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.349444,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.48761,
+        "original_speech_rms_dbfs": -21.106093
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "c5f95dbbb11685347809c391eec753c868f256ced1eaf815f99522437fe72a78",
+      "sentence_end_time": 17.61,
+      "sentence_id": "B10_S06",
+      "sentence_start_time": 14.6,
+      "speaker": "A",
+      "text": "Correct, save the file only.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "B",
+    "category_label": "Cancellation and deletion",
+    "category_specific_answer_rules": "[{\"question_id\":\"B10_CAT_Q1\",\"ask_after\":[\"B10_S01\",\"B10_S02\",\"B10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"YES\",\"B10_S02\":\"YES\",\"B10_S03\":\"NO\",\"B10_S04\":\"NO\",\"B10_S05\":\"NO\",\"B10_S06\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"B10_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"B10_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B10_CAT_Q2\",\"ask_after\":[\"B10_S01\",\"B10_S03\",\"B10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"PRINT_BLUE_FLYERS\",\"B10_S02\":\"PRINT_BLUE_FLYERS\",\"B10_S03\":\"NO_FLYERS\",\"B10_S04\":\"NO_FLYERS\",\"B10_S05\":\"NO_FLYERS\",\"B10_S06\":\"SAVE_FILE_ONLY\"},\"final_answer_full_evidence\":\"SAVE_FILE_ONLY\",\"evidence_rules\":[{\"if_observed_all\":[\"B10_S06\"],\"answer\":\"SAVE_FILE_ONLY\"},{\"if_observed_all\":[\"B10_S03\"],\"answer\":\"NO_FLYERS\"},{\"if_observed_all\":[\"B10_S01\"],\"answer\":\"PRINT_BLUE_FLYERS\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"B10_CAT_Q1\",\"question_type\":\"action_status\",\"prompt\":\"Should printing flyers be done? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]},{\"question_id\":\"B10_CAT_Q2\",\"question_type\":\"action_plan\",\"prompt\":\"What is the status of printing flyers? Return exactly one of: NO_FLYERS, SAVE_FILE_ONLY, EMAIL_FLYERS, PRINT_BLUE_FLYERS, PRINT_RED_FLYERS, UNKNOWN.\",\"allowed_answers\":[\"NO_FLYERS\",\"SAVE_FILE_ONLY\",\"EMAIL_FLYERS\",\"PRINT_BLUE_FLYERS\",\"PRINT_RED_FLYERS\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"B10_CONTENT_Q1\",\"ask_after\":[\"B10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"UNKNOWN\",\"B10_S02\":\"UNKNOWN\",\"B10_S03\":\"A\",\"B10_S04\":\"A\",\"B10_S05\":\"A\",\"B10_S06\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"B10_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B10_CONTENT_Q2\",\"ask_after\":[\"B10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"UNKNOWN\",\"B10_S02\":\"UNKNOWN\",\"B10_S03\":\"EVENT_1\",\"B10_S04\":\"EVENT_1\",\"B10_S05\":\"EVENT_1\",\"B10_S06\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"B10_S01\",\"B10_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"B10_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says that the flyer print job is canceled? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"B10_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=PRINT_BLUE_FLYERS_REQUESTED. EVENT_2=PRINT_JOB_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "B10",
+    "critical_span": "bins 0,2,3,4,5",
+    "end_bin": "5",
+    "generic_answer_rules": "[{\"question_id\":\"B10_GEN_Q1\",\"ask_after\":[\"B10_S01\",\"B10_S02\",\"B10_S03\",\"B10_S04\",\"B10_S05\",\"B10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"A\",\"B10_S02\":\"A>B\",\"B10_S03\":\"A>B>A\",\"B10_S04\":\"A>B>A\",\"B10_S05\":\"A>B>A>B\",\"B10_S06\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B10_GEN_Q2\",\"ask_after\":[\"B10_S01\",\"B10_S02\",\"B10_S03\",\"B10_S04\",\"B10_S05\",\"B10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"0\",\"B10_S02\":\"1\",\"B10_S03\":\"2\",\"B10_S04\":\"2\",\"B10_S05\":\"3\",\"B10_S06\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B10_GEN_Q3\",\"ask_after\":[\"B10_S01\",\"B10_S02\",\"B10_S03\",\"B10_S04\",\"B10_S05\",\"B10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B10_S01\":\"A\",\"B10_S02\":\"B\",\"B10_S03\":\"A\",\"B10_S04\":\"A\",\"B10_S05\":\"B\",\"B10_S06\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"B10_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"B10_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"B10_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "B10_S01=0; B10_S02=1; B10_S03=2; B10_S04=3; B10_S05=4; B10_S06=5",
+    "sentence_metadata": "[{\"sentence_id\":\"B10_S01\",\"speaker\":\"A\",\"text\":\"Print the blue flyers.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B10_S02\",\"speaker\":\"B\",\"text\":\"I will print blue flyers.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B10_S03\",\"speaker\":\"A\",\"text\":\"Cancel that print job.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B10_S04\",\"speaker\":\"A\",\"text\":\"Do not print any flyers today.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B10_S05\",\"speaker\":\"B\",\"text\":\"Understood, no flyers.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B10_S06\",\"speaker\":\"A\",\"text\":\"Correct, save the file only.\",\"abstract_start_bin\":5,\"abstract_end_bin\":5,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "B10_S01,B10_S03,B10_S06",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"B10_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for flyer printing status heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"B10_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Print the blue flyers.\nB: I will print blue flyers.\nA: Cancel that print job.\nA: Do not print any flyers today.\nB: Understood, no flyers.\nA: Correct, save the file only.",
+    "transcript_with_pause_recommendations": "A: Print the blue flyers. (natural)\nB: I will print blue flyers. (short)\nA: Cancel that print job. (short)\nA: Do not print any flyers today. (natural)\nB: Understood, no flyers. (natural)\nA: Correct, save the file only.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4; T6=5",
+    "turn_count": "6"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "echo",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "sage",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_4",
+  "voice_pair_id": "pair_2"
+}

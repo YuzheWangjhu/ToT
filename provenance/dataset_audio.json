@@ -1,0 +1,1991 @@
+{
+  "schema_version": 1,
+  "synthetic_distribution_status": "included_in_repository",
+  "synthetic_download_url": null,
+  "seamless_distribution_status": "reconstruct_from_separately_acquired_source_corpus",
+  "synthetic_audio_provenance": {
+    "scope": "All files whose group is synthetic",
+    "ai_generated": true,
+    "provider": "OpenAI",
+    "model": "gpt-4o-mini-tts",
+    "disclosure": "All speech in these clips is AI-generated. The voices are synthetic, not recordings of human speakers.",
+    "notice_path": "generated_data/theory_of_time_v1/README.md",
+    "documentation_url": "https://developers.openai.com/api/docs/guides/text-to-speech"
+  },
+  "files": [
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_000.wav",
+      "sha256": "f0ee11fdcc2cb4085bac2892edf24e3a78c072aaaf266650133052c4f1c3c421",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_001.wav",
+      "sha256": "9bf173a111cab64edd3b480a019aa192bf7647fb0d1094b1aa05a0ca0d14767e",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_002.wav",
+      "sha256": "ab82614615bd085df841a59bd3d0c95484422ec3e6efc77a2a74ec31c063ca56",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_003.wav",
+      "sha256": "862118e38214a39a8649cd621f75b43be0bd8e515838b4d05b817e25374a20f1",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_004.wav",
+      "sha256": "d15afb7f907f45d4c6076883db0eef57893c658f04131d592814f9edc0bedf6c",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_005.wav",
+      "sha256": "28f9b744619158f7da3dbcb6400fe6237dbdf966af0824b37886e11b5b3faa93",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_006.wav",
+      "sha256": "61f87db3722eee46257fd497f78966ff2841c7096b28f8a9ea0af46c0189b4f3",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_007.wav",
+      "sha256": "92e0bd40f377aac2824f12fb7a0d01859e2618cb9733cc1dbd5e0d9af1672a7f",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_008.wav",
+      "sha256": "aa6df6567bc269078fb48b20c92821dc4d91aab2afac0b4f9f8fa7daa45cf665",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/episodes/episode_009.wav",
+      "sha256": "56586edb697a9522f12abd2a8ac9411d26a66bd3d53ad4fbe101c2b8767193e5",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1a"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_000.wav",
+      "sha256": "a764c086daf999bcc608aaf60c5a574b732da52d9acc5c593aa6076018d637c7",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_001.wav",
+      "sha256": "a851477c02f91dd2609ffac7c51d7c331b02b9fb360548d1ca433700f6656c30",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_002.wav",
+      "sha256": "34dbc53d9fc4adcb0604c12a3a5ccc0ce60ed858e231e4a4674ec2d8b81eba61",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_003.wav",
+      "sha256": "246c3777ab714a4b92d61c854db6c3c23014f643d057334abffe3747b5a39869",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_004.wav",
+      "sha256": "4cb5fb85e50dbdb62f588d3a0c6e2c421bb3a0d3fc0985a27a25e1fac533ec60",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_005.wav",
+      "sha256": "d08e423e18bc511fb73e5a15afb1f665f843073770e214007fa289c511ab22aa",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_006.wav",
+      "sha256": "0a198899ab89b3383ade0dfbbbd873c95c1f3f717eb8661f376ba255f616ca5e",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_007.wav",
+      "sha256": "e97d9930501a1a40b5acbed4c0a17230a06bc3f882981cead29f1e83b6e8102e",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_008.wav",
+      "sha256": "e9580f3238b530102af94f620f72c8076114aa79e530ea6627c6b3b0d2ef7979",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/episodes/episode_009.wav",
+      "sha256": "a460ce926b926b904a448d22b2fae1d9b0f4d52d2392f3895718499f7990a222",
+      "bytes": 480044,
+      "group": "synthetic",
+      "track_id": "1b"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A01/version_1.wav",
+      "sha256": "220854b6f8e46f0e326eb2ed3a701926a68dd17e81f3d2e145f621d4d0b37cdc",
+      "bytes": 816524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A01/version_2.wav",
+      "sha256": "eb9d6a75da4619843659c42f66b4bbe231fd4563484172c68b325ff645b3c5cb",
+      "bytes": 855404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A01/version_3.wav",
+      "sha256": "4048804ec0a02481c51c5023920f2d594fc4356b94c46a441ed48531e8208d5c",
+      "bytes": 872204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A01/version_4.wav",
+      "sha256": "7bc01d906c606879f35d16765784230356acfe28135eea18f61c96ac9595239b",
+      "bytes": 817004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A02/version_1.wav",
+      "sha256": "4b551e89ddf0320d2100ee2d961201b4f5bb50500788fb56e4b8b25b350f4738",
+      "bytes": 517004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A02/version_2.wav",
+      "sha256": "f138aa8b85d830bd997d900e3b07fbf16675cdb9f173f95fd864efe6c5b38796",
+      "bytes": 628364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A02/version_3.wav",
+      "sha256": "71205feb90891a7652a8849e2bb0c100bdba5590c7e09778c8ee1734cf38c931",
+      "bytes": 519884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A02/version_4.wav",
+      "sha256": "571a9218701415119be8c952d40dca70e66fd4933583199023639033aa4f5231",
+      "bytes": 544364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A03/version_1.wav",
+      "sha256": "e0485ed49ebb3a0d7e6ce789d89712b0bc5d365db846daffcb5dcdd8c43fa2b8",
+      "bytes": 915404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A03/version_2.wav",
+      "sha256": "78cb96623afc4c3dc4a1911217b81bf53f6af2ded749fa93b945efad3612d9ff",
+      "bytes": 965804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A03/version_3.wav",
+      "sha256": "a2ff64256eb38eee3754fe3f61534312490b8b9813bfc9303f7ea01463040f13",
+      "bytes": 956204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A03/version_4.wav",
+      "sha256": "ce147d736f61334ab6f0c5c6ab574322d6afbb42b9e6eeb2602618313dc01300",
+      "bytes": 958124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A04/version_1.wav",
+      "sha256": "ddd942c5ea84275fe80ce6b9f4fcdfe7c8e0599cbba703febebf6dae0612974a",
+      "bytes": 592844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A04/version_2.wav",
+      "sha256": "d1c54bda253f5ff176c01517e189badedf1de387b227cf0fb7b85dcc0d3ba595",
+      "bytes": 639884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A04/version_3.wav",
+      "sha256": "d5867c7e40018f5bed286fcd53d949f0cebdc73424f792be807c976bea5725dc",
+      "bytes": 596204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A04/version_4.wav",
+      "sha256": "0d179ef92c332174c1ea37fd40d4dfeedc632b6b35d0bdd4cdb67280706592f9",
+      "bytes": 601004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A05/version_1.wav",
+      "sha256": "3d1b118dbfa059144fd694a6059324c08a8143abe939d19bec09abcddce9a74e",
+      "bytes": 560684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A05/version_2.wav",
+      "sha256": "223198bd9f07815cd0ad69af9179396875acd3fdb3d5747e23a30090d3dabe1b",
+      "bytes": 611564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A05/version_3.wav",
+      "sha256": "b6e34e19732ef629ab27db253715fd2e97a241c6b064b9de361ff7ad3af1a5d3",
+      "bytes": 578444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A05/version_4.wav",
+      "sha256": "0240e562bfbb2290ad5a15c6f2ad9f718d7a5b095028db8e80d32df737dcbc8f",
+      "bytes": 603884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A06/version_1.wav",
+      "sha256": "bfdd90757c76b7a844027a98c5aecfacc3f672e62cf1d4d3ab2b000520fd7ce8",
+      "bytes": 1666604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A06/version_2.wav",
+      "sha256": "4b6bde0a3f3565935409a5eb1b1eb39d469a3473128c2791d74408d7b1ccdcc8",
+      "bytes": 1696364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A06/version_3.wav",
+      "sha256": "fb7480217ef072d810103cb51fbd59b9809fbbd4063d9b29bd2493bc5a39843a",
+      "bytes": 1697324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A06/version_4.wav",
+      "sha256": "1a5391db45ec0c8b29fd99026eb9b2b73d63c12919f01a8c9c05eded0898c738",
+      "bytes": 1718444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A07/version_1.wav",
+      "sha256": "2e727f4997910e58a58c0373a72aeb69c2cba25641cba508c5abbd8154f57239",
+      "bytes": 1586924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A07/version_2.wav",
+      "sha256": "329cb9210120e17eed09ca0fdc2dbe035d2d88a5d68a7458a4a09b4492b1c7a5",
+      "bytes": 1612364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A07/version_3.wav",
+      "sha256": "9234986f53009bdea31cc1c4831cea4ba1011779c96f21556f0967dfe83e3b26",
+      "bytes": 1626764,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A07/version_4.wav",
+      "sha256": "3b384c869545caa393ec4ab1398553f1c1820a5faf4118df8263b004f0aa36d6",
+      "bytes": 1688684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A08/version_1.wav",
+      "sha256": "99864c4e03bfd906ed5fcb0728a1fcf6e588f42e21c9cba16f9261fa362392f1",
+      "bytes": 1057484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A08/version_2.wav",
+      "sha256": "868e718b07242a9663f46e66f7092a4d79e181a9e184911703f5cc16a413aaaa",
+      "bytes": 1076204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A08/version_3.wav",
+      "sha256": "b15a2835479f7ba5eaf9a87ba7741f80adc28863c3d5922a6dd60f7e50ad24d4",
+      "bytes": 1117964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A08/version_4.wav",
+      "sha256": "934211b8418dc2426047484f0431127cb091acb525e6a497a5808e6cfe2b4a11",
+      "bytes": 1103084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A09/version_1.wav",
+      "sha256": "577151958cea9d97fe30eeafe0dc32367ac197cfffe676a82e6953de0c61cf6f",
+      "bytes": 1683884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A09/version_2.wav",
+      "sha256": "0fa36ad4bea3d9fff6ffd61bbb5d1786b91c5f147df984d1679cf415ef1e769f",
+      "bytes": 1680044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A09/version_3.wav",
+      "sha256": "be327ef4ba773a28c0dff7d91a2250840b068fa71ae276cdf245a5b7a1d88d18",
+      "bytes": 1682924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A09/version_4.wav",
+      "sha256": "0bc92d0cf0836eca9ebae5d9bb455e98d44195de8c03ceb200d5fd300436afdd",
+      "bytes": 1638284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A10/version_1.wav",
+      "sha256": "29746a47e53ed4cf9603bca08edeb757dabbb8091a58aa1fac8f6c5828a57db1",
+      "bytes": 740684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A10/version_2.wav",
+      "sha256": "0753cdd49bdff8c73566a1f19eb4e3d24072c40fd2ab7640c3f9f32859a29f54",
+      "bytes": 769004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A10/version_3.wav",
+      "sha256": "913df0042560d12e6dac591587486fc6a49435311d0389b09ac5d884a9261ea1",
+      "bytes": 809804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/A10/version_4.wav",
+      "sha256": "224ef7048936f250300f374140c283fcd28bbdac45d7e50c16bf3c3cd8b11381",
+      "bytes": 804524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B01/version_1.wav",
+      "sha256": "b6ea04107c486098cca5887fccc24c2e78e539d4fd24e026910d86048d73be65",
+      "bytes": 798284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B01/version_2.wav",
+      "sha256": "92f77f3a49ff08ec1625445d6949f1c458a9496f3391584839508e3747ecabb1",
+      "bytes": 844844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B01/version_3.wav",
+      "sha256": "cf1c4e553ef8f407693de5afb361de21ca2c8142a86feb0e3ff5cdec93c40bb4",
+      "bytes": 885644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B01/version_4.wav",
+      "sha256": "0c796dc85bdb3069c3f06e71ea60d56c5d6311515f7fde8380a20341be7c03f7",
+      "bytes": 853964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B02/version_1.wav",
+      "sha256": "e9b6531e58d44a731132d1adec9f3ef365b7dd64fbc0b4422457d75fa505abe9",
+      "bytes": 350444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B02/version_2.wav",
+      "sha256": "3a3cbe38ac071ee7e2dfc1bd0266f23af6e920f977be4b94c066762d756478cc",
+      "bytes": 350444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B02/version_3.wav",
+      "sha256": "f25b284ca6f8731cd9ab0535ce34c36b168fb89a571055deb36fe06546bc6680",
+      "bytes": 377804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B02/version_4.wav",
+      "sha256": "4844277d2dda2f3c680edba5f81a284e6c5fdbd3b73a02a0cf7203253004c147",
+      "bytes": 366284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B03/version_1.wav",
+      "sha256": "56c97c4b0f42b7f2b61615fdeefc87947fb48ba3058ae355e70b457b0a242931",
+      "bytes": 966284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B03/version_2.wav",
+      "sha256": "185624d53b8c49929231075d335071cb54df045eaef40d21771b1527e4330bfe",
+      "bytes": 946604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B03/version_3.wav",
+      "sha256": "a31ef76eda1074fa218c1c7667ed086e7dfc7b138506418018cfad111cb4e68d",
+      "bytes": 1035884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B03/version_4.wav",
+      "sha256": "af3a0796844fa8608b4a3a62c7d41c7b1438e850556aea6e611fa29e3c74c5f3",
+      "bytes": 932204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B04/version_1.wav",
+      "sha256": "1d38a1bfcbf483c806d42bdaf9d7f44432ab75e287412e78dd7d4852301f8fc4",
+      "bytes": 956684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B04/version_2.wav",
+      "sha256": "4269b2246e0580a8a8f808996062def056fb7938a4e3357aaa8bfb256f352477",
+      "bytes": 937484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B04/version_3.wav",
+      "sha256": "4b14e20c18a71d5edc3b58b791bfd5c3a4c11559cb4ff2532586f4b63b243932",
+      "bytes": 989324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B04/version_4.wav",
+      "sha256": "64d541584b331fa080214c6baf1802c317a5dc0f3ce4ab4f7ae5361ec1279f2b",
+      "bytes": 961964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B05/version_1.wav",
+      "sha256": "faf88be18d07059b116b7d072f920a4af4c5bf51ecb64845fb63aff3e004ee25",
+      "bytes": 493484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B05/version_2.wav",
+      "sha256": "36a97a19ae69d5ae7037107918191cb59de3de30481f73f481e851340a240848",
+      "bytes": 504044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B05/version_3.wav",
+      "sha256": "7744579787435b593f2829079d764adf31e19841ef6c9ef9334693bc39eef115",
+      "bytes": 541964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B05/version_4.wav",
+      "sha256": "eef315f00913f808e3a6250da4e6bac0ae4ce1f8022635685a948e5b91a93457",
+      "bytes": 532364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B06/version_1.wav",
+      "sha256": "f45b34e1e41ec8b9c3d256d4a9611b40b4a641cb7650fc5b4d7dc37cd2c4f847",
+      "bytes": 1136204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B06/version_2.wav",
+      "sha256": "9decd633035d79d4a206b38fd340c32ab0bbd120425eb2b18dcb58539b57c515",
+      "bytes": 1132844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B06/version_3.wav",
+      "sha256": "2a075d3be9a9939c6a63cb87a0adad24cb4286717f51d82d92c354775ee1cc1d",
+      "bytes": 1156364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B06/version_4.wav",
+      "sha256": "3898acdf1b6d1bdaecfecc22a09b6810ff9c6defeae4ef88f9b493175659fe04",
+      "bytes": 1136204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B07/version_1.wav",
+      "sha256": "7ac0f4deea89afdea22168caad77be27dc07f6a4d2f77e4ebd20a0d72bbf484e",
+      "bytes": 1558604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B07/version_2.wav",
+      "sha256": "fdf829359a1c92e97c9ad39c279410be0556742dadfbb425bd1c171e68b6c4cb",
+      "bytes": 1566284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B07/version_3.wav",
+      "sha256": "463a302f1c68cf66fa437e78edba5d71eb67951c03e3b8bb9bd2d0d6d46e4953",
+      "bytes": 1573004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B07/version_4.wav",
+      "sha256": "834ac2ac69e2fb9f7c8ca0aa69b5bc822e70339cec0260e13d834a42bc48b14d",
+      "bytes": 1584524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B08/version_1.wav",
+      "sha256": "79a29da244f9b67098620ee119c3aa1c0fa2b718659f9a2e2b100888e4946ffa",
+      "bytes": 618284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B08/version_2.wav",
+      "sha256": "5b28d348b44db6d05f67d11ef0629eb053659d1692ea9ed6286c113f41d543f9",
+      "bytes": 688844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B08/version_3.wav",
+      "sha256": "b3154c82f3fc35114e75c7cecca1283f6c60b3eed200df312da4f04f4ba3813d",
+      "bytes": 696524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B08/version_4.wav",
+      "sha256": "c20d46c278eefa6dd517ad758fbdfdf375deb305bb61ab10a4669bee160e0366",
+      "bytes": 655244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B09/version_1.wav",
+      "sha256": "f53f37d810c56d3e9ed7ba1c6d6e41fc48160f089a57fd35822155b74e601b1f",
+      "bytes": 2063084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B09/version_2.wav",
+      "sha256": "c7f63b790ee097365ffbce93ce260e1928d30cab130c9883792309df2470f879",
+      "bytes": 2160044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B09/version_3.wav",
+      "sha256": "1a276f1c25b9734f5a654a9f9b3de1f823012ae4aedbb57c8e78c414de49e06f",
+      "bytes": 2182124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B09/version_4.wav",
+      "sha256": "194eeb35f77140298360aea36098fa829611d2febd40ac50b227932f70b2848a",
+      "bytes": 2153324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B10/version_1.wav",
+      "sha256": "144f0ee6cdefd569d9a32c2b8ab70876b20c62c7e465258cdef2e09127b04352",
+      "bytes": 785324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B10/version_2.wav",
+      "sha256": "a3af983f577f58a0c28e4b74e600495de7860226f04f42658e28c6682b715a94",
+      "bytes": 823244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B10/version_3.wav",
+      "sha256": "d462357a432f64b91556d969a7d8567c447b9729462860479df5822340c5300b",
+      "bytes": 834284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/B10/version_4.wav",
+      "sha256": "667df976262270e37e838f54819d193c1d14c1d01816acdd1024f6d8a2b96447",
+      "bytes": 845324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C01/version_1.wav",
+      "sha256": "b6e267a42e4d4633a769ab0c09011a53809d584e847bc28d8a72fecd2c3afc0c",
+      "bytes": 786284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C01/version_2.wav",
+      "sha256": "3a0b6639c9730018b8fda888084b6bf5922108d125b4b4c71de5fadde25eec2e",
+      "bytes": 816524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C01/version_3.wav",
+      "sha256": "7a1757dd96b0537f24ee6352f0725054f368e72f431ef3e6dd0e38b00a0456bd",
+      "bytes": 803564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C01/version_4.wav",
+      "sha256": "d2d78f354d4fdc4e600f31c288dd751b8c82a6c3c79c15f65c06a2ac19fcc21d",
+      "bytes": 805004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C02/version_1.wav",
+      "sha256": "b812df867ec6339f694dc4353e49450b2bb05c54a5beba3483b3af14be8f0704",
+      "bytes": 794924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C02/version_2.wav",
+      "sha256": "730e69fd1b50d89484d0062005e28d102e2dc4bee0a5965edd11c065baeeba8d",
+      "bytes": 794924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C02/version_3.wav",
+      "sha256": "9cca862cb3511057076d8b6d9a3c2983bb8dcb21cde9da3a848c82986fa84447",
+      "bytes": 776684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C02/version_4.wav",
+      "sha256": "8e2f14f72a1423abb272181c3fe770f0475ddfd6a064a715ff4d51af5feb21a5",
+      "bytes": 778124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C03/version_1.wav",
+      "sha256": "d04efade8cff39b372e18d8196b30fb5ff773e64c7bb80275f366a3998bcb849",
+      "bytes": 987404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C03/version_2.wav",
+      "sha256": "231fa5c0f1eca17fcb5dc8d6ec041a925e001ca039d9ab9a3703b75400d34356",
+      "bytes": 1005644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C03/version_3.wav",
+      "sha256": "4ef3ecb3eda4452095e0701f43b7b54b651c803b5dcfc8cefe547a2404b42d5a",
+      "bytes": 1021964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C03/version_4.wav",
+      "sha256": "5058dd918359c51a10d518b3fdc2fd2396ab2aa97f429c49c16224a0ada20586",
+      "bytes": 984044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C04/version_1.wav",
+      "sha256": "483e049b561f7ba1d4a88a4a3c6eb38a1b7e1102f704f041103c86b81049c85d",
+      "bytes": 950444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C04/version_2.wav",
+      "sha256": "8a62818b12f693c0bfcc064fcb0eaaf70bdad7c24063017d4258ae7b618fa0de",
+      "bytes": 956204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C04/version_3.wav",
+      "sha256": "b7820fb37a03dabe72b2a39c93bd9327cda7297322cc8cd034dd65ef9f72db7c",
+      "bytes": 919244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C04/version_4.wav",
+      "sha256": "463526ff13c7017d5f96bfb33d74ee344c5b3fcc6c2b02ae98827bded1d25385",
+      "bytes": 1021964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C05/version_1.wav",
+      "sha256": "e32dbdb9802e204053c08c5b065f5a3e07c3b721885e80fa64afaab3b766011d",
+      "bytes": 979724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C05/version_2.wav",
+      "sha256": "f5689d6e1eb38a919f37e2a8c372c66f9f71d349687a3a687032b24607797cd4",
+      "bytes": 1007084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C05/version_3.wav",
+      "sha256": "b2fc7d0a781c49e23991282e6f4853fa3d921a96aad33cada60e646b7ade661b",
+      "bytes": 1015724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C05/version_4.wav",
+      "sha256": "9a8074f1804ae7edb6bdd78d3bdd0bb339078e8286a98bb0e899c291ab356d49",
+      "bytes": 964844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C06/version_1.wav",
+      "sha256": "fc868437adf79832ecd8b58ede3c562c2763d9e76444fe0bbe14d02da1e0704b",
+      "bytes": 1123724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C06/version_2.wav",
+      "sha256": "65da83799b49a3bf18d853365f28388efbc6cb86c6d1ab7fc6d05e195eacecc8",
+      "bytes": 1142924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C06/version_3.wav",
+      "sha256": "27ce94ae2479b96bbe1ea2bb15fe02800953c8699cffba171569eb03d3720c72",
+      "bytes": 1203404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C06/version_4.wav",
+      "sha256": "8eb8fc855a8c51f55ee3facf435029c0b22e4e602bc7b4a0281fe056238518df",
+      "bytes": 1151564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C07/version_1.wav",
+      "sha256": "633fc12f0452bc41b5365da5508a09acb3a5668b2f467fa8cb0d42fa7053a10f",
+      "bytes": 1170284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C07/version_2.wav",
+      "sha256": "61f52c9f040b9ae5a69963413ea71526be06324c7d07b11bd823566df2b8134f",
+      "bytes": 1160204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C07/version_3.wav",
+      "sha256": "05b733f5db4d9da3f1898b549ef965d153150366f57b6b3088a397dcf0dc51da",
+      "bytes": 1251884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C07/version_4.wav",
+      "sha256": "a68aa72e2d68cba2aabd920cebfcfdefa155ff57ef145cbd9b824058d656194a",
+      "bytes": 1213004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C08/version_1.wav",
+      "sha256": "cfe7488f2310c1526a20f7cb52b013d476073bbe13fb165b8acb234bb8a31a96",
+      "bytes": 1480364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C08/version_2.wav",
+      "sha256": "23ee75467900c77c885f176a607e6d9715d8ff36f26c4642d32e2e6d2bc5beac",
+      "bytes": 1475564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C08/version_3.wav",
+      "sha256": "139f726aae4716d1d98529690e7876912dc726f118be0b80a70fbc518cc2dd98",
+      "bytes": 1507244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C08/version_4.wav",
+      "sha256": "426cb7b7a7c334dc0e086e35dfeac8ab2031afb65d0db78214e9376d64fd32c5",
+      "bytes": 1499564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C09/version_1.wav",
+      "sha256": "d9653170543952e0881b674ce15c2e820bc62be3f27cb9f937b834cb77c40f90",
+      "bytes": 1145804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C09/version_2.wav",
+      "sha256": "8b1482a98d8dbdd50909bde2bb343241daa8c706a384c51318fecc3d3c2ddff5",
+      "bytes": 1128044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C09/version_3.wav",
+      "sha256": "49347bfc07b796835d2c74ce245a604b711150be2e788c3b3cd1d2dde1cb6ce4",
+      "bytes": 1210604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C09/version_4.wav",
+      "sha256": "60731ac6752b44412831ee15a9b5d9daafdf6c7cf2945ed5eaae187fba941f6f",
+      "bytes": 1191404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C10/version_1.wav",
+      "sha256": "7304a91b7375e2d01cbf365e589de420e09c6f59aac9601a4cf7a10a619dc560",
+      "bytes": 1206764,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C10/version_2.wav",
+      "sha256": "132599bfe66c0d35320a436bd66853b4c7a5b434c17f40ec7cda4ac8f37fac9e",
+      "bytes": 1221164,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C10/version_3.wav",
+      "sha256": "2994299419f9c8732fb1ab6628164e7f1cdf7f587f4ce31c41f1695ae1dc86ca",
+      "bytes": 1320044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/C10/version_4.wav",
+      "sha256": "4c6302922aa52190b9d1ce121792b41cc1ea92f09a534c5ee2db091a448f8527",
+      "bytes": 1234604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D01/version_1.wav",
+      "sha256": "4a32b5ecd1564ea3508954a51e420a076d51f08f5b77e16908ee1d18e7bac8e7",
+      "bytes": 374924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D01/version_2.wav",
+      "sha256": "c0974d8d9c47ef0f8da1490ecf812888b815b7f82fab9d8a83a9bfe077499060",
+      "bytes": 449804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D01/version_3.wav",
+      "sha256": "6e0812aff8e7158a41787d64ac30544a3ac4c4d44caf9c6dcdafae4fc1d63882",
+      "bytes": 405644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D01/version_4.wav",
+      "sha256": "8bca577f45eb4b01173774b5499bd7ee62902c58df8f9ae5410d632fa2b603ed",
+      "bytes": 425324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D02/version_1.wav",
+      "sha256": "dbe3e62a9728b5dd1352b74cbe50e1c39e64716f3f9e10ffb964b61000bd6918",
+      "bytes": 435884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D02/version_2.wav",
+      "sha256": "3b9fbbd8f8f96e0e3245620e17506736f52328bf9d616dce025b6c1107e4bd7d",
+      "bytes": 460844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D02/version_3.wav",
+      "sha256": "a4c151727d25738f294d799cc4848e3241636119ada3918ba3bec799b2df152c",
+      "bytes": 461324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D02/version_4.wav",
+      "sha256": "632af67a0acb732e326bfc1f8a1cd975328356a3927eaa148ea24200ea5a7e54",
+      "bytes": 421484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D03/version_1.wav",
+      "sha256": "e80ce7ff9f84aab39283c891423c9bcc013a7a804890ffbba1e089e95b0a7535",
+      "bytes": 670124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D03/version_2.wav",
+      "sha256": "76f74252d6014c3e26139478802c1e7924a94169549ccd2d4ce6200eb4119e6a",
+      "bytes": 641804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D03/version_3.wav",
+      "sha256": "ade0b6ef6b6a77977ed87245fcf2a4e29428be5d73337794bf80b4783093faa9",
+      "bytes": 662444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D03/version_4.wav",
+      "sha256": "f98d4d4d4e46919ca00af47c88dedb8a1e18f973c4a646eeb49313bbe4812a72",
+      "bytes": 622604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D04/version_1.wav",
+      "sha256": "1069da44139be79489e69d8cd6235a167c7a289c78fa312c50cc3b2ad0d4edef",
+      "bytes": 567404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D04/version_2.wav",
+      "sha256": "895813deef980e4f0e6fda59b88f738df9bf1f6a7b743f3a7be2a10c6a8719e1",
+      "bytes": 558284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D04/version_3.wav",
+      "sha256": "945cbf678c3c12d186b6aaf349b049af5a3ea5ba860f2eca697f6e21cac2c069",
+      "bytes": 571724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D04/version_4.wav",
+      "sha256": "8a9a25a486860c8107c99df9a02afd3a699c36106a00ae5fd9180388c32cda02",
+      "bytes": 605324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D05/version_1.wav",
+      "sha256": "8d89532d94be9ba24b9d47b0e5a85d1eaf35871c0637ddb65cd8ca658d3f6539",
+      "bytes": 536684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D05/version_2.wav",
+      "sha256": "839aa01b867c7bb921260202a4acdce03e23fe43e010b7f3b125948c7341b087",
+      "bytes": 529964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D05/version_3.wav",
+      "sha256": "7a8be059a4c9b9daea409bba4edf127350b82ab16a13a98e9f152e3bf3ff7a3b",
+      "bytes": 549164,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D05/version_4.wav",
+      "sha256": "f668fe5dcf12c44dc4534574cf2f64b93b08aa0af7a7d82f0b33839d8d6aeb8e",
+      "bytes": 549644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D06/version_1.wav",
+      "sha256": "4a35f3b3cebc4112812ae3aae5ddbd89d586621f97a2b256fec5fffdd9703c63",
+      "bytes": 1065644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D06/version_2.wav",
+      "sha256": "4e8b93a196a82d35b6ad6a4cbd3666c8262535177868999cb2173b2911aa4cba",
+      "bytes": 1067564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D06/version_3.wav",
+      "sha256": "489e766673c5d48d3317aa8d5f1e85f032be92e94d586e051efa57ef1285b608",
+      "bytes": 1114124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D06/version_4.wav",
+      "sha256": "0bddddc0de527056f379906c60c72eaf790ecdbcbdd7d0a67e292aee14e0ec85",
+      "bytes": 1138124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D07/version_1.wav",
+      "sha256": "5f3ff29cd6d50aa01e907b3bb5558211ec7fbeb8dae65bb7c5eafdee22bcebeb",
+      "bytes": 740204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D07/version_2.wav",
+      "sha256": "91ee0c729ba47ae7c1151a81b1107939640d7ae3a8950efa88e29fabad131f83",
+      "bytes": 787724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D07/version_3.wav",
+      "sha256": "2c8cc74bb6754ec2a96731939f5051e96a08e9b0151a95947d61a498432e06c8",
+      "bytes": 746924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D07/version_4.wav",
+      "sha256": "dbe848c9136511bc6eb5eebb402f184318c8fdf2da61f1059212e41aa6f922e7",
+      "bytes": 716204,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D08/version_1.wav",
+      "sha256": "0ddef175fc48951637231fe64682f94df86fa9920a22d14052b228343ff721e7",
+      "bytes": 674924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D08/version_2.wav",
+      "sha256": "e8f9373e691cd2d42048a9438b009bd854d95284ad3b463375fffd4d375d25b6",
+      "bytes": 759884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D08/version_3.wav",
+      "sha256": "854fa01d33a26b3d3f4d98d080fabcf75359545f4de81a4bd3cd9253ac46d034",
+      "bytes": 695084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D08/version_4.wav",
+      "sha256": "02e66ce5ab887ecc5e09b770a4cdb1cb6e2090472d29e15da0842db82ecd3334",
+      "bytes": 637964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D09/version_1.wav",
+      "sha256": "a2e3cf7e84303942870386f64be0d72d3ad75dbd1adf778c3b733a86dab35c0f",
+      "bytes": 1000364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D09/version_2.wav",
+      "sha256": "7e26d0c534bb6244d0c02d932ed19f0753044780bc38b207f9717bdd4b4e4deb",
+      "bytes": 985004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D09/version_3.wav",
+      "sha256": "ff128cc67a1e1606256aa1354cfe271ad26b72f41e9003398e0de52c9da039cb",
+      "bytes": 1033004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D09/version_4.wav",
+      "sha256": "0143e6920a06405e2160675a3898099f577c10867a45f6500ff8b0c34f25b982",
+      "bytes": 1020524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D10/version_1.wav",
+      "sha256": "b7a94c9733dddfa435aa20d345e657d10ecd97ac4a94c07fa69fa870e7e47e50",
+      "bytes": 785804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D10/version_2.wav",
+      "sha256": "36bf5c95543ceb7f1eb73af670bff28756cbd83464f92ca616fc76825a28ce6d",
+      "bytes": 823244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D10/version_3.wav",
+      "sha256": "622df325ea9ef677458530f1ce635e538cf194c2a30ce4bbcd81514ab93ecc47",
+      "bytes": 763724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/D10/version_4.wav",
+      "sha256": "017ef11a4d9b524a7c55590196aefe741e0cd2be51736d814bf45b1eef92dd0b",
+      "bytes": 780044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E01/version_1.wav",
+      "sha256": "ddab87b7df4f8c47f057617aa522c6c5693acb4205c040ea91539676d7e2e07b",
+      "bytes": 432524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E01/version_2.wav",
+      "sha256": "9a56f96413d9204100631f723fbd6870cff2c51e6da852dff442968a665a2f25",
+      "bytes": 449804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E01/version_3.wav",
+      "sha256": "059ec96b5fa923c207ea34d935b59c0a7a4ad27c2920697adba89cb57efe6e3f",
+      "bytes": 497804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E01/version_4.wav",
+      "sha256": "02282815125a474841d179a243287cef75a5accdaf69af1802acb57b97a6e334",
+      "bytes": 433964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E02/version_1.wav",
+      "sha256": "67550d343ece8245f3fdeca82eb4dec5bbe57c9a76e28807cff54be6113ebb11",
+      "bytes": 361964,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E02/version_2.wav",
+      "sha256": "f0090cccaaf4039edcae0a4c71472e1fd39a04a6ca1d4e2b289f5040db0fe12f",
+      "bytes": 392684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E02/version_3.wav",
+      "sha256": "e88a8d0719dbdfdf237c890da36786edd7999e16e58299648164d8047e40dbe2",
+      "bytes": 394124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E02/version_4.wav",
+      "sha256": "9df556ea3f6647ded657d4159b5df0525ac392ece3ab4b7cd3bf8015921c914e",
+      "bytes": 372044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E03/version_1.wav",
+      "sha256": "59f7e811eaf8262e52d21380a97215559074812d797d52ca546df24a678e9dfd",
+      "bytes": 1045004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E03/version_2.wav",
+      "sha256": "7ff321d04d4b51a6fd8a578b168d8c89e5eefa631a31e904b5069dc7109c2c1e",
+      "bytes": 997004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E03/version_3.wav",
+      "sha256": "bc25a3194de8c5a6f75048efc86e2b28624436271ca1d3feb3b9771c28ee786d",
+      "bytes": 1027244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E03/version_4.wav",
+      "sha256": "8d0db9225183fd039c4d1778b411a073b6b1e4e71e88ebbf612b7f8cda8d7bd6",
+      "bytes": 1030124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E04/version_1.wav",
+      "sha256": "a9da31dc48921606e283b9e8c69b821a9ea393fd8a365f0102317eef6eed7d05",
+      "bytes": 649004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E04/version_2.wav",
+      "sha256": "613e4c653d23dc0d8d19e182f4b42916474a55c90b74de0629bab13d3bce0e6a",
+      "bytes": 631724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E04/version_3.wav",
+      "sha256": "170aae77fc611dfb1c4e6e3baebde7cb15224efb5f9661d4f2ed2d91130c9156",
+      "bytes": 685004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E04/version_4.wav",
+      "sha256": "3caf49f4dd396399c8eebc31898e5ddab0d119724d3eca02c8778d8beabffeaf",
+      "bytes": 609644,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E05/version_1.wav",
+      "sha256": "87ae5cf48eee48fb9ab048418023dc968d529c196bc2289d07b6236c4540e81f",
+      "bytes": 596684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E05/version_2.wav",
+      "sha256": "2ad91a593307dc11fc50ecf85d1f1e9792162163a8344ed7d1f4ecca4abaa804",
+      "bytes": 607244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E05/version_3.wav",
+      "sha256": "7bdea5c13b6c170f73fc98016db0d7b65cef8d4695578e17c986bf407072eec5",
+      "bytes": 624044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E05/version_4.wav",
+      "sha256": "bf3435fc8413e82bfb23d871030fa3f5c232486dda2425cc638314ba1c2bc1f7",
+      "bytes": 601484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E06/version_1.wav",
+      "sha256": "99d9886273014800709907566577409aba8cf0b391d3c54d3cc9dc640a1117a3",
+      "bytes": 781484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E06/version_2.wav",
+      "sha256": "419aa554fa83e2774731f9a4fc0c377145864f2cabcd6ebeff100478d002fbe7",
+      "bytes": 796844,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E06/version_3.wav",
+      "sha256": "d5ea76b95d7f0a0db26629a5de06c285981006699646121a8131ccd5d780744e",
+      "bytes": 839564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E06/version_4.wav",
+      "sha256": "acd149b88a19cb3b4dbf2ce2fab2bb53c5752c13e17de112f99dfe6b3304f5ee",
+      "bytes": 782924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E07/version_1.wav",
+      "sha256": "d3178c95a6a82ae1b584cd19e865b935983b6e05316d9eb33112c021ec3012ff",
+      "bytes": 1194764,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E07/version_2.wav",
+      "sha256": "4e47c645653fb1500c5d70f269bddb7e8bce2821ff02d4733b005e5bf262fd5c",
+      "bytes": 1238444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E07/version_3.wav",
+      "sha256": "7518ee93b1c0c6455a4470b9e7b057ff5a63842c6f37d5ce6ce91ec4c285a45b",
+      "bytes": 1235084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E07/version_4.wav",
+      "sha256": "4c413da75757225ff322cdf87de65750ef6de72e63d864202dadaf272f0356d6",
+      "bytes": 1225004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E08/version_1.wav",
+      "sha256": "57121374621536ada2c286b62b4b703a79e0c59205d55e81e358c29afcb9c27f",
+      "bytes": 696044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E08/version_2.wav",
+      "sha256": "b14cd95f7f4d99fab170da8aa5115ff783ac450b8b1337c78f22904bbc67d826",
+      "bytes": 731084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E08/version_3.wav",
+      "sha256": "c42b92d703673258790f3d55d794ef1136f1ed515ff0eb26907ea7ef041a2e31",
+      "bytes": 732524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E08/version_4.wav",
+      "sha256": "cfae327fee709795682095334426812a44c2147b9566857dedcb5af586045844",
+      "bytes": 746924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E09/version_1.wav",
+      "sha256": "56f29d998ae6b3b6a3274db23572a161f8ae9d803e96b5b500bfe6446938cba0",
+      "bytes": 1324364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E09/version_2.wav",
+      "sha256": "6e71610750cb243d82973e4091f4c0f55fe4a8392ba65dc05e6a4fa09600618d",
+      "bytes": 1371884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E09/version_3.wav",
+      "sha256": "55127cf4cbbd65026d5bab1e5530fa4a33931f46814d15756820de1f9c2ccf00",
+      "bytes": 1318604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E09/version_4.wav",
+      "sha256": "eef9f29162eeafa47e8bc615901857221882b3ce410101e6ceb06862ef0729d2",
+      "bytes": 1366124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E10/version_1.wav",
+      "sha256": "00fdc1cc22ff846be893423c3d487ebbf421d1d6b297bbde865ef5680976a7b2",
+      "bytes": 850604,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E10/version_2.wav",
+      "sha256": "96e2acfec333e61c48283866426b45bcd5e277147cd504f59576013d18656def",
+      "bytes": 915404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E10/version_3.wav",
+      "sha256": "27325319d8638717ddfff1fc07b8af2a42e3833db5f7f20fb56d33086e891516",
+      "bytes": 960524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/E10/version_4.wav",
+      "sha256": "aa0688e75b8a34f8a271a1df34cb5064101c5fd3c3fe29ab3bf2ac77d290d540",
+      "bytes": 932684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F01/version_1.wav",
+      "sha256": "1ca4604f8fcf23ae798611f4a6cdf37e9dfae7c677ff8bb884288365937e5edf",
+      "bytes": 904364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F01/version_2.wav",
+      "sha256": "baab76c9086a7acc57996bb2677d685d656a5e33bc9964d6d5157345d950f96f",
+      "bytes": 881324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F01/version_3.wav",
+      "sha256": "53d915ad872448d6b41106a584ff65143439d3f3f96da3b5c89735a745a12645",
+      "bytes": 940364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F01/version_4.wav",
+      "sha256": "4497cf225cae26efbd04403a28c4c6f39d9432800953a27529263b9ffab38890",
+      "bytes": 917804,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F02/version_1.wav",
+      "sha256": "0f86253337e1dbd58ee5a34cf833a58b20af172ae4821f0f3df17169d3e31db8",
+      "bytes": 409484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F02/version_2.wav",
+      "sha256": "f93d46e334e887ff3f026cc6b64717775dece9c83a2b6101ba75fc1273ff460d",
+      "bytes": 419564,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F02/version_3.wav",
+      "sha256": "c1e12cc7bc0d027319b18c6073e58a4ff22697fc6949d6f6d035b60e6805b044",
+      "bytes": 397484,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F02/version_4.wav",
+      "sha256": "6cc18d7b90d8af49be5409fce15a98ead0a8fa4b61ef5a4e61568db7d64fe650",
+      "bytes": 398924,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F03/version_1.wav",
+      "sha256": "a72e03bf38af761717408322544ad24ab28a1ca4488308ce0b15a482e183ce9e",
+      "bytes": 555884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F03/version_2.wav",
+      "sha256": "74240ede7334414cfa45323bf27f6059f4f4c2d8531bc6fd9cae9d3f6a6a3db1",
+      "bytes": 573164,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F03/version_3.wav",
+      "sha256": "5fa59046abd42199566a020fd3d34fc66bb20a4489d80cf77d90e9c5b7c352cc",
+      "bytes": 557324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F03/version_4.wav",
+      "sha256": "c32a4825d75612354201d6a76f4337c9de0957f5cbf1496b0421c2ff9138c93e",
+      "bytes": 571724,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F04/version_1.wav",
+      "sha256": "66b3a848cbe2e983be9ce5694079b9ccd06ed32b92629dfd44f80ad44bea6d51",
+      "bytes": 1043084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F04/version_2.wav",
+      "sha256": "0929bc7cf75c3b1e5139b0aa700f1a8ab1e0f922b48b6501d497dcdc0e0ddc85",
+      "bytes": 1026284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F04/version_3.wav",
+      "sha256": "00a1fbedace45390f970fb81350a916954b8b21b9a3d46c557552cc8d04a47b9",
+      "bytes": 1024364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F04/version_4.wav",
+      "sha256": "6e726c9c157cb4f30553ef16d1ec3f09dd719aa169a529e30e1cdb89dfd3837c",
+      "bytes": 1060364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F05/version_1.wav",
+      "sha256": "07c31d4c48dd47997ac29b6e24ac69d973d126e6fd6ac37999eb2342876fdb9f",
+      "bytes": 577004,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F05/version_2.wav",
+      "sha256": "9af003f7ab1811ac516766ee8a9599e6d71a444ac7aaa8b3c320078c0e5080d3",
+      "bytes": 546284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F05/version_3.wav",
+      "sha256": "d955863d4c9d7b1fd08134d2fe4344455e10a1f647ed1762acffe9e47a40c4dd",
+      "bytes": 550124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F05/version_4.wav",
+      "sha256": "eedc2a7cab492190ea72ff8e9d59147b5952b10e63f4bae1d7df62879ed84d05",
+      "bytes": 550124,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F06/version_1.wav",
+      "sha256": "62b411887e8a77b1ac0c2a7faf02cae855252ee30bb7da7f64f5c02ef7ddce52",
+      "bytes": 1062284,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F06/version_2.wav",
+      "sha256": "5854eaff5c8fc9d7672a7c9263b410df4e1316754a1f69a3b77ca1ba87b72f41",
+      "bytes": 1068524,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F06/version_3.wav",
+      "sha256": "aad80aa763bbc838045ddecea24b31be8d50e4031b332d2620582f466227def5",
+      "bytes": 1127084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F06/version_4.wav",
+      "sha256": "4b48fd60f293ee8de4120c91695670b3f58e664911eb96e48cc3e138db963166",
+      "bytes": 1095404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F07/version_1.wav",
+      "sha256": "087b45c47176a9d9e33e9eddf4d806ba2ec92f2db662b4c8bf08d77a22482a36",
+      "bytes": 1179884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F07/version_2.wav",
+      "sha256": "0c3052c8e449dc229159e33c1d30464c8c7dd91f57c8b16d611f1abe96903be9",
+      "bytes": 1161164,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F07/version_3.wav",
+      "sha256": "1f34ac15452dcbcf3ed9429e3425e8617c3ebd9c1664504080f2ae44694a19dd",
+      "bytes": 1227404,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F07/version_4.wav",
+      "sha256": "da83ca4c6c895cf662a211d284d92122fb4123f8cc0c1479f610ca6fd10efcd2",
+      "bytes": 1167884,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F08/version_1.wav",
+      "sha256": "276cd1b25c7ee04a43b1d06df45f1ff9084c71182e7458202c800c59aef1de0d",
+      "bytes": 722444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F08/version_2.wav",
+      "sha256": "591901becb1518e38533749087f4aaff1bf189c4ca9d9fbe4ae047624866a10c",
+      "bytes": 763244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F08/version_3.wav",
+      "sha256": "9c97cb7db447884fb8fd0e5947764b393451216e845f14af2f2c22bdf333d3a8",
+      "bytes": 794444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F08/version_4.wav",
+      "sha256": "5be686c9685a00de36c0e5a686b91464e2eb88bde102b54fd1dc765bb2c277d9",
+      "bytes": 768044,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F09/version_1.wav",
+      "sha256": "691b19585b8005993192644d932c49fd2cbb727cd8e533893a0b1077d130fdfc",
+      "bytes": 1316684,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F09/version_2.wav",
+      "sha256": "6c7602c4bed15789911090729499e9a188982a7952de353fa652479531fad679",
+      "bytes": 1319084,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F09/version_3.wav",
+      "sha256": "7123f1e38d475f393168d2ddd3d2e40131e45a903f5d88201ca023bb58b5f3a7",
+      "bytes": 1362764,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F09/version_4.wav",
+      "sha256": "535a7cfd6f1608a72c8029c57bb16386ea75fba50875cc0ccbf34187b1a8a3dc",
+      "bytes": 1373324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F10/version_1.wav",
+      "sha256": "ea99ab6d675022b11df3b29aa2134503a650e9256b70dddd58099157efc2fca2",
+      "bytes": 2270444,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F10/version_2.wav",
+      "sha256": "34ccb2993f2236248269d78950d5535e9b2723aa8639b1ef8f66da5bb5512a82",
+      "bytes": 2251244,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F10/version_3.wav",
+      "sha256": "72da902f1505e5b0c6798ffcc83435918eb8f92b898075919664f3527daf6b45",
+      "bytes": 2260364,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/episodes/F10/version_4.wav",
+      "sha256": "df2c6c127d8a8e805d9d47654455ff988fc70434293ca08fea112e1c140092e2",
+      "bytes": 2225324,
+      "group": "synthetic",
+      "track_id": "1c"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0001.wav",
+      "sha256": "9764b702dbd2451c9b056ed727ff1d21c3f00e41f5f28e3134025c39233baef1",
+      "bytes": 106128044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0002.wav",
+      "sha256": "a74b6a22f9d4e9c2e2669245945512e4591e583ce3e0440982678b69f3de3cc4",
+      "bytes": 108240044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0003.wav",
+      "sha256": "7d78ee09b3ae8a4645f65fcf3233be850547cd7b570195eb2eb58876234f5c2e",
+      "bytes": 114384044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0004.wav",
+      "sha256": "fba9294ac660b2ee0c64c8dc642cf2192809688c40ace02aea3f64cd5cc4f5ad",
+      "bytes": 115152044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0005.wav",
+      "sha256": "aa4e961be15f467cd2f4434b7b262dae1f20e319b5f8d383bf1c37daa3017027",
+      "bytes": 94800044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0006.wav",
+      "sha256": "c9990337a7cbfd082c94505fc9bb92393400c76fe13ddd4788358da0d6f5abac",
+      "bytes": 94800044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0007.wav",
+      "sha256": "50f9d5e880349bdd2e0ff8f54ff8a8cd083f4ff90f69713b7a4ee83b095abd8c",
+      "bytes": 83856044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0008.wav",
+      "sha256": "308b2a25b370025befd2d36e54d3d78e87bf4310dd127b4ac722f10a5df90e78",
+      "bytes": 105168044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0009.wav",
+      "sha256": "f72b03029775ba75e815a1c4cae1579b0246472cf0a9a89b3c02e935936ec2a8",
+      "bytes": 91920044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0010.wav",
+      "sha256": "f9d693a56b042921c1519e21278734414b33a4700c8cb62f146b8155f4952ca7",
+      "bytes": 90960044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0011.wav",
+      "sha256": "1abfcd9fcd3a703aaebab86fe2b90743aa2b2ab5c87d7e57ccdf5ccbc5f2d86d",
+      "bytes": 89040044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0012.wav",
+      "sha256": "233c26fb298beabe6f0ac796f801abee6a2d5125082acf8c3dcdd225442045cc",
+      "bytes": 86352044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0013.wav",
+      "sha256": "cefa64f3d25beeabae9053de3fce3d7a2c73c41d2277df933d9dffd700bb80ba",
+      "bytes": 89424044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0014.wav",
+      "sha256": "aaf0925783715d64a9a529818b848369dc70c18a10cf187e931dc517d6fd82b3",
+      "bytes": 91920044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0015.wav",
+      "sha256": "5ebaf1bdc73560af04777f4af3e9249182927f508511befd74086b5fc0ac9083",
+      "bytes": 81936044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0016.wav",
+      "sha256": "ecec63e52e4e1b852cdde1ce08aa3910377b42b88a0ef0bca70d9dce5b351924",
+      "bytes": 84048044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0017.wav",
+      "sha256": "cfa6087adbcc11df57191cb7c70e74ef454cd8ac9f0889045aa711d7069960cb",
+      "bytes": 92688044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0018.wav",
+      "sha256": "ebaf54b0b42ed0163719e96f1fe924401905528737f0d8d1c2f40addb98486b7",
+      "bytes": 97680044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0019.wav",
+      "sha256": "4d0f2600cdbfbe0ccd64f7453dacabfdfdaac52237c894137c967482bac2fd54",
+      "bytes": 84048044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0020.wav",
+      "sha256": "1127e065494d0fc2fe6a57327a88d10f38fd4016543bfd0f7a0fd67ac6bfede4",
+      "bytes": 84240044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0021.wav",
+      "sha256": "62282454a2103a96a0330fbb163e8e284f72ef4bf1b4bf5dd9be7414617c7453",
+      "bytes": 84624044,
+      "group": "seamless",
+      "track_id": "2"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/episodes/T2R_0022.wav",
+      "sha256": "7c1e3b576e8848c1b3720372f17b21cb66299f56391cc5d795ac96b9f05cd971",
+      "bytes": 82704044,
+      "group": "seamless",
+      "track_id": "2"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "audio_duration_seconds": 12.43,
+  "audio_file_path": "episodes/E05/version_1.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "E05",
+  "generation_timestamp": "2026-06-04T14:21:22.701371+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E05_S01",
+          "E05_S02",
+          "E05_S03",
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "FRIDAY",
+            "if_observed_all": [
+              "E05_S04"
+            ]
+          },
+          {
+            "answer": "FRIDAY",
+            "if_observed_all": [
+              "E05_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "FRIDAY",
+        "prefix_answer_trace": {
+          "E05_S01": "FRIDAY",
+          "E05_S02": "FRIDAY",
+          "E05_S03": "FRIDAY",
+          "E05_S04": "FRIDAY",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E05_S01",
+          "E05_S02",
+          "E05_S03",
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E05_S04"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E05_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "E05_S01": "YES",
+          "E05_S02": "YES",
+          "E05_S03": "YES",
+          "E05_S04": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "FRIDAY",
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the final review date? Return exactly one of: FRIDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, UNKNOWN.",
+        "question_id": "E05_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the final review date FRIDAY? Return YES, NO, or UNKNOWN.",
+        "question_id": "E05_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E05_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "SEVEN_OCLOCK",
+            "if_observed_all": [
+              "E05_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "SEVEN_OCLOCK",
+        "prefix_answer_trace": {
+          "E05_S01": "UNKNOWN",
+          "E05_S02": "SEVEN_OCLOCK",
+          "E05_S03": "SEVEN_OCLOCK",
+          "E05_S04": "SEVEN_OCLOCK",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "E05_S02",
+              "E05_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "E05_S01": "UNKNOWN",
+          "E05_S02": "UNKNOWN",
+          "E05_S03": "UNKNOWN",
+          "E05_S04": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "TEN_OCLOCK",
+          "TEN_THIRTY",
+          "EIGHT_OCLOCK",
+          "NINE_THIRTY",
+          "SEVEN_OCLOCK",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the parking opening time? Return exactly one of: TEN_OCLOCK, TEN_THIRTY, EIGHT_OCLOCK, NINE_THIRTY, SEVEN_OCLOCK, UNKNOWN.",
+        "question_id": "E05_CONTENT_Q1",
+        "question_type": "secondary_slot_value"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=PARKING_OPENS_SEVEN_STATED. EVENT_2=REVIEW_DATE_FRIDAY_RESTATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "E05_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "E05_S01",
+          "E05_S02",
+          "E05_S03",
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A",
+        "prefix_answer_trace": {
+          "E05_S01": "A",
+          "E05_S02": "A>B",
+          "E05_S03": "A>B",
+          "E05_S04": "A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E05_S01",
+          "E05_S02",
+          "E05_S03",
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "2",
+        "prefix_answer_trace": {
+          "E05_S01": "0",
+          "E05_S02": "1",
+          "E05_S03": "1",
+          "E05_S04": "2",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E05_S01",
+          "E05_S02",
+          "E05_S03",
+          "E05_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "E05_S01": "A",
+          "E05_S02": "B",
+          "E05_S03": "B",
+          "E05_S04": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E05_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "E05_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "E05_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "E05_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E05_S01",
+        "speaker": "A",
+        "text": "The final review date is Friday."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E05_S02",
+        "speaker": "B",
+        "text": "Parking opens at seven."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E05_S03",
+        "speaker": "B",
+        "text": "The cafeteria closes early."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E05_S04",
+        "speaker": "A",
+        "text": "The final review date is still Friday."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for final review date heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "E05_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "E05_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "E05_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.31,
+      "pause_label": "natural",
+      "pause_start_time": 2.31
+    },
+    {
+      "after_sentence_id": "E05_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.09,
+      "pause_label": "natural",
+      "pause_start_time": 5.09
+    },
+    {
+      "after_sentence_id": "E05_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 9.3,
+      "pause_label": "natural",
+      "pause_start_time": 8.3
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/E05/version_1/E05_S01.wav",
+      "duration_seconds": 2.31,
+      "loudness_normalization": {
+        "applied_gain_db": -2.480592,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.425053,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.565552,
+        "original_speech_rms_dbfs": -21.519408
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "1a754056074a740fd72818411be58a9e7a5b41b6a666d853c4cb4c439a1e762f",
+      "sentence_end_time": 2.31,
+      "sentence_id": "E05_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "The final review date is Friday.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/E05/version_1/E05_S02.wav",
+      "duration_seconds": 1.78,
+      "loudness_normalization": {
+        "applied_gain_db": -2.623644,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.496014,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.670929,
+        "original_speech_rms_dbfs": -21.376356
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "8c70128e26d1be42cb338ab6753b4b334716ca827dbaab08574fdfcd07ec59fd",
+      "sentence_end_time": 5.09,
+      "sentence_id": "E05_S02",
+      "sentence_start_time": 3.31,
+      "speaker": "B",
+      "text": "Parking opens at seven.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/E05/version_1/E05_S03.wav",
+      "duration_seconds": 2.21,
+      "loudness_normalization": {
+        "applied_gain_db": 0.019039,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.430844,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.429901,
+        "original_speech_rms_dbfs": -24.019039
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "b2c197538bf436efda6ae1b691b7141ace6c964788836714e8428d6c61837e73",
+      "sentence_end_time": 8.3,
+      "sentence_id": "E05_S03",
+      "sentence_start_time": 6.09,
+      "speaker": "B",
+      "text": "The cafeteria closes early.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/E05/version_1/E05_S04.wav",
+      "duration_seconds": 3.13,
+      "loudness_normalization": {
+        "applied_gain_db": -3.117198,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.312268,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.447083,
+        "original_speech_rms_dbfs": -20.882802
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "e3af31b697580c4fc78df41e98376c385d41717945fc73f06ded1693a81a292f",
+      "sentence_end_time": 12.43,
+      "sentence_id": "E05_S04",
+      "sentence_start_time": 9.3,
+      "speaker": "A",
+      "text": "The final review date is still Friday.",
+      "voice": "marin"
+    }
+  ],
+  "source_row": {
+    "category": "E",
+    "category_label": "Topic switch with distractors",
+    "category_specific_answer_rules": "[{\"question_id\":\"E05_CAT_Q1\",\"ask_after\":[\"E05_S01\",\"E05_S02\",\"E05_S03\",\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"FRIDAY\",\"E05_S02\":\"FRIDAY\",\"E05_S03\":\"FRIDAY\",\"E05_S04\":\"FRIDAY\"},\"final_answer_full_evidence\":\"FRIDAY\",\"evidence_rules\":[{\"if_observed_all\":[\"E05_S04\"],\"answer\":\"FRIDAY\"},{\"if_observed_all\":[\"E05_S01\"],\"answer\":\"FRIDAY\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E05_CAT_Q2\",\"ask_after\":[\"E05_S01\",\"E05_S02\",\"E05_S03\",\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"YES\",\"E05_S02\":\"YES\",\"E05_S03\":\"YES\",\"E05_S04\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"E05_S04\"],\"answer\":\"YES\"},{\"if_observed_all\":[\"E05_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"E05_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the final review date? Return exactly one of: FRIDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, UNKNOWN.\",\"allowed_answers\":[\"FRIDAY\",\"MONDAY\",\"TUESDAY\",\"WEDNESDAY\",\"THURSDAY\",\"UNKNOWN\"]},{\"question_id\":\"E05_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the final review date FRIDAY? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"E05_CONTENT_Q1\",\"ask_after\":[\"E05_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"UNKNOWN\",\"E05_S02\":\"SEVEN_OCLOCK\",\"E05_S03\":\"SEVEN_OCLOCK\",\"E05_S04\":\"SEVEN_OCLOCK\"},\"final_answer_full_evidence\":\"SEVEN_OCLOCK\",\"evidence_rules\":[{\"if_observed_all\":[\"E05_S02\"],\"answer\":\"SEVEN_OCLOCK\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E05_CONTENT_Q2\",\"ask_after\":[\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"UNKNOWN\",\"E05_S02\":\"UNKNOWN\",\"E05_S03\":\"UNKNOWN\",\"E05_S04\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"E05_S02\",\"E05_S04\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"E05_CONTENT_Q1\",\"question_type\":\"secondary_slot_value\",\"prompt\":\"What is the parking opening time? Return exactly one of: TEN_OCLOCK, TEN_THIRTY, EIGHT_OCLOCK, NINE_THIRTY, SEVEN_OCLOCK, UNKNOWN.\",\"allowed_answers\":[\"TEN_OCLOCK\",\"TEN_THIRTY\",\"EIGHT_OCLOCK\",\"NINE_THIRTY\",\"SEVEN_OCLOCK\",\"UNKNOWN\"]},{\"question_id\":\"E05_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=PARKING_OPENS_SEVEN_STATED. EVENT_2=REVIEW_DATE_FRIDAY_RESTATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "E05",
+    "critical_span": "bins 0-3",
+    "end_bin": "3",
+    "generic_answer_rules": "[{\"question_id\":\"E05_GEN_Q1\",\"ask_after\":[\"E05_S01\",\"E05_S02\",\"E05_S03\",\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"A\",\"E05_S02\":\"A>B\",\"E05_S03\":\"A>B\",\"E05_S04\":\"A>B>A\"},\"final_answer_full_evidence\":\"A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E05_GEN_Q2\",\"ask_after\":[\"E05_S01\",\"E05_S02\",\"E05_S03\",\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"0\",\"E05_S02\":\"1\",\"E05_S03\":\"1\",\"E05_S04\":\"2\"},\"final_answer_full_evidence\":\"2\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E05_GEN_Q3\",\"ask_after\":[\"E05_S01\",\"E05_S02\",\"E05_S03\",\"E05_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E05_S01\":\"A\",\"E05_S02\":\"B\",\"E05_S03\":\"B\",\"E05_S04\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"E05_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"E05_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"E05_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "E05_S01=0; E05_S02=1; E05_S03=2; E05_S04=3",
+    "sentence_metadata": "[{\"sentence_id\":\"E05_S01\",\"speaker\":\"A\",\"text\":\"The final review date is Friday.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E05_S02\",\"speaker\":\"B\",\"text\":\"Parking opens at seven.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E05_S03\",\"speaker\":\"B\",\"text\":\"The cafeteria closes early.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E05_S04\",\"speaker\":\"A\",\"text\":\"The final review date is still Friday.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "E05_S01,E05_S04,E05_S02",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"E05_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for final review date heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"E05_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: The final review date is Friday.\nB: Parking opens at seven.\nB: The cafeteria closes early.\nA: The final review date is still Friday.",
+    "transcript_with_pause_recommendations": "A: The final review date is Friday. (natural)\nB: Parking opens at seven. (natural)\nB: The cafeteria closes early. (natural)\nA: The final review date is still Friday.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3",
+    "turn_count": "4"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "marin",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "ash",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_1",
+  "voice_pair_id": "pair_1"
+}

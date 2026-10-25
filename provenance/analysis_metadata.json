@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/manifest.json",
+      "size": 49244,
+      "sha256": "08743380b7786cef79ea06c51ded125f61573c6cc6d7a6958b9677d9d7f4c5db"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/manifest.json",
+      "size": 50484,
+      "sha256": "0c6c95a2fa3758d289967a8024b270125949f296cc81a28e9a812853c81fd4c7"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/manifest.json",
+      "size": 70015,
+      "sha256": "09674ff64632bc0e9f742d0eef8a1315e48cbe4f9f62791f48b5b28c0744416c"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/task_instances.jsonl",
+      "size": 385288,
+      "sha256": "404dbd7c1036e395ed8eddbcceb5162895ba2fbfe87068afddf10ca8edbf1234"
+    }
+  ]
+}

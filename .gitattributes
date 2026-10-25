@@ -1,0 +1,6 @@
+# Frozen inputs and provenance hashes must survive checkout byte-for-byte.
+# In particular, CSV line endings are part of the dataset fingerprints.
+* -text
+*.png binary
+*.pdf binary
+*.gz binary

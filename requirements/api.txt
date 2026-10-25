@@ -1,0 +1,2 @@
+-r core.txt
+google-genai==1.63.0

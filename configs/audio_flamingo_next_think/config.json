@@ -1,0 +1,17 @@
+{
+  "adapter_type": "audio_flamingo_next",
+  "model_id": "nvidia/audio-flamingo-next-think-hf",
+  "device_map": "auto",
+  "torch_dtype": "auto",
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "repetition_penalty": 1.2,
+  "strip_thinking": true,
+  "track2_supported_conditions": ["full_context", "active", "active_same_session_periodic_probe"],
+  "track2_supports_text_only": true,
+  "track2_supports_output_token_override": true,
+  "track2_max_audio_seconds": 1800,
+  "track2_max_audio_bytes": 120000000
+}

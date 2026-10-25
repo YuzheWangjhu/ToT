@@ -1,0 +1,13 @@
+# Observed environment; GPU/API integration was not rerun during release preparation.
+# See docs/models.md for external model source requirements.
+# Python 3.12 environment; keep separate from the Python 3.10 analysis environment.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1+cu128
+torchaudio==2.9.1+cu128
+transformers==4.57.1
+numpy==2.4.4
+requests==2.33.1
+soundfile==0.13.1
+accelerate==1.13.0
+safetensors==0.7.0
+huggingface_hub==0.36.2

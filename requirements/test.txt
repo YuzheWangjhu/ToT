@@ -1,0 +1,2 @@
+-r datasets.txt
+scipy==1.15.2

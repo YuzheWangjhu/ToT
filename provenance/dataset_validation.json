@@ -1,0 +1,73 @@
+{
+  "artifact_sha256": {
+    "candidate_provenance.jsonl": "b211dd090b27902bbada9154068e77f2477b9a6d73168318fd4ec591c026e545",
+    "episodes/T2R_0001.wav": "9764b702dbd2451c9b056ed727ff1d21c3f00e41f5f28e3134025c39233baef1",
+    "episodes/T2R_0002.wav": "a74b6a22f9d4e9c2e2669245945512e4591e583ce3e0440982678b69f3de3cc4",
+    "episodes/T2R_0003.wav": "7d78ee09b3ae8a4645f65fcf3233be850547cd7b570195eb2eb58876234f5c2e",
+    "episodes/T2R_0004.wav": "fba9294ac660b2ee0c64c8dc642cf2192809688c40ace02aea3f64cd5cc4f5ad",
+    "episodes/T2R_0005.wav": "aa4e961be15f467cd2f4434b7b262dae1f20e319b5f8d383bf1c37daa3017027",
+    "episodes/T2R_0006.wav": "c9990337a7cbfd082c94505fc9bb92393400c76fe13ddd4788358da0d6f5abac",
+    "episodes/T2R_0007.wav": "50f9d5e880349bdd2e0ff8f54ff8a8cd083f4ff90f69713b7a4ee83b095abd8c",
+    "episodes/T2R_0008.wav": "308b2a25b370025befd2d36e54d3d78e87bf4310dd127b4ac722f10a5df90e78",
+    "episodes/T2R_0009.wav": "f72b03029775ba75e815a1c4cae1579b0246472cf0a9a89b3c02e935936ec2a8",
+    "episodes/T2R_0010.wav": "f9d693a56b042921c1519e21278734414b33a4700c8cb62f146b8155f4952ca7",
+    "episodes/T2R_0011.wav": "1abfcd9fcd3a703aaebab86fe2b90743aa2b2ab5c87d7e57ccdf5ccbc5f2d86d",
+    "episodes/T2R_0012.wav": "233c26fb298beabe6f0ac796f801abee6a2d5125082acf8c3dcdd225442045cc",
+    "episodes/T2R_0013.wav": "cefa64f3d25beeabae9053de3fce3d7a2c73c41d2277df933d9dffd700bb80ba",
+    "episodes/T2R_0014.wav": "aaf0925783715d64a9a529818b848369dc70c18a10cf187e931dc517d6fd82b3",
+    "episodes/T2R_0015.wav": "5ebaf1bdc73560af04777f4af3e9249182927f508511befd74086b5fc0ac9083",
+    "episodes/T2R_0016.wav": "ecec63e52e4e1b852cdde1ce08aa3910377b42b88a0ef0bca70d9dce5b351924",
+    "episodes/T2R_0017.wav": "cfa6087adbcc11df57191cb7c70e74ef454cd8ac9f0889045aa711d7069960cb",
+    "episodes/T2R_0018.wav": "ebaf54b0b42ed0163719e96f1fe924401905528737f0d8d1c2f40addb98486b7",
+    "episodes/T2R_0019.wav": "4d0f2600cdbfbe0ccd64f7453dacabfdfdaac52237c894137c967482bac2fd54",
+    "episodes/T2R_0020.wav": "1127e065494d0fc2fe6a57327a88d10f38fd4016543bfd0f7a0fd67ac6bfede4",
+    "episodes/T2R_0021.wav": "62282454a2103a96a0330fbb163e8e284f72ef4bf1b4bf5dd9be7414617c7453",
+    "episodes/T2R_0022.wav": "7c1e3b576e8848c1b3720372f17b21cb66299f56391cc5d795ac96b9f05cd971",
+    "manifest.json": "09674ff64632bc0e9f742d0eef8a1315e48cbe4f9f62791f48b5b28c0744416c",
+    "task_answers.jsonl": "42ef90e5dc13145aed12a1bf87273fa824fc723746babe8f5cb4f0f85f8f6f6a",
+    "task_instances.jsonl": "404dbd7c1036e395ed8eddbcceb5162895ba2fbfe87068afddf10ca8edbf1234"
+  },
+  "checks": [
+    "manifest_identity_and_constants",
+    "recorded_source_artifacts_match_current_inputs",
+    "audio_matches_release_manifest_and_v1",
+    "task_counts_ids_and_no_speaker",
+    "exact_audit_corrections_exclusions_and_assignments",
+    "candidate_exclusions_assignments_and_text",
+    "task_schemas_spans_and_provenance",
+    "scene_cards_reviews_and_no_placeholders",
+    "absent_utterances_not_in_source_transcripts",
+    "named_audit_regressions"
+  ],
+  "dataset_id": "track2_role_ipc_test_v2",
+  "deterministic_build_fingerprint": "0bffa118888b587758506c0a553c0221035d7619adbf88fd73992036bdc45819",
+  "episode_count": 22,
+  "source_reconstruction": {
+    "episode_count": 22,
+    "initial_environment": {
+      "numpy": "1.24.3",
+      "pandas": "1.5.3",
+      "soundfile": "0.13.1"
+    },
+    "notes": "All source files hash-checked, all v1 audio reconstructed and compared, complete v2 artifact fingerprint reproduced. Audited v2 rebuilt again and validated in the listed release environment using reconstructed v1 audio.",
+    "scene_count": 88,
+    "source_file_count": 352,
+    "status": "passed",
+    "task_count": 418
+  },
+  "status": "passed",
+  "task_count": 418,
+  "task_counts_by_family": {
+    "2A.1": 110,
+    "2A.2": 176,
+    "2A.3": 44,
+    "2B.1": 44,
+    "2B.2": 44
+  },
+  "validation_environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "python": "3.10.19",
+    "soundfile": "0.13.1"
+  }
+}

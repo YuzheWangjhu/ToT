@@ -1,0 +1,542 @@
+{
+  "audio_duration_seconds": 26.08,
+  "audio_file_path": "episodes/C07/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "C07",
+  "generation_timestamp": "2026-06-04T14:14:40.640306+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "SIGNED_COPY_ARRIVED",
+            "if_observed_all": [
+              "C07_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "SIGNED_COPY_ARRIVED",
+        "prefix_answer_trace": {
+          "C07_S01": "UNKNOWN",
+          "C07_S02": "UNKNOWN",
+          "C07_S03": "UNKNOWN",
+          "C07_S04": "SIGNED_COPY_ARRIVED",
+          "C07_S05": "SIGNED_COPY_ARRIVED",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "C07_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "C07_S01": "UNKNOWN",
+          "C07_S02": "UNKNOWN",
+          "C07_S03": "UNKNOWN",
+          "C07_S04": "YES",
+          "C07_S05": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "PENDING_SIGNATURE",
+          "DRAFT_ONLY",
+          "SIGNED_COPY_ARRIVED",
+          "NOT_SIGNED",
+          "SIGNED_COPY_MISSING",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the signed contract status? Return exactly one of: PENDING_SIGNATURE, DRAFT_ONLY, SIGNED_COPY_ARRIVED, NOT_SIGNED, SIGNED_COPY_MISSING, UNKNOWN.",
+        "question_id": "C07_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the signed contract status SIGNED_COPY_ARRIVED? Return YES, NO, or UNKNOWN.",
+        "question_id": "C07_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "B",
+            "if_observed_all": [
+              "C07_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "C07_S01": "UNKNOWN",
+          "C07_S02": "UNKNOWN",
+          "C07_S03": "UNKNOWN",
+          "C07_S04": "B",
+          "C07_S05": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "C07_S02",
+              "C07_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "C07_S01": "UNKNOWN",
+          "C07_S02": "UNKNOWN",
+          "C07_S03": "UNKNOWN",
+          "C07_S04": "EVENT_1",
+          "C07_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first provides this information: the signed copy arrived last night? Return A, B, or UNKNOWN.",
+        "question_id": "C07_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=FOLDER_SEARCH_MENTIONED. EVENT_2=SIGNED_COPY_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "C07_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "C07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "C07_S01": "A",
+          "C07_S02": "A>B",
+          "C07_S03": "A>B>A",
+          "C07_S04": "A>B>A>B",
+          "C07_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "C07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "C07_S01": "0",
+          "C07_S02": "1",
+          "C07_S03": "2",
+          "C07_S04": "3",
+          "C07_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C07_S01",
+          "C07_S02",
+          "C07_S03",
+          "C07_S04",
+          "C07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "C07_S01": "A",
+          "C07_S02": "B",
+          "C07_S03": "A",
+          "C07_S04": "B",
+          "C07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C07_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "C07_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "C07_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "C07_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C07_S01",
+        "speaker": "A",
+        "text": "Do we have the signed contract?"
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C07_S02",
+        "speaker": "B",
+        "text": "I will look in the folder."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C07_S03",
+        "speaker": "A",
+        "text": "The client emailed yesterday."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C07_S04",
+        "speaker": "B",
+        "text": "Yes, the signed copy arrived last night."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C07_S05",
+        "speaker": "A",
+        "text": "Good, use that version."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for signed contract status heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "C07_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "C07_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "C07_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.39,
+      "pause_label": "natural",
+      "pause_start_time": 2.39
+    },
+    {
+      "after_sentence_id": "C07_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 7.01,
+      "pause_label": "natural",
+      "pause_start_time": 6.01
+    },
+    {
+      "after_sentence_id": "C07_S03",
+      "duration_seconds": 10.0,
+      "pause_end_time": 19.31,
+      "pause_label": "long",
+      "pause_start_time": 9.31
+    },
+    {
+      "after_sentence_id": "C07_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 23.51,
+      "pause_label": "natural",
+      "pause_start_time": 22.51
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/C07/version_3/C07_S01.wav",
+      "duration_seconds": 2.39,
+      "loudness_normalization": {
+        "applied_gain_db": 8.855403,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.578851,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.208832,
+        "original_speech_rms_dbfs": -32.855403
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "bb34c532dc7ef31956200cc937de305fc65e4c5b65f777f745a992543ce0e0e2",
+      "sentence_end_time": 2.39,
+      "sentence_id": "C07_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Do we have the signed contract?",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/C07/version_3/C07_S02.wav",
+      "duration_seconds": 2.62,
+      "loudness_normalization": {
+        "applied_gain_db": -2.859115,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.512611,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.712433,
+        "original_speech_rms_dbfs": -21.140885
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "c52dcc1dc3b83e768ddaa3bcd8d46a0cb8b27105fdf50f11844579c8a1b6f878",
+      "sentence_end_time": 6.01,
+      "sentence_id": "C07_S02",
+      "sentence_start_time": 3.39,
+      "speaker": "B",
+      "text": "I will look in the folder.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/C07/version_3/C07_S03.wav",
+      "duration_seconds": 2.3,
+      "loudness_normalization": {
+        "applied_gain_db": 9.380554,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.32638,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.11084,
+        "original_speech_rms_dbfs": -33.380554
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "044bc1a51442f226a7e36ed1d7169dde343f33269c58babd2515189cccd3bac6",
+      "sentence_end_time": 9.31,
+      "sentence_id": "C07_S03",
+      "sentence_start_time": 7.01,
+      "speaker": "A",
+      "text": "The client emailed yesterday.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/C07/version_3/C07_S04.wav",
+      "duration_seconds": 3.2,
+      "loudness_normalization": {
+        "applied_gain_db": -3.669482,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.408583,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.623383,
+        "original_speech_rms_dbfs": -20.330518
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "b4c199391525fad3b2967e557da4c6651ccf3535aceb3b3f369e63d8d30ce18e",
+      "sentence_end_time": 22.51,
+      "sentence_id": "C07_S04",
+      "sentence_start_time": 19.31,
+      "speaker": "B",
+      "text": "Yes, the signed copy arrived last night.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/C07/version_3/C07_S05.wav",
+      "duration_seconds": 2.57,
+      "loudness_normalization": {
+        "applied_gain_db": 5.072751,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.355221,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.19809,
+        "original_speech_rms_dbfs": -29.072751
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "1c6a19c9b3cc007b884ab0aa2fb92caa1ae69c3c225cfac8242af46a900f2a2b",
+      "sentence_end_time": 26.08,
+      "sentence_id": "C07_S05",
+      "sentence_start_time": 23.51,
+      "speaker": "A",
+      "text": "Good, use that version.",
+      "voice": "sage"
+    }
+  ],
+  "source_row": {
+    "category": "C",
+    "category_label": "Delayed answer and deferred resolution",
+    "category_specific_answer_rules": "[{\"question_id\":\"C07_CAT_Q1\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"UNKNOWN\",\"C07_S02\":\"UNKNOWN\",\"C07_S03\":\"UNKNOWN\",\"C07_S04\":\"SIGNED_COPY_ARRIVED\",\"C07_S05\":\"SIGNED_COPY_ARRIVED\"},\"final_answer_full_evidence\":\"SIGNED_COPY_ARRIVED\",\"evidence_rules\":[{\"if_observed_all\":[\"C07_S04\"],\"answer\":\"SIGNED_COPY_ARRIVED\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"C07_CAT_Q2\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"UNKNOWN\",\"C07_S02\":\"UNKNOWN\",\"C07_S03\":\"UNKNOWN\",\"C07_S04\":\"YES\",\"C07_S05\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"C07_S04\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"C07_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the signed contract status? Return exactly one of: PENDING_SIGNATURE, DRAFT_ONLY, SIGNED_COPY_ARRIVED, NOT_SIGNED, SIGNED_COPY_MISSING, UNKNOWN.\",\"allowed_answers\":[\"PENDING_SIGNATURE\",\"DRAFT_ONLY\",\"SIGNED_COPY_ARRIVED\",\"NOT_SIGNED\",\"SIGNED_COPY_MISSING\",\"UNKNOWN\"]},{\"question_id\":\"C07_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the signed contract status SIGNED_COPY_ARRIVED? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"C07_CONTENT_Q1\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"UNKNOWN\",\"C07_S02\":\"UNKNOWN\",\"C07_S03\":\"UNKNOWN\",\"C07_S04\":\"B\",\"C07_S05\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"if_observed_all\":[\"C07_S04\"],\"answer\":\"B\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"C07_CONTENT_Q2\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"UNKNOWN\",\"C07_S02\":\"UNKNOWN\",\"C07_S03\":\"UNKNOWN\",\"C07_S04\":\"EVENT_1\",\"C07_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"C07_S02\",\"C07_S04\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"C07_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first provides this information: the signed copy arrived last night? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"C07_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=FOLDER_SEARCH_MENTIONED. EVENT_2=SIGNED_COPY_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "C07",
+    "critical_span": "bins 0,1,3,4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"C07_GEN_Q1\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"C07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"A\",\"C07_S02\":\"A>B\",\"C07_S03\":\"A>B>A\",\"C07_S04\":\"A>B>A>B\",\"C07_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"C07_GEN_Q2\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"C07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"0\",\"C07_S02\":\"1\",\"C07_S03\":\"2\",\"C07_S04\":\"3\",\"C07_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"C07_GEN_Q3\",\"ask_after\":[\"C07_S01\",\"C07_S02\",\"C07_S03\",\"C07_S04\",\"C07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C07_S01\":\"A\",\"C07_S02\":\"B\",\"C07_S03\":\"A\",\"C07_S04\":\"B\",\"C07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"C07_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"C07_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"C07_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "C07_S01=0; C07_S02=1; C07_S03=2; C07_S04=3; C07_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"C07_S01\",\"speaker\":\"A\",\"text\":\"Do we have the signed contract?\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C07_S02\",\"speaker\":\"B\",\"text\":\"I will look in the folder.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C07_S03\",\"speaker\":\"A\",\"text\":\"The client emailed yesterday.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C07_S04\",\"speaker\":\"B\",\"text\":\"Yes, the signed copy arrived last night.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C07_S05\",\"speaker\":\"A\",\"text\":\"Good, use that version.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "C07_S04",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"C07_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for signed contract status heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"C07_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Do we have the signed contract?\nB: I will look in the folder.\nA: The client emailed yesterday.\nB: Yes, the signed copy arrived last night.\nA: Good, use that version.",
+    "transcript_with_pause_recommendations": "A: Do we have the signed contract? (natural)\nB: I will look in the folder. (natural)\nA: The client emailed yesterday. (long)\nB: Yes, the signed copy arrived last night. (natural)\nA: Good, use that version.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

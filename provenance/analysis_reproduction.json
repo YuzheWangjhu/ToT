@@ -1,0 +1,321 @@
+{
+  "analysis_version": "v5",
+  "source_reproduction_status": "passed",
+  "artifacts": [
+    {
+      "path": "controlled_temporal_belief_construction/plot_controlled_temporal_belief_construction.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "controlled_temporal_belief_construction/table_active_semantic_belief_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "controlled_temporal_belief_construction/table_temporal_map_component_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "conversational_revision_and_stability/plot_conversational_revision_and_stability.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "conversational_revision_and_stability/table_same_session_belief_stability.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "conversational_revision_and_stability/table_semantic_revision_and_belief_inertia.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_domain_diagnostics/plot_cross_domain_diagnostics.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "cross_domain_diagnostics/table_combined_evidence_efficiency_belief_diagnostics.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_domain_diagnostics/table_cross_domain_heatmap_support.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track1_known_unknown_scores.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track2_efficiency_components.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_domain_diagnostics/table_track2_supported_commitment_simplified.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "cross_track_diagnostics/plot_cross_track_diagnostics.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "long_horizon_task_completion/plot_marginal_completion_stage_profile.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "long_horizon_task_completion/table_marginal_completion_stage_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "long_horizon_task_completion/table_task_variant_strict_completion.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "plots/plot_active_vs_full_context_slopes.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_01/table_main_benchmark_scoreboard.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_01/table_scoreboard_rank_uncertainty.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_02/plot_active_vs_full_context_slopes.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_02/table_active_vs_full_context_answer_gap.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_03/plot_temporal_map_component_profile.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_03/table_temporal_map_component_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_04/table_component_active_vs_full_context_gap.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_05/table_prior_information_effects.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_06/plot_component_active_vs_full_context_gap.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_06/plot_semantic_belief_profile_and_component_gap.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_06/table_active_semantic_belief_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_06/table_component_active_vs_full_context_gap.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_07/plot_revision_threshold_sensitivity.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_07/plot_semantic_revision_and_belief_inertia.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_07/table_revision_threshold_sensitivity.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_07/table_semantic_revision_and_belief_inertia.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_08/plot_same_session_semantic_belief_trajectory.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_08/table_same_session_belief_stability.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_09/table_conversational_prior_effects.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_10/table_active_task_and_variant_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_11/plot_marginal_completion_stage_profile.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_11/table_marginal_completion_stage_profile.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_11/table_marginal_completion_stage_profile_grouped.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_11/table_navigation_cost_and_consistency.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_11/table_track2b2_compound_completion.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_12/table_contact_cost_conditioning_effect.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_12/table_quotation_and_search_scope_contrasts.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/plot_efficiency_frontier.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/plot_evidence_belief_dissociation.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/plot_evidence_belief_threshold_sensitivity.png",
+      "comparison": "pixel_equal",
+      "byte_equal": false
+    },
+    {
+      "path": "supplement/panel_13/plot_track2_acquisition_coverage.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/table_combined_evidence_efficiency_belief_diagnostics.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/table_evidence_belief_threshold_sensitivity.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/table_scatter_plot_aggregates.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_13/table_track2_efficiency_components.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_14/plot_uncertainty_awareness_and_supported_commitment.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_14/plot_uncertainty_awareness_and_supported_commitment_simplified.png",
+      "comparison": "pixel_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_14/table_track1_known_unknown_scores.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_14/table_track2_claim_support_and_calibration.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_15/table_all_applicable_failure_flags.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_15/table_earliest_flagged_stage.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/panel_15/table_general_failure_threshold_sensitivity.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    },
+    {
+      "path": "supplement/track2_full_context_ablation/table_matched_active_vs_full_context_gap.csv",
+      "comparison": "numerically_equal",
+      "byte_equal": true
+    }
+  ],
+  "status": "passed",
+  "environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "seaborn": "0.13.2",
+    "Pillow": "12.0.0",
+    "ipython": "8.37.0"
+  },
+  "python": "3.10.19",
+  "frozen_input_counts": {
+    "track1_metrics": 48,
+    "track1_results": 3000,
+    "track2_results": 7524
+  }
+}

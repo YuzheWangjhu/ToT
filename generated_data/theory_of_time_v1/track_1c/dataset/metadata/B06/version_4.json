@@ -1,0 +1,545 @@
+{
+  "audio_duration_seconds": 23.67,
+  "audio_file_path": "episodes/B06/version_4.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "B06",
+  "generation_timestamp": "2026-06-04T14:11:01.607756+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B06_S01",
+          "B06_S02",
+          "B06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "B06_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "B06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "B06_S01": "YES",
+          "B06_S02": "YES",
+          "B06_S03": "NO",
+          "B06_S04": "NO",
+          "B06_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B06_S01",
+          "B06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "HOLD_SAMPLES",
+            "if_observed_all": [
+              "B06_S03"
+            ]
+          },
+          {
+            "answer": "SHIP_SAMPLES",
+            "if_observed_all": [
+              "B06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "HOLD_SAMPLES",
+        "prefix_answer_trace": {
+          "B06_S01": "SHIP_SAMPLES",
+          "B06_S02": "SHIP_SAMPLES",
+          "B06_S03": "HOLD_SAMPLES",
+          "B06_S04": "HOLD_SAMPLES",
+          "B06_S05": "HOLD_SAMPLES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Should shipping the samples be done? Return YES, NO, or UNKNOWN.",
+        "question_id": "B06_CAT_Q1",
+        "question_type": "action_status"
+      },
+      {
+        "allowed_answers": [
+          "SHIP_DOCUMENTS",
+          "HOLD_SAMPLES",
+          "DESTROY_SAMPLES",
+          "SHIP_SAMPLES",
+          "STORE_SAMPLES",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the status of shipping the samples? Return exactly one of: SHIP_DOCUMENTS, HOLD_SAMPLES, DESTROY_SAMPLES, SHIP_SAMPLES, STORE_SAMPLES, UNKNOWN.",
+        "question_id": "B06_CAT_Q2",
+        "question_type": "action_plan"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "B06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B06_S01": "UNKNOWN",
+          "B06_S02": "UNKNOWN",
+          "B06_S03": "A",
+          "B06_S04": "A",
+          "B06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "B06_S01",
+              "B06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "B06_S01": "UNKNOWN",
+          "B06_S02": "UNKNOWN",
+          "B06_S03": "EVENT_1",
+          "B06_S04": "EVENT_1",
+          "B06_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says that the sample shipment is canceled? Return A, B, or UNKNOWN.",
+        "question_id": "B06_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=SHIP_SAMPLES_IS_REQUESTED. EVENT_2=SHIPMENT_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "B06_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "B06_S01",
+          "B06_S02",
+          "B06_S03",
+          "B06_S04",
+          "B06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "B06_S01": "A",
+          "B06_S02": "A>B",
+          "B06_S03": "A>B>A",
+          "B06_S04": "A>B>A>B",
+          "B06_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B06_S01",
+          "B06_S02",
+          "B06_S03",
+          "B06_S04",
+          "B06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "B06_S01": "0",
+          "B06_S02": "1",
+          "B06_S03": "2",
+          "B06_S04": "3",
+          "B06_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B06_S01",
+          "B06_S02",
+          "B06_S03",
+          "B06_S04",
+          "B06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B06_S01": "A",
+          "B06_S02": "B",
+          "B06_S03": "A",
+          "B06_S04": "B",
+          "B06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B06_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "B06_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "B06_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "B06_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B06_S01",
+        "speaker": "A",
+        "text": "Ship the samples this afternoon."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B06_S02",
+        "speaker": "B",
+        "text": "I will prepare the samples."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B06_S03",
+        "speaker": "A",
+        "text": "Weather is bad, cancel the shipment."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B06_S04",
+        "speaker": "B",
+        "text": "I will hold the samples."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B06_S05",
+        "speaker": "A",
+        "text": "Yes, keep them here."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for sample shipment status heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "B06_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "B06_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "B06_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.05,
+      "pause_label": "natural",
+      "pause_start_time": 2.05
+    },
+    {
+      "after_sentence_id": "B06_S02",
+      "duration_seconds": 10.0,
+      "pause_end_time": 15.16,
+      "pause_label": "long",
+      "pause_start_time": 5.16
+    },
+    {
+      "after_sentence_id": "B06_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 18.69,
+      "pause_label": "natural",
+      "pause_start_time": 17.69
+    },
+    {
+      "after_sentence_id": "B06_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 21.97,
+      "pause_label": "natural",
+      "pause_start_time": 20.97
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/B06/version_4/B06_S01.wav",
+      "duration_seconds": 2.05,
+      "loudness_normalization": {
+        "applied_gain_db": -3.867415,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.372045,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.580719,
+        "original_speech_rms_dbfs": -20.132585
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "1b7e50e247d0ee2137c28f91361e2916d191d6bf2b01988e243c14e0b22a5995",
+      "sentence_end_time": 2.05,
+      "sentence_id": "B06_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Ship the samples this afternoon.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/B06/version_4/B06_S02.wav",
+      "duration_seconds": 2.11,
+      "loudness_normalization": {
+        "applied_gain_db": 9.837479,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.454448,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.146423,
+        "original_speech_rms_dbfs": -33.837479
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "d57646c2d257ac00d100d44feedf5129533af0dd61173272975d651762e2ee40",
+      "sentence_end_time": 5.16,
+      "sentence_id": "B06_S02",
+      "sentence_start_time": 3.05,
+      "speaker": "B",
+      "text": "I will prepare the samples.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/B06/version_4/B06_S03.wav",
+      "duration_seconds": 2.53,
+      "loudness_normalization": {
+        "applied_gain_db": -3.674704,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.386668,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.590302,
+        "original_speech_rms_dbfs": -20.325296
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "dcabdec7af62b73ba5d789722afd87e63bfde391bf9ac37524e81ef987d4db9a",
+      "sentence_end_time": 17.69,
+      "sentence_id": "B06_S03",
+      "sentence_start_time": 15.16,
+      "speaker": "A",
+      "text": "Weather is bad, cancel the shipment.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/B06/version_4/B06_S04.wav",
+      "duration_seconds": 2.28,
+      "loudness_normalization": {
+        "applied_gain_db": 6.26354,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.476397,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.231628,
+        "original_speech_rms_dbfs": -30.26354
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "9aec5111fcd3dd28b496b57e49181339932075196f59817534fb711f9c3d2ff9",
+      "sentence_end_time": 20.97,
+      "sentence_id": "B06_S04",
+      "sentence_start_time": 18.69,
+      "speaker": "B",
+      "text": "I will hold the samples.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/B06/version_4/B06_S05.wav",
+      "duration_seconds": 1.7,
+      "loudness_normalization": {
+        "applied_gain_db": -1.336977,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.470112,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.54834,
+        "original_speech_rms_dbfs": -22.663023
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "afb111c4f34b126c17cf3fe2a4cf6a8d421ad80e835a369ae21d5bf9d42405c7",
+      "sentence_end_time": 23.67,
+      "sentence_id": "B06_S05",
+      "sentence_start_time": 21.97,
+      "speaker": "A",
+      "text": "Yes, keep them here.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "B",
+    "category_label": "Cancellation and deletion",
+    "category_specific_answer_rules": "[{\"question_id\":\"B06_CAT_Q1\",\"ask_after\":[\"B06_S01\",\"B06_S02\",\"B06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"YES\",\"B06_S02\":\"YES\",\"B06_S03\":\"NO\",\"B06_S04\":\"NO\",\"B06_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"B06_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"B06_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B06_CAT_Q2\",\"ask_after\":[\"B06_S01\",\"B06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"SHIP_SAMPLES\",\"B06_S02\":\"SHIP_SAMPLES\",\"B06_S03\":\"HOLD_SAMPLES\",\"B06_S04\":\"HOLD_SAMPLES\",\"B06_S05\":\"HOLD_SAMPLES\"},\"final_answer_full_evidence\":\"HOLD_SAMPLES\",\"evidence_rules\":[{\"if_observed_all\":[\"B06_S03\"],\"answer\":\"HOLD_SAMPLES\"},{\"if_observed_all\":[\"B06_S01\"],\"answer\":\"SHIP_SAMPLES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"B06_CAT_Q1\",\"question_type\":\"action_status\",\"prompt\":\"Should shipping the samples be done? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]},{\"question_id\":\"B06_CAT_Q2\",\"question_type\":\"action_plan\",\"prompt\":\"What is the status of shipping the samples? Return exactly one of: SHIP_DOCUMENTS, HOLD_SAMPLES, DESTROY_SAMPLES, SHIP_SAMPLES, STORE_SAMPLES, UNKNOWN.\",\"allowed_answers\":[\"SHIP_DOCUMENTS\",\"HOLD_SAMPLES\",\"DESTROY_SAMPLES\",\"SHIP_SAMPLES\",\"STORE_SAMPLES\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"B06_CONTENT_Q1\",\"ask_after\":[\"B06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"UNKNOWN\",\"B06_S02\":\"UNKNOWN\",\"B06_S03\":\"A\",\"B06_S04\":\"A\",\"B06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"B06_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B06_CONTENT_Q2\",\"ask_after\":[\"B06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"UNKNOWN\",\"B06_S02\":\"UNKNOWN\",\"B06_S03\":\"EVENT_1\",\"B06_S04\":\"EVENT_1\",\"B06_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"B06_S01\",\"B06_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"B06_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says that the sample shipment is canceled? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"B06_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=SHIP_SAMPLES_IS_REQUESTED. EVENT_2=SHIPMENT_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "B06",
+    "critical_span": "bins 0,2,3,4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"B06_GEN_Q1\",\"ask_after\":[\"B06_S01\",\"B06_S02\",\"B06_S03\",\"B06_S04\",\"B06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"A\",\"B06_S02\":\"A>B\",\"B06_S03\":\"A>B>A\",\"B06_S04\":\"A>B>A>B\",\"B06_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B06_GEN_Q2\",\"ask_after\":[\"B06_S01\",\"B06_S02\",\"B06_S03\",\"B06_S04\",\"B06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"0\",\"B06_S02\":\"1\",\"B06_S03\":\"2\",\"B06_S04\":\"3\",\"B06_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B06_GEN_Q3\",\"ask_after\":[\"B06_S01\",\"B06_S02\",\"B06_S03\",\"B06_S04\",\"B06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B06_S01\":\"A\",\"B06_S02\":\"B\",\"B06_S03\":\"A\",\"B06_S04\":\"B\",\"B06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"B06_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"B06_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"B06_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "B06_S01=0; B06_S02=1; B06_S03=2; B06_S04=3; B06_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"B06_S01\",\"speaker\":\"A\",\"text\":\"Ship the samples this afternoon.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B06_S02\",\"speaker\":\"B\",\"text\":\"I will prepare the samples.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B06_S03\",\"speaker\":\"A\",\"text\":\"Weather is bad, cancel the shipment.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B06_S04\",\"speaker\":\"B\",\"text\":\"I will hold the samples.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B06_S05\",\"speaker\":\"A\",\"text\":\"Yes, keep them here.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "B06_S01,B06_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"B06_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for sample shipment status heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"B06_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Ship the samples this afternoon.\nB: I will prepare the samples.\nA: Weather is bad, cancel the shipment.\nB: I will hold the samples.\nA: Yes, keep them here.",
+    "transcript_with_pause_recommendations": "A: Ship the samples this afternoon. (natural)\nB: I will prepare the samples. (long)\nA: Weather is bad, cancel the shipment. (natural)\nB: I will hold the samples. (natural)\nA: Yes, keep them here.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "echo",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "sage",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_4",
+  "voice_pair_id": "pair_2"
+}

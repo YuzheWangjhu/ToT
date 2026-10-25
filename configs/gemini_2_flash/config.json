@@ -1,0 +1,14 @@
+{
+  "adapter_type": "gemini",
+  "model_id": "gemini-2.5-flash",
+  "api_key_env_path": ".env/api_keys.env",
+  "api_key_names": ["GOOGLE_API_KEY", "GEMINI_API_KEY"],
+  "temperature": 0.0,
+  "max_output_tokens": 256,
+  "top_p": 1.0,
+  "track2_supported_conditions": ["full_context", "active", "active_same_session_periodic_probe"],
+  "track2_supports_text_only": true,
+  "track2_supports_output_token_override": true,
+  "track2_max_audio_seconds": 1200,
+  "track2_max_audio_bytes": 120000000
+}

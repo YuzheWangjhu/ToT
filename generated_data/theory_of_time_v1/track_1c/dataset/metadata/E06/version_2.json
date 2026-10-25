@@ -1,0 +1,548 @@
+{
+  "audio_duration_seconds": 16.6,
+  "audio_file_path": "episodes/E06/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "E06",
+  "generation_timestamp": "2026-06-04T14:21:47.136001+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E06_S01",
+          "E06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NOON_TO_TWO",
+            "if_observed_all": [
+              "E06_S03"
+            ]
+          },
+          {
+            "answer": "TEN_TO_NOON",
+            "if_observed_all": [
+              "E06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NOON_TO_TWO",
+        "prefix_answer_trace": {
+          "E06_S01": "TEN_TO_NOON",
+          "E06_S02": "TEN_TO_NOON",
+          "E06_S03": "NOON_TO_TWO",
+          "E06_S04": "NOON_TO_TWO",
+          "E06_S05": "NOON_TO_TWO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E06_S01",
+          "E06_S02",
+          "E06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "E06_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "E06_S01": "YES",
+          "E06_S02": "YES",
+          "E06_S03": "NO",
+          "E06_S04": "NO",
+          "E06_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "TEN_TO_NOON",
+          "NINE_TO_ELEVEN",
+          "EIGHT_TO_TEN",
+          "NOON_TO_TWO",
+          "ONE_TO_THREE",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the pickup window? Return exactly one of: TEN_TO_NOON, NINE_TO_ELEVEN, EIGHT_TO_TEN, NOON_TO_TWO, ONE_TO_THREE, UNKNOWN.",
+        "question_id": "E06_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the pickup window TEN_TO_NOON? Return YES, NO, or UNKNOWN.",
+        "question_id": "E06_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E06_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "FIVE_POUNDS",
+            "if_observed_all": [
+              "E06_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "FIVE_POUNDS",
+        "prefix_answer_trace": {
+          "E06_S01": "UNKNOWN",
+          "E06_S02": "FIVE_POUNDS",
+          "E06_S03": "FIVE_POUNDS",
+          "E06_S04": "FIVE_POUNDS",
+          "E06_S05": "FIVE_POUNDS",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "E06_S02",
+              "E06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "E06_S01": "UNKNOWN",
+          "E06_S02": "UNKNOWN",
+          "E06_S03": "EVENT_1",
+          "E06_S04": "EVENT_1",
+          "E06_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "SIX_POUNDS",
+          "FIVE_POUNDS",
+          "EIGHT_POUNDS",
+          "TEN_POUNDS",
+          "FOUR_POUNDS",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the package weight? Return exactly one of: SIX_POUNDS, FIVE_POUNDS, EIGHT_POUNDS, TEN_POUNDS, FOUR_POUNDS, UNKNOWN.",
+        "question_id": "E06_CONTENT_Q1",
+        "question_type": "secondary_slot_value"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=PACKAGE_WEIGHT_STATED. EVENT_2=PICKUP_WINDOW_CHANGED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "E06_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "E06_S01",
+          "E06_S02",
+          "E06_S03",
+          "E06_S04",
+          "E06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "E06_S01": "A",
+          "E06_S02": "A>B",
+          "E06_S03": "A>B>A",
+          "E06_S04": "A>B>A>B",
+          "E06_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E06_S01",
+          "E06_S02",
+          "E06_S03",
+          "E06_S04",
+          "E06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "E06_S01": "0",
+          "E06_S02": "1",
+          "E06_S03": "2",
+          "E06_S04": "3",
+          "E06_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E06_S01",
+          "E06_S02",
+          "E06_S03",
+          "E06_S04",
+          "E06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "E06_S01": "A",
+          "E06_S02": "B",
+          "E06_S03": "A",
+          "E06_S04": "B",
+          "E06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E06_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "E06_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "E06_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "E06_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E06_S01",
+        "speaker": "A",
+        "text": "The pickup window is ten to noon."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E06_S02",
+        "speaker": "B",
+        "text": "The package weighs five pounds."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E06_S03",
+        "speaker": "A",
+        "text": "The pickup window moved to noon to two."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E06_S04",
+        "speaker": "B",
+        "text": "The weight stays five pounds."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E06_S05",
+        "speaker": "A",
+        "text": "Noon to two is the pickup window."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for pickup window heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "E06_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "E06_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "E06_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.28,
+      "pause_label": "natural",
+      "pause_start_time": 2.28
+    },
+    {
+      "after_sentence_id": "E06_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.23,
+      "pause_label": "natural",
+      "pause_start_time": 5.23
+    },
+    {
+      "after_sentence_id": "E06_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 10.19,
+      "pause_label": "natural",
+      "pause_start_time": 9.19
+    },
+    {
+      "after_sentence_id": "E06_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 13.49,
+      "pause_label": "natural",
+      "pause_start_time": 12.49
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/E06/version_2/E06_S01.wav",
+      "duration_seconds": 2.28,
+      "loudness_normalization": {
+        "applied_gain_db": -1.55334,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.299938,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.358673,
+        "original_speech_rms_dbfs": -22.44666
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "f253a4f342ac09073600341a19856cf42e7cd626a29cb63a3d889ecd6ca0e52f",
+      "sentence_end_time": 2.28,
+      "sentence_id": "E06_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "The pickup window is ten to noon.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/E06/version_2/E06_S02.wav",
+      "duration_seconds": 1.95,
+      "loudness_normalization": {
+        "applied_gain_db": -1.331927,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.403785,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.470703,
+        "original_speech_rms_dbfs": -22.668073
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "aa25f99c8ec6e2df8d9992832fd6f594de4255499c173d4606dbaf5aa11a7891",
+      "sentence_end_time": 5.23,
+      "sentence_id": "E06_S02",
+      "sentence_start_time": 3.28,
+      "speaker": "B",
+      "text": "The package weighs five pounds.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/E06/version_2/E06_S03.wav",
+      "duration_seconds": 2.96,
+      "loudness_normalization": {
+        "applied_gain_db": -2.785316,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.283506,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.390686,
+        "original_speech_rms_dbfs": -21.214684
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "32ca7cbdf62cb27361a449b286a15396c28a81bbbddf3b08e4e5e9131e222ab3",
+      "sentence_end_time": 9.19,
+      "sentence_id": "E06_S03",
+      "sentence_start_time": 6.23,
+      "speaker": "A",
+      "text": "The pickup window moved to noon to two.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/E06/version_2/E06_S04.wav",
+      "duration_seconds": 2.3,
+      "loudness_normalization": {
+        "applied_gain_db": -0.661957,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.465686,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.502563,
+        "original_speech_rms_dbfs": -23.338043
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "598a48471b8ea2b5ab13a7b6e0a71aef79f38204801e7be205b030af466228d2",
+      "sentence_end_time": 12.49,
+      "sentence_id": "E06_S04",
+      "sentence_start_time": 10.19,
+      "speaker": "B",
+      "text": "The weight stays five pounds.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/E06/version_2/E06_S05.wav",
+      "duration_seconds": 3.11,
+      "loudness_normalization": {
+        "applied_gain_db": -1.614224,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.417305,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.502533,
+        "original_speech_rms_dbfs": -22.385776
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "298a08c999312ab4abbf77b5b182e26b4121dc57e828168840a7a003a1d5012e",
+      "sentence_end_time": 16.6,
+      "sentence_id": "E06_S05",
+      "sentence_start_time": 13.49,
+      "speaker": "A",
+      "text": "Noon to two is the pickup window.",
+      "voice": "ash"
+    }
+  ],
+  "source_row": {
+    "category": "E",
+    "category_label": "Topic switch with distractors",
+    "category_specific_answer_rules": "[{\"question_id\":\"E06_CAT_Q1\",\"ask_after\":[\"E06_S01\",\"E06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"TEN_TO_NOON\",\"E06_S02\":\"TEN_TO_NOON\",\"E06_S03\":\"NOON_TO_TWO\",\"E06_S04\":\"NOON_TO_TWO\",\"E06_S05\":\"NOON_TO_TWO\"},\"final_answer_full_evidence\":\"NOON_TO_TWO\",\"evidence_rules\":[{\"if_observed_all\":[\"E06_S03\"],\"answer\":\"NOON_TO_TWO\"},{\"if_observed_all\":[\"E06_S01\"],\"answer\":\"TEN_TO_NOON\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E06_CAT_Q2\",\"ask_after\":[\"E06_S01\",\"E06_S02\",\"E06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"YES\",\"E06_S02\":\"YES\",\"E06_S03\":\"NO\",\"E06_S04\":\"NO\",\"E06_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"E06_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"E06_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"E06_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the pickup window? Return exactly one of: TEN_TO_NOON, NINE_TO_ELEVEN, EIGHT_TO_TEN, NOON_TO_TWO, ONE_TO_THREE, UNKNOWN.\",\"allowed_answers\":[\"TEN_TO_NOON\",\"NINE_TO_ELEVEN\",\"EIGHT_TO_TEN\",\"NOON_TO_TWO\",\"ONE_TO_THREE\",\"UNKNOWN\"]},{\"question_id\":\"E06_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the pickup window TEN_TO_NOON? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"E06_CONTENT_Q1\",\"ask_after\":[\"E06_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"UNKNOWN\",\"E06_S02\":\"FIVE_POUNDS\",\"E06_S03\":\"FIVE_POUNDS\",\"E06_S04\":\"FIVE_POUNDS\",\"E06_S05\":\"FIVE_POUNDS\"},\"final_answer_full_evidence\":\"FIVE_POUNDS\",\"evidence_rules\":[{\"if_observed_all\":[\"E06_S02\"],\"answer\":\"FIVE_POUNDS\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E06_CONTENT_Q2\",\"ask_after\":[\"E06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"UNKNOWN\",\"E06_S02\":\"UNKNOWN\",\"E06_S03\":\"EVENT_1\",\"E06_S04\":\"EVENT_1\",\"E06_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"E06_S02\",\"E06_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"E06_CONTENT_Q1\",\"question_type\":\"secondary_slot_value\",\"prompt\":\"What is the package weight? Return exactly one of: SIX_POUNDS, FIVE_POUNDS, EIGHT_POUNDS, TEN_POUNDS, FOUR_POUNDS, UNKNOWN.\",\"allowed_answers\":[\"SIX_POUNDS\",\"FIVE_POUNDS\",\"EIGHT_POUNDS\",\"TEN_POUNDS\",\"FOUR_POUNDS\",\"UNKNOWN\"]},{\"question_id\":\"E06_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=PACKAGE_WEIGHT_STATED. EVENT_2=PICKUP_WINDOW_CHANGED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "E06",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"E06_GEN_Q1\",\"ask_after\":[\"E06_S01\",\"E06_S02\",\"E06_S03\",\"E06_S04\",\"E06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"A\",\"E06_S02\":\"A>B\",\"E06_S03\":\"A>B>A\",\"E06_S04\":\"A>B>A>B\",\"E06_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E06_GEN_Q2\",\"ask_after\":[\"E06_S01\",\"E06_S02\",\"E06_S03\",\"E06_S04\",\"E06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"0\",\"E06_S02\":\"1\",\"E06_S03\":\"2\",\"E06_S04\":\"3\",\"E06_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E06_GEN_Q3\",\"ask_after\":[\"E06_S01\",\"E06_S02\",\"E06_S03\",\"E06_S04\",\"E06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E06_S01\":\"A\",\"E06_S02\":\"B\",\"E06_S03\":\"A\",\"E06_S04\":\"B\",\"E06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"E06_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"E06_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"E06_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "E06_S01=0; E06_S02=1; E06_S03=2; E06_S04=3; E06_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"E06_S01\",\"speaker\":\"A\",\"text\":\"The pickup window is ten to noon.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E06_S02\",\"speaker\":\"B\",\"text\":\"The package weighs five pounds.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E06_S03\",\"speaker\":\"A\",\"text\":\"The pickup window moved to noon to two.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E06_S04\",\"speaker\":\"B\",\"text\":\"The weight stays five pounds.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E06_S05\",\"speaker\":\"A\",\"text\":\"Noon to two is the pickup window.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "E06_S01,E06_S03,E06_S02",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"E06_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for pickup window heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"E06_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: The pickup window is ten to noon.\nB: The package weighs five pounds.\nA: The pickup window moved to noon to two.\nB: The weight stays five pounds.\nA: Noon to two is the pickup window.",
+    "transcript_with_pause_recommendations": "A: The pickup window is ten to noon. (natural)\nB: The package weighs five pounds. (natural)\nA: The pickup window moved to noon to two. (natural)\nB: The weight stays five pounds. (natural)\nA: Noon to two is the pickup window.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

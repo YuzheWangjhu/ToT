@@ -1,0 +1,604 @@
+{
+  "audio_duration_seconds": 19.07,
+  "audio_file_path": "episodes/E10/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "E10",
+  "generation_timestamp": "2026-06-04T14:23:34.494289+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E10_S01",
+          "E10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "MARCH_SEVENTH",
+            "if_observed_all": [
+              "E10_S03"
+            ]
+          },
+          {
+            "answer": "MARCH_FIFTH",
+            "if_observed_all": [
+              "E10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "MARCH_SEVENTH",
+        "prefix_answer_trace": {
+          "E10_S01": "MARCH_FIFTH",
+          "E10_S02": "MARCH_FIFTH",
+          "E10_S03": "MARCH_SEVENTH",
+          "E10_S04": "MARCH_SEVENTH",
+          "E10_S05": "MARCH_SEVENTH",
+          "E10_S06": "MARCH_SEVENTH",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E10_S01",
+          "E10_S02",
+          "E10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "E10_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "E10_S01": "YES",
+          "E10_S02": "YES",
+          "E10_S03": "NO",
+          "E10_S04": "NO",
+          "E10_S05": "NO",
+          "E10_S06": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "MARCH_SIXTH",
+          "MARCH_EIGHTH",
+          "MARCH_FIFTH",
+          "MARCH_SEVENTH",
+          "MARCH_FOURTH",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the proposal deadline? Return exactly one of: MARCH_SIXTH, MARCH_EIGHTH, MARCH_FIFTH, MARCH_SEVENTH, MARCH_FOURTH, UNKNOWN.",
+        "question_id": "E10_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the proposal deadline MARCH_FIFTH? Return YES, NO, or UNKNOWN.",
+        "question_id": "E10_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E10_S02",
+          "E10_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "HANDLED",
+            "if_observed_all": [
+              "E10_S05"
+            ]
+          },
+          {
+            "answer": "NEEDED",
+            "if_observed_all": [
+              "E10_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "HANDLED",
+        "prefix_answer_trace": {
+          "E10_S01": "UNKNOWN",
+          "E10_S02": "NEEDED",
+          "E10_S03": "NEEDED",
+          "E10_S04": "NEEDED",
+          "E10_S05": "HANDLED",
+          "E10_S06": "HANDLED",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E10_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "E10_S02",
+              "E10_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "E10_S01": "UNKNOWN",
+          "E10_S02": "UNKNOWN",
+          "E10_S03": "EVENT_1",
+          "E10_S04": "EVENT_1",
+          "E10_S05": "EVENT_1",
+          "E10_S06": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "HANDLED",
+          "DELIVERED",
+          "NEEDED",
+          "CANCELED",
+          "PENDING",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the chair status? Return exactly one of: HANDLED, DELIVERED, NEEDED, CANCELED, PENDING, UNKNOWN.",
+        "question_id": "E10_CONTENT_Q1",
+        "question_type": "secondary_slot_value"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=MORE_CHAIRS_STATED. EVENT_2=MARCH_SEVENTH_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "E10_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "E10_S01",
+          "E10_S02",
+          "E10_S03",
+          "E10_S04",
+          "E10_S05",
+          "E10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "E10_S01": "A",
+          "E10_S02": "A>B",
+          "E10_S03": "A>B>A",
+          "E10_S04": "A>B>A>B",
+          "E10_S05": "A>B>A>B",
+          "E10_S06": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E10_S01",
+          "E10_S02",
+          "E10_S03",
+          "E10_S04",
+          "E10_S05",
+          "E10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "E10_S01": "0",
+          "E10_S02": "1",
+          "E10_S03": "2",
+          "E10_S04": "3",
+          "E10_S05": "3",
+          "E10_S06": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E10_S01",
+          "E10_S02",
+          "E10_S03",
+          "E10_S04",
+          "E10_S05",
+          "E10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "E10_S01": "A",
+          "E10_S02": "B",
+          "E10_S03": "A",
+          "E10_S04": "B",
+          "E10_S05": "B",
+          "E10_S06": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E10_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "E10_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "E10_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "E10_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S01",
+        "speaker": "A",
+        "text": "The proposal deadline is March fifth."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S02",
+        "speaker": "B",
+        "text": "We also need more chairs."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S03",
+        "speaker": "A",
+        "text": "Shift the proposal deadline to March seventh."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S04",
+        "speaker": "B",
+        "text": "Parking passes are ready."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S05",
+        "speaker": "B",
+        "text": "Chairs are handled too."
+      },
+      {
+        "abstract_end_bin": 5,
+        "abstract_start_bin": 5,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E10_S06",
+        "speaker": "A",
+        "text": "March seventh is the proposal deadline."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for proposal deadline heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "E10_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "E10_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "E10_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 4.08,
+      "pause_label": "natural",
+      "pause_start_time": 3.08
+    },
+    {
+      "after_sentence_id": "E10_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.79,
+      "pause_label": "natural",
+      "pause_start_time": 5.79
+    },
+    {
+      "after_sentence_id": "E10_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 11.32,
+      "pause_label": "natural",
+      "pause_start_time": 10.32
+    },
+    {
+      "after_sentence_id": "E10_S04",
+      "duration_seconds": 0.15,
+      "pause_end_time": 13.22,
+      "pause_label": "short",
+      "pause_start_time": 13.07
+    },
+    {
+      "after_sentence_id": "E10_S05",
+      "duration_seconds": 1.0,
+      "pause_end_time": 15.89,
+      "pause_label": "natural",
+      "pause_start_time": 14.89
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S01.wav",
+      "duration_seconds": 3.08,
+      "loudness_normalization": {
+        "applied_gain_db": -1.483473,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.359962,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.427002,
+        "original_speech_rms_dbfs": -22.516527
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "9d18ba8a1a1da2e8ddbadd1c12403cd39342966a64675d2095219b064cc235ff",
+      "sentence_end_time": 3.08,
+      "sentence_id": "E10_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "The proposal deadline is March fifth.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S02.wav",
+      "duration_seconds": 1.71,
+      "loudness_normalization": {
+        "applied_gain_db": -2.182651,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.255358,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.328308,
+        "original_speech_rms_dbfs": -21.817349
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "6b00452ee68ab6681b9154fa625b9d2cb12277d2fe8e6cb8bf17c24de9cb1ce0",
+      "sentence_end_time": 5.79,
+      "sentence_id": "E10_S02",
+      "sentence_start_time": 4.08,
+      "speaker": "B",
+      "text": "We also need more chairs.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S03.wav",
+      "duration_seconds": 3.53,
+      "loudness_normalization": {
+        "applied_gain_db": -1.696819,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.36782,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.447174,
+        "original_speech_rms_dbfs": -22.303181
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "6bd8cc4b4b0c1ba3279bb8682e86976a8eb1be6dde4bc6db7c1ca58973383d0e",
+      "sentence_end_time": 10.32,
+      "sentence_id": "E10_S03",
+      "sentence_start_time": 6.79,
+      "speaker": "A",
+      "text": "Shift the proposal deadline to March seventh.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S04.wav",
+      "duration_seconds": 1.75,
+      "loudness_normalization": {
+        "applied_gain_db": -1.522098,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.456305,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.543701,
+        "original_speech_rms_dbfs": -22.477902
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "73cba3ffc81ef911f60de30009aab66f7e9463781b76b212dfbd4225e8138df6",
+      "sentence_end_time": 13.07,
+      "sentence_id": "E10_S04",
+      "sentence_start_time": 11.32,
+      "speaker": "B",
+      "text": "Parking passes are ready.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S05.wav",
+      "duration_seconds": 1.67,
+      "loudness_normalization": {
+        "applied_gain_db": -0.288063,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.304166,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.314423,
+        "original_speech_rms_dbfs": -23.711937
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "23368a475dca524865da17333359bb1210ef283da7b101e946c8e262b970872e",
+      "sentence_end_time": 14.89,
+      "sentence_id": "E10_S05",
+      "sentence_start_time": 13.22,
+      "speaker": "B",
+      "text": "Chairs are handled too.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 5,
+      "abstract_start_bin": 5,
+      "audio_file_path": "sentence_clips/E10/version_2/E10_S06.wav",
+      "duration_seconds": 3.18,
+      "loudness_normalization": {
+        "applied_gain_db": -0.918646,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.420991,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.467957,
+        "original_speech_rms_dbfs": -23.081354
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "89bcac854196fee2a9b8f4cb1661188673ca8c4ba44bea98dc60ce423ce60d20",
+      "sentence_end_time": 19.07,
+      "sentence_id": "E10_S06",
+      "sentence_start_time": 15.89,
+      "speaker": "A",
+      "text": "March seventh is the proposal deadline.",
+      "voice": "ash"
+    }
+  ],
+  "source_row": {
+    "category": "E",
+    "category_label": "Topic switch with distractors",
+    "category_specific_answer_rules": "[{\"question_id\":\"E10_CAT_Q1\",\"ask_after\":[\"E10_S01\",\"E10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"MARCH_FIFTH\",\"E10_S02\":\"MARCH_FIFTH\",\"E10_S03\":\"MARCH_SEVENTH\",\"E10_S04\":\"MARCH_SEVENTH\",\"E10_S05\":\"MARCH_SEVENTH\",\"E10_S06\":\"MARCH_SEVENTH\"},\"final_answer_full_evidence\":\"MARCH_SEVENTH\",\"evidence_rules\":[{\"if_observed_all\":[\"E10_S03\"],\"answer\":\"MARCH_SEVENTH\"},{\"if_observed_all\":[\"E10_S01\"],\"answer\":\"MARCH_FIFTH\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E10_CAT_Q2\",\"ask_after\":[\"E10_S01\",\"E10_S02\",\"E10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"YES\",\"E10_S02\":\"YES\",\"E10_S03\":\"NO\",\"E10_S04\":\"NO\",\"E10_S05\":\"NO\",\"E10_S06\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"E10_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"E10_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"E10_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the proposal deadline? Return exactly one of: MARCH_SIXTH, MARCH_EIGHTH, MARCH_FIFTH, MARCH_SEVENTH, MARCH_FOURTH, UNKNOWN.\",\"allowed_answers\":[\"MARCH_SIXTH\",\"MARCH_EIGHTH\",\"MARCH_FIFTH\",\"MARCH_SEVENTH\",\"MARCH_FOURTH\",\"UNKNOWN\"]},{\"question_id\":\"E10_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the proposal deadline MARCH_FIFTH? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"E10_CONTENT_Q1\",\"ask_after\":[\"E10_S02\",\"E10_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"UNKNOWN\",\"E10_S02\":\"NEEDED\",\"E10_S03\":\"NEEDED\",\"E10_S04\":\"NEEDED\",\"E10_S05\":\"HANDLED\",\"E10_S06\":\"HANDLED\"},\"final_answer_full_evidence\":\"HANDLED\",\"evidence_rules\":[{\"if_observed_all\":[\"E10_S05\"],\"answer\":\"HANDLED\"},{\"if_observed_all\":[\"E10_S02\"],\"answer\":\"NEEDED\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E10_CONTENT_Q2\",\"ask_after\":[\"E10_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"UNKNOWN\",\"E10_S02\":\"UNKNOWN\",\"E10_S03\":\"EVENT_1\",\"E10_S04\":\"EVENT_1\",\"E10_S05\":\"EVENT_1\",\"E10_S06\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"E10_S02\",\"E10_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"E10_CONTENT_Q1\",\"question_type\":\"secondary_slot_value\",\"prompt\":\"What is the chair status? Return exactly one of: HANDLED, DELIVERED, NEEDED, CANCELED, PENDING, UNKNOWN.\",\"allowed_answers\":[\"HANDLED\",\"DELIVERED\",\"NEEDED\",\"CANCELED\",\"PENDING\",\"UNKNOWN\"]},{\"question_id\":\"E10_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=MORE_CHAIRS_STATED. EVENT_2=MARCH_SEVENTH_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "E10",
+    "critical_span": "bins 0-5",
+    "end_bin": "5",
+    "generic_answer_rules": "[{\"question_id\":\"E10_GEN_Q1\",\"ask_after\":[\"E10_S01\",\"E10_S02\",\"E10_S03\",\"E10_S04\",\"E10_S05\",\"E10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"A\",\"E10_S02\":\"A>B\",\"E10_S03\":\"A>B>A\",\"E10_S04\":\"A>B>A>B\",\"E10_S05\":\"A>B>A>B\",\"E10_S06\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E10_GEN_Q2\",\"ask_after\":[\"E10_S01\",\"E10_S02\",\"E10_S03\",\"E10_S04\",\"E10_S05\",\"E10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"0\",\"E10_S02\":\"1\",\"E10_S03\":\"2\",\"E10_S04\":\"3\",\"E10_S05\":\"3\",\"E10_S06\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E10_GEN_Q3\",\"ask_after\":[\"E10_S01\",\"E10_S02\",\"E10_S03\",\"E10_S04\",\"E10_S05\",\"E10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E10_S01\":\"A\",\"E10_S02\":\"B\",\"E10_S03\":\"A\",\"E10_S04\":\"B\",\"E10_S05\":\"B\",\"E10_S06\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"E10_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"E10_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"E10_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "E10_S01=0; E10_S02=1; E10_S03=2; E10_S04=3; E10_S05=4; E10_S06=5",
+    "sentence_metadata": "[{\"sentence_id\":\"E10_S01\",\"speaker\":\"A\",\"text\":\"The proposal deadline is March fifth.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E10_S02\",\"speaker\":\"B\",\"text\":\"We also need more chairs.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E10_S03\",\"speaker\":\"A\",\"text\":\"Shift the proposal deadline to March seventh.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E10_S04\",\"speaker\":\"B\",\"text\":\"Parking passes are ready.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E10_S05\",\"speaker\":\"B\",\"text\":\"Chairs are handled too.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E10_S06\",\"speaker\":\"A\",\"text\":\"March seventh is the proposal deadline.\",\"abstract_start_bin\":5,\"abstract_end_bin\":5,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "E10_S01,E10_S03,E10_S02,E10_S05",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"E10_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for proposal deadline heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"E10_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: The proposal deadline is March fifth.\nB: We also need more chairs.\nA: Shift the proposal deadline to March seventh.\nB: Parking passes are ready.\nB: Chairs are handled too.\nA: March seventh is the proposal deadline.",
+    "transcript_with_pause_recommendations": "A: The proposal deadline is March fifth. (natural)\nB: We also need more chairs. (natural)\nA: Shift the proposal deadline to March seventh. (natural)\nB: Parking passes are ready. (short)\nB: Chairs are handled too. (natural)\nA: March seventh is the proposal deadline.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4; T6=5",
+    "turn_count": "6"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

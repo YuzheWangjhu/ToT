@@ -1,0 +1,81 @@
+model,track,component,active_score,full_context_score,full_context_minus_active,full_context_minus_active_ci_95_lower,full_context_minus_active_ci_95_upper,full_context_minus_active_p_value,matched_episode_count,cluster_count,score_rule,full_context_minus_active_holm_p_value,full_context_minus_active_significant
+Audio Flamingo Next,1a,Event/bin map,0.62,0.35,-0.26999999999999996,-0.43,-0.10999999999999999,0.015625,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Audio Flamingo Next,1a,Ordering,0.0,0.35,0.35,0.1,0.6333333333333334,0.125,10,10,existing component definition,1.0,False
+Audio Flamingo Next,1a,Localization,0.0,0.06626984126984126,0.06626984126984126,0.01111111111111111,0.12611111111111112,0.125,10,10,existing component definition,1.0,False
+Audio Flamingo Next,1a,Gap reasoning,0.0,0.20833333333333331,0.20833333333333331,0.075,0.35,0.0625,10,10,existing component definition,1.0,False
+Audio Flamingo Next,1b,Event/bin map,0.5700000000000001,0.38,-0.19,-0.36,-0.04,0.09375,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Audio Flamingo Next,1b,Ordering,0.0,0.18333333333333332,0.18333333333333332,0.0,0.4,0.25,10,10,existing component definition,1.0,False
+Audio Flamingo Next,1b,Localization,0.0,0.041666666666666664,0.041666666666666664,0.0,0.10833333333333332,0.5,10,10,existing component definition,1.0,False
+Audio Flamingo Next,1b,Gap reasoning,0.0,0.05,0.05,0.0,0.15,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1a,Event/bin map,0.15,0.09,-0.059999999999999984,-0.24,0.12,0.75,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Audio Flamingo Next Think,1a,Ordering,0.0,0.1,0.1,0.0,0.3,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1a,Localization,0.01666666666666666,0.0,-0.01666666666666666,-0.049999999999999975,0.0,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1a,Gap reasoning,0.0,0.05,0.05,0.0,0.15,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1b,Event/bin map,0.5700000000000001,0.0,-0.5700000000000001,-0.64,-0.5,0.001953125,10,10,symmetric unresolved=0 in both conditions,0.15625,False
+Audio Flamingo Next Think,1b,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1b,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Audio Flamingo Next Think,1b,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+GPT Audio,1a,Event/bin map,0.16,0.0,-0.16,-0.26999999999999996,-0.06,0.03125,10,10,symmetric unresolved=0 in both conditions,1.0,False
+GPT Audio,1a,Ordering,0.6766666666666665,0.1,-0.5766666666666665,-0.9166666666666666,-0.1333333333333333,0.04296875,10,10,existing component definition,1.0,False
+GPT Audio,1a,Localization,0.16444444444444445,0.0,-0.16444444444444445,-0.3083333333333333,-0.047777777777777766,0.0625,10,10,existing component definition,1.0,False
+GPT Audio,1a,Gap reasoning,0.4916666666666666,0.1,-0.39166666666666666,-0.7,-0.024999999999999977,0.078125,10,10,existing component definition,1.0,False
+GPT Audio,1b,Event/bin map,0.14,0.0,-0.14,-0.2,-0.07999999999999999,0.0078125,10,10,symmetric unresolved=0 in both conditions,0.6171875,False
+GPT Audio,1b,Ordering,0.6833333333333333,0.0,-0.6833333333333333,-0.9,-0.41666666666666663,0.0078125,10,10,existing component definition,0.6171875,False
+GPT Audio,1b,Localization,0.22527777777777774,0.0,-0.22527777777777774,-0.33333333333333337,-0.12221527777777787,0.0078125,10,10,existing component definition,0.6171875,False
+GPT Audio,1b,Gap reasoning,0.2833333333333333,0.0,-0.2833333333333333,-0.5,-0.1,0.0625,10,10,existing component definition,1.0,False
+GPT Audio Mini,1a,Event/bin map,0.06999999999999999,0.04,-0.030000000000000006,-0.09,0.020000000000000004,0.53125,10,10,symmetric unresolved=0 in both conditions,1.0,False
+GPT Audio Mini,1a,Ordering,0.9,1.0,0.1,0.0,0.3,1.0,10,10,existing component definition,1.0,False
+GPT Audio Mini,1a,Localization,0.12666666666666665,0.06666666666666667,-0.059999999999999984,-0.16666666666666666,0.058374999999999386,0.375,10,10,existing component definition,1.0,False
+GPT Audio Mini,1a,Gap reasoning,0.4416666666666666,0.375,-0.06666666666666665,-0.21666666666666665,0.1,0.625,10,10,existing component definition,1.0,False
+GPT Audio Mini,1b,Event/bin map,0.1,0.06,-0.039999999999999994,-0.16,0.06999999999999999,0.640625,10,10,symmetric unresolved=0 in both conditions,1.0,False
+GPT Audio Mini,1b,Ordering,0.6333333333333333,0.8833333333333332,0.25,0.0,0.5,0.25,10,10,existing component definition,1.0,False
+GPT Audio Mini,1b,Localization,0.08136111111111112,0.18111111111111106,0.09974999999999996,-0.012166666666666704,0.22834166666666655,0.16015625,10,10,existing component definition,1.0,False
+GPT Audio Mini,1b,Gap reasoning,0.13333333333333333,0.18333333333333332,0.05,-0.11666666666666667,0.2333333333333333,0.75,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1a,Event/bin map,0.0,0.0,0.0,0.0,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Gemini 2 Flash,1a,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1a,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1a,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1b,Event/bin map,0.02,0.0,-0.02,-0.06000000000000001,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Gemini 2 Flash,1b,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1b,Localization,0.01666666666666666,0.0,-0.01666666666666666,-0.049999999999999975,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 2 Flash,1b,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1a,Event/bin map,0.0,0.0,0.0,0.0,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Gemini 3 Flash,1a,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1a,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1a,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1b,Event/bin map,0.0,0.0,0.0,0.0,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Gemini 3 Flash,1b,Ordering,0.1,0.0,-0.1,-0.3,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1b,Localization,0.00555555555555555,0.0,-0.00555555555555555,-0.01666666666666665,0.0,1.0,10,10,existing component definition,1.0,False
+Gemini 3 Flash,1b,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1a,Event/bin map,0.0,0.0,0.0,0.0,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Kimi Audio,1a,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1a,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1a,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1b,Event/bin map,0.11000000000000001,0.0,-0.11000000000000001,-0.26,0.0,0.5,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Kimi Audio,1b,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1b,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Kimi Audio,1b,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+MOSS Audio,1a,Event/bin map,0.04,0.06000000000000001,0.02,0.0,0.05,0.5,10,10,symmetric unresolved=0 in both conditions,1.0,False
+MOSS Audio,1a,Ordering,0.2,0.3,0.1,0.0,0.3,1.0,10,10,existing component definition,1.0,False
+MOSS Audio,1a,Localization,0.06833333333333333,0.15666666666666668,0.08833333333333333,0.0,0.215,0.5,10,10,existing component definition,1.0,False
+MOSS Audio,1a,Gap reasoning,0.08333333333333333,0.13333333333333333,0.05,0.0,0.15,1.0,10,10,existing component definition,1.0,False
+MOSS Audio,1b,Event/bin map,0.01,0.06,0.05,-0.030000000000000006,0.18,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+MOSS Audio,1b,Ordering,0.0,0.2,0.2,0.0,0.5,0.5,10,10,existing component definition,1.0,False
+MOSS Audio,1b,Localization,0.00833333333333333,0.03333333333333333,0.025,-0.024999999999999988,0.1,1.0,10,10,existing component definition,1.0,False
+MOSS Audio,1b,Gap reasoning,0.0,0.05,0.05,0.0,0.15,1.0,10,10,existing component definition,1.0,False
+Mimo Audio,1a,Event/bin map,0.0,0.02,0.02,0.0,0.05,0.5,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Mimo Audio,1a,Ordering,0.0,0.2,0.2,0.0,0.5,0.5,10,10,existing component definition,1.0,False
+Mimo Audio,1a,Localization,0.0,0.06666666666666667,0.06666666666666667,0.0,0.16666666666666666,0.5,10,10,existing component definition,1.0,False
+Mimo Audio,1a,Gap reasoning,0.0,0.21666666666666665,0.21666666666666665,0.0,0.45,0.25,10,10,existing component definition,1.0,False
+Mimo Audio,1b,Event/bin map,0.0,0.01,0.01,0.0,0.030000000000000006,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Mimo Audio,1b,Ordering,0.0,0.17666666666666667,0.17666666666666667,0.01666666666666666,0.4,0.125,10,10,existing component definition,1.0,False
+Mimo Audio,1b,Localization,0.0,0.024999999999999988,0.024999999999999988,0.0,0.05833333333333331,0.5,10,10,existing component definition,1.0,False
+Mimo Audio,1b,Gap reasoning,0.0,0.03333333333333333,0.03333333333333333,0.0,0.1,1.0,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1a,Event/bin map,0.030000000000000006,0.0,-0.030000000000000006,-0.07,0.0,0.5,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Qwen2.5 Omni,1a,Ordering,0.16,0.0,-0.16,-0.4,0.0,0.5,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1a,Localization,0.065,0.0,-0.065,-0.1551249999999989,0.0,0.5,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1a,Gap reasoning,0.05833333333333333,0.0,-0.05833333333333333,-0.14166666666666666,0.0,0.5,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1b,Event/bin map,0.0,0.0,0.0,0.0,0.0,1.0,10,10,symmetric unresolved=0 in both conditions,1.0,False
+Qwen2.5 Omni,1b,Ordering,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1b,Localization,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False
+Qwen2.5 Omni,1b,Gap reasoning,0.0,0.0,0.0,0.0,0.0,1.0,10,10,existing component definition,1.0,False

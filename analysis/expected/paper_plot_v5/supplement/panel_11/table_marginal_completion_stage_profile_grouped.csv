@@ -1,0 +1,121 @@
+model,task_group,stage,stage_index,marginal_completion_rate,represented_families,rate_type
+Audio Flamingo Next,2A,Final answer task-core correct,4,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2A,Final ledger complete,3,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2A,Final ledger target-correct,2,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2A,Relevant evidence reached,0,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2A,Required targets contacted,1,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2A,Strict task complete,5,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Relevant evidence reached,0,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Required targets contacted,1,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Final answer task-core correct,4,0.027272727272727268,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Final ledger complete,3,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Final ledger target-correct,2,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Relevant evidence reached,0,0.003030303030303,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Required targets contacted,1,0.006060606060606034,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2A,Strict task complete,5,0.027272727272727268,3,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Relevant evidence reached,0,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Required targets contacted,1,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Audio Flamingo Next Think,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Final answer task-core correct,4,0.4484848484848485,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Final ledger complete,3,0.0848484848484848,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Final ledger target-correct,2,0.0848484848484848,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Relevant evidence reached,0,0.7829545454545456,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Required targets contacted,1,0.8647727272727274,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2A,Strict task complete,5,0.4484848484848485,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Final answer task-core correct,4,0.3409090909090909,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Final ledger complete,3,0.0227272727272727,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Final ledger target-correct,2,0.0227272727272727,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Relevant evidence reached,0,0.7727272727272727,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Required targets contacted,1,0.7727272727272727,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio,2B,Strict task complete,5,0.3409090909090909,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Final answer task-core correct,4,0.46856060606060607,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Final ledger complete,3,0.06666666666666667,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Final ledger target-correct,2,0.06666666666666667,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Relevant evidence reached,0,0.6356060606060606,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Required targets contacted,1,0.7515151515151515,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2A,Strict task complete,5,0.46856060606060607,3,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Relevant evidence reached,0,0.3181818181818181,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Required targets contacted,1,0.3181818181818181,2,independent marginal; equal-family mean within 2A or 2B
+GPT Audio Mini,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Final answer task-core correct,4,0.440530303030303,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Final ledger complete,3,0.11780303030303023,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Final ledger target-correct,2,0.11780303030303023,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Relevant evidence reached,0,0.5458333333333333,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Required targets contacted,1,0.6363636363636364,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2A,Strict task complete,5,0.440530303030303,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Relevant evidence reached,0,0.25,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Required targets contacted,1,0.2727272727272727,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 2 Flash,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Final answer task-core correct,4,0.5121212121212121,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Final ledger complete,3,0.23030303030303023,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Final ledger target-correct,2,0.23030303030303023,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Relevant evidence reached,0,0.49507575757575756,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Required targets contacted,1,0.5909090909090909,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2A,Strict task complete,5,0.5121212121212121,3,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Relevant evidence reached,0,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Required targets contacted,1,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Gemini 3 Flash,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Final answer task-core correct,4,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Final ledger complete,3,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Final ledger target-correct,2,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Relevant evidence reached,0,0.024999999999999967,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Required targets contacted,1,0.07651515151515147,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2A,Strict task complete,5,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Relevant evidence reached,0,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Required targets contacted,1,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Kimi Audio,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Final answer task-core correct,4,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Final ledger complete,3,0.0,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Final ledger target-correct,2,0.0,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Relevant evidence reached,0,0.15037878787878786,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Required targets contacted,1,0.2128787878787878,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2A,Strict task complete,5,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Relevant evidence reached,0,0.10227272727272725,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Required targets contacted,1,0.10227272727272725,2,independent marginal; equal-family mean within 2A or 2B
+MOSS Audio,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Final answer task-core correct,4,0.2727272727272727,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Final ledger complete,3,0.024242424242424232,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Final ledger target-correct,2,0.024242424242424232,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Relevant evidence reached,0,0.18939393939393936,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Required targets contacted,1,0.24583333333333335,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2A,Strict task complete,5,0.2727272727272727,3,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Relevant evidence reached,0,0.01136363636363635,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Required targets contacted,1,0.01136363636363635,2,independent marginal; equal-family mean within 2A or 2B
+Mimo Audio,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Final answer task-core correct,4,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Final ledger complete,3,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Final ledger target-correct,2,0.0,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Relevant evidence reached,0,0.21212121212121207,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Required targets contacted,1,0.2696969696969697,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2A,Strict task complete,5,0.39999999999999997,3,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Final answer task-core correct,4,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Final ledger complete,3,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Final ledger target-correct,2,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Relevant evidence reached,0,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Required targets contacted,1,0.0,2,independent marginal; equal-family mean within 2A or 2B
+Qwen2.5 Omni,2B,Strict task complete,5,0.0,2,independent marginal; equal-family mean within 2A or 2B

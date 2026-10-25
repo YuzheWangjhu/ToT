@@ -1,0 +1,161 @@
+model,track,contrast,metric,gain,gain_ci_95_lower,gain_ci_95_upper,gain_p_value,paired_episode_count,cluster_count,gain_holm_p_value,gain_significant
+Audio Flamingo Next,1c,Count-known - Discovery,master_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Count-known - Discovery,active_evidence_acquisition_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Count-known - Discovery,evidence_reach_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Count-known - Discovery,target_evidence_found,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Count-known - Discovery,track1c_update_success_rate,,,,,0,0,,False
+Audio Flamingo Next,1c,Count-known - Discovery,stale_answer_rate_given_evidence,,,,,0,0,,False
+Audio Flamingo Next,1c,Count-known - Discovery,budget_used,0.0033854166666666668,0.0,0.01015625,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Count-known - Discovery,replay_rate,0.0,0.0,0.0,1.0,126,39,1.0,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,master_score,0.005380311603051401,-0.010879297173569249,0.02134371262228506,0.5295294094118118,240,60,1.0,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,active_evidence_acquisition_score,0.010204054712521919,-0.009332438156814282,0.03028322645073172,0.32151356972860545,240,60,1.0,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,evidence_reach_score,0.02,-0.0035078124999999923,0.043821180555555526,0.0993380132397352,240,60,1.0,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,target_evidence_found,0.008333333333333333,0.0,0.020833333333333332,0.49795004099918,240,60,1.0,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,track1c_update_success_rate,,,,,0,0,,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,stale_answer_rate_given_evidence,,,,,0,0,,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,budget_used,0.07667578706388616,0.027835037006614546,0.1279370138849695,0.0037799244015119695,240,60,0.25325493490130196,False
+Audio Flamingo Next Think,1c,Count-known - Discovery,replay_rate,-0.2926165567933493,-0.4670445638476329,-0.08605185664009193,0.0625,17,9,1.0,False
+GPT Audio,1c,Count-known - Discovery,master_score,0.00106419584322855,-0.01784526371753843,0.020650871810403287,0.9175416491670166,240,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,active_evidence_acquisition_score,0.015292770322375583,-0.008864424504391613,0.04104654562927589,0.23849523009539808,240,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,evidence_reach_score,0.011770833333333335,-0.012084201388888879,0.037328124999999976,0.3628927421451571,240,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,target_evidence_found,-0.004166666666666667,-0.041666666666666664,0.03333333333333333,1.0,240,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,track1c_update_success_rate,-0.016904718907151457,-0.03848648090294951,0.00485314432664834,0.13289734205315892,210,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,stale_answer_rate_given_evidence,-0.00014681982924958818,-0.010622840252915513,0.011040080031279566,0.9794204115917682,133,40,1.0,False
+GPT Audio,1c,Count-known - Discovery,budget_used,0.006292259102259423,-0.012449462310271761,0.025963691173616448,0.5283494330113397,240,60,1.0,False
+GPT Audio,1c,Count-known - Discovery,replay_rate,-0.005091536012588644,-0.017087912087912088,0.004487097909795277,0.42197156056878865,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,master_score,-0.0052531529514491275,-0.017687385493505865,0.004041361158033874,0.4350312993740125,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,active_evidence_acquisition_score,-0.011794450525797666,-0.021629977891728353,-0.0020303739008739347,0.021899562008759824,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,evidence_reach_score,0.00038194444444444354,-0.004131944444444446,0.004166666666666665,0.875942481150377,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,target_evidence_found,0.0,-0.0125,0.0125,1.0,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,track1c_update_success_rate,0.011128967799498823,0.0012830969517920578,0.020658425446414767,0.03007939841203176,240,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,stale_answer_rate_given_evidence,0.0027616977098723493,-0.007335610516058436,0.012261718776395496,0.5896282074358513,235,60,1.0,False
+GPT Audio Mini,1c,Count-known - Discovery,budget_used,0.029122674730633666,0.009320632970681652,0.048745008876469306,0.004919901601967961,240,60,0.3247135057298854,False
+GPT Audio Mini,1c,Count-known - Discovery,replay_rate,0.023984855969425248,0.003921218989306221,0.044194689443281976,0.022599548009039818,240,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,master_score,-0.006651265857708044,-0.0204679472910759,0.006869480346903786,0.34445311093778125,240,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,active_evidence_acquisition_score,0.015521897942053576,-0.009823704585880905,0.04177726030520718,0.25715485690286194,240,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,evidence_reach_score,0.02322916666666667,0.0002769097222222271,0.04659809027777777,0.05837883242335153,240,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,target_evidence_found,0.041666666666666664,-0.0125,0.09583333333333334,0.19625607487850244,240,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,track1c_update_success_rate,-0.009247336208202872,-0.03364192570656524,0.015182393421695748,0.46017079658406834,237,60,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,stale_answer_rate_given_evidence,-0.01952492532825164,-0.03515417774214264,-0.0029606596117593394,0.028459430811383774,152,48,1.0,False
+Gemini 2 Flash,1c,Count-known - Discovery,budget_used,0.030096815941814428,0.017344081114685935,0.043359501764104934,5.999880002399952e-05,240,60,0.004379912401751965,True
+Gemini 2 Flash,1c,Count-known - Discovery,replay_rate,0.021236086495286355,0.009533668230343708,0.03393320460834345,0.0010399792004159916,240,60,0.07175856482870342,False
+Gemini 3 Flash,1c,Count-known - Discovery,master_score,-0.031072123452524063,-0.05388412032647607,-0.009327619589958052,0.006939861202775945,240,60,0.4510909781804364,False
+Gemini 3 Flash,1c,Count-known - Discovery,active_evidence_acquisition_score,-0.06305611730090899,-0.09541603931369558,-0.03381267774470901,7.999840003199936e-05,240,60,0.005759884802303954,True
+Gemini 3 Flash,1c,Count-known - Discovery,evidence_reach_score,-0.058784722222222224,-0.0894800347222222,-0.03128385416666667,7.999840003199936e-05,240,60,0.005759884802303954,True
+Gemini 3 Flash,1c,Count-known - Discovery,target_evidence_found,-0.12083333333333333,-0.18333333333333332,-0.06666666666666667,0.00015999680006399873,240,60,0.011199776004479911,True
+Gemini 3 Flash,1c,Count-known - Discovery,track1c_update_success_rate,-0.01891681228203569,-0.03793859139181087,0.000604073664595244,0.06079878402431951,235,60,1.0,False
+Gemini 3 Flash,1c,Count-known - Discovery,stale_answer_rate_given_evidence,0.0022081684389478845,-0.009867891637773376,0.014229697990733285,0.7240855182896342,190,57,1.0,False
+Gemini 3 Flash,1c,Count-known - Discovery,budget_used,-0.016593217056340197,-0.02891010200454347,-0.006190992843727226,0.0010399792004159916,240,60,0.07175856482870342,False
+Gemini 3 Flash,1c,Count-known - Discovery,replay_rate,0.002041323530685233,-0.0003478554542384329,0.005328740706046284,0.376352472950541,235,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,master_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,active_evidence_acquisition_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,evidence_reach_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,target_evidence_found,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,track1c_update_success_rate,,,,,0,0,,False
+Kimi Audio,1c,Count-known - Discovery,stale_answer_rate_given_evidence,,,,,0,0,,False
+Kimi Audio,1c,Count-known - Discovery,budget_used,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Count-known - Discovery,replay_rate,,,,,0,0,,False
+MOSS Audio,1c,Count-known - Discovery,master_score,0.00439671422980664,-0.019380715101760614,0.028863883744203858,0.7299254014919702,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,active_evidence_acquisition_score,-0.031280707730998975,-0.057753347922500003,-0.0019310292811428854,0.030779384412311754,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,evidence_reach_score,-0.03354166666666667,-0.059375,-0.005067708333333357,0.015919681606367874,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,target_evidence_found,-0.07083333333333333,-0.12916666666666668,-0.016666666666666666,0.021899562008759824,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,track1c_update_success_rate,0.005097826769127585,-0.009361679457717258,0.019658057247463515,0.5046899062018759,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,stale_answer_rate_given_evidence,0.006598315961291208,-0.010606536472075965,0.023293255674274278,0.45673086538269236,116,38,1.0,False
+MOSS Audio,1c,Count-known - Discovery,budget_used,-0.009234981930168747,-0.029385318321170587,0.013513307082127982,0.4124917501649967,240,60,1.0,False
+MOSS Audio,1c,Count-known - Discovery,replay_rate,0.0055715839246173885,-0.013737922153902286,0.027727910875651463,0.618747625047499,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,master_score,-0.026914729793326653,-0.06179468077877321,0.006659417598243785,0.12885742285154297,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,active_evidence_acquisition_score,-0.012837388075224582,-0.046953428380749146,0.021162713007250183,0.47401051978960423,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,evidence_reach_score,-0.023784722222222224,-0.06048697916666666,0.012604166666666666,0.21745565088698227,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,target_evidence_found,-0.03333333333333333,-0.09166666666666666,0.025,0.3221335573288534,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,track1c_update_success_rate,-0.012263107602902916,-0.03290785654408242,0.00771907101089213,0.24163516729665407,193,58,1.0,False
+Mimo Audio,1c,Count-known - Discovery,stale_answer_rate_given_evidence,-0.0016239160101052632,-0.02451123242614837,0.02197717219463543,0.8972420551588968,46,20,1.0,False
+Mimo Audio,1c,Count-known - Discovery,budget_used,-0.03745086882893331,-0.07391338156263592,-0.002093832551749606,0.04629907401851963,240,60,1.0,False
+Mimo Audio,1c,Count-known - Discovery,replay_rate,-0.013987273886791041,-0.037256502910950846,0.008304286253469517,0.2364552708945821,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,master_score,-0.007066972055915247,-0.053013983415116664,0.03927264408941968,0.7669646607067858,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,active_evidence_acquisition_score,-0.01299828050755807,-0.06858387410712691,0.0415100889745757,0.6465070698586028,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,evidence_reach_score,-0.019444444444444445,-0.07711805555555555,0.03684201388888887,0.5086898262034759,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,target_evidence_found,0.06666666666666667,0.004166666666666667,0.12916666666666668,0.055658886822263554,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,track1c_update_success_rate,-0.0008474141478609105,-0.03311425534018321,0.0291374643596029,0.9586408271834563,79,31,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,stale_answer_rate_given_evidence,-0.001634738491356147,-0.024594600854464552,0.0183056864159805,0.8850422991540169,48,20,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,budget_used,-0.022066443088378494,-0.05718208333068331,0.01255971050816785,0.22291554168916622,240,60,1.0,False
+Qwen2.5 Omni,1c,Count-known - Discovery,replay_rate,0.07890957118677779,0.010894568759075577,0.15460521382733108,0.0373792524149517,147,43,1.0,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,master_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,active_evidence_acquisition_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,evidence_reach_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,target_evidence_found,0.0,0.0,0.0,1.0,240,60,1.0,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,track1c_update_success_rate,,,,,0,0,,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,,,,,0,0,,False
+Audio Flamingo Next,1c,Inventory-known - Count-known,budget_used,-0.12952018307031019,-0.17138823666224773,-0.08849074034882243,1.999960000799984e-05,240,60,0.0014599708005839883,True
+Audio Flamingo Next,1c,Inventory-known - Count-known,replay_rate,0.0,0.0,0.0,1.0,52,21,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,master_score,-0.0075189077886657595,-0.0227748626761316,0.006889523242296114,0.33445331093378133,240,60,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.007130972976676459,-0.02784630610869781,0.012168429791241662,0.48613027739445214,240,60,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,evidence_reach_score,-0.005625,-0.033159722222222215,0.02222222222222222,0.6946061078778425,240,60,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,target_evidence_found,-0.004166666666666667,-0.020833333333333332,0.008333333333333333,1.0,240,60,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,track1c_update_success_rate,,,,,0,0,,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,,,,,0,0,,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,budget_used,0.011133457236023813,-0.04494774062505733,0.06924306182715459,0.7073858522829544,240,60,1.0,False
+Audio Flamingo Next Think,1c,Inventory-known - Count-known,replay_rate,0.014034719601703488,-0.12670659562607745,0.13854162983982515,0.8402231955360893,46,21,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,master_score,-0.004956785235815583,-0.02922220463501496,0.018666268854741718,0.6881462370752585,240,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.02363721082053126,-0.05254592387632053,0.005687712341782572,0.11577768444631108,240,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,evidence_reach_score,-0.020034722222222228,-0.046979166666666676,0.006945312499999989,0.1515369692606148,240,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,target_evidence_found,-0.041666666666666664,-0.0875,0.004166666666666667,0.12119757604847903,240,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,track1c_update_success_rate,-0.0022546777459333555,-0.02491267039087599,0.022590626754557506,0.8574828503429931,211,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,0.007447153223677658,-0.006313041288937816,0.02273209611035108,0.3279734405311894,125,38,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,budget_used,-0.007316293480587202,-0.02727952446116612,0.013250125777729896,0.4879502409951801,240,60,1.0,False
+GPT Audio,1c,Inventory-known - Count-known,replay_rate,0.009715504579281668,-0.005107327067195486,0.027122505813759672,0.2630747385052299,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,master_score,-0.000793095909704674,-0.01225105332489921,0.011603216267148803,0.8983020339593208,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.00619614072224618,-0.018031845385643643,0.004782536714562137,0.3033739325213496,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,evidence_reach_score,-0.0034722222222222225,-0.010833333333333334,0.002638888888888889,0.372272554548909,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,target_evidence_found,0.004166666666666667,-0.008333333333333333,0.020833333333333332,1.0,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,track1c_update_success_rate,0.01445057542970284,0.0031470717741610313,0.025799326743554493,0.015399692006159876,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,0.007264347760095926,-0.002966305316238327,0.018048414083723,0.1860562788744225,236,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,budget_used,-0.0042205368619704755,-0.02354912721704101,0.015310886603689174,0.6737865242695146,240,60,1.0,False
+GPT Audio Mini,1c,Inventory-known - Count-known,replay_rate,0.007753110647968619,-0.010060249269339658,0.026252468274191337,0.4096118077638447,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,master_score,0.014199580221454188,-0.0002277872500913949,0.02695929671494388,0.04069918601627968,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.011960747146883716,-0.03111672035104758,0.007248938518405079,0.23489530209395812,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,evidence_reach_score,-0.014618055555555553,-0.03263975694444443,0.0023958333333333327,0.11417771644567108,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,target_evidence_found,-0.03333333333333333,-0.08333333333333333,0.0125,0.2389352212955741,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,track1c_update_success_rate,0.01751511878961737,-0.0080707385127892,0.041963798426659864,0.18035639287214256,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,-0.00805333789416438,-0.0250694267288716,0.009417828217783569,0.3617927641447171,162,49,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,budget_used,-0.010563219258644563,-0.020224242388493532,-0.001391011186974352,0.03407931841363173,240,60,1.0,False
+Gemini 2 Flash,1c,Inventory-known - Count-known,replay_rate,-0.009108602112267264,-0.02314041810618267,0.004187905098239797,0.2120957580848383,240,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,master_score,0.023298643190463767,0.007632066453867146,0.042184595754038406,0.0037999240015199696,240,60,0.26979460410791783,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,active_evidence_acquisition_score,0.01706253264482431,-0.003627210944919283,0.04219469699667614,0.15969680606387873,240,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,evidence_reach_score,0.012638888888888889,-0.007395833333333336,0.037222222222222226,0.3015939681206376,240,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,target_evidence_found,0.025,-0.0125,0.0625,0.2686146277074459,240,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,track1c_update_success_rate,0.014121892420085656,-0.004166734491128325,0.032347156550201636,0.13071738565228697,236,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,-0.00467048509646393,-0.014866548530176764,0.005822949653988242,0.39163216735665285,186,57,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,budget_used,0.005363391137844204,-0.003580218924387449,0.016989579605446167,0.3648927021459571,240,60,1.0,False
+Gemini 3 Flash,1c,Inventory-known - Count-known,replay_rate,-0.002052851417258197,-0.005319966567174311,0.0003060263653483992,0.376392472150557,236,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,master_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,active_evidence_acquisition_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,evidence_reach_score,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,target_evidence_found,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,track1c_update_success_rate,,,,,0,0,,False
+Kimi Audio,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,,,,,0,0,,False
+Kimi Audio,1c,Inventory-known - Count-known,budget_used,0.0,0.0,0.0,1.0,240,60,1.0,False
+Kimi Audio,1c,Inventory-known - Count-known,replay_rate,,,,,0,0,,False
+MOSS Audio,1c,Inventory-known - Count-known,master_score,-0.017333838476359678,-0.03897946283327668,0.005195072652687418,0.1357372852542949,240,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.01081292594597616,-0.03434160015233014,0.010941312743929728,0.37259254814903703,240,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,evidence_reach_score,-0.01430555555555556,-0.03777864583333333,0.008194444444444442,0.2394752104957901,240,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,target_evidence_found,-0.020833333333333332,-0.075,0.03333333333333333,0.5510889782204356,240,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,track1c_update_success_rate,0.0050846990212974185,-0.011648845270285906,0.02174877746612023,0.5635487290254195,238,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,-0.006441668551520599,-0.023361182047867857,0.011170992703442599,0.4855902881942361,110,37,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,budget_used,-0.01578393556227416,-0.032348607572593016,0.0006541264950342236,0.06457870842583148,240,60,1.0,False
+MOSS Audio,1c,Inventory-known - Count-known,replay_rate,-0.01260924720466639,-0.027188662767155387,0.0015185891484931836,0.09315813683726326,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,master_score,0.016042589452436248,-0.006464506990774646,0.041944679766073543,0.21367572648547029,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,active_evidence_acquisition_score,-0.015331835424069832,-0.04006458211629259,0.010153188741221274,0.24229515409691807,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,evidence_reach_score,-0.009374999999999998,-0.03656336805555555,0.018645833333333337,0.509909801803964,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,target_evidence_found,-0.0125,-0.058333333333333334,0.03333333333333333,0.7288454230915382,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,track1c_update_success_rate,-0.004745948484933958,-0.02082118025670124,0.011552492047670006,0.5668086638267235,195,58,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,-0.00489820092761269,-0.035288270308936706,0.025886739869801847,0.7872842543149137,45,19,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,budget_used,0.008155325841435928,-0.02272094649175954,0.03995227560183177,0.616927661446771,240,60,1.0,False
+Mimo Audio,1c,Inventory-known - Count-known,replay_rate,0.00832359221626202,-0.012119320293548251,0.030005197532036093,0.45753084938301236,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,master_score,0.021676612356926344,-0.0240543874767955,0.06726449107861475,0.3619527609447811,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,active_evidence_acquisition_score,0.035420691520820245,-0.0213702646541507,0.09034395055920096,0.2249755004899902,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,evidence_reach_score,0.033993055555555554,-0.02434288194444442,0.09194618055555553,0.2631547369052619,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,target_evidence_found,0.016666666666666666,-0.041666666666666664,0.075,0.6827663446731065,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,track1c_update_success_rate,0.0246170431556461,0.0024312051569125473,0.04664725825367297,0.04255914881702366,80,29,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,stale_answer_rate_given_evidence,-0.021998641694849125,-0.04361486030543869,-0.002595135811589378,0.055598888022239557,60,23,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,budget_used,-0.019782185282823057,-0.052658613194632095,0.010920154785586472,0.2394752104957901,240,60,1.0,False
+Qwen2.5 Omni,1c,Inventory-known - Count-known,replay_rate,-0.11684038590946597,-0.1844196911920182,-0.05634800269524507,0.0005399892002159956,129,40,0.03887922241555169,True

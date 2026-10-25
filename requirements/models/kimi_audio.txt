@@ -1,0 +1,15 @@
+# Observed environment; GPU/API integration was not rerun during release preparation.
+# See docs/models.md for external model source requirements.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchaudio==2.6.0+cu124
+transformers==4.52.3
+numpy==2.2.6
+openai==2.14.0
+requests==2.32.5
+soundfile==0.13.1
+accelerate==1.11.0
+safetensors==0.6.2
+huggingface_hub==0.36.0
+librosa==0.11.0
+kimi-audio @ git+https://github.com/MoonshotAI/Kimi-Audio.git@349251e1d8f4f98d58fda59246381faecd7392e0

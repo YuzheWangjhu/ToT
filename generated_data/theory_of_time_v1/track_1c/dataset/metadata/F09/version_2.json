@@ -1,0 +1,575 @@
+{
+  "audio_duration_seconds": 27.48,
+  "audio_file_path": "episodes/F09/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "F09",
+  "generation_timestamp": "2026-06-04T14:26:23.531708+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F09_S01",
+          "F09_S02",
+          "F09_S03",
+          "F09_S04",
+          "F09_S05",
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "If F09_S06 is observed, place SIGN_OUT_INVENTORY_SHEET before all other fully observed action sentences from this conversation, then list the other observed action codes in their original sentence order. If F09_S06 is not observed, list observed original action codes in sentence order. Return UNKNOWN if no action sentence is observed."
+          }
+        ],
+        "final_answer_full_evidence": "SIGN_OUT_INVENTORY_SHEET>UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM",
+        "prefix_answer_trace": {
+          "F09_S01": "UNLOCK_SUPPLY_ROOM",
+          "F09_S02": "UNLOCK_SUPPLY_ROOM>COUNT_TABLETS",
+          "F09_S03": "UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT",
+          "F09_S04": "UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS",
+          "F09_S05": "UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM",
+          "F09_S06": "SIGN_OUT_INVENTORY_SHEET>UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "F09_S06",
+              "F09_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "F09_S01": "UNKNOWN",
+          "F09_S02": "UNKNOWN",
+          "F09_S03": "UNKNOWN",
+          "F09_S04": "UNKNOWN",
+          "F09_S05": "UNKNOWN",
+          "F09_S06": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "prompt": "What procedure order is supported by the speech heard so far? Use only these action codes: UNLOCK_SUPPLY_ROOM, COUNT_TABLETS, RECORD_TABLET_COUNT, RESTOCK_EMPTY_BINS, LOCK_ROOM, SIGN_OUT_INVENTORY_SHEET. Return known action codes in order separated by \">\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \">\" with no spaces.",
+        "question_id": "F09_CAT_Q1",
+        "question_type": "procedure_order_supported"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Does SIGN_OUT_INVENTORY_SHEET happen before UNLOCK_SUPPLY_ROOM? Return YES, NO, or UNKNOWN.",
+        "question_id": "F09_CAT_Q2",
+        "question_type": "procedure_pairwise_order"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F09_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "COUNT_TABLETS",
+            "if_observed_all": [
+              "F09_S01",
+              "F09_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "COUNT_TABLETS",
+        "prefix_answer_trace": {
+          "F09_S01": "UNKNOWN",
+          "F09_S02": "COUNT_TABLETS",
+          "F09_S03": "COUNT_TABLETS",
+          "F09_S04": "COUNT_TABLETS",
+          "F09_S05": "COUNT_TABLETS",
+          "F09_S06": "COUNT_TABLETS",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "B",
+            "if_observed_all": [
+              "F09_S06"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "F09_S01": "UNKNOWN",
+          "F09_S02": "UNKNOWN",
+          "F09_S03": "UNKNOWN",
+          "F09_S04": "UNKNOWN",
+          "F09_S05": "UNKNOWN",
+          "F09_S06": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "COUNT_TABLETS",
+          "RECORD_TABLET_COUNT",
+          "REVIEW_FORM",
+          "SIGN_OUT_INVENTORY_SHEET",
+          "LOCK_ROOM",
+          "RESTOCK_EMPTY_BINS",
+          "NONE",
+          "UNKNOWN"
+        ],
+        "prompt": "What action happens after UNLOCK_SUPPLY_ROOM? Return exactly one of: COUNT_TABLETS, RECORD_TABLET_COUNT, REVIEW_FORM, SIGN_OUT_INVENTORY_SHEET, LOCK_ROOM, RESTOCK_EMPTY_BINS, NONE, UNKNOWN.",
+        "question_id": "F09_CONTENT_Q1",
+        "question_type": "next_action"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker says the action SIGN_OUT_INVENTORY_SHEET? Return A, B, or UNKNOWN.",
+        "question_id": "F09_CONTENT_Q2",
+        "question_type": "speaker_content_attribution"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "F09_S01",
+          "F09_S02",
+          "F09_S03",
+          "F09_S04",
+          "F09_S05",
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A>B",
+        "prefix_answer_trace": {
+          "F09_S01": "A",
+          "F09_S02": "A>B",
+          "F09_S03": "A>B>A",
+          "F09_S04": "A>B>A>B",
+          "F09_S05": "A>B>A>B>A",
+          "F09_S06": "A>B>A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F09_S01",
+          "F09_S02",
+          "F09_S03",
+          "F09_S04",
+          "F09_S05",
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "5",
+        "prefix_answer_trace": {
+          "F09_S01": "0",
+          "F09_S02": "1",
+          "F09_S03": "2",
+          "F09_S04": "3",
+          "F09_S05": "4",
+          "F09_S06": "5",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F09_S01",
+          "F09_S02",
+          "F09_S03",
+          "F09_S04",
+          "F09_S05",
+          "F09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "F09_S01": "A",
+          "F09_S02": "B",
+          "F09_S03": "A",
+          "F09_S04": "B",
+          "F09_S05": "A",
+          "F09_S06": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F09_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "F09_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "F09_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "F09_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S01",
+        "speaker": "A",
+        "text": "First unlock the supply room."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S02",
+        "speaker": "B",
+        "text": "Then count the tablets."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S03",
+        "speaker": "A",
+        "text": "Record the tablet count."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S04",
+        "speaker": "B",
+        "text": "Restock the empty bins."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S05",
+        "speaker": "A",
+        "text": "Lock the room again."
+      },
+      {
+        "abstract_end_bin": 5,
+        "abstract_start_bin": 5,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F09_S06",
+        "speaker": "B",
+        "text": "Before unlocking the room, sign out the inventory sheet."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "F09_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "F09_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "F09_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.37,
+      "pause_label": "natural",
+      "pause_start_time": 2.37
+    },
+    {
+      "after_sentence_id": "F09_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.12,
+      "pause_label": "natural",
+      "pause_start_time": 5.12
+    },
+    {
+      "after_sentence_id": "F09_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 9.0,
+      "pause_label": "natural",
+      "pause_start_time": 8.0
+    },
+    {
+      "after_sentence_id": "F09_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 12.08,
+      "pause_label": "natural",
+      "pause_start_time": 11.08
+    },
+    {
+      "after_sentence_id": "F09_S05",
+      "duration_seconds": 10.0,
+      "pause_end_time": 23.84,
+      "pause_label": "long",
+      "pause_start_time": 13.84
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S01.wav",
+      "duration_seconds": 2.37,
+      "loudness_normalization": {
+        "applied_gain_db": -0.281982,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.362046,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.373993,
+        "original_speech_rms_dbfs": -23.718018
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "ed25df1a9adc175e9ff707d95f3dcc97ba17cc25565bf772fbf59ef740783ca0",
+      "sentence_end_time": 2.37,
+      "sentence_id": "F09_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "First unlock the supply room.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S02.wav",
+      "duration_seconds": 1.75,
+      "loudness_normalization": {
+        "applied_gain_db": -1.58122,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.445782,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.53479,
+        "original_speech_rms_dbfs": -22.41878
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "e6e328b721c5a4d668fb3a8c7570e8a740f4a21a6ab9892ad7e794a1c57a7106",
+      "sentence_end_time": 5.12,
+      "sentence_id": "F09_S02",
+      "sentence_start_time": 3.37,
+      "speaker": "B",
+      "text": "Then count the tablets.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S03.wav",
+      "duration_seconds": 1.88,
+      "loudness_normalization": {
+        "applied_gain_db": -0.657317,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.35709,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.385162,
+        "original_speech_rms_dbfs": -23.342683
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "789cf2a83b7641d9c50eae0ad2b2c5fa2636193f80a86efcffb18bb19e8ea119",
+      "sentence_end_time": 8.0,
+      "sentence_id": "F09_S03",
+      "sentence_start_time": 6.12,
+      "speaker": "A",
+      "text": "Record the tablet count.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S04.wav",
+      "duration_seconds": 2.08,
+      "loudness_normalization": {
+        "applied_gain_db": -2.289074,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.307139,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.39975,
+        "original_speech_rms_dbfs": -21.710926
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "b91dc017d72e6fdb28efd6ca6864e8359e6ff75d5dd5866be4d64f851d9f643a",
+      "sentence_end_time": 11.08,
+      "sentence_id": "F09_S04",
+      "sentence_start_time": 9.0,
+      "speaker": "B",
+      "text": "Restock the empty bins.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S05.wav",
+      "duration_seconds": 1.76,
+      "loudness_normalization": {
+        "applied_gain_db": -0.991437,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.33689,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.377625,
+        "original_speech_rms_dbfs": -23.008563
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "ede87dcd56c6f33b157c7c827f28ace83ac34db9d2e9ad86f2121049fcbac9b7",
+      "sentence_end_time": 13.84,
+      "sentence_id": "F09_S05",
+      "sentence_start_time": 12.08,
+      "speaker": "A",
+      "text": "Lock the room again.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 5,
+      "abstract_start_bin": 5,
+      "audio_file_path": "sentence_clips/F09/version_2/F09_S06.wav",
+      "duration_seconds": 3.64,
+      "loudness_normalization": {
+        "applied_gain_db": -2.902137,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.321517,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.449066,
+        "original_speech_rms_dbfs": -21.097863
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "740ab14bed39591354ac4632f85d85ba9a184cffb33f05cd6be4ee9056a46612",
+      "sentence_end_time": 27.48,
+      "sentence_id": "F09_S06",
+      "sentence_start_time": 23.84,
+      "speaker": "B",
+      "text": "Before unlocking the room, sign out the inventory sheet.",
+      "voice": "marin"
+    }
+  ],
+  "source_row": {
+    "category": "F",
+    "category_label": "Temporal instruction sequence",
+    "category_specific_answer_rules": "[{\"question_id\":\"F09_CAT_Q1\",\"ask_after\":[\"F09_S01\",\"F09_S02\",\"F09_S03\",\"F09_S04\",\"F09_S05\",\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"UNLOCK_SUPPLY_ROOM\",\"F09_S02\":\"UNLOCK_SUPPLY_ROOM>COUNT_TABLETS\",\"F09_S03\":\"UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT\",\"F09_S04\":\"UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS\",\"F09_S05\":\"UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM\",\"F09_S06\":\"SIGN_OUT_INVENTORY_SHEET>UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM\"},\"final_answer_full_evidence\":\"SIGN_OUT_INVENTORY_SHEET>UNLOCK_SUPPLY_ROOM>COUNT_TABLETS>RECORD_TABLET_COUNT>RESTOCK_EMPTY_BINS>LOCK_ROOM\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"If F09_S06 is observed, place SIGN_OUT_INVENTORY_SHEET before all other fully observed action sentences from this conversation, then list the other observed action codes in their original sentence order. If F09_S06 is not observed, list observed original action codes in sentence order. Return UNKNOWN if no action sentence is observed.\"}]},{\"question_id\":\"F09_CAT_Q2\",\"ask_after\":[\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"UNKNOWN\",\"F09_S02\":\"UNKNOWN\",\"F09_S03\":\"UNKNOWN\",\"F09_S04\":\"UNKNOWN\",\"F09_S05\":\"UNKNOWN\",\"F09_S06\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"F09_S06\",\"F09_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"F09_CAT_Q1\",\"question_type\":\"procedure_order_supported\",\"prompt\":\"What procedure order is supported by the speech heard so far? Use only these action codes: UNLOCK_SUPPLY_ROOM, COUNT_TABLETS, RECORD_TABLET_COUNT, RESTOCK_EMPTY_BINS, LOCK_ROOM, SIGN_OUT_INVENTORY_SHEET. Return known action codes in order separated by \\\">\\\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F09_CAT_Q2\",\"question_type\":\"procedure_pairwise_order\",\"prompt\":\"Does SIGN_OUT_INVENTORY_SHEET happen before UNLOCK_SUPPLY_ROOM? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"F09_CONTENT_Q1\",\"ask_after\":[\"F09_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"UNKNOWN\",\"F09_S02\":\"COUNT_TABLETS\",\"F09_S03\":\"COUNT_TABLETS\",\"F09_S04\":\"COUNT_TABLETS\",\"F09_S05\":\"COUNT_TABLETS\",\"F09_S06\":\"COUNT_TABLETS\"},\"final_answer_full_evidence\":\"COUNT_TABLETS\",\"evidence_rules\":[{\"if_observed_all\":[\"F09_S01\",\"F09_S02\"],\"answer\":\"COUNT_TABLETS\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"F09_CONTENT_Q2\",\"ask_after\":[\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"UNKNOWN\",\"F09_S02\":\"UNKNOWN\",\"F09_S03\":\"UNKNOWN\",\"F09_S04\":\"UNKNOWN\",\"F09_S05\":\"UNKNOWN\",\"F09_S06\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"if_observed_all\":[\"F09_S06\"],\"answer\":\"B\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"F09_CONTENT_Q1\",\"question_type\":\"next_action\",\"prompt\":\"What action happens after UNLOCK_SUPPLY_ROOM? Return exactly one of: COUNT_TABLETS, RECORD_TABLET_COUNT, REVIEW_FORM, SIGN_OUT_INVENTORY_SHEET, LOCK_ROOM, RESTOCK_EMPTY_BINS, NONE, UNKNOWN.\",\"allowed_answers\":[\"COUNT_TABLETS\",\"RECORD_TABLET_COUNT\",\"REVIEW_FORM\",\"SIGN_OUT_INVENTORY_SHEET\",\"LOCK_ROOM\",\"RESTOCK_EMPTY_BINS\",\"NONE\",\"UNKNOWN\"]},{\"question_id\":\"F09_CONTENT_Q2\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker says the action SIGN_OUT_INVENTORY_SHEET? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "conversation_id": "F09",
+    "critical_span": "bins 0-5",
+    "end_bin": "5",
+    "generic_answer_rules": "[{\"question_id\":\"F09_GEN_Q1\",\"ask_after\":[\"F09_S01\",\"F09_S02\",\"F09_S03\",\"F09_S04\",\"F09_S05\",\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"A\",\"F09_S02\":\"A>B\",\"F09_S03\":\"A>B>A\",\"F09_S04\":\"A>B>A>B\",\"F09_S05\":\"A>B>A>B>A\",\"F09_S06\":\"A>B>A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F09_GEN_Q2\",\"ask_after\":[\"F09_S01\",\"F09_S02\",\"F09_S03\",\"F09_S04\",\"F09_S05\",\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"0\",\"F09_S02\":\"1\",\"F09_S03\":\"2\",\"F09_S04\":\"3\",\"F09_S05\":\"4\",\"F09_S06\":\"5\"},\"final_answer_full_evidence\":\"5\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F09_GEN_Q3\",\"ask_after\":[\"F09_S01\",\"F09_S02\",\"F09_S03\",\"F09_S04\",\"F09_S05\",\"F09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F09_S01\":\"A\",\"F09_S02\":\"B\",\"F09_S03\":\"A\",\"F09_S04\":\"B\",\"F09_S05\":\"A\",\"F09_S06\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"F09_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F09_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"F09_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "F09_S01=0; F09_S02=1; F09_S03=2; F09_S04=3; F09_S05=4; F09_S06=5",
+    "sentence_metadata": "[{\"sentence_id\":\"F09_S01\",\"speaker\":\"A\",\"text\":\"First unlock the supply room.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F09_S02\",\"speaker\":\"B\",\"text\":\"Then count the tablets.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F09_S03\",\"speaker\":\"A\",\"text\":\"Record the tablet count.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F09_S04\",\"speaker\":\"B\",\"text\":\"Restock the empty bins.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F09_S05\",\"speaker\":\"A\",\"text\":\"Lock the room again.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F09_S06\",\"speaker\":\"B\",\"text\":\"Before unlocking the room, sign out the inventory sheet.\",\"abstract_start_bin\":5,\"abstract_end_bin\":5,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "F09_S01,F09_S02,F09_S03,F09_S04,F09_S05,F09_S06",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"F09_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"F09_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: First unlock the supply room.\nB: Then count the tablets.\nA: Record the tablet count.\nB: Restock the empty bins.\nA: Lock the room again.\nB: Before unlocking the room, sign out the inventory sheet.",
+    "transcript_with_pause_recommendations": "A: First unlock the supply room. (natural)\nB: Then count the tablets. (natural)\nA: Record the tablet count. (natural)\nB: Restock the empty bins. (natural)\nA: Lock the room again. (long)\nB: Before unlocking the room, sign out the inventory sheet.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4; T6=5",
+    "turn_count": "6"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

@@ -1,0 +1,1898 @@
+{
+  "benchmark_defaults": {
+    "api_retry_sleep_sec": 60.0,
+    "bin_duration_sec": 1.0,
+    "episode_duration_sec": 10.0,
+    "max_events": 5,
+    "max_query_bins": 3,
+    "max_steps": 8,
+    "max_total_queried_bins": 20,
+    "min_events": 3,
+    "num_bins": 10,
+    "num_episodes": 10,
+    "probe_every_n": 2,
+    "seed": 20260413,
+    "sequence_delimiter": " -> ",
+    "track_id": "1a"
+  },
+  "dataset_root": "dataset",
+  "episodes": [
+    {
+      "asset_provenance": {
+        "education": {
+          "category": "Long",
+          "duration_sec": 0.83,
+          "path": "audios/Long/education__voice-echo__speed-1_25.wav"
+        },
+        "kilo": {
+          "category": "NATO",
+          "duration_sec": 0.72,
+          "path": "audios/NATO/kilo__voice-echo__speed-1.wav"
+        },
+        "refrigerator": {
+          "category": "Long",
+          "duration_sec": 0.89,
+          "path": "audios/Long/refrigerator__voice-ash__speed-1_25.wav"
+        },
+        "tango": {
+          "category": "NATO",
+          "duration_sec": 0.75,
+          "path": "audios/NATO/tango__voice-echo__speed-1.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_000.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "ADJACENT"
+        },
+        "localization": {
+          "localization_1": "START 4 END 4"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "tango -> refrigerator -> kilo -> education",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "kilo",
+            "query_id": "gap_1",
+            "right_label": "education"
+          }
+        ],
+        "localization": [
+          {
+            "label": "refrigerator",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "tango",
+            "label_b": "education",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "tango",
+            "label_b": "refrigerator",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_000",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "tango",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 4,
+          "label": "refrigerator",
+          "start_bin": 4
+        },
+        {
+          "end_bin": 8,
+          "label": "kilo",
+          "start_bin": 8
+        },
+        {
+          "end_bin": 9,
+          "label": "education",
+          "start_bin": 9
+        }
+      ],
+      "event_count": 4,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "tango",
+          "relation": "GAP",
+          "right_label": "refrigerator"
+        },
+        {
+          "left_label": "refrigerator",
+          "relation": "GAP",
+          "right_label": "kilo"
+        },
+        {
+          "left_label": "kilo",
+          "relation": "ADJACENT",
+          "right_label": "education"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "tango"
+        ],
+        [],
+        [],
+        [],
+        [
+          "refrigerator"
+        ],
+        [],
+        [],
+        [],
+        [
+          "kilo"
+        ],
+        [
+          "education"
+        ]
+      ],
+      "ground_truth_sequence": [
+        "tango",
+        "refrigerator",
+        "kilo",
+        "education"
+      ],
+      "ground_truth_spans": {
+        "education": {
+          "end_bin": 9,
+          "start_bin": 9
+        },
+        "kilo": {
+          "end_bin": 8,
+          "start_bin": 8
+        },
+        "refrigerator": {
+          "end_bin": 4,
+          "start_bin": 4
+        },
+        "tango": {
+          "end_bin": 0,
+          "start_bin": 0
+        }
+      },
+      "labels_present": [
+        "tango",
+        "refrigerator",
+        "kilo",
+        "education"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 4,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 4 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 4,
+          "known_inventory": [
+            "tango",
+            "refrigerator",
+            "kilo",
+            "education"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 4 events, and that the present labels are: tango, refrigerator, kilo, education. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "gray": {
+          "category": "Color",
+          "duration_sec": 0.71,
+          "path": "audios/Color/gray__voice-ash__speed-1_25.wav"
+        },
+        "pink": {
+          "category": "Color",
+          "duration_sec": 0.42,
+          "path": "audios/Color/pink__voice-nova__speed-1_25.wav"
+        },
+        "white": {
+          "category": "Color",
+          "duration_sec": 0.9,
+          "path": "audios/Color/white__voice-coral__speed-0_5.wav"
+        },
+        "zulu": {
+          "category": "NATO",
+          "duration_sec": 0.9,
+          "path": "audios/NATO/zulu__voice-ash__speed-1.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_001.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "GAP"
+        },
+        "localization": {
+          "localization_1": "START 6 END 6"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "white -> zulu -> pink -> gray",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "white",
+            "query_id": "gap_1",
+            "right_label": "zulu"
+          }
+        ],
+        "localization": [
+          {
+            "label": "zulu",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "white",
+            "label_b": "pink",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "zulu",
+            "label_b": "gray",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_001",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "white",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 6,
+          "label": "zulu",
+          "start_bin": 6
+        },
+        {
+          "end_bin": 7,
+          "label": "pink",
+          "start_bin": 7
+        },
+        {
+          "end_bin": 8,
+          "label": "gray",
+          "start_bin": 8
+        }
+      ],
+      "event_count": 4,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "white",
+          "relation": "GAP",
+          "right_label": "zulu"
+        },
+        {
+          "left_label": "zulu",
+          "relation": "ADJACENT",
+          "right_label": "pink"
+        },
+        {
+          "left_label": "pink",
+          "relation": "ADJACENT",
+          "right_label": "gray"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "white"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "zulu"
+        ],
+        [
+          "pink"
+        ],
+        [
+          "gray"
+        ],
+        []
+      ],
+      "ground_truth_sequence": [
+        "white",
+        "zulu",
+        "pink",
+        "gray"
+      ],
+      "ground_truth_spans": {
+        "gray": {
+          "end_bin": 8,
+          "start_bin": 8
+        },
+        "pink": {
+          "end_bin": 7,
+          "start_bin": 7
+        },
+        "white": {
+          "end_bin": 0,
+          "start_bin": 0
+        },
+        "zulu": {
+          "end_bin": 6,
+          "start_bin": 6
+        }
+      },
+      "labels_present": [
+        "white",
+        "zulu",
+        "pink",
+        "gray"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 4,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 4 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 4,
+          "known_inventory": [
+            "white",
+            "zulu",
+            "pink",
+            "gray"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 4 events, and that the present labels are: white, zulu, pink, gray. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "relationship": {
+          "category": "Long",
+          "duration_sec": 0.81,
+          "path": "audios/Long/relationship__voice-echo__speed-1.wav"
+        },
+        "responsibility": {
+          "category": "Long",
+          "duration_sec": 0.94,
+          "path": "audios/Long/responsibility__voice-echo__speed-1_25.wav"
+        },
+        "zulu": {
+          "category": "NATO",
+          "duration_sec": 0.84,
+          "path": "audios/NATO/zulu__voice-nova__speed-1.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_002.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "GAP"
+        },
+        "localization": {
+          "localization_1": "START 5 END 5"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "relationship -> responsibility -> zulu",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "relationship",
+            "query_id": "gap_1",
+            "right_label": "responsibility"
+          }
+        ],
+        "localization": [
+          {
+            "label": "responsibility",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "responsibility",
+            "label_b": "zulu",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "relationship",
+            "label_b": "responsibility",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_002",
+      "event_bin_assignments": [
+        {
+          "end_bin": 2,
+          "label": "relationship",
+          "start_bin": 2
+        },
+        {
+          "end_bin": 5,
+          "label": "responsibility",
+          "start_bin": 5
+        },
+        {
+          "end_bin": 8,
+          "label": "zulu",
+          "start_bin": 8
+        }
+      ],
+      "event_count": 3,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "relationship",
+          "relation": "GAP",
+          "right_label": "responsibility"
+        },
+        {
+          "left_label": "responsibility",
+          "relation": "GAP",
+          "right_label": "zulu"
+        }
+      ],
+      "ground_truth_raster": [
+        [],
+        [],
+        [
+          "relationship"
+        ],
+        [],
+        [],
+        [
+          "responsibility"
+        ],
+        [],
+        [],
+        [
+          "zulu"
+        ],
+        []
+      ],
+      "ground_truth_sequence": [
+        "relationship",
+        "responsibility",
+        "zulu"
+      ],
+      "ground_truth_spans": {
+        "relationship": {
+          "end_bin": 2,
+          "start_bin": 2
+        },
+        "responsibility": {
+          "end_bin": 5,
+          "start_bin": 5
+        },
+        "zulu": {
+          "end_bin": 8,
+          "start_bin": 8
+        }
+      },
+      "labels_present": [
+        "relationship",
+        "responsibility",
+        "zulu"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 3,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 3 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 3,
+          "known_inventory": [
+            "relationship",
+            "responsibility",
+            "zulu"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 3 events, and that the present labels are: relationship, responsibility, zulu. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "delta": {
+          "category": "NATO",
+          "duration_sec": 0.59,
+          "path": "audios/NATO/delta__voice-echo__speed-1_25.wav"
+        },
+        "environment": {
+          "category": "Long",
+          "duration_sec": 0.81,
+          "path": "audios/Long/environment__voice-coral__speed-1_25.wav"
+        },
+        "gray": {
+          "category": "Color",
+          "duration_sec": 0.85,
+          "path": "audios/Color/gray__voice-echo__speed-0_75.wav"
+        },
+        "red": {
+          "category": "Color",
+          "duration_sec": 0.65,
+          "path": "audios/Color/red__voice-coral__speed-0_75.wav"
+        },
+        "university": {
+          "category": "Long",
+          "duration_sec": 0.81,
+          "path": "audios/Long/university__voice-coral__speed-1_25.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_003.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "GAP"
+        },
+        "localization": {
+          "localization_1": "START 7 END 7"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "red -> gray -> delta -> environment -> university",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "gray",
+            "query_id": "gap_1",
+            "right_label": "delta"
+          }
+        ],
+        "localization": [
+          {
+            "label": "environment",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "delta",
+            "label_b": "university",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "gray",
+            "label_b": "environment",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_003",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "red",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 1,
+          "label": "gray",
+          "start_bin": 1
+        },
+        {
+          "end_bin": 4,
+          "label": "delta",
+          "start_bin": 4
+        },
+        {
+          "end_bin": 7,
+          "label": "environment",
+          "start_bin": 7
+        },
+        {
+          "end_bin": 8,
+          "label": "university",
+          "start_bin": 8
+        }
+      ],
+      "event_count": 5,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "red",
+          "relation": "ADJACENT",
+          "right_label": "gray"
+        },
+        {
+          "left_label": "gray",
+          "relation": "GAP",
+          "right_label": "delta"
+        },
+        {
+          "left_label": "delta",
+          "relation": "GAP",
+          "right_label": "environment"
+        },
+        {
+          "left_label": "environment",
+          "relation": "ADJACENT",
+          "right_label": "university"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "red"
+        ],
+        [
+          "gray"
+        ],
+        [],
+        [],
+        [
+          "delta"
+        ],
+        [],
+        [],
+        [
+          "environment"
+        ],
+        [
+          "university"
+        ],
+        []
+      ],
+      "ground_truth_sequence": [
+        "red",
+        "gray",
+        "delta",
+        "environment",
+        "university"
+      ],
+      "ground_truth_spans": {
+        "delta": {
+          "end_bin": 4,
+          "start_bin": 4
+        },
+        "environment": {
+          "end_bin": 7,
+          "start_bin": 7
+        },
+        "gray": {
+          "end_bin": 1,
+          "start_bin": 1
+        },
+        "red": {
+          "end_bin": 0,
+          "start_bin": 0
+        },
+        "university": {
+          "end_bin": 8,
+          "start_bin": 8
+        }
+      },
+      "labels_present": [
+        "red",
+        "gray",
+        "delta",
+        "environment",
+        "university"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 5,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 5 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 5,
+          "known_inventory": [
+            "red",
+            "gray",
+            "delta",
+            "environment",
+            "university"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 5 events, and that the present labels are: red, gray, delta, environment, university. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "black": {
+          "category": "Color",
+          "duration_sec": 0.64,
+          "path": "audios/Color/black__voice-ash__speed-1_25.wav"
+        },
+        "delta": {
+          "category": "NATO",
+          "duration_sec": 0.92,
+          "path": "audios/NATO/delta__voice-nova__speed-0_75.wav"
+        },
+        "environment": {
+          "category": "Long",
+          "duration_sec": 0.73,
+          "path": "audios/Long/environment__voice-echo__speed-1_25.wav"
+        },
+        "responsibility": {
+          "category": "Long",
+          "duration_sec": 0.89,
+          "path": "audios/Long/responsibility__voice-nova__speed-1_25.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_004.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "ADJACENT"
+        },
+        "localization": {
+          "localization_1": "START 0 END 0"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "black -> environment -> responsibility -> delta",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "environment",
+            "query_id": "gap_1",
+            "right_label": "responsibility"
+          }
+        ],
+        "localization": [
+          {
+            "label": "black",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "black",
+            "label_b": "responsibility",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "environment",
+            "label_b": "responsibility",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_004",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "black",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 2,
+          "label": "environment",
+          "start_bin": 2
+        },
+        {
+          "end_bin": 3,
+          "label": "responsibility",
+          "start_bin": 3
+        },
+        {
+          "end_bin": 6,
+          "label": "delta",
+          "start_bin": 6
+        }
+      ],
+      "event_count": 4,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "black",
+          "relation": "GAP",
+          "right_label": "environment"
+        },
+        {
+          "left_label": "environment",
+          "relation": "ADJACENT",
+          "right_label": "responsibility"
+        },
+        {
+          "left_label": "responsibility",
+          "relation": "GAP",
+          "right_label": "delta"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "black"
+        ],
+        [],
+        [
+          "environment"
+        ],
+        [
+          "responsibility"
+        ],
+        [],
+        [],
+        [
+          "delta"
+        ],
+        [],
+        [],
+        []
+      ],
+      "ground_truth_sequence": [
+        "black",
+        "environment",
+        "responsibility",
+        "delta"
+      ],
+      "ground_truth_spans": {
+        "black": {
+          "end_bin": 0,
+          "start_bin": 0
+        },
+        "delta": {
+          "end_bin": 6,
+          "start_bin": 6
+        },
+        "environment": {
+          "end_bin": 2,
+          "start_bin": 2
+        },
+        "responsibility": {
+          "end_bin": 3,
+          "start_bin": 3
+        }
+      },
+      "labels_present": [
+        "black",
+        "environment",
+        "responsibility",
+        "delta"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 4,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 4 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 4,
+          "known_inventory": [
+            "black",
+            "environment",
+            "responsibility",
+            "delta"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 4 events, and that the present labels are: black, environment, responsibility, delta. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "black": {
+          "category": "Color",
+          "duration_sec": 0.59,
+          "path": "audios/Color/black__voice-nova__speed-1.wav"
+        },
+        "hotel": {
+          "category": "NATO",
+          "duration_sec": 0.81,
+          "path": "audios/NATO/hotel__voice-ash__speed-1.wav"
+        },
+        "relationship": {
+          "category": "Long",
+          "duration_sec": 0.95,
+          "path": "audios/Long/relationship__voice-nova__speed-1.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_005.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "ADJACENT"
+        },
+        "localization": {
+          "localization_1": "START 7 END 7"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "black -> relationship -> hotel",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "relationship",
+            "query_id": "gap_1",
+            "right_label": "hotel"
+          }
+        ],
+        "localization": [
+          {
+            "label": "relationship",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "black",
+            "label_b": "hotel",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "relationship",
+            "label_b": "hotel",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_005",
+      "event_bin_assignments": [
+        {
+          "end_bin": 1,
+          "label": "black",
+          "start_bin": 1
+        },
+        {
+          "end_bin": 7,
+          "label": "relationship",
+          "start_bin": 7
+        },
+        {
+          "end_bin": 8,
+          "label": "hotel",
+          "start_bin": 8
+        }
+      ],
+      "event_count": 3,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "black",
+          "relation": "GAP",
+          "right_label": "relationship"
+        },
+        {
+          "left_label": "relationship",
+          "relation": "ADJACENT",
+          "right_label": "hotel"
+        }
+      ],
+      "ground_truth_raster": [
+        [],
+        [
+          "black"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "relationship"
+        ],
+        [
+          "hotel"
+        ],
+        []
+      ],
+      "ground_truth_sequence": [
+        "black",
+        "relationship",
+        "hotel"
+      ],
+      "ground_truth_spans": {
+        "black": {
+          "end_bin": 1,
+          "start_bin": 1
+        },
+        "hotel": {
+          "end_bin": 8,
+          "start_bin": 8
+        },
+        "relationship": {
+          "end_bin": 7,
+          "start_bin": 7
+        }
+      },
+      "labels_present": [
+        "black",
+        "relationship",
+        "hotel"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 3,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 3 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 3,
+          "known_inventory": [
+            "black",
+            "relationship",
+            "hotel"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 3 events, and that the present labels are: black, relationship, hotel. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "golf": {
+          "category": "NATO",
+          "duration_sec": 0.85,
+          "path": "audios/NATO/golf__voice-ash__speed-1.wav"
+        },
+        "hotel": {
+          "category": "NATO",
+          "duration_sec": 0.82,
+          "path": "audios/NATO/hotel__voice-coral__speed-1.wav"
+        },
+        "refrigerator": {
+          "category": "Long",
+          "duration_sec": 0.92,
+          "path": "audios/Long/refrigerator__voice-nova__speed-1.wav"
+        },
+        "tango": {
+          "category": "NATO",
+          "duration_sec": 0.68,
+          "path": "audios/NATO/tango__voice-coral__speed-1_25.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_006.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "ADJACENT"
+        },
+        "localization": {
+          "localization_1": "START 5 END 5"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "golf -> tango -> hotel -> refrigerator",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "hotel",
+            "query_id": "gap_1",
+            "right_label": "refrigerator"
+          }
+        ],
+        "localization": [
+          {
+            "label": "tango",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "golf",
+            "label_b": "refrigerator",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "golf",
+            "label_b": "hotel",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_006",
+      "event_bin_assignments": [
+        {
+          "end_bin": 4,
+          "label": "golf",
+          "start_bin": 4
+        },
+        {
+          "end_bin": 5,
+          "label": "tango",
+          "start_bin": 5
+        },
+        {
+          "end_bin": 7,
+          "label": "hotel",
+          "start_bin": 7
+        },
+        {
+          "end_bin": 8,
+          "label": "refrigerator",
+          "start_bin": 8
+        }
+      ],
+      "event_count": 4,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "golf",
+          "relation": "ADJACENT",
+          "right_label": "tango"
+        },
+        {
+          "left_label": "tango",
+          "relation": "GAP",
+          "right_label": "hotel"
+        },
+        {
+          "left_label": "hotel",
+          "relation": "ADJACENT",
+          "right_label": "refrigerator"
+        }
+      ],
+      "ground_truth_raster": [
+        [],
+        [],
+        [],
+        [],
+        [
+          "golf"
+        ],
+        [
+          "tango"
+        ],
+        [],
+        [
+          "hotel"
+        ],
+        [
+          "refrigerator"
+        ],
+        []
+      ],
+      "ground_truth_sequence": [
+        "golf",
+        "tango",
+        "hotel",
+        "refrigerator"
+      ],
+      "ground_truth_spans": {
+        "golf": {
+          "end_bin": 4,
+          "start_bin": 4
+        },
+        "hotel": {
+          "end_bin": 7,
+          "start_bin": 7
+        },
+        "refrigerator": {
+          "end_bin": 8,
+          "start_bin": 8
+        },
+        "tango": {
+          "end_bin": 5,
+          "start_bin": 5
+        }
+      },
+      "labels_present": [
+        "golf",
+        "tango",
+        "hotel",
+        "refrigerator"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 4,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 4 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 4,
+          "known_inventory": [
+            "golf",
+            "tango",
+            "hotel",
+            "refrigerator"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 4 events, and that the present labels are: golf, tango, hotel, refrigerator. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "echo": {
+          "category": "NATO",
+          "duration_sec": 0.59,
+          "path": "audios/NATO/echo__voice-ash__speed-1.wav"
+        },
+        "education": {
+          "category": "Long",
+          "duration_sec": 0.87,
+          "path": "audios/Long/education__voice-ash__speed-1_25.wav"
+        },
+        "opportunity": {
+          "category": "Long",
+          "duration_sec": 0.88,
+          "path": "audios/Long/opportunity__voice-echo__speed-1_25.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_007.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "ADJACENT"
+        },
+        "localization": {
+          "localization_1": "START 7 END 7"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "education -> opportunity -> echo",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "education",
+            "query_id": "gap_1",
+            "right_label": "opportunity"
+          }
+        ],
+        "localization": [
+          {
+            "label": "echo",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "education",
+            "label_b": "echo",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "opportunity",
+            "label_b": "echo",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_007",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "education",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 1,
+          "label": "opportunity",
+          "start_bin": 1
+        },
+        {
+          "end_bin": 7,
+          "label": "echo",
+          "start_bin": 7
+        }
+      ],
+      "event_count": 3,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "education",
+          "relation": "ADJACENT",
+          "right_label": "opportunity"
+        },
+        {
+          "left_label": "opportunity",
+          "relation": "GAP",
+          "right_label": "echo"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "education"
+        ],
+        [
+          "opportunity"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "echo"
+        ],
+        [],
+        []
+      ],
+      "ground_truth_sequence": [
+        "education",
+        "opportunity",
+        "echo"
+      ],
+      "ground_truth_spans": {
+        "echo": {
+          "end_bin": 7,
+          "start_bin": 7
+        },
+        "education": {
+          "end_bin": 0,
+          "start_bin": 0
+        },
+        "opportunity": {
+          "end_bin": 1,
+          "start_bin": 1
+        }
+      },
+      "labels_present": [
+        "education",
+        "opportunity",
+        "echo"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 3,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 3 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 3,
+          "known_inventory": [
+            "education",
+            "opportunity",
+            "echo"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 3 events, and that the present labels are: education, opportunity, echo. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "green": {
+          "category": "Color",
+          "duration_sec": 0.91,
+          "path": "audios/Color/green__voice-coral__speed-0_75.wav"
+        },
+        "information": {
+          "category": "Long",
+          "duration_sec": 0.71,
+          "path": "audios/Long/information__voice-nova__speed-1_25.wav"
+        },
+        "red": {
+          "category": "Color",
+          "duration_sec": 0.66,
+          "path": "audios/Color/red__voice-ash__speed-1_25.wav"
+        },
+        "white": {
+          "category": "Color",
+          "duration_sec": 0.43,
+          "path": "audios/Color/white__voice-nova__speed-1_25.wav"
+        },
+        "yellow": {
+          "category": "Color",
+          "duration_sec": 0.68,
+          "path": "audios/Color/yellow__voice-coral__speed-1.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_008.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "GAP"
+        },
+        "localization": {
+          "localization_1": "START 3 END 3"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "information -> white -> green -> yellow -> red",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "information",
+            "query_id": "gap_1",
+            "right_label": "white"
+          }
+        ],
+        "localization": [
+          {
+            "label": "white",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "green",
+            "label_b": "yellow",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "information",
+            "label_b": "white",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_008",
+      "event_bin_assignments": [
+        {
+          "end_bin": 0,
+          "label": "information",
+          "start_bin": 0
+        },
+        {
+          "end_bin": 3,
+          "label": "white",
+          "start_bin": 3
+        },
+        {
+          "end_bin": 4,
+          "label": "green",
+          "start_bin": 4
+        },
+        {
+          "end_bin": 6,
+          "label": "yellow",
+          "start_bin": 6
+        },
+        {
+          "end_bin": 9,
+          "label": "red",
+          "start_bin": 9
+        }
+      ],
+      "event_count": 5,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "information",
+          "relation": "GAP",
+          "right_label": "white"
+        },
+        {
+          "left_label": "white",
+          "relation": "ADJACENT",
+          "right_label": "green"
+        },
+        {
+          "left_label": "green",
+          "relation": "GAP",
+          "right_label": "yellow"
+        },
+        {
+          "left_label": "yellow",
+          "relation": "GAP",
+          "right_label": "red"
+        }
+      ],
+      "ground_truth_raster": [
+        [
+          "information"
+        ],
+        [],
+        [],
+        [
+          "white"
+        ],
+        [
+          "green"
+        ],
+        [],
+        [
+          "yellow"
+        ],
+        [],
+        [],
+        [
+          "red"
+        ]
+      ],
+      "ground_truth_sequence": [
+        "information",
+        "white",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "ground_truth_spans": {
+        "green": {
+          "end_bin": 4,
+          "start_bin": 4
+        },
+        "information": {
+          "end_bin": 0,
+          "start_bin": 0
+        },
+        "red": {
+          "end_bin": 9,
+          "start_bin": 9
+        },
+        "white": {
+          "end_bin": 3,
+          "start_bin": 3
+        },
+        "yellow": {
+          "end_bin": 6,
+          "start_bin": 6
+        }
+      },
+      "labels_present": [
+        "information",
+        "white",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 5,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 5 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 5,
+          "known_inventory": [
+            "information",
+            "white",
+            "green",
+            "yellow",
+            "red"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 5 events, and that the present labels are: information, white, green, yellow, red. You do not know where they occur."
+        }
+      }
+    },
+    {
+      "asset_provenance": {
+        "bravo": {
+          "category": "NATO",
+          "duration_sec": 0.68,
+          "path": "audios/NATO/bravo__voice-echo__speed-1.wav"
+        },
+        "imagination": {
+          "category": "Long",
+          "duration_sec": 0.98,
+          "path": "audios/Long/imagination__voice-nova__speed-1.wav"
+        },
+        "relationship": {
+          "category": "Long",
+          "duration_sec": 0.8,
+          "path": "audios/Long/relationship__voice-nova__speed-1_25.wav"
+        }
+      },
+      "audio_path": "dataset/episodes/episode_009.wav",
+      "behavioral_answers": {
+        "gap_adjacency": {
+          "gap_1": "GAP"
+        },
+        "localization": {
+          "localization_1": "START 3 END 3"
+        },
+        "pairwise_order": {
+          "pairwise_1": "BEFORE",
+          "pairwise_2": "BEFORE"
+        },
+        "sequence": {
+          "answer": "relationship -> imagination -> bravo",
+          "query_id": "sequence_1"
+        }
+      },
+      "behavioral_queries": {
+        "gap_adjacency": [
+          {
+            "left_label": "relationship",
+            "query_id": "gap_1",
+            "right_label": "imagination"
+          }
+        ],
+        "localization": [
+          {
+            "label": "relationship",
+            "query_id": "localization_1"
+          }
+        ],
+        "pairwise_order": [
+          {
+            "label_a": "imagination",
+            "label_b": "bravo",
+            "query_id": "pairwise_1"
+          },
+          {
+            "label_a": "relationship",
+            "label_b": "imagination",
+            "query_id": "pairwise_2"
+          }
+        ],
+        "sequence": {
+          "prompt": "Recover the left-to-right ordered event sequence.",
+          "query_id": "sequence_1"
+        }
+      },
+      "build_seed": 20260413,
+      "episode_id": "episode_009",
+      "event_bin_assignments": [
+        {
+          "end_bin": 3,
+          "label": "relationship",
+          "start_bin": 3
+        },
+        {
+          "end_bin": 7,
+          "label": "imagination",
+          "start_bin": 7
+        },
+        {
+          "end_bin": 9,
+          "label": "bravo",
+          "start_bin": 9
+        }
+      ],
+      "event_count": 3,
+      "ground_truth_gap_relations": [
+        {
+          "left_label": "relationship",
+          "relation": "GAP",
+          "right_label": "imagination"
+        },
+        {
+          "left_label": "imagination",
+          "relation": "GAP",
+          "right_label": "bravo"
+        }
+      ],
+      "ground_truth_raster": [
+        [],
+        [],
+        [],
+        [
+          "relationship"
+        ],
+        [],
+        [],
+        [],
+        [
+          "imagination"
+        ],
+        [],
+        [
+          "bravo"
+        ]
+      ],
+      "ground_truth_sequence": [
+        "relationship",
+        "imagination",
+        "bravo"
+      ],
+      "ground_truth_spans": {
+        "bravo": {
+          "end_bin": 9,
+          "start_bin": 9
+        },
+        "imagination": {
+          "end_bin": 7,
+          "start_bin": 7
+        },
+        "relationship": {
+          "end_bin": 3,
+          "start_bin": 3
+        }
+      },
+      "labels_present": [
+        "relationship",
+        "imagination",
+        "bravo"
+      ],
+      "regime_variants": {
+        "Count-known": {
+          "known_event_count": 3,
+          "known_inventory": null,
+          "name": "Count-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, and that this episode contains exactly 3 events. You do not know which labels are present."
+        },
+        "Discovery": {
+          "known_event_count": null,
+          "known_inventory": null,
+          "name": "Discovery",
+          "prior_text": "You know the full vocabulary, that each episode contains between 3 and 5 events, and that labels do not repeat. You do not know the exact event count or which labels are present."
+        },
+        "Inventory-known": {
+          "known_event_count": 3,
+          "known_inventory": [
+            "relationship",
+            "imagination",
+            "bravo"
+          ],
+          "name": "Inventory-known",
+          "prior_text": "You know the full vocabulary, that labels do not repeat, that this episode contains exactly 3 events, and that the present labels are: relationship, imagination, bravo. You do not know where they occur."
+        }
+      }
+    }
+  ],
+  "vocabulary": [
+    "alpha",
+    "black",
+    "blue",
+    "bravo",
+    "brown",
+    "celebration",
+    "community",
+    "conversation",
+    "delta",
+    "echo",
+    "education",
+    "environment",
+    "golf",
+    "gray",
+    "green",
+    "hotel",
+    "imagination",
+    "information",
+    "kilo",
+    "lima",
+    "opportunity",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "refrigerator",
+    "relationship",
+    "responsibility",
+    "tango",
+    "university",
+    "white",
+    "yellow",
+    "zulu"
+  ]
+}

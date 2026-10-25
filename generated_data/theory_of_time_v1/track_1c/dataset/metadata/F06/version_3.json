@@ -1,0 +1,524 @@
+{
+  "audio_duration_seconds": 23.48,
+  "audio_file_path": "episodes/F06/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "F06",
+  "generation_timestamp": "2026-06-04T14:25:24.159314+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F06_S01",
+          "F06_S02",
+          "F06_S03",
+          "F06_S04",
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed."
+          }
+        ],
+        "final_answer_full_evidence": "PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES>LET_COOL",
+        "prefix_answer_trace": {
+          "F06_S01": "PREHEAT_OVEN",
+          "F06_S02": "PREHEAT_OVEN>MIX_BATTER",
+          "F06_S03": "PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN",
+          "F06_S04": "PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES",
+          "F06_S05": "PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES>LET_COOL",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "F06_S01",
+              "F06_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "F06_S01": "UNKNOWN",
+          "F06_S02": "UNKNOWN",
+          "F06_S03": "UNKNOWN",
+          "F06_S04": "UNKNOWN",
+          "F06_S05": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "prompt": "What procedure order is supported by the speech heard so far? Use only these action codes: PREHEAT_OVEN, MIX_BATTER, POUR_INTO_PAN, BAKE_TWENTY_MINUTES, LET_COOL. Return known action codes in order separated by \">\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \">\" with no spaces.",
+        "question_id": "F06_CAT_Q1",
+        "question_type": "procedure_order_supported"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Does PREHEAT_OVEN happen before LET_COOL? Return YES, NO, or UNKNOWN.",
+        "question_id": "F06_CAT_Q2",
+        "question_type": "procedure_pairwise_order"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F06_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "MIX_BATTER",
+            "if_observed_all": [
+              "F06_S01",
+              "F06_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "MIX_BATTER",
+        "prefix_answer_trace": {
+          "F06_S01": "UNKNOWN",
+          "F06_S02": "MIX_BATTER",
+          "F06_S03": "MIX_BATTER",
+          "F06_S04": "MIX_BATTER",
+          "F06_S05": "MIX_BATTER",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "F06_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F06_S01": "UNKNOWN",
+          "F06_S02": "UNKNOWN",
+          "F06_S03": "UNKNOWN",
+          "F06_S04": "UNKNOWN",
+          "F06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "BAKE_TWENTY_MINUTES",
+          "REVIEW_FORM",
+          "POUR_INTO_PAN",
+          "MIX_BATTER",
+          "LET_COOL",
+          "NONE",
+          "UNKNOWN"
+        ],
+        "prompt": "What action happens after PREHEAT_OVEN? Return exactly one of: BAKE_TWENTY_MINUTES, REVIEW_FORM, POUR_INTO_PAN, MIX_BATTER, LET_COOL, NONE, UNKNOWN.",
+        "question_id": "F06_CONTENT_Q1",
+        "question_type": "next_action"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker says the action LET_COOL? Return A, B, or UNKNOWN.",
+        "question_id": "F06_CONTENT_Q2",
+        "question_type": "speaker_content_attribution"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "F06_S01",
+          "F06_S02",
+          "F06_S03",
+          "F06_S04",
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "F06_S01": "A",
+          "F06_S02": "A>B",
+          "F06_S03": "A>B>A",
+          "F06_S04": "A>B>A>B",
+          "F06_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F06_S01",
+          "F06_S02",
+          "F06_S03",
+          "F06_S04",
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "F06_S01": "0",
+          "F06_S02": "1",
+          "F06_S03": "2",
+          "F06_S04": "3",
+          "F06_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F06_S01",
+          "F06_S02",
+          "F06_S03",
+          "F06_S04",
+          "F06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F06_S01": "A",
+          "F06_S02": "B",
+          "F06_S03": "A",
+          "F06_S04": "B",
+          "F06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F06_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "F06_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "F06_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "F06_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F06_S01",
+        "speaker": "A",
+        "text": "First preheat the oven."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F06_S02",
+        "speaker": "B",
+        "text": "Then mix the batter."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F06_S03",
+        "speaker": "A",
+        "text": "Pour it into the pan."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F06_S04",
+        "speaker": "B",
+        "text": "Bake it for twenty minutes."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F06_S05",
+        "speaker": "A",
+        "text": "Let it cool before serving."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "F06_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "F06_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "F06_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.42,
+      "pause_label": "natural",
+      "pause_start_time": 2.42
+    },
+    {
+      "after_sentence_id": "F06_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.14,
+      "pause_label": "natural",
+      "pause_start_time": 5.14
+    },
+    {
+      "after_sentence_id": "F06_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 8.9,
+      "pause_label": "natural",
+      "pause_start_time": 7.9
+    },
+    {
+      "after_sentence_id": "F06_S04",
+      "duration_seconds": 10.0,
+      "pause_end_time": 21.03,
+      "pause_label": "long",
+      "pause_start_time": 11.03
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/F06/version_3/F06_S01.wav",
+      "duration_seconds": 2.42,
+      "loudness_normalization": {
+        "applied_gain_db": 8.578111,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.404091,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.150513,
+        "original_speech_rms_dbfs": -32.578111
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "421c4df1394888d7dcbcc4102e610e8faacf522d2f5ed95184041a74ab9495dc",
+      "sentence_end_time": 2.42,
+      "sentence_id": "F06_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "First preheat the oven.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/F06/version_3/F06_S02.wav",
+      "duration_seconds": 1.72,
+      "loudness_normalization": {
+        "applied_gain_db": -3.72107,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.348203,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.534424,
+        "original_speech_rms_dbfs": -20.27893
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "57ae6af5c5ec39a6c8d252ceb97cc6d52f6ff571d1c3a7dc375751a06dfc1670",
+      "sentence_end_time": 5.14,
+      "sentence_id": "F06_S02",
+      "sentence_start_time": 3.42,
+      "speaker": "B",
+      "text": "Then mix the batter.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/F06/version_3/F06_S03.wav",
+      "duration_seconds": 1.76,
+      "loudness_normalization": {
+        "applied_gain_db": 6.461209,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.261339,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.124207,
+        "original_speech_rms_dbfs": -30.461209
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "75e19bad7f7bfc183b620cf021c3117c7105d4e0041dca056883013fc2e0ce48",
+      "sentence_end_time": 7.9,
+      "sentence_id": "F06_S03",
+      "sentence_start_time": 6.14,
+      "speaker": "A",
+      "text": "Pour it into the pan.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/F06/version_3/F06_S04.wav",
+      "duration_seconds": 2.13,
+      "loudness_normalization": {
+        "applied_gain_db": -2.400649,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.419793,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.553436,
+        "original_speech_rms_dbfs": -21.599351
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "de9536b9706cc68f18ac3f5c1a84f498990b8bcf5d8df228a10c18eea8dc91fa",
+      "sentence_end_time": 11.03,
+      "sentence_id": "F06_S04",
+      "sentence_start_time": 8.9,
+      "speaker": "B",
+      "text": "Bake it for twenty minutes.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/F06/version_3/F06_S05.wav",
+      "duration_seconds": 2.45,
+      "loudness_normalization": {
+        "applied_gain_db": 8.73174,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.584095,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.213745,
+        "original_speech_rms_dbfs": -32.73174
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "ab44aa0cdf9734de607152b4ada6b8920d1e04e05cf6639ccd218a14c6322b03",
+      "sentence_end_time": 23.48,
+      "sentence_id": "F06_S05",
+      "sentence_start_time": 21.03,
+      "speaker": "A",
+      "text": "Let it cool before serving.",
+      "voice": "sage"
+    }
+  ],
+  "source_row": {
+    "category": "F",
+    "category_label": "Temporal instruction sequence",
+    "category_specific_answer_rules": "[{\"question_id\":\"F06_CAT_Q1\",\"ask_after\":[\"F06_S01\",\"F06_S02\",\"F06_S03\",\"F06_S04\",\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"PREHEAT_OVEN\",\"F06_S02\":\"PREHEAT_OVEN>MIX_BATTER\",\"F06_S03\":\"PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN\",\"F06_S04\":\"PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES\",\"F06_S05\":\"PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES>LET_COOL\"},\"final_answer_full_evidence\":\"PREHEAT_OVEN>MIX_BATTER>POUR_INTO_PAN>BAKE_TWENTY_MINUTES>LET_COOL\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed action sentences by time and return their action codes separated by >; default UNKNOWN if no action sentence is observed.\"}]},{\"question_id\":\"F06_CAT_Q2\",\"ask_after\":[\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"UNKNOWN\",\"F06_S02\":\"UNKNOWN\",\"F06_S03\":\"UNKNOWN\",\"F06_S04\":\"UNKNOWN\",\"F06_S05\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"F06_S01\",\"F06_S05\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"F06_CAT_Q1\",\"question_type\":\"procedure_order_supported\",\"prompt\":\"What procedure order is supported by the speech heard so far? Use only these action codes: PREHEAT_OVEN, MIX_BATTER, POUR_INTO_PAN, BAKE_TWENTY_MINUTES, LET_COOL. Return known action codes in order separated by \\\">\\\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F06_CAT_Q2\",\"question_type\":\"procedure_pairwise_order\",\"prompt\":\"Does PREHEAT_OVEN happen before LET_COOL? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"F06_CONTENT_Q1\",\"ask_after\":[\"F06_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"UNKNOWN\",\"F06_S02\":\"MIX_BATTER\",\"F06_S03\":\"MIX_BATTER\",\"F06_S04\":\"MIX_BATTER\",\"F06_S05\":\"MIX_BATTER\"},\"final_answer_full_evidence\":\"MIX_BATTER\",\"evidence_rules\":[{\"if_observed_all\":[\"F06_S01\",\"F06_S02\"],\"answer\":\"MIX_BATTER\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"F06_CONTENT_Q2\",\"ask_after\":[\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"UNKNOWN\",\"F06_S02\":\"UNKNOWN\",\"F06_S03\":\"UNKNOWN\",\"F06_S04\":\"UNKNOWN\",\"F06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"F06_S05\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"F06_CONTENT_Q1\",\"question_type\":\"next_action\",\"prompt\":\"What action happens after PREHEAT_OVEN? Return exactly one of: BAKE_TWENTY_MINUTES, REVIEW_FORM, POUR_INTO_PAN, MIX_BATTER, LET_COOL, NONE, UNKNOWN.\",\"allowed_answers\":[\"BAKE_TWENTY_MINUTES\",\"REVIEW_FORM\",\"POUR_INTO_PAN\",\"MIX_BATTER\",\"LET_COOL\",\"NONE\",\"UNKNOWN\"]},{\"question_id\":\"F06_CONTENT_Q2\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker says the action LET_COOL? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "conversation_id": "F06",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"F06_GEN_Q1\",\"ask_after\":[\"F06_S01\",\"F06_S02\",\"F06_S03\",\"F06_S04\",\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"A\",\"F06_S02\":\"A>B\",\"F06_S03\":\"A>B>A\",\"F06_S04\":\"A>B>A>B\",\"F06_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F06_GEN_Q2\",\"ask_after\":[\"F06_S01\",\"F06_S02\",\"F06_S03\",\"F06_S04\",\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"0\",\"F06_S02\":\"1\",\"F06_S03\":\"2\",\"F06_S04\":\"3\",\"F06_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F06_GEN_Q3\",\"ask_after\":[\"F06_S01\",\"F06_S02\",\"F06_S03\",\"F06_S04\",\"F06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F06_S01\":\"A\",\"F06_S02\":\"B\",\"F06_S03\":\"A\",\"F06_S04\":\"B\",\"F06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"F06_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F06_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"F06_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "F06_S01=0; F06_S02=1; F06_S03=2; F06_S04=3; F06_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"F06_S01\",\"speaker\":\"A\",\"text\":\"First preheat the oven.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F06_S02\",\"speaker\":\"B\",\"text\":\"Then mix the batter.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F06_S03\",\"speaker\":\"A\",\"text\":\"Pour it into the pan.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F06_S04\",\"speaker\":\"B\",\"text\":\"Bake it for twenty minutes.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F06_S05\",\"speaker\":\"A\",\"text\":\"Let it cool before serving.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "F06_S01,F06_S02,F06_S03,F06_S04,F06_S05",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"F06_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"F06_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: First preheat the oven.\nB: Then mix the batter.\nA: Pour it into the pan.\nB: Bake it for twenty minutes.\nA: Let it cool before serving.",
+    "transcript_with_pause_recommendations": "A: First preheat the oven. (natural)\nB: Then mix the batter. (natural)\nA: Pour it into the pan. (natural)\nB: Bake it for twenty minutes. (long)\nA: Let it cool before serving.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

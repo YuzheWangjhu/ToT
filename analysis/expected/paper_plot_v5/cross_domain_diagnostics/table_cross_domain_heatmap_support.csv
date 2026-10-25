@@ -1,0 +1,61 @@
+model,metric_group,metric,n_evaluable
+AFN,Track 1,Track 1A,10
+AFN-T,Track 1,Track 1A,10
+GPT,Track 1,Track 1A,10
+GPT-m,Track 1,Track 1A,0
+Gem-2.5,Track 1,Track 1A,10
+Gem-3,Track 1,Track 1A,0
+Kimi,Track 1,Track 1A,10
+MOSS,Track 1,Track 1A,0
+MiMo,Track 1,Track 1A,5
+Qwen,Track 1,Track 1A,8
+AFN,Track 1,Track 1B,10
+AFN-T,Track 1,Track 1B,10
+GPT,Track 1,Track 1B,10
+GPT-m,Track 1,Track 1B,0
+Gem-2.5,Track 1,Track 1B,10
+Gem-3,Track 1,Track 1B,1
+Kimi,Track 1,Track 1B,10
+MOSS,Track 1,Track 1B,0
+MiMo,Track 1,Track 1B,6
+Qwen,Track 1,Track 1B,4
+AFN,Track 1,Track 1C,0
+AFN-T,Track 1,Track 1C,6
+GPT,Track 1,Track 1C,80
+GPT-m,Track 1,Track 1C,84
+Gem-2.5,Track 1,Track 1C,86
+Gem-3,Track 1,Track 1C,83
+Kimi,Track 1,Track 1C,0
+MOSS,Track 1,Track 1C,84
+MiMo,Track 1,Track 1C,78
+Qwen,Track 1,Track 1C,47
+AFN,Track 2,Found support,0
+AFN-T,Track 2,Found support,4
+GPT,Track 2,Found support,316
+GPT-m,Track 2,Found support,248
+Gem-2.5,Track 2,Found support,136
+Gem-3,Track 2,Found support,131
+Kimi,Track 2,Found support,0
+MOSS,Track 2,Found support,45
+MiMo,Track 2,Found support,125
+Qwen,Track 2,Found support,10
+AFN,Track 2,Absence supported,154
+AFN-T,Track 2,Absence supported,41
+GPT,Track 2,Absence supported,123
+GPT-m,Track 2,Absence supported,124
+Gem-2.5,Track 2,Absence supported,147
+Gem-3,Track 2,Absence supported,125
+Kimi,Track 2,Absence supported,154
+MOSS,Track 2,Absence supported,154
+MiMo,Track 2,Absence supported,104
+Qwen,Track 2,Absence supported,157
+AFN,Track 2,Calibration,368
+AFN-T,Track 2,Calibration,189
+GPT,Track 2,Calibration,370
+GPT-m,Track 2,Calibration,374
+Gem-2.5,Track 2,Calibration,353
+Gem-3,Track 2,Calibration,330
+Kimi,Track 2,Calibration,370
+MOSS,Track 2,Calibration,234
+MiMo,Track 2,Calibration,362
+Qwen,Track 2,Calibration,374

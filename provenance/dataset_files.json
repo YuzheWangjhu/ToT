@@ -1,0 +1,1612 @@
+{
+  "files": [
+    {
+      "path": "generated_data/theory_of_time_v1/track_1a/dataset/manifest.json",
+      "source_sha256": "478df875651e23dd1b8511ae6cd2892a990ebed6e98bf233736d8536a1bed179",
+      "sha256": "08743380b7786cef79ea06c51ded125f61573c6cc6d7a6958b9677d9d7f4c5db",
+      "transformation": "project-root provenance prefixes made relative"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1b/dataset/manifest.json",
+      "source_sha256": "9aacd18a88c79740b2c4d841e1b0870c024cc6e99db553374ca7af6e448bdcd8",
+      "sha256": "0c6c95a2fa3758d289967a8024b270125949f296cc81a28e9a812853c81fd4c7",
+      "transformation": "project-root provenance prefixes made relative"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/manifest.json",
+      "source_sha256": "c25e3ea6a1451765b7db6a5ba815582a62a3bed49481be3c212749646461e879",
+      "sha256": "4990e34004ab23897f298bf85ab98f52b740660cbb1db03236f76866a2fcfba9",
+      "transformation": "project-root provenance prefixes made relative"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A01/version_1.json",
+      "source_sha256": "0525bdc1cf3df4031886d81518e8b5e25171efc43c44553149f400dd7761b678",
+      "sha256": "0525bdc1cf3df4031886d81518e8b5e25171efc43c44553149f400dd7761b678",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A01/version_2.json",
+      "source_sha256": "c99bf89bc5a53ee6165b2bb38663c482d3e752bd816bddbc31a67c5f738574fc",
+      "sha256": "c99bf89bc5a53ee6165b2bb38663c482d3e752bd816bddbc31a67c5f738574fc",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A01/version_3.json",
+      "source_sha256": "fd8758c67b44db05f664cb6033c0a0be21e49f79f6cc5cf6cd3da5baba29c905",
+      "sha256": "fd8758c67b44db05f664cb6033c0a0be21e49f79f6cc5cf6cd3da5baba29c905",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A01/version_4.json",
+      "source_sha256": "02ec7c0d8fe33fe7ef8eda5440f2010b7420bae103600eb601fc3495aa4ab92a",
+      "sha256": "02ec7c0d8fe33fe7ef8eda5440f2010b7420bae103600eb601fc3495aa4ab92a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A02/version_1.json",
+      "source_sha256": "e8e255e6841f9d35dfbb1d849f237553b54dcb418d6e213e91d4b4d9f666db1d",
+      "sha256": "e8e255e6841f9d35dfbb1d849f237553b54dcb418d6e213e91d4b4d9f666db1d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A02/version_2.json",
+      "source_sha256": "971312dd9558f9e267f8fc13b431a18f6a3793d2664bae490ed90b52e1d9f198",
+      "sha256": "971312dd9558f9e267f8fc13b431a18f6a3793d2664bae490ed90b52e1d9f198",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A02/version_3.json",
+      "source_sha256": "d6411c0482b3be022aa9d135a1eda8df5ad987e0b1f153563d81f397bd5bc97d",
+      "sha256": "d6411c0482b3be022aa9d135a1eda8df5ad987e0b1f153563d81f397bd5bc97d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A02/version_4.json",
+      "source_sha256": "718699e36e30ce46eee5cab6342c6b8d466922dbd4850ac314733a647ac2e1a8",
+      "sha256": "718699e36e30ce46eee5cab6342c6b8d466922dbd4850ac314733a647ac2e1a8",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A03/version_1.json",
+      "source_sha256": "89c2460465f594face341f1f3b8a80e7f4c953ab1ec4c19ffe791118eae7b763",
+      "sha256": "89c2460465f594face341f1f3b8a80e7f4c953ab1ec4c19ffe791118eae7b763",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A03/version_2.json",
+      "source_sha256": "996f8e4ade9523a4af628f456cb0acbf2de16f24ca26293c00924931cd0e66a4",
+      "sha256": "996f8e4ade9523a4af628f456cb0acbf2de16f24ca26293c00924931cd0e66a4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A03/version_3.json",
+      "source_sha256": "e17cb8c9828b423cdb5e518eebddbeee86f4a423774a4e6881639c16fcaa2517",
+      "sha256": "e17cb8c9828b423cdb5e518eebddbeee86f4a423774a4e6881639c16fcaa2517",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A03/version_4.json",
+      "source_sha256": "0c961ff3c6119cb434e2ce2b86d85e4423f13f450e668d94811eb1626b6dbf37",
+      "sha256": "0c961ff3c6119cb434e2ce2b86d85e4423f13f450e668d94811eb1626b6dbf37",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A04/version_1.json",
+      "source_sha256": "0d718602bcfe47de066bbfb97388b2976f17a9786de44ac4d9ea280800e4a32c",
+      "sha256": "0d718602bcfe47de066bbfb97388b2976f17a9786de44ac4d9ea280800e4a32c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A04/version_2.json",
+      "source_sha256": "4be5c59c57d348df1efbbf1b62140db99f29e208deb853038a6b90ab7d48107e",
+      "sha256": "4be5c59c57d348df1efbbf1b62140db99f29e208deb853038a6b90ab7d48107e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A04/version_3.json",
+      "source_sha256": "72f313b6670b168649d256adb36d5a1111330b6cb19206abf42842b06d30e460",
+      "sha256": "72f313b6670b168649d256adb36d5a1111330b6cb19206abf42842b06d30e460",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A04/version_4.json",
+      "source_sha256": "74b52cb1c842290dc1bd7ec1810c6fc4db51fd582cc0f00c9798d9e92b8399b8",
+      "sha256": "74b52cb1c842290dc1bd7ec1810c6fc4db51fd582cc0f00c9798d9e92b8399b8",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A05/version_1.json",
+      "source_sha256": "4d452e2677ab77d544bd8a146b92077beb965c0c90abf51aabeb5db585205f5a",
+      "sha256": "4d452e2677ab77d544bd8a146b92077beb965c0c90abf51aabeb5db585205f5a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A05/version_2.json",
+      "source_sha256": "88ac3f0cfe4352b519b26c78526cdf33c06b7400fc632ad70b330c2cbec79a6e",
+      "sha256": "88ac3f0cfe4352b519b26c78526cdf33c06b7400fc632ad70b330c2cbec79a6e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A05/version_3.json",
+      "source_sha256": "e792b9f24f681c903d3e58bb01db47cf86a023d7d09e864b290dbfe56450fadd",
+      "sha256": "e792b9f24f681c903d3e58bb01db47cf86a023d7d09e864b290dbfe56450fadd",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A05/version_4.json",
+      "source_sha256": "a9d4a25cfbfde3ce67cad26060c94d30a1c9da32bd1a787f4ddddd20795d124a",
+      "sha256": "a9d4a25cfbfde3ce67cad26060c94d30a1c9da32bd1a787f4ddddd20795d124a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A06/version_1.json",
+      "source_sha256": "716f294cd1bb7235b2d3e6cf355c429e8f7d035592dcb157e7130f527317b9aa",
+      "sha256": "716f294cd1bb7235b2d3e6cf355c429e8f7d035592dcb157e7130f527317b9aa",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A06/version_2.json",
+      "source_sha256": "6364e1d5e6e709b33ad957ea97de979b53f0cf3a32216cdbeab271889797a666",
+      "sha256": "6364e1d5e6e709b33ad957ea97de979b53f0cf3a32216cdbeab271889797a666",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A06/version_3.json",
+      "source_sha256": "4fa4028b732c293dee4bd69d0d49a729e6e42a2bf8966ef5c683b5333eca6d3f",
+      "sha256": "4fa4028b732c293dee4bd69d0d49a729e6e42a2bf8966ef5c683b5333eca6d3f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A06/version_4.json",
+      "source_sha256": "997fedd6e9de8eac2618a0131d5543de48e54f2f52ac2edef640881833c1b4f7",
+      "sha256": "997fedd6e9de8eac2618a0131d5543de48e54f2f52ac2edef640881833c1b4f7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A07/version_1.json",
+      "source_sha256": "4c2e8d9953bf0a73d0b54b89791071b0dc7d4be51a5f8ad7ace72fdedf0b6a2e",
+      "sha256": "4c2e8d9953bf0a73d0b54b89791071b0dc7d4be51a5f8ad7ace72fdedf0b6a2e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A07/version_2.json",
+      "source_sha256": "937fd53d34a768972337241118f18c137cab66859d0f0baaad3361de1dd1c6e2",
+      "sha256": "937fd53d34a768972337241118f18c137cab66859d0f0baaad3361de1dd1c6e2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A07/version_3.json",
+      "source_sha256": "d82d2bef09e178f459681baddfd199d0be467545297f0ab41cd7d3c113c744eb",
+      "sha256": "d82d2bef09e178f459681baddfd199d0be467545297f0ab41cd7d3c113c744eb",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A07/version_4.json",
+      "source_sha256": "b2febc9dc8d70aa9f645a5cc781ff5097089a5be81e9dd9424faf7fc572c6576",
+      "sha256": "b2febc9dc8d70aa9f645a5cc781ff5097089a5be81e9dd9424faf7fc572c6576",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A08/version_1.json",
+      "source_sha256": "b1cac18513cf15ba665d822ec02117bed3a7ad115d7578dfbfc88b3882386c13",
+      "sha256": "b1cac18513cf15ba665d822ec02117bed3a7ad115d7578dfbfc88b3882386c13",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A08/version_2.json",
+      "source_sha256": "6d3c278a086c3062c5aebffb6a97bc2e579053eb2f826b467fe4a13e2204c8d6",
+      "sha256": "6d3c278a086c3062c5aebffb6a97bc2e579053eb2f826b467fe4a13e2204c8d6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A08/version_3.json",
+      "source_sha256": "3f8c7e4797ed34b0d8c1cb31f98122a0bd28ff2d1f3c9830297ea33b5c4efc37",
+      "sha256": "3f8c7e4797ed34b0d8c1cb31f98122a0bd28ff2d1f3c9830297ea33b5c4efc37",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A08/version_4.json",
+      "source_sha256": "af3ab41c774d91b65d06d53b978bb75b8edfd43ad82cbcc9bb494bcdbe914d64",
+      "sha256": "af3ab41c774d91b65d06d53b978bb75b8edfd43ad82cbcc9bb494bcdbe914d64",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A09/version_1.json",
+      "source_sha256": "565fb44d13e90c396967a3872da5d8b6f0b5736bb081c9420569339bba7577b1",
+      "sha256": "565fb44d13e90c396967a3872da5d8b6f0b5736bb081c9420569339bba7577b1",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A09/version_2.json",
+      "source_sha256": "0308f86e053563f5cfdc8220cce1b277a0227f8256013c2d46e7fc237a1bbfa1",
+      "sha256": "0308f86e053563f5cfdc8220cce1b277a0227f8256013c2d46e7fc237a1bbfa1",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A09/version_3.json",
+      "source_sha256": "a3cc41c260863d0dfa44cd0ca02a263ac357960235e9ccc1cac82c64dd3f8ba4",
+      "sha256": "a3cc41c260863d0dfa44cd0ca02a263ac357960235e9ccc1cac82c64dd3f8ba4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A09/version_4.json",
+      "source_sha256": "2211e1935d20ca828c50c30c32bb45e7263f10cee44c5a19b98608f8318c55fa",
+      "sha256": "2211e1935d20ca828c50c30c32bb45e7263f10cee44c5a19b98608f8318c55fa",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A10/version_1.json",
+      "source_sha256": "a0e87a912592216bb0676597c8054fd2b3d0343e96b461bc3781e1a4e2c4a6e4",
+      "sha256": "a0e87a912592216bb0676597c8054fd2b3d0343e96b461bc3781e1a4e2c4a6e4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A10/version_2.json",
+      "source_sha256": "b72f35c57017849f3ea9eecbb81ea190db364e0eecf9777c02864f9bfa6b8f23",
+      "sha256": "b72f35c57017849f3ea9eecbb81ea190db364e0eecf9777c02864f9bfa6b8f23",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A10/version_3.json",
+      "source_sha256": "6acb777c16b08eeb7b4438bd380f43f73e025ceeb660eeee15b36daecaed4ae5",
+      "sha256": "6acb777c16b08eeb7b4438bd380f43f73e025ceeb660eeee15b36daecaed4ae5",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/A10/version_4.json",
+      "source_sha256": "b752f1c4c2465204e7783a83a31304ff2e171ef23aa118ce250078c2ba68225f",
+      "sha256": "b752f1c4c2465204e7783a83a31304ff2e171ef23aa118ce250078c2ba68225f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B01/version_1.json",
+      "source_sha256": "ade93f331a1bea54617868d6611395ecebd70981360086972151cb2eca36301a",
+      "sha256": "ade93f331a1bea54617868d6611395ecebd70981360086972151cb2eca36301a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B01/version_2.json",
+      "source_sha256": "d81c67fba41aca52f1445834ceb006502970d4d83d84ca432a8ac628d9f508b7",
+      "sha256": "d81c67fba41aca52f1445834ceb006502970d4d83d84ca432a8ac628d9f508b7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B01/version_3.json",
+      "source_sha256": "49959856cddf6674a98c8aa65adb54f227fb66f7931b040414489945089fefe2",
+      "sha256": "49959856cddf6674a98c8aa65adb54f227fb66f7931b040414489945089fefe2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B01/version_4.json",
+      "source_sha256": "1b2e176ccf481f95e154ab4ea6f31e77a226290d99c0adc9fba8f84f7fce0f6d",
+      "sha256": "1b2e176ccf481f95e154ab4ea6f31e77a226290d99c0adc9fba8f84f7fce0f6d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B02/version_1.json",
+      "source_sha256": "feb33888e0153e222f7348e1a44b54fceab70264e8ea01dbce8bcd5f06c7077a",
+      "sha256": "feb33888e0153e222f7348e1a44b54fceab70264e8ea01dbce8bcd5f06c7077a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B02/version_2.json",
+      "source_sha256": "a5a60483de84e0f1031c6a4b3462ef66eb9df2733f5143b67a1fe84d1d717e33",
+      "sha256": "a5a60483de84e0f1031c6a4b3462ef66eb9df2733f5143b67a1fe84d1d717e33",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B02/version_3.json",
+      "source_sha256": "fc02a8ceacd73d4e3bd391a140f04594cdf06bea2befb169724aa5ce14f8c18b",
+      "sha256": "fc02a8ceacd73d4e3bd391a140f04594cdf06bea2befb169724aa5ce14f8c18b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B02/version_4.json",
+      "source_sha256": "660d8a864f877dc9fe7ed7a879b372e90bb14a7fb7662eb7775b694f7bef1cbe",
+      "sha256": "660d8a864f877dc9fe7ed7a879b372e90bb14a7fb7662eb7775b694f7bef1cbe",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B03/version_1.json",
+      "source_sha256": "e752b7924f667d16a25db3511cf9f18e45eb737dde62c879f3c31e2d104df77e",
+      "sha256": "e752b7924f667d16a25db3511cf9f18e45eb737dde62c879f3c31e2d104df77e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B03/version_2.json",
+      "source_sha256": "84f96840fe45ca0152307c55bbeaf9e4c1753ae208c374e1041e25d56a479201",
+      "sha256": "84f96840fe45ca0152307c55bbeaf9e4c1753ae208c374e1041e25d56a479201",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B03/version_3.json",
+      "source_sha256": "f3aeb7dd54828f63aebe96fc777944cce19e10bb306bbe3965014631d8af2903",
+      "sha256": "f3aeb7dd54828f63aebe96fc777944cce19e10bb306bbe3965014631d8af2903",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B03/version_4.json",
+      "source_sha256": "32ac0b706d5f0b74f5f574155dc8c6d84dfc3df8b57d8c8a185ed54702992e8b",
+      "sha256": "32ac0b706d5f0b74f5f574155dc8c6d84dfc3df8b57d8c8a185ed54702992e8b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B04/version_1.json",
+      "source_sha256": "345e2c5acdce88e0abe0e52ae25897f06c04ac24d6ad393c735fd1fde96ec942",
+      "sha256": "345e2c5acdce88e0abe0e52ae25897f06c04ac24d6ad393c735fd1fde96ec942",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B04/version_2.json",
+      "source_sha256": "425936cd9bc0eb0a92bf771a8753ba12a87c527e5fc07d47fcfe77969995633e",
+      "sha256": "425936cd9bc0eb0a92bf771a8753ba12a87c527e5fc07d47fcfe77969995633e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B04/version_3.json",
+      "source_sha256": "c4c21a2addadc395ea233a92dcd880c6dd81f5caa47d13905ed63e91a59e7811",
+      "sha256": "c4c21a2addadc395ea233a92dcd880c6dd81f5caa47d13905ed63e91a59e7811",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B04/version_4.json",
+      "source_sha256": "aad26e1d1ed792b907397376079110a4c97767dab380409ea99cde28f5001876",
+      "sha256": "aad26e1d1ed792b907397376079110a4c97767dab380409ea99cde28f5001876",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B05/version_1.json",
+      "source_sha256": "45164231a39780eb0b70f537c0125a0cb4da49893569f9a4a42626b164daeabb",
+      "sha256": "45164231a39780eb0b70f537c0125a0cb4da49893569f9a4a42626b164daeabb",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B05/version_2.json",
+      "source_sha256": "cd83d067e2ca3eba7ce026fe79ac5edf441345723cfb9904ab0bed5f0dffdc50",
+      "sha256": "cd83d067e2ca3eba7ce026fe79ac5edf441345723cfb9904ab0bed5f0dffdc50",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B05/version_3.json",
+      "source_sha256": "0db445cb3222171a4a4efb68b57243403abf2d3978292ab7ba9f43b23b943dbc",
+      "sha256": "0db445cb3222171a4a4efb68b57243403abf2d3978292ab7ba9f43b23b943dbc",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B05/version_4.json",
+      "source_sha256": "d9fed34393f1173968be357d5f72c5ebc66917e815797257bbe6f8abfa18528a",
+      "sha256": "d9fed34393f1173968be357d5f72c5ebc66917e815797257bbe6f8abfa18528a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B06/version_1.json",
+      "source_sha256": "5e4ea9c8229e2db0b42fce6c91724949ec9b23502d6a5e8c602324b4310ea49e",
+      "sha256": "5e4ea9c8229e2db0b42fce6c91724949ec9b23502d6a5e8c602324b4310ea49e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B06/version_2.json",
+      "source_sha256": "b4756e9d510d282aaa156a2bf57d961f16a399e8151d1f17caca770a2da7034c",
+      "sha256": "b4756e9d510d282aaa156a2bf57d961f16a399e8151d1f17caca770a2da7034c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B06/version_3.json",
+      "source_sha256": "f4ffe3f8cf33b162b0ff07edae103c7c36605cfa2e0d19ea67c84e9fcaee2f1f",
+      "sha256": "f4ffe3f8cf33b162b0ff07edae103c7c36605cfa2e0d19ea67c84e9fcaee2f1f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B06/version_4.json",
+      "source_sha256": "3c252f9ad952d6779e1530ec47f783c06ac7d3040c15b97cc3b94e066d50f683",
+      "sha256": "3c252f9ad952d6779e1530ec47f783c06ac7d3040c15b97cc3b94e066d50f683",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B07/version_1.json",
+      "source_sha256": "3ea8be71bc7b1e46bbbbd09dca62fd0339fc6fcde222463d3c1c7c0f799d2ed8",
+      "sha256": "3ea8be71bc7b1e46bbbbd09dca62fd0339fc6fcde222463d3c1c7c0f799d2ed8",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B07/version_2.json",
+      "source_sha256": "6deb36c16a03a62a72d55892b7e9930dc7fbb9586cca1482502f010b5097bd8e",
+      "sha256": "6deb36c16a03a62a72d55892b7e9930dc7fbb9586cca1482502f010b5097bd8e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B07/version_3.json",
+      "source_sha256": "bd0f2f77bd4187a37d60259ea6ca6e3bac3e210fdb0051db305ec53b44250299",
+      "sha256": "bd0f2f77bd4187a37d60259ea6ca6e3bac3e210fdb0051db305ec53b44250299",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B07/version_4.json",
+      "source_sha256": "9a50726c0b40d29b2bffa8e5a1d20f39051831cf8db09431fe0ac2a599480885",
+      "sha256": "9a50726c0b40d29b2bffa8e5a1d20f39051831cf8db09431fe0ac2a599480885",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B08/version_1.json",
+      "source_sha256": "2e383ef46014241a8385846af8b4c249278745f3bed3cf32aeb7cdb26f4b5810",
+      "sha256": "2e383ef46014241a8385846af8b4c249278745f3bed3cf32aeb7cdb26f4b5810",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B08/version_2.json",
+      "source_sha256": "3976c1dd49fe7fe5f2209592192f178f48e9d012686b66b1c1c9f6935027c02e",
+      "sha256": "3976c1dd49fe7fe5f2209592192f178f48e9d012686b66b1c1c9f6935027c02e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B08/version_3.json",
+      "source_sha256": "81d54ad5b3283f2423359a6781d5135a892574efd0e3d8568d40ea990fd8d919",
+      "sha256": "81d54ad5b3283f2423359a6781d5135a892574efd0e3d8568d40ea990fd8d919",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B08/version_4.json",
+      "source_sha256": "125b6a0d1fc308f20f28e02a08262095ad4106bc0943c0a9a234bb37169fa79f",
+      "sha256": "125b6a0d1fc308f20f28e02a08262095ad4106bc0943c0a9a234bb37169fa79f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B09/version_1.json",
+      "source_sha256": "32a69c88ffd15e842a52c024f314073c090be86554eb38b42d3683685b1b8fa5",
+      "sha256": "32a69c88ffd15e842a52c024f314073c090be86554eb38b42d3683685b1b8fa5",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B09/version_2.json",
+      "source_sha256": "2311321b37b616ad945ecb28f8342178b2dbd81028164c5579f2d55e87882a20",
+      "sha256": "2311321b37b616ad945ecb28f8342178b2dbd81028164c5579f2d55e87882a20",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B09/version_3.json",
+      "source_sha256": "afcf376fb09d1e4c7d7bffbdf4d1eb4ae0d79fe1cb0982aeeccae2673ec4466f",
+      "sha256": "afcf376fb09d1e4c7d7bffbdf4d1eb4ae0d79fe1cb0982aeeccae2673ec4466f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B09/version_4.json",
+      "source_sha256": "7f3c360fdfad4713034b62e142c3a670fad79a638db7e51654097876f723cc15",
+      "sha256": "7f3c360fdfad4713034b62e142c3a670fad79a638db7e51654097876f723cc15",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B10/version_1.json",
+      "source_sha256": "aac53d5878749083c01611078a38823254860dda00059b278a6b5daf99f44de2",
+      "sha256": "aac53d5878749083c01611078a38823254860dda00059b278a6b5daf99f44de2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B10/version_2.json",
+      "source_sha256": "0df76525a7c5393b4842b3e0ca64656710e1c3be2e550d8f568cd2c3310b00d5",
+      "sha256": "0df76525a7c5393b4842b3e0ca64656710e1c3be2e550d8f568cd2c3310b00d5",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B10/version_3.json",
+      "source_sha256": "18bfa976d48c81207e8ac8ef9f9cb41689883b8fdfe711c78e9c8f2cae8720de",
+      "sha256": "18bfa976d48c81207e8ac8ef9f9cb41689883b8fdfe711c78e9c8f2cae8720de",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/B10/version_4.json",
+      "source_sha256": "759e9a287e8045d47245c028ddb9d1243ea80c91d882c53653c4712cfd83b8da",
+      "sha256": "759e9a287e8045d47245c028ddb9d1243ea80c91d882c53653c4712cfd83b8da",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C01/version_1.json",
+      "source_sha256": "a9f9a8b26da234e187b9d3f8e94b79df95d67af4ae4e7511a1b7ff698074a46c",
+      "sha256": "a9f9a8b26da234e187b9d3f8e94b79df95d67af4ae4e7511a1b7ff698074a46c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C01/version_2.json",
+      "source_sha256": "7e213fdc9a360ce023298175c60e2ce116768e9055ca328c2592ccd98721446a",
+      "sha256": "7e213fdc9a360ce023298175c60e2ce116768e9055ca328c2592ccd98721446a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C01/version_3.json",
+      "source_sha256": "1eee40ade359745d84f10cc8d9f2b76dd0550a5cf23f2b92591fcb0481b4294f",
+      "sha256": "1eee40ade359745d84f10cc8d9f2b76dd0550a5cf23f2b92591fcb0481b4294f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C01/version_4.json",
+      "source_sha256": "55cfeed502758c737797befc661cdf12e78b9485b8efe158661adb76a19aca21",
+      "sha256": "55cfeed502758c737797befc661cdf12e78b9485b8efe158661adb76a19aca21",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C02/version_1.json",
+      "source_sha256": "e57a6f1862ba3af69c74f7c2cb952480d50c77a177032ba3a50bd1dc5a88f2f6",
+      "sha256": "e57a6f1862ba3af69c74f7c2cb952480d50c77a177032ba3a50bd1dc5a88f2f6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C02/version_2.json",
+      "source_sha256": "a1c11134e1497a32200e3f4486b0c96982e9c089888ff7b0be312ca454a461bf",
+      "sha256": "a1c11134e1497a32200e3f4486b0c96982e9c089888ff7b0be312ca454a461bf",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C02/version_3.json",
+      "source_sha256": "76b01e4ac0b449319bfb7df29823290a98dd50c31a530f9ce664f725249a0b03",
+      "sha256": "76b01e4ac0b449319bfb7df29823290a98dd50c31a530f9ce664f725249a0b03",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C02/version_4.json",
+      "source_sha256": "83b13cad01e3131c2cdf736d5eef10ed3ab928d8da55aff8bc94485cad086d7e",
+      "sha256": "83b13cad01e3131c2cdf736d5eef10ed3ab928d8da55aff8bc94485cad086d7e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C03/version_1.json",
+      "source_sha256": "ee60e8963c3a4702516084ffdd4bacd01422de871ace234e50c68e1d29647dd1",
+      "sha256": "ee60e8963c3a4702516084ffdd4bacd01422de871ace234e50c68e1d29647dd1",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C03/version_2.json",
+      "source_sha256": "94ab7e46a0e4f404ace59fbe028edc244af7ce2c21e53eb80483a2a32574380e",
+      "sha256": "94ab7e46a0e4f404ace59fbe028edc244af7ce2c21e53eb80483a2a32574380e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C03/version_3.json",
+      "source_sha256": "2f8f9c4ec978219b79083f8526b6f620c673ca3cfdac19304112d68ac9f889fc",
+      "sha256": "2f8f9c4ec978219b79083f8526b6f620c673ca3cfdac19304112d68ac9f889fc",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C03/version_4.json",
+      "source_sha256": "0df62075e9afbbee8f13dcf786c13dd0ee8b36440cf72a4046b85f9af9be860c",
+      "sha256": "0df62075e9afbbee8f13dcf786c13dd0ee8b36440cf72a4046b85f9af9be860c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C04/version_1.json",
+      "source_sha256": "4735f2f06e2345d9514a7cba6de4cdf64d63eb2ee419879cc6b83788d3f63592",
+      "sha256": "4735f2f06e2345d9514a7cba6de4cdf64d63eb2ee419879cc6b83788d3f63592",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C04/version_2.json",
+      "source_sha256": "dcee71a046fdee242d5da2949271c9b33fd4cdea640f0176329099a46c88c9d6",
+      "sha256": "dcee71a046fdee242d5da2949271c9b33fd4cdea640f0176329099a46c88c9d6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C04/version_3.json",
+      "source_sha256": "ded922b2acf09275b1886aad10d578a9f76902e0d9807d03f11e5319ad43242f",
+      "sha256": "ded922b2acf09275b1886aad10d578a9f76902e0d9807d03f11e5319ad43242f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C04/version_4.json",
+      "source_sha256": "54050ab9bea958ab0100a1db61889ad6d4159b7703e8b338e9070b21288ec0e1",
+      "sha256": "54050ab9bea958ab0100a1db61889ad6d4159b7703e8b338e9070b21288ec0e1",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C05/version_1.json",
+      "source_sha256": "7af0acd15be7d934b87e69d1f68f60e94c3d39045ac60eab29b13071e8d729a6",
+      "sha256": "7af0acd15be7d934b87e69d1f68f60e94c3d39045ac60eab29b13071e8d729a6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C05/version_2.json",
+      "source_sha256": "335d528c4f21e790052522e4e3c18bf8ce875829a7c8369f30211f78ece3d542",
+      "sha256": "335d528c4f21e790052522e4e3c18bf8ce875829a7c8369f30211f78ece3d542",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C05/version_3.json",
+      "source_sha256": "df7cd34dc50e6c2548859a31a91c6de2116ae0e0cf87d5296cc205455900741a",
+      "sha256": "df7cd34dc50e6c2548859a31a91c6de2116ae0e0cf87d5296cc205455900741a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C05/version_4.json",
+      "source_sha256": "607707fcd75084ce0edee6f4b93f061e1d2be97e7605cdc392a8b10c3415916b",
+      "sha256": "607707fcd75084ce0edee6f4b93f061e1d2be97e7605cdc392a8b10c3415916b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C06/version_1.json",
+      "source_sha256": "5638948f02e20be3e9bb6759a597684ffae14a5c87e4623671d5ea562fe8a464",
+      "sha256": "5638948f02e20be3e9bb6759a597684ffae14a5c87e4623671d5ea562fe8a464",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C06/version_2.json",
+      "source_sha256": "f5b95791266adb21a00c6d710b9b0163c2c34c33d6edf42a2159a967a3c05951",
+      "sha256": "f5b95791266adb21a00c6d710b9b0163c2c34c33d6edf42a2159a967a3c05951",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C06/version_3.json",
+      "source_sha256": "dd5aa26c214ddc1f5066b2d6e77240bcfb78b89b8f732dbf478db1b42bb0b2c7",
+      "sha256": "dd5aa26c214ddc1f5066b2d6e77240bcfb78b89b8f732dbf478db1b42bb0b2c7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C06/version_4.json",
+      "source_sha256": "80c6008c6e9645a3a38579475866d00a21842d2cab69d3e5b4bf50fa39557a3c",
+      "sha256": "80c6008c6e9645a3a38579475866d00a21842d2cab69d3e5b4bf50fa39557a3c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C07/version_1.json",
+      "source_sha256": "68f721a44c9b1f37ce06dd8f41ba46592ad830914e53abd053221a2f90cf29c0",
+      "sha256": "68f721a44c9b1f37ce06dd8f41ba46592ad830914e53abd053221a2f90cf29c0",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C07/version_2.json",
+      "source_sha256": "1b45f0f61637510c50edca869849da853996c04fcdcb09c38a0b4b042cc0ed6b",
+      "sha256": "1b45f0f61637510c50edca869849da853996c04fcdcb09c38a0b4b042cc0ed6b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C07/version_3.json",
+      "source_sha256": "a1e408a11a913e591845649e603d10297793851a9282f77ec22577df99fad03f",
+      "sha256": "a1e408a11a913e591845649e603d10297793851a9282f77ec22577df99fad03f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C07/version_4.json",
+      "source_sha256": "3a957db29ad031c394dff7b3745457ba4cbfd7898d80ca00c89bb900b38cafa3",
+      "sha256": "3a957db29ad031c394dff7b3745457ba4cbfd7898d80ca00c89bb900b38cafa3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C08/version_1.json",
+      "source_sha256": "f701ff502efed07a97db06911eaaf809bc594de56ff8318803448a5106397926",
+      "sha256": "f701ff502efed07a97db06911eaaf809bc594de56ff8318803448a5106397926",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C08/version_2.json",
+      "source_sha256": "090f49283d9e17f647863572a56f91a360cfd504ef84349357ae2d76ec51b6b0",
+      "sha256": "090f49283d9e17f647863572a56f91a360cfd504ef84349357ae2d76ec51b6b0",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C08/version_3.json",
+      "source_sha256": "81188c06b5e51d5443186e024015369d947cfac68fc7701c6d557082098e7528",
+      "sha256": "81188c06b5e51d5443186e024015369d947cfac68fc7701c6d557082098e7528",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C08/version_4.json",
+      "source_sha256": "86570ad95c4ad143a2671fb79639baee00380fb4b6b45ad409bfff21d8c987a6",
+      "sha256": "86570ad95c4ad143a2671fb79639baee00380fb4b6b45ad409bfff21d8c987a6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C09/version_1.json",
+      "source_sha256": "62294f246121966e5994173afc380bd18ce6a5d212ae998f438bae1791775bf5",
+      "sha256": "62294f246121966e5994173afc380bd18ce6a5d212ae998f438bae1791775bf5",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C09/version_2.json",
+      "source_sha256": "c55da5a9df0b5cac47ba478c69593e6c0033c99dd2caadbed9ea3b9e50c5bfe0",
+      "sha256": "c55da5a9df0b5cac47ba478c69593e6c0033c99dd2caadbed9ea3b9e50c5bfe0",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C09/version_3.json",
+      "source_sha256": "263d82a5b3e52f55b379a7d9770e4c3b2b7059e4937fb25f2fd0007c97eef73e",
+      "sha256": "263d82a5b3e52f55b379a7d9770e4c3b2b7059e4937fb25f2fd0007c97eef73e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C09/version_4.json",
+      "source_sha256": "a4e014c62482ec6ddc0b677d2a4d9b89e13c8f5d746e575eb7400db305186e2b",
+      "sha256": "a4e014c62482ec6ddc0b677d2a4d9b89e13c8f5d746e575eb7400db305186e2b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C10/version_1.json",
+      "source_sha256": "2de8d7f205e243671f145059eb4185e913bccdb06b9611f4a45ecfd31c3e3530",
+      "sha256": "2de8d7f205e243671f145059eb4185e913bccdb06b9611f4a45ecfd31c3e3530",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C10/version_2.json",
+      "source_sha256": "cd333ff88b8c068f247207b087b8cc66030b1a3a47e17ab309ea124f6aba39d2",
+      "sha256": "cd333ff88b8c068f247207b087b8cc66030b1a3a47e17ab309ea124f6aba39d2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C10/version_3.json",
+      "source_sha256": "0ba95234d59493e8094b458230f9f9477c356504d81a783d1781778d3c1f3f40",
+      "sha256": "0ba95234d59493e8094b458230f9f9477c356504d81a783d1781778d3c1f3f40",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/C10/version_4.json",
+      "source_sha256": "be318a9eb7d5ed107999960e788d28fc22ff9880f8eb8e5f7be2ab4e731fba15",
+      "sha256": "be318a9eb7d5ed107999960e788d28fc22ff9880f8eb8e5f7be2ab4e731fba15",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D01/version_1.json",
+      "source_sha256": "224ea07e7afbcee9a88f9c50582a8d3dedd8b4c07b5d756c2cfa2adf0f201eb6",
+      "sha256": "224ea07e7afbcee9a88f9c50582a8d3dedd8b4c07b5d756c2cfa2adf0f201eb6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D01/version_2.json",
+      "source_sha256": "a4ba01d9da2ceac96c983318ffc503b97312d9fb8eff1ad80d24f8b4a2d15513",
+      "sha256": "a4ba01d9da2ceac96c983318ffc503b97312d9fb8eff1ad80d24f8b4a2d15513",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D01/version_3.json",
+      "source_sha256": "946e551f1f8e39963a921e24cbae7a8dbef5898fd20ceabacc7c05b9dd6dac3f",
+      "sha256": "946e551f1f8e39963a921e24cbae7a8dbef5898fd20ceabacc7c05b9dd6dac3f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D01/version_4.json",
+      "source_sha256": "40ef210de9e49fff0c4b47ee3d0c257aa6489aeb70f22a78c5a5a4e450513734",
+      "sha256": "40ef210de9e49fff0c4b47ee3d0c257aa6489aeb70f22a78c5a5a4e450513734",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D02/version_1.json",
+      "source_sha256": "5c461ee3a5d54875ebf1d0076cb08fd70117dd1baf0a143ad9056503ac0d5f96",
+      "sha256": "5c461ee3a5d54875ebf1d0076cb08fd70117dd1baf0a143ad9056503ac0d5f96",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D02/version_2.json",
+      "source_sha256": "e5e7b237753f49eb005d134b208b6791c8a164554502a2b3b271819da539974b",
+      "sha256": "e5e7b237753f49eb005d134b208b6791c8a164554502a2b3b271819da539974b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D02/version_3.json",
+      "source_sha256": "280b199d26ed7cc0d614a6bcca4716f8d2227ccccdbb0a1bda8206f05a8be950",
+      "sha256": "280b199d26ed7cc0d614a6bcca4716f8d2227ccccdbb0a1bda8206f05a8be950",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D02/version_4.json",
+      "source_sha256": "5cbf9d7dbb39792ab084b319c94224a7265ec6146a47692a526ea15a93ac3200",
+      "sha256": "5cbf9d7dbb39792ab084b319c94224a7265ec6146a47692a526ea15a93ac3200",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D03/version_1.json",
+      "source_sha256": "a5d910d59ccfb1fb448e4530d1ce1b21094e88c6763716b246a99adc8fbdd2b7",
+      "sha256": "a5d910d59ccfb1fb448e4530d1ce1b21094e88c6763716b246a99adc8fbdd2b7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D03/version_2.json",
+      "source_sha256": "3185718c5b96d5c8aa93c0be93d82d4ae9e45425b87f785e0a36f863e111773c",
+      "sha256": "3185718c5b96d5c8aa93c0be93d82d4ae9e45425b87f785e0a36f863e111773c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D03/version_3.json",
+      "source_sha256": "a06937d8e36c7ae508babd9c72409b02b97eb1259d774ffdc1f173435f23b737",
+      "sha256": "a06937d8e36c7ae508babd9c72409b02b97eb1259d774ffdc1f173435f23b737",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D03/version_4.json",
+      "source_sha256": "814d5e7f26e52d3bf426c7b307b04ae4c562d20ec753891380d1d67faa688885",
+      "sha256": "814d5e7f26e52d3bf426c7b307b04ae4c562d20ec753891380d1d67faa688885",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D04/version_1.json",
+      "source_sha256": "9d76566fdf352e8039dd3ec28c6c9c63ec52c4053126e8662b67ef0cb9501be3",
+      "sha256": "9d76566fdf352e8039dd3ec28c6c9c63ec52c4053126e8662b67ef0cb9501be3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D04/version_2.json",
+      "source_sha256": "9392112fb67a4a3f838bb9d3a63ae0866de2943a0b468b52e435617af8614a0d",
+      "sha256": "9392112fb67a4a3f838bb9d3a63ae0866de2943a0b468b52e435617af8614a0d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D04/version_3.json",
+      "source_sha256": "ade17cce52e79066729f3716fe2f31ba3e2c53bce9dc48b3b054d08bfe4e3a70",
+      "sha256": "ade17cce52e79066729f3716fe2f31ba3e2c53bce9dc48b3b054d08bfe4e3a70",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D04/version_4.json",
+      "source_sha256": "310d44011ff445f57c64a80f33c220132b1b35d07d18a165ec27fb41237e1672",
+      "sha256": "310d44011ff445f57c64a80f33c220132b1b35d07d18a165ec27fb41237e1672",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D05/version_1.json",
+      "source_sha256": "c25c6c713cd2682dc0816df667d085c838d4ab82fdd985017d05872647464750",
+      "sha256": "c25c6c713cd2682dc0816df667d085c838d4ab82fdd985017d05872647464750",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D05/version_2.json",
+      "source_sha256": "390c6d78e0d7b2123aa2f172420ede592f549adc37ffb55ca0754ab6b1dca0ff",
+      "sha256": "390c6d78e0d7b2123aa2f172420ede592f549adc37ffb55ca0754ab6b1dca0ff",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D05/version_3.json",
+      "source_sha256": "4028a02579537e72610230df2fa855213fb68b2452ff124a72ef328c9b533689",
+      "sha256": "4028a02579537e72610230df2fa855213fb68b2452ff124a72ef328c9b533689",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D05/version_4.json",
+      "source_sha256": "7f7297f9b02ebb59c7547fe1df92fd36aea0016d4d8675d42d8800f90c737842",
+      "sha256": "7f7297f9b02ebb59c7547fe1df92fd36aea0016d4d8675d42d8800f90c737842",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D06/version_1.json",
+      "source_sha256": "3e06049cf8eb5c4c6c49ae948702d5e7f5b08eff541d49dd2f9a6160ab45536b",
+      "sha256": "3e06049cf8eb5c4c6c49ae948702d5e7f5b08eff541d49dd2f9a6160ab45536b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D06/version_2.json",
+      "source_sha256": "a3b63253a11f020a5a3892ac2de6e0763f799c4fc1e53c055a96977ae44baf64",
+      "sha256": "a3b63253a11f020a5a3892ac2de6e0763f799c4fc1e53c055a96977ae44baf64",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D06/version_3.json",
+      "source_sha256": "e42f3fe4e8bd6c474da500fc853ddfbc6329e6c73848b29ff67c782921188218",
+      "sha256": "e42f3fe4e8bd6c474da500fc853ddfbc6329e6c73848b29ff67c782921188218",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D06/version_4.json",
+      "source_sha256": "af264008822ff69a599d604423166a3ace368a4c4d21abe63e561bb4bf72aa8f",
+      "sha256": "af264008822ff69a599d604423166a3ace368a4c4d21abe63e561bb4bf72aa8f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D07/version_1.json",
+      "source_sha256": "1914a3e49c111d23d80a0c88fc2dd59af82ae94c526585f4dbd9a7f15efc5e4c",
+      "sha256": "1914a3e49c111d23d80a0c88fc2dd59af82ae94c526585f4dbd9a7f15efc5e4c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D07/version_2.json",
+      "source_sha256": "bef689e7f5a4181b8b24d5a2916d4a2e55ca47b3fc0b99124f3cfb5fc08bce79",
+      "sha256": "bef689e7f5a4181b8b24d5a2916d4a2e55ca47b3fc0b99124f3cfb5fc08bce79",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D07/version_3.json",
+      "source_sha256": "def6858b324f52867090c5f13a419f240acd97876b730946bc51fbca266cdee7",
+      "sha256": "def6858b324f52867090c5f13a419f240acd97876b730946bc51fbca266cdee7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D07/version_4.json",
+      "source_sha256": "a95ed6697320659aeecf0341def5c750a426b83f15ba3d3bea9a57593951ee92",
+      "sha256": "a95ed6697320659aeecf0341def5c750a426b83f15ba3d3bea9a57593951ee92",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D08/version_1.json",
+      "source_sha256": "4f9e329c25a8ee14a55e57529690e0c8fb1635f47d782f9a0f06bf7bc43308ef",
+      "sha256": "4f9e329c25a8ee14a55e57529690e0c8fb1635f47d782f9a0f06bf7bc43308ef",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D08/version_2.json",
+      "source_sha256": "88da3fe6e62dac477a801ba332ec71d9be99a93de5d895e57e19adebfed3084c",
+      "sha256": "88da3fe6e62dac477a801ba332ec71d9be99a93de5d895e57e19adebfed3084c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D08/version_3.json",
+      "source_sha256": "c90adf80cb34c6dee62d4cca1e8fbb7fa56d3b034aab342da82f6854db7ead61",
+      "sha256": "c90adf80cb34c6dee62d4cca1e8fbb7fa56d3b034aab342da82f6854db7ead61",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D08/version_4.json",
+      "source_sha256": "5d08a51ed6c8a581c5850d703d798b73e0c14c6c51f94df4fe6575871b135cd9",
+      "sha256": "5d08a51ed6c8a581c5850d703d798b73e0c14c6c51f94df4fe6575871b135cd9",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D09/version_1.json",
+      "source_sha256": "aa97f21c4de3a9befef9e7f17096ba92e3984121e2096ac80c4b1785526f6b3b",
+      "sha256": "aa97f21c4de3a9befef9e7f17096ba92e3984121e2096ac80c4b1785526f6b3b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D09/version_2.json",
+      "source_sha256": "21009632fb972ea3c952ba150014f5ef4a258c9571ff435bde1a0163563e3bee",
+      "sha256": "21009632fb972ea3c952ba150014f5ef4a258c9571ff435bde1a0163563e3bee",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D09/version_3.json",
+      "source_sha256": "36cbad0ce04203a1af9dd2f9ab5863addaf0f7a1bb296d98c6c3a01c734770bc",
+      "sha256": "36cbad0ce04203a1af9dd2f9ab5863addaf0f7a1bb296d98c6c3a01c734770bc",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D09/version_4.json",
+      "source_sha256": "0817da7dac42b291fb824749d19e8fb253dccdf51cab2d9e39efc215360c94a4",
+      "sha256": "0817da7dac42b291fb824749d19e8fb253dccdf51cab2d9e39efc215360c94a4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D10/version_1.json",
+      "source_sha256": "96e0c64ed32497de0a61237fdb15779122b2cb1739e692add5dcd2a2f5dba24c",
+      "sha256": "96e0c64ed32497de0a61237fdb15779122b2cb1739e692add5dcd2a2f5dba24c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D10/version_2.json",
+      "source_sha256": "096db4e0fd4a640bd5497df5c5e1c8b8bb0a1fa101afe858e1fc7af48a67e8ca",
+      "sha256": "096db4e0fd4a640bd5497df5c5e1c8b8bb0a1fa101afe858e1fc7af48a67e8ca",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D10/version_3.json",
+      "source_sha256": "858d3d098f4b6cd31799212dcd6cc082d3ae7e45496b2e6298cf811b8d61db19",
+      "sha256": "858d3d098f4b6cd31799212dcd6cc082d3ae7e45496b2e6298cf811b8d61db19",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/D10/version_4.json",
+      "source_sha256": "c9371d641b314fe030e8790e3baa4fc84fae30ba4517b68abf00ef46dc698280",
+      "sha256": "c9371d641b314fe030e8790e3baa4fc84fae30ba4517b68abf00ef46dc698280",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E01/version_1.json",
+      "source_sha256": "6e5e6bfb317e754e79d2a922fbc2636c244fc62c6a9166b4abea90b36e6bf5e6",
+      "sha256": "6e5e6bfb317e754e79d2a922fbc2636c244fc62c6a9166b4abea90b36e6bf5e6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E01/version_2.json",
+      "source_sha256": "390dceac0d40eddac744569ab08297220f25a00bd8334d8c322d4378ff2b94cf",
+      "sha256": "390dceac0d40eddac744569ab08297220f25a00bd8334d8c322d4378ff2b94cf",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E01/version_3.json",
+      "source_sha256": "3401c15d8975a20791845772d4c7ec2824246da15b9350890c8bb6df46058d40",
+      "sha256": "3401c15d8975a20791845772d4c7ec2824246da15b9350890c8bb6df46058d40",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E01/version_4.json",
+      "source_sha256": "102ad0b4642110ac9de52c1bbe73b1f26bc8247995bb9b6fd0d00872aef0f3ed",
+      "sha256": "102ad0b4642110ac9de52c1bbe73b1f26bc8247995bb9b6fd0d00872aef0f3ed",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E02/version_1.json",
+      "source_sha256": "8e98f59bf5cae062e49f6cab3e994caeeb78dcbf0533b96e3e07a64950d342c3",
+      "sha256": "8e98f59bf5cae062e49f6cab3e994caeeb78dcbf0533b96e3e07a64950d342c3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E02/version_2.json",
+      "source_sha256": "4d4e12953c1d366ac079dfdd66a446d5abe9c14cdf62cea64ac636d5f6012247",
+      "sha256": "4d4e12953c1d366ac079dfdd66a446d5abe9c14cdf62cea64ac636d5f6012247",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E02/version_3.json",
+      "source_sha256": "8032d63c2b4032d7b6ea78133678b3c5b95df9633c369598e1a64a8615a7e90b",
+      "sha256": "8032d63c2b4032d7b6ea78133678b3c5b95df9633c369598e1a64a8615a7e90b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E02/version_4.json",
+      "source_sha256": "0739c13df4a036fe47f719c8c0361708332817a88872ae760120a5b291a40466",
+      "sha256": "0739c13df4a036fe47f719c8c0361708332817a88872ae760120a5b291a40466",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E03/version_1.json",
+      "source_sha256": "8a859773541e78678764bf6fa0f0c7547ff832e84166c72699252a8da6e106a5",
+      "sha256": "8a859773541e78678764bf6fa0f0c7547ff832e84166c72699252a8da6e106a5",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E03/version_2.json",
+      "source_sha256": "8c03f2be75d19d8f6dcc5c648823418ba2595dc53c55bae0ff67c44f632b4d1b",
+      "sha256": "8c03f2be75d19d8f6dcc5c648823418ba2595dc53c55bae0ff67c44f632b4d1b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E03/version_3.json",
+      "source_sha256": "240cbe408f3ab3058cce25a5be5e25223663e0322f4c499458d8960625aba874",
+      "sha256": "240cbe408f3ab3058cce25a5be5e25223663e0322f4c499458d8960625aba874",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E03/version_4.json",
+      "source_sha256": "be5de2c828104643a9fa2edfa165f8b1da26b380c0089c6dd65a6c699d190e52",
+      "sha256": "be5de2c828104643a9fa2edfa165f8b1da26b380c0089c6dd65a6c699d190e52",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E04/version_1.json",
+      "source_sha256": "c4e8a1f9731e138499320c3c8a3459228b31f00ae11c22e79a38a26ecfb9ec54",
+      "sha256": "c4e8a1f9731e138499320c3c8a3459228b31f00ae11c22e79a38a26ecfb9ec54",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E04/version_2.json",
+      "source_sha256": "fb79f34e5657235ce288ec809791243f90128bce65f6f95ec5dedafb5448ccf4",
+      "sha256": "fb79f34e5657235ce288ec809791243f90128bce65f6f95ec5dedafb5448ccf4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E04/version_3.json",
+      "source_sha256": "a16ed913ca2b041e0b9b4a58f20bb9da0ec79d7a17b855e575daab055aa2dbc6",
+      "sha256": "a16ed913ca2b041e0b9b4a58f20bb9da0ec79d7a17b855e575daab055aa2dbc6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E04/version_4.json",
+      "source_sha256": "102d167ed3f282179d0f10151f469a9b0bc23e5935e7c9d0e70b84dddcb4ae8b",
+      "sha256": "102d167ed3f282179d0f10151f469a9b0bc23e5935e7c9d0e70b84dddcb4ae8b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E05/version_1.json",
+      "source_sha256": "ba7ef394a5311ea2dae72bfa283e272450029c8704816bfbfa762ed953486a1f",
+      "sha256": "ba7ef394a5311ea2dae72bfa283e272450029c8704816bfbfa762ed953486a1f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E05/version_2.json",
+      "source_sha256": "4323df208cc7edc85f09748a8249333757103e69ec034c5f689761172658cc81",
+      "sha256": "4323df208cc7edc85f09748a8249333757103e69ec034c5f689761172658cc81",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E05/version_3.json",
+      "source_sha256": "d02038769f2bd5b9ca076b19be88b04302dc5bb9f2f199d14f924ebc6481e4d2",
+      "sha256": "d02038769f2bd5b9ca076b19be88b04302dc5bb9f2f199d14f924ebc6481e4d2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E05/version_4.json",
+      "source_sha256": "b5badcf0f5ca997b29f8f6b896d458a226bbc3de26863c1f5716e20304296c1d",
+      "sha256": "b5badcf0f5ca997b29f8f6b896d458a226bbc3de26863c1f5716e20304296c1d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E06/version_1.json",
+      "source_sha256": "6377cca187c5c0e033ae1d443337c83d1dc44a95e1e2aa61854b9a4ac729459a",
+      "sha256": "6377cca187c5c0e033ae1d443337c83d1dc44a95e1e2aa61854b9a4ac729459a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E06/version_2.json",
+      "source_sha256": "bfccae84bbb683088f2d7d239f57fd43b85fc9ea23b5151a433be1be010793a4",
+      "sha256": "bfccae84bbb683088f2d7d239f57fd43b85fc9ea23b5151a433be1be010793a4",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E06/version_3.json",
+      "source_sha256": "5ee6b77597262a6144d1eac75e01f41ba62aeea5a3fd45aaced29afb0f7c1e8f",
+      "sha256": "5ee6b77597262a6144d1eac75e01f41ba62aeea5a3fd45aaced29afb0f7c1e8f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E06/version_4.json",
+      "source_sha256": "f0f56fe3f93b12af1b1f34e33185f92fdf4d53140031536da35af598ffaf111f",
+      "sha256": "f0f56fe3f93b12af1b1f34e33185f92fdf4d53140031536da35af598ffaf111f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E07/version_1.json",
+      "source_sha256": "a796a09b829971aa47e3647bec65586f76c39257e79ce477cd583992457f9198",
+      "sha256": "a796a09b829971aa47e3647bec65586f76c39257e79ce477cd583992457f9198",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E07/version_2.json",
+      "source_sha256": "c07e15c02799d0c560f81ff7551fb14d1cf1627ff8fa984e6df8285c086cc458",
+      "sha256": "c07e15c02799d0c560f81ff7551fb14d1cf1627ff8fa984e6df8285c086cc458",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E07/version_3.json",
+      "source_sha256": "b2f69196caa29510d16a67a70f9567d506e941dd74e319ea91c62a1f60f4900e",
+      "sha256": "b2f69196caa29510d16a67a70f9567d506e941dd74e319ea91c62a1f60f4900e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E07/version_4.json",
+      "source_sha256": "f24ad8ad599cd6083cb49eddf3b98152e86aeabdf6dc3295a8fd4292dadb4ad3",
+      "sha256": "f24ad8ad599cd6083cb49eddf3b98152e86aeabdf6dc3295a8fd4292dadb4ad3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E08/version_1.json",
+      "source_sha256": "0e9279ff5cd5fe70769fb91bfec175869c34e00979fc8d8e254ae6d34b2c154a",
+      "sha256": "0e9279ff5cd5fe70769fb91bfec175869c34e00979fc8d8e254ae6d34b2c154a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E08/version_2.json",
+      "source_sha256": "1a162f2af3bcae0cdf29663693cfa1f0f55e5417268ea2f1d915cb11b5998228",
+      "sha256": "1a162f2af3bcae0cdf29663693cfa1f0f55e5417268ea2f1d915cb11b5998228",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E08/version_3.json",
+      "source_sha256": "b0c31aa3e67663bf080e9ff271158997dec0739f06bb63c7c511fdc99e7e27ff",
+      "sha256": "b0c31aa3e67663bf080e9ff271158997dec0739f06bb63c7c511fdc99e7e27ff",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E08/version_4.json",
+      "source_sha256": "9ae533b221e05610a748303f1918aeb69f62d4a6c391f2a9deddcc86ebe4548b",
+      "sha256": "9ae533b221e05610a748303f1918aeb69f62d4a6c391f2a9deddcc86ebe4548b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E09/version_1.json",
+      "source_sha256": "c44687c43cd44f82e27603e8addf8a6d49aa0ccea138950ea91fe250a8504431",
+      "sha256": "c44687c43cd44f82e27603e8addf8a6d49aa0ccea138950ea91fe250a8504431",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E09/version_2.json",
+      "source_sha256": "6d7dc510cf369f945919eff2e6008dfc8f4c4e61b32fa4d4ec10a2522a791323",
+      "sha256": "6d7dc510cf369f945919eff2e6008dfc8f4c4e61b32fa4d4ec10a2522a791323",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E09/version_3.json",
+      "source_sha256": "fe8594834798ff30cb1270ad973ce290217880fcb231cf2079f1bfba1a8cf3ab",
+      "sha256": "fe8594834798ff30cb1270ad973ce290217880fcb231cf2079f1bfba1a8cf3ab",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E09/version_4.json",
+      "source_sha256": "cea236d9b7ab090c691e973724386160ebe6522992df3e70b322935e45320ab8",
+      "sha256": "cea236d9b7ab090c691e973724386160ebe6522992df3e70b322935e45320ab8",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E10/version_1.json",
+      "source_sha256": "e748c1eb1c7e9ca006731e8b69af1bc5d3666faef70590d77564ed26847c6f18",
+      "sha256": "e748c1eb1c7e9ca006731e8b69af1bc5d3666faef70590d77564ed26847c6f18",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E10/version_2.json",
+      "source_sha256": "897981f7b1bf49f53fb0b2fcde28f21568332daaa77f39cb98e60556af690a5e",
+      "sha256": "897981f7b1bf49f53fb0b2fcde28f21568332daaa77f39cb98e60556af690a5e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E10/version_3.json",
+      "source_sha256": "b3566a64994fcf7e584d4771e09788ce8fc3ae3c3e9e0594f7870f09774ad21b",
+      "sha256": "b3566a64994fcf7e584d4771e09788ce8fc3ae3c3e9e0594f7870f09774ad21b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/E10/version_4.json",
+      "source_sha256": "3e651d283729c4fd70451edf7b22bdb4ebeb14a0717175116a143982dbf082ba",
+      "sha256": "3e651d283729c4fd70451edf7b22bdb4ebeb14a0717175116a143982dbf082ba",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F01/version_1.json",
+      "source_sha256": "ccfa5b282fbe8e206cc0af3bcab1026598058e29ca30a52bcc132dc5426d6232",
+      "sha256": "ccfa5b282fbe8e206cc0af3bcab1026598058e29ca30a52bcc132dc5426d6232",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F01/version_2.json",
+      "source_sha256": "d021c06811667cb1bf985afe10d6d3ec9a086908ee9731d8b1018fb4f7c034e6",
+      "sha256": "d021c06811667cb1bf985afe10d6d3ec9a086908ee9731d8b1018fb4f7c034e6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F01/version_3.json",
+      "source_sha256": "8b6a449cd5e7fcafa9b8178712eff2111846acc1b5e96a9648df3239d78e59b6",
+      "sha256": "8b6a449cd5e7fcafa9b8178712eff2111846acc1b5e96a9648df3239d78e59b6",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F01/version_4.json",
+      "source_sha256": "436c394c526f14f2c7c17a6528567217dce9f4ac6a25344524a8473e43d8725a",
+      "sha256": "436c394c526f14f2c7c17a6528567217dce9f4ac6a25344524a8473e43d8725a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F02/version_1.json",
+      "source_sha256": "aa687b986072febc7c5ae833b08b5eb2f069f9ed4b3e10f1bae9e6a5edf972ef",
+      "sha256": "aa687b986072febc7c5ae833b08b5eb2f069f9ed4b3e10f1bae9e6a5edf972ef",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F02/version_2.json",
+      "source_sha256": "db0e47100404fb2a0edf47d443d615719d85e92f0d22942c3b341cc328edb341",
+      "sha256": "db0e47100404fb2a0edf47d443d615719d85e92f0d22942c3b341cc328edb341",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F02/version_3.json",
+      "source_sha256": "917ad8714f9bed9bac85881bb16b8f35182729a68093ba9a7d33808d195eb4bc",
+      "sha256": "917ad8714f9bed9bac85881bb16b8f35182729a68093ba9a7d33808d195eb4bc",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F02/version_4.json",
+      "source_sha256": "844116fdd90323d0893e94fdd9e1e84d4d41f1500c263ac93526d3ab5cda2143",
+      "sha256": "844116fdd90323d0893e94fdd9e1e84d4d41f1500c263ac93526d3ab5cda2143",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F03/version_1.json",
+      "source_sha256": "34902b45573f036e6a889543142d128b91b04ea6d12ed28aa7b7403d3835767b",
+      "sha256": "34902b45573f036e6a889543142d128b91b04ea6d12ed28aa7b7403d3835767b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F03/version_2.json",
+      "source_sha256": "51de6575770b6b8716f5db2b676eacb2eeb1f665da392e6e87efb96540033783",
+      "sha256": "51de6575770b6b8716f5db2b676eacb2eeb1f665da392e6e87efb96540033783",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F03/version_3.json",
+      "source_sha256": "1f488554de13c51e7f0a4a93135ed074229cc0f47341b27b014fdd1dd2c6fcff",
+      "sha256": "1f488554de13c51e7f0a4a93135ed074229cc0f47341b27b014fdd1dd2c6fcff",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F03/version_4.json",
+      "source_sha256": "c10cddcb81616c6f90dfec98f0b329be6a8d7779aa60b03e967e6543fb8472ae",
+      "sha256": "c10cddcb81616c6f90dfec98f0b329be6a8d7779aa60b03e967e6543fb8472ae",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F04/version_1.json",
+      "source_sha256": "426f1a6d0c29d7da252bc08c9e985e063ceeeb9c905044ea655565be2ea6dd5a",
+      "sha256": "426f1a6d0c29d7da252bc08c9e985e063ceeeb9c905044ea655565be2ea6dd5a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F04/version_2.json",
+      "source_sha256": "c8c8a497c845084b71e932bc6cf7de3b7c59757bace670001536e6c00c47e054",
+      "sha256": "c8c8a497c845084b71e932bc6cf7de3b7c59757bace670001536e6c00c47e054",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F04/version_3.json",
+      "source_sha256": "cde3ef9d69668420c2ce3423b70f42a6032302c0324c18eba9c9b9e6c7acbc65",
+      "sha256": "cde3ef9d69668420c2ce3423b70f42a6032302c0324c18eba9c9b9e6c7acbc65",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F04/version_4.json",
+      "source_sha256": "871835af40e9ac6b5d7d82a776702078c3e8fe179f0d21d5dce658e51e55e4f0",
+      "sha256": "871835af40e9ac6b5d7d82a776702078c3e8fe179f0d21d5dce658e51e55e4f0",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F05/version_1.json",
+      "source_sha256": "f489e267c48d93c24a01e918ddf904484a36070ce507fabbff38016a263c51be",
+      "sha256": "f489e267c48d93c24a01e918ddf904484a36070ce507fabbff38016a263c51be",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F05/version_2.json",
+      "source_sha256": "e86ccd6902576135d3cc88f01ed348f7077d8069337adaa004c4714706342047",
+      "sha256": "e86ccd6902576135d3cc88f01ed348f7077d8069337adaa004c4714706342047",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F05/version_3.json",
+      "source_sha256": "626ef4310e4e420fdfb1123c99b19cf7f9ab12b5897ff7ec3d3350ac07575686",
+      "sha256": "626ef4310e4e420fdfb1123c99b19cf7f9ab12b5897ff7ec3d3350ac07575686",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F05/version_4.json",
+      "source_sha256": "b128a66ee7a771967b09fa7e3801eac593b4169f6ae507b266857558a2a5b833",
+      "sha256": "b128a66ee7a771967b09fa7e3801eac593b4169f6ae507b266857558a2a5b833",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F06/version_1.json",
+      "source_sha256": "23e064a60fcf8970e4d3f4bc1bd981a4ffa0c80a5562ba01fd050e801645d2a2",
+      "sha256": "23e064a60fcf8970e4d3f4bc1bd981a4ffa0c80a5562ba01fd050e801645d2a2",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F06/version_2.json",
+      "source_sha256": "e25c67807efd4c09fc2a61344f4bf934af988cc27a2c07ae70888180e3e824ca",
+      "sha256": "e25c67807efd4c09fc2a61344f4bf934af988cc27a2c07ae70888180e3e824ca",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F06/version_3.json",
+      "source_sha256": "b531e374cb9ac171435a9584166500d1a24746517c597205ce0c17cacd7e431b",
+      "sha256": "b531e374cb9ac171435a9584166500d1a24746517c597205ce0c17cacd7e431b",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F06/version_4.json",
+      "source_sha256": "2f96803b4d531e55d7e0313e4b0b37949a2595ab512bba1ca2ccf02f9e523133",
+      "sha256": "2f96803b4d531e55d7e0313e4b0b37949a2595ab512bba1ca2ccf02f9e523133",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F07/version_1.json",
+      "source_sha256": "0e84eb1888d2097b64c506a29c9d0a70168da1e3eec34eb6faaa3c7e2fe930f7",
+      "sha256": "0e84eb1888d2097b64c506a29c9d0a70168da1e3eec34eb6faaa3c7e2fe930f7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F07/version_2.json",
+      "source_sha256": "a368d0ea4a9e0a77c5114b4347d47514a44e74885b51bcc434bbcb7cf19a893d",
+      "sha256": "a368d0ea4a9e0a77c5114b4347d47514a44e74885b51bcc434bbcb7cf19a893d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F07/version_3.json",
+      "source_sha256": "6485e9a055181c9447af085978f9697278afa6c1a0455e13e72e85b348f3a018",
+      "sha256": "6485e9a055181c9447af085978f9697278afa6c1a0455e13e72e85b348f3a018",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F07/version_4.json",
+      "source_sha256": "5641b1245d6dd27bde312862b4606891e56d5d3c1924c3b08c81ed3927a21246",
+      "sha256": "5641b1245d6dd27bde312862b4606891e56d5d3c1924c3b08c81ed3927a21246",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F08/version_1.json",
+      "source_sha256": "f373448c147de39dcf3b279220a2fe4a6f11ae64fe3a6ef9dca2acf664522df3",
+      "sha256": "f373448c147de39dcf3b279220a2fe4a6f11ae64fe3a6ef9dca2acf664522df3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F08/version_2.json",
+      "source_sha256": "53fe5b695734d5af5e43e66fe9d70e3a0a474f791a2935812691b347c69b9d93",
+      "sha256": "53fe5b695734d5af5e43e66fe9d70e3a0a474f791a2935812691b347c69b9d93",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F08/version_3.json",
+      "source_sha256": "dea525f4c62ff284437acd7b98c8f249496c2a9f7abd9a5154287c7966f23915",
+      "sha256": "dea525f4c62ff284437acd7b98c8f249496c2a9f7abd9a5154287c7966f23915",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F08/version_4.json",
+      "source_sha256": "391b7d9a7004505bd7ac1a00af859c820c4a4cf29eb591b342635730509dd535",
+      "sha256": "391b7d9a7004505bd7ac1a00af859c820c4a4cf29eb591b342635730509dd535",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F09/version_1.json",
+      "source_sha256": "706a58a7a54254f2871300cf7c4e3bf560ecafa0d3725536741784ae70467e6f",
+      "sha256": "706a58a7a54254f2871300cf7c4e3bf560ecafa0d3725536741784ae70467e6f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F09/version_2.json",
+      "source_sha256": "271ea9c8c138da98056cf28ced39c7a37b52bdcb289100cdcb6efbbf9d051e3f",
+      "sha256": "271ea9c8c138da98056cf28ced39c7a37b52bdcb289100cdcb6efbbf9d051e3f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F09/version_3.json",
+      "source_sha256": "5a7332e669f60109ab1571703b00bb24990a82e9d3d4bc6c8e0971b56f94e928",
+      "sha256": "5a7332e669f60109ab1571703b00bb24990a82e9d3d4bc6c8e0971b56f94e928",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F09/version_4.json",
+      "source_sha256": "8f08663211b13be132022aa12d4f5315e2c3376c75f9a2382d2c41fa60ea433f",
+      "sha256": "8f08663211b13be132022aa12d4f5315e2c3376c75f9a2382d2c41fa60ea433f",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F10/version_1.json",
+      "source_sha256": "bf5ccc8212a186dff255ca836dce9bc0a158ee2eb927db9fbb3bee889cae3c5c",
+      "sha256": "bf5ccc8212a186dff255ca836dce9bc0a158ee2eb927db9fbb3bee889cae3c5c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F10/version_2.json",
+      "source_sha256": "46f23a4b63293fbbb81a9e4937e6e193b06e99dd0e80526156f92a3091d5cda0",
+      "sha256": "46f23a4b63293fbbb81a9e4937e6e193b06e99dd0e80526156f92a3091d5cda0",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F10/version_3.json",
+      "source_sha256": "bc2e6268da77f5ecf6731868f865404104abeb7b4446054883258eb309b340c7",
+      "sha256": "bc2e6268da77f5ecf6731868f865404104abeb7b4446054883258eb309b340c7",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "generated_data/theory_of_time_v1/track_1c/dataset/metadata/F10/version_4.json",
+      "source_sha256": "eddb9a7f7b06c5f476c7df17790f6c143c63a1e764e2fe21695a0b83889b756d",
+      "sha256": "eddb9a7f7b06c5f476c7df17790f6c143c63a1e764e2fe21695a0b83889b756d",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track1c/build_dataset.py",
+      "source_sha256": "797e1f7ec88d002c1d6f10b7656c34f8411dcd667bb048af52ff4e9188ba103f",
+      "sha256": "797e1f7ec88d002c1d6f10b7656c34f8411dcd667bb048af52ff4e9188ba103f",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track1c/task_1c_conversation_transcripts_v10_5.csv",
+      "source_sha256": "c33c53760e1461364ba00771d1551922641a578a5666c6043505059f87b65fb3",
+      "sha256": "c33c53760e1461364ba00771d1551922641a578a5666c6043505059f87b65fb3",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/audit_reel_task_availability.py",
+      "source_sha256": "951d309c1258a8385c7ab46d064ca7bb35672faed09442627ab61d262825c53e",
+      "sha256": "2d267e4c5a81cc4f90094ce82af329ada4161a03aca7955ce9b2f9c211321440",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_dataset/build_selected_reel_audio.py",
+      "source_sha256": "11a62e7bd2250dd71c5c0a69a20bc4eca9d32cdc226f1366624277eaf50ca455",
+      "sha256": "35b2438b5ab1c9f8481d80c75315ddbf6d5d241015d849d88712851f118002fc",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_dataset/build_track2_dataset_v2.py",
+      "source_sha256": "4ebb16ea12737e10b4609734d97710bb0a860ab56fac95be9e5f851ede973726",
+      "sha256": "a123bef5cae4c013da1894184b53b81e981770bb796ff8cea0c5bf80e0cf1ad1",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_dataset/build_utterance_candidate_pool_v2.py",
+      "source_sha256": "40edf4b771b939601881d27d2a42f64bf4fc054594a6f899004b1a60ddd8405c",
+      "sha256": "894fb3397c900a8e78bbb99da75428f2af6fb7b7718cb1d686b6fe66e9dd163f",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v1/dataset/manifest.json",
+      "source_sha256": "2fbb69c8139714d1af0fddf3e6cfb981928f4e3f6e3f9efdc6e4f6d8b198ba5a",
+      "sha256": "2fbb69c8139714d1af0fddf3e6cfb981928f4e3f6e3f9efdc6e4f6d8b198ba5a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/candidate_provenance.jsonl",
+      "source_sha256": "b211dd090b27902bbada9154068e77f2477b9a6d73168318fd4ec591c026e545",
+      "sha256": "b211dd090b27902bbada9154068e77f2477b9a6d73168318fd4ec591c026e545",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/manifest.json",
+      "source_sha256": "09674ff64632bc0e9f742d0eef8a1315e48cbe4f9f62791f48b5b28c0744416c",
+      "sha256": "09674ff64632bc0e9f742d0eef8a1315e48cbe4f9f62791f48b5b28c0744416c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/task_answers.jsonl",
+      "source_sha256": "42ef90e5dc13145aed12a1bf87273fa824fc723746babe8f5cb4f0f85f8f6f6a",
+      "sha256": "42ef90e5dc13145aed12a1bf87273fa824fc723746babe8f5cb4f0f85f8f6f6a",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/task_instances.jsonl",
+      "source_sha256": "404dbd7c1036e395ed8eddbcceb5162895ba2fbfe87068afddf10ca8edbf1234",
+      "sha256": "404dbd7c1036e395ed8eddbcceb5162895ba2fbfe87068afddf10ca8edbf1234",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v2/dataset/validation_report.json",
+      "source_sha256": "5f35fe2908441c47c0b22476b7c4fac6d693aeb66201866aeca925e65229a85c",
+      "sha256": "5f35fe2908441c47c0b22476b7c4fac6d693aeb66201866aeca925e65229a85c",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_absent_utterance_candidate_pool_v2.csv",
+      "source_sha256": "700833f98a5bcd6dd98d259593be09daeb3eb34c07eef21a926211334ca943e1",
+      "sha256": "700833f98a5bcd6dd98d259593be09daeb3eb34c07eef21a926211334ca943e1",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_reel_candidates_task_audit_v1.csv",
+      "source_sha256": "983df7c9c6925914c9e2dbbb254fdd39666c3a5ba605f32217043f1e6608b903",
+      "sha256": "983df7c9c6925914c9e2dbbb254fdd39666c3a5ba605f32217043f1e6608b903",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_reel_candidates_v1.csv",
+      "source_sha256": "5f501cb5ece28b6f751b7adf580d5bcd019c8fd7d82895fa7e3f8f7590e96d21",
+      "sha256": "5f501cb5ece28b6f751b7adf580d5bcd019c8fd7d82895fa7e3f8f7590e96d21",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_scene_candidates_scene_filter_v1.csv",
+      "source_sha256": "4b190583e38a61f10a6394ed63a16ea659d95bb9a0ff6739cc8a7b6d06dca8cf",
+      "sha256": "4b190583e38a61f10a6394ed63a16ea659d95bb9a0ff6739cc8a7b6d06dca8cf",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_scene_cards_v3.csv",
+      "source_sha256": "4a0fcdd2a001975b541185c1adbf09a17f0ff60a9e305adee4139d90084dba2e",
+      "sha256": "4a0fcdd2a001975b541185c1adbf09a17f0ff60a9e305adee4139d90084dba2e",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_selected_reel_scenes_test_v1.csv",
+      "source_sha256": "b9cf81ae5bafa03d98b1b9e070d2d069e3f6d540df25ef976bd5d74aa77f1109",
+      "sha256": "b9cf81ae5bafa03d98b1b9e070d2d069e3f6d540df25ef976bd5d74aa77f1109",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_selected_reels_test_v1.csv",
+      "source_sha256": "c640963c665a1787a7da76e104d30aade62cc00aaa99465ae9fd3df26168e928",
+      "sha256": "c640963c665a1787a7da76e104d30aade62cc00aaa99465ae9fd3df26168e928",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/track2_role_ipc_utterance_candidate_pool_v2.csv",
+      "source_sha256": "98f77d345c7ac140b502f1ca5306604fb406066cb59ed69c60c573dde660b6eb",
+      "sha256": "98f77d345c7ac140b502f1ca5306604fb406066cb59ed69c60c573dde660b6eb",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_dataset/validate_selected_reels.py",
+      "source_sha256": "a67a658e381cc1cab825fee6ab24ce058552c9e83647f3f8ada81558a5c7ded9",
+      "sha256": "a67a658e381cc1cab825fee6ab24ce058552c9e83647f3f8ada81558a5c7ded9",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_dataset/validate_track2_dataset_v2.py",
+      "source_sha256": "c7bfff88abadc67a4179b91c890bf5365986a0491a38f27b137dd8743b96100a",
+      "sha256": "a3397a10ce00168f31f6644abf74472453cc9f46762802a746ac30e6a167a6f2",
+      "transformation": "portable builder paths and explicit reconstruction inputs"
+    },
+    {
+      "path": "track2_human_audit/audit_results/track2_absent_scene_card_reviews.csv",
+      "source_sha256": "5c5bec2a8ff3aaa1f5e8ca6ed55290963d2ed082086fa7b689958431eb1d6842",
+      "sha256": "5c5bec2a8ff3aaa1f5e8ca6ed55290963d2ed082086fa7b689958431eb1d6842",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_human_audit/audit_results/track2_human_audit_progress_2026-07-20T04-52-43-406Z.json",
+      "source_sha256": "ff385486a106e63399da2f16b013763a4fe955aeebca4c8b903e083addb148e8",
+      "sha256": "ff385486a106e63399da2f16b013763a4fe955aeebca4c8b903e083addb148e8",
+      "transformation": "exact copy"
+    },
+    {
+      "path": "track2_human_audit/audit_results/track2_scene_card_revision_review.csv",
+      "source_sha256": "93d92e0740019ac0537ebfd222eae39c0fb016a57532d699b2771fc6b4c83e95",
+      "sha256": "93d92e0740019ac0537ebfd222eae39c0fb016a57532d699b2771fc6b4c83e95",
+      "transformation": "exact copy"
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "audio_duration_seconds": 32.63,
+  "audio_file_path": "episodes/B07/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "B07",
+  "generation_timestamp": "2026-06-04T14:11:11.852423+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B07_S01",
+          "B07_S02",
+          "B07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "B07_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "B07_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "B07_S01": "YES",
+          "B07_S02": "YES",
+          "B07_S03": "NO",
+          "B07_S04": "NO",
+          "B07_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B07_S01",
+          "B07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "UNASSIGNED",
+            "if_observed_all": [
+              "B07_S03"
+            ]
+          },
+          {
+            "answer": "DANA_ASSIGNED",
+            "if_observed_all": [
+              "B07_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "UNASSIGNED",
+        "prefix_answer_trace": {
+          "B07_S01": "DANA_ASSIGNED",
+          "B07_S02": "DANA_ASSIGNED",
+          "B07_S03": "UNASSIGNED",
+          "B07_S04": "UNASSIGNED",
+          "B07_S05": "UNASSIGNED",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Should assigning Dana to review the file be done? Return YES, NO, or UNKNOWN.",
+        "question_id": "B07_CAT_Q1",
+        "question_type": "action_status"
+      },
+      {
+        "allowed_answers": [
+          "PRIYA_ASSIGNED",
+          "OMAR_ASSIGNED",
+          "REVIEW_POSTPONED",
+          "DANA_ASSIGNED",
+          "UNASSIGNED",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the status of assigning Dana to review the file? Return exactly one of: PRIYA_ASSIGNED, OMAR_ASSIGNED, REVIEW_POSTPONED, DANA_ASSIGNED, UNASSIGNED, UNKNOWN.",
+        "question_id": "B07_CAT_Q2",
+        "question_type": "action_plan"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "B07_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B07_S01": "UNKNOWN",
+          "B07_S02": "UNKNOWN",
+          "B07_S03": "A",
+          "B07_S04": "A",
+          "B07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "B07_S01",
+              "B07_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "B07_S01": "UNKNOWN",
+          "B07_S02": "UNKNOWN",
+          "B07_S03": "EVENT_1",
+          "B07_S04": "EVENT_1",
+          "B07_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says that Dana is removed from the review assignment? Return A, B, or UNKNOWN.",
+        "question_id": "B07_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=DANA_IS_ASSIGNED. EVENT_2=DANA_ASSIGNMENT_REMOVED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "B07_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "B07_S01",
+          "B07_S02",
+          "B07_S03",
+          "B07_S04",
+          "B07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "B07_S01": "A",
+          "B07_S02": "A>B",
+          "B07_S03": "A>B>A",
+          "B07_S04": "A>B>A>B",
+          "B07_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B07_S01",
+          "B07_S02",
+          "B07_S03",
+          "B07_S04",
+          "B07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "B07_S01": "0",
+          "B07_S02": "1",
+          "B07_S03": "2",
+          "B07_S04": "3",
+          "B07_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B07_S01",
+          "B07_S02",
+          "B07_S03",
+          "B07_S04",
+          "B07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B07_S01": "A",
+          "B07_S02": "B",
+          "B07_S03": "A",
+          "B07_S04": "B",
+          "B07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B07_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "B07_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "B07_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "B07_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B07_S01",
+        "speaker": "A",
+        "text": "Assign Dana to review the file."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B07_S02",
+        "speaker": "B",
+        "text": "Dana is assigned."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B07_S03",
+        "speaker": "A",
+        "text": "Remove that assignment."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B07_S04",
+        "speaker": "B",
+        "text": "Dana is no longer assigned."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B07_S05",
+        "speaker": "A",
+        "text": "Correct, leave the review unassigned."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for review assignment status heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "B07_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "B07_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "B07_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.65,
+      "pause_label": "natural",
+      "pause_start_time": 2.65
+    },
+    {
+      "after_sentence_id": "B07_S02",
+      "duration_seconds": 10.0,
+      "pause_end_time": 15.06,
+      "pause_label": "long",
+      "pause_start_time": 5.06
+    },
+    {
+      "after_sentence_id": "B07_S03",
+      "duration_seconds": 10.0,
+      "pause_end_time": 26.6,
+      "pause_label": "long",
+      "pause_start_time": 16.6
+    },
+    {
+      "after_sentence_id": "B07_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 29.46,
+      "pause_label": "natural",
+      "pause_start_time": 28.46
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/B07/version_2/B07_S01.wav",
+      "duration_seconds": 2.65,
+      "loudness_normalization": {
+        "applied_gain_db": -0.025383,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.343264,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.344269,
+        "original_speech_rms_dbfs": -23.974617
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "8798c7afdb9d5390ed531c6a84ee55e07506b229e69a10dc586040f79829112d",
+      "sentence_end_time": 2.65,
+      "sentence_id": "B07_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Assign Dana to review the file.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/B07/version_2/B07_S02.wav",
+      "duration_seconds": 1.41,
+      "loudness_normalization": {
+        "applied_gain_db": -2.494319,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.36704,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.489136,
+        "original_speech_rms_dbfs": -21.505681
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "182293cd3e3e5ea9c498469d505dead5ed55648878929ba695284efada9597b6",
+      "sentence_end_time": 5.06,
+      "sentence_id": "B07_S02",
+      "sentence_start_time": 3.65,
+      "speaker": "B",
+      "text": "Dana is assigned.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/B07/version_2/B07_S03.wav",
+      "duration_seconds": 1.54,
+      "loudness_normalization": {
+        "applied_gain_db": -0.859718,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.294937,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.325623,
+        "original_speech_rms_dbfs": -23.140282
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "fce0e1e806f26ff87d3391f8a5aaa00e4ece4f2d502e868efceadb04a29cfccc",
+      "sentence_end_time": 16.6,
+      "sentence_id": "B07_S03",
+      "sentence_start_time": 15.06,
+      "speaker": "A",
+      "text": "Remove that assignment.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/B07/version_2/B07_S04.wav",
+      "duration_seconds": 1.86,
+      "loudness_normalization": {
+        "applied_gain_db": -1.620297,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.28315,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.341217,
+        "original_speech_rms_dbfs": -22.379703
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "04130a9395cb40b4454754d47335004f4ae130ee03c9b5e70e9012519bcc3ea2",
+      "sentence_end_time": 28.46,
+      "sentence_id": "B07_S04",
+      "sentence_start_time": 26.6,
+      "speaker": "B",
+      "text": "Dana is no longer assigned.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/B07/version_2/B07_S05.wav",
+      "duration_seconds": 3.17,
+      "loudness_normalization": {
+        "applied_gain_db": -1.67347,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.353432,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.428528,
+        "original_speech_rms_dbfs": -22.32653
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "7dced8a78f0d895115c680aba6b8f3cf7a32dae54b1b524b0647ee1bb0cc6b03",
+      "sentence_end_time": 32.63,
+      "sentence_id": "B07_S05",
+      "sentence_start_time": 29.46,
+      "speaker": "A",
+      "text": "Correct, leave the review unassigned.",
+      "voice": "ash"
+    }
+  ],
+  "source_row": {
+    "category": "B",
+    "category_label": "Cancellation and deletion",
+    "category_specific_answer_rules": "[{\"question_id\":\"B07_CAT_Q1\",\"ask_after\":[\"B07_S01\",\"B07_S02\",\"B07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"YES\",\"B07_S02\":\"YES\",\"B07_S03\":\"NO\",\"B07_S04\":\"NO\",\"B07_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"B07_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"B07_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B07_CAT_Q2\",\"ask_after\":[\"B07_S01\",\"B07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"DANA_ASSIGNED\",\"B07_S02\":\"DANA_ASSIGNED\",\"B07_S03\":\"UNASSIGNED\",\"B07_S04\":\"UNASSIGNED\",\"B07_S05\":\"UNASSIGNED\"},\"final_answer_full_evidence\":\"UNASSIGNED\",\"evidence_rules\":[{\"if_observed_all\":[\"B07_S03\"],\"answer\":\"UNASSIGNED\"},{\"if_observed_all\":[\"B07_S01\"],\"answer\":\"DANA_ASSIGNED\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"B07_CAT_Q1\",\"question_type\":\"action_status\",\"prompt\":\"Should assigning Dana to review the file be done? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]},{\"question_id\":\"B07_CAT_Q2\",\"question_type\":\"action_plan\",\"prompt\":\"What is the status of assigning Dana to review the file? Return exactly one of: PRIYA_ASSIGNED, OMAR_ASSIGNED, REVIEW_POSTPONED, DANA_ASSIGNED, UNASSIGNED, UNKNOWN.\",\"allowed_answers\":[\"PRIYA_ASSIGNED\",\"OMAR_ASSIGNED\",\"REVIEW_POSTPONED\",\"DANA_ASSIGNED\",\"UNASSIGNED\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"B07_CONTENT_Q1\",\"ask_after\":[\"B07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"UNKNOWN\",\"B07_S02\":\"UNKNOWN\",\"B07_S03\":\"A\",\"B07_S04\":\"A\",\"B07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"B07_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B07_CONTENT_Q2\",\"ask_after\":[\"B07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"UNKNOWN\",\"B07_S02\":\"UNKNOWN\",\"B07_S03\":\"EVENT_1\",\"B07_S04\":\"EVENT_1\",\"B07_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"B07_S01\",\"B07_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"B07_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says that Dana is removed from the review assignment? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"B07_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=DANA_IS_ASSIGNED. EVENT_2=DANA_ASSIGNMENT_REMOVED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "B07",
+    "critical_span": "bins 0,2,3,4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"B07_GEN_Q1\",\"ask_after\":[\"B07_S01\",\"B07_S02\",\"B07_S03\",\"B07_S04\",\"B07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"A\",\"B07_S02\":\"A>B\",\"B07_S03\":\"A>B>A\",\"B07_S04\":\"A>B>A>B\",\"B07_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B07_GEN_Q2\",\"ask_after\":[\"B07_S01\",\"B07_S02\",\"B07_S03\",\"B07_S04\",\"B07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"0\",\"B07_S02\":\"1\",\"B07_S03\":\"2\",\"B07_S04\":\"3\",\"B07_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B07_GEN_Q3\",\"ask_after\":[\"B07_S01\",\"B07_S02\",\"B07_S03\",\"B07_S04\",\"B07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B07_S01\":\"A\",\"B07_S02\":\"B\",\"B07_S03\":\"A\",\"B07_S04\":\"B\",\"B07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"B07_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"B07_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"B07_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "B07_S01=0; B07_S02=1; B07_S03=2; B07_S04=3; B07_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"B07_S01\",\"speaker\":\"A\",\"text\":\"Assign Dana to review the file.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B07_S02\",\"speaker\":\"B\",\"text\":\"Dana is assigned.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B07_S03\",\"speaker\":\"A\",\"text\":\"Remove that assignment.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B07_S04\",\"speaker\":\"B\",\"text\":\"Dana is no longer assigned.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B07_S05\",\"speaker\":\"A\",\"text\":\"Correct, leave the review unassigned.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "B07_S01,B07_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"B07_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for review assignment status heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"B07_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Assign Dana to review the file.\nB: Dana is assigned.\nA: Remove that assignment.\nB: Dana is no longer assigned.\nA: Correct, leave the review unassigned.",
+    "transcript_with_pause_recommendations": "A: Assign Dana to review the file. (natural)\nB: Dana is assigned. (long)\nA: Remove that assignment. (long)\nB: Dana is no longer assigned. (natural)\nA: Correct, leave the review unassigned.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

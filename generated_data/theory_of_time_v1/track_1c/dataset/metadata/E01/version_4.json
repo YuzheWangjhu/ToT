@@ -1,0 +1,450 @@
+{
+  "audio_duration_seconds": 9.04,
+  "audio_file_path": "episodes/E01/version_4.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "E01",
+  "generation_timestamp": "2026-06-04T14:20:30.404558+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E01_S01",
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "GREEN",
+            "if_observed_all": [
+              "E01_S03"
+            ]
+          },
+          {
+            "answer": "BLUE",
+            "if_observed_all": [
+              "E01_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "GREEN",
+        "prefix_answer_trace": {
+          "E01_S01": "BLUE",
+          "E01_S02": "BLUE",
+          "E01_S03": "GREEN",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E01_S01",
+          "E01_S02",
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "E01_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E01_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "E01_S01": "YES",
+          "E01_S02": "YES",
+          "E01_S03": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "BLUE",
+          "GREEN",
+          "BLACK",
+          "YELLOW",
+          "RED",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the pickup color? Return exactly one of: BLUE, GREEN, BLACK, YELLOW, RED, UNKNOWN.",
+        "question_id": "E01_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the pickup color BLUE? Return YES, NO, or UNKNOWN.",
+        "question_id": "E01_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E01_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "SMALL",
+            "if_observed_all": [
+              "E01_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "SMALL",
+        "prefix_answer_trace": {
+          "E01_S01": "UNKNOWN",
+          "E01_S02": "SMALL",
+          "E01_S03": "SMALL",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "E01_S02",
+              "E01_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "E01_S01": "UNKNOWN",
+          "E01_S02": "UNKNOWN",
+          "E01_S03": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "LARGE",
+          "MEDIUM",
+          "EXTRA_SMALL",
+          "SMALL",
+          "TALL",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the box size? Return exactly one of: LARGE, MEDIUM, EXTRA_SMALL, SMALL, TALL, UNKNOWN.",
+        "question_id": "E01_CONTENT_Q1",
+        "question_type": "secondary_slot_value"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=BOX_SIZE_SMALL_STATED. EVENT_2=PICKUP_COLOR_GREEN_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "E01_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "E01_S01",
+          "E01_S02",
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A",
+        "prefix_answer_trace": {
+          "E01_S01": "A",
+          "E01_S02": "A>B",
+          "E01_S03": "A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E01_S01",
+          "E01_S02",
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "2",
+        "prefix_answer_trace": {
+          "E01_S01": "0",
+          "E01_S02": "1",
+          "E01_S03": "2",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E01_S01",
+          "E01_S02",
+          "E01_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "E01_S01": "A",
+          "E01_S02": "B",
+          "E01_S03": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E01_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "E01_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "E01_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "E01_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E01_S01",
+        "speaker": "A",
+        "text": "The pickup color is blue."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E01_S02",
+        "speaker": "B",
+        "text": "The box size is small."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E01_S03",
+        "speaker": "A",
+        "text": "Return to the pickup color: use green."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for pickup color heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "E01_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "E01_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "E01_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.95,
+      "pause_label": "natural",
+      "pause_start_time": 1.95
+    },
+    {
+      "after_sentence_id": "E01_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.09,
+      "pause_label": "natural",
+      "pause_start_time": 5.09
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/E01/version_4/E01_S01.wav",
+      "duration_seconds": 1.95,
+      "loudness_normalization": {
+        "applied_gain_db": -2.964102,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.298947,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.420532,
+        "original_speech_rms_dbfs": -21.035898
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "a6a1bc4821fb814a97d9054c8a23fe9e3c7c68c3b780814a3c2b6312501c3f3e",
+      "sentence_end_time": 1.95,
+      "sentence_id": "E01_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "The pickup color is blue.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/E01/version_4/E01_S02.wav",
+      "duration_seconds": 2.14,
+      "loudness_normalization": {
+        "applied_gain_db": 8.494713,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.38546,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.144958,
+        "original_speech_rms_dbfs": -32.494713
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "b5ddb00982738e8d3e44dba51f85ba770711c9391cedbb5f4e933c6433e5d5be",
+      "sentence_end_time": 5.09,
+      "sentence_id": "E01_S02",
+      "sentence_start_time": 2.95,
+      "speaker": "B",
+      "text": "The box size is small.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/E01/version_4/E01_S03.wav",
+      "duration_seconds": 2.95,
+      "loudness_normalization": {
+        "applied_gain_db": -2.737011,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.340648,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.466827,
+        "original_speech_rms_dbfs": -21.262989
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "7b5f0f079fcfca3a2990a15e0e584eceefb22476091c4b5a76ede78edd071183",
+      "sentence_end_time": 9.04,
+      "sentence_id": "E01_S03",
+      "sentence_start_time": 6.09,
+      "speaker": "A",
+      "text": "Return to the pickup color: use green.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "E",
+    "category_label": "Topic switch with distractors",
+    "category_specific_answer_rules": "[{\"question_id\":\"E01_CAT_Q1\",\"ask_after\":[\"E01_S01\",\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"BLUE\",\"E01_S02\":\"BLUE\",\"E01_S03\":\"GREEN\"},\"final_answer_full_evidence\":\"GREEN\",\"evidence_rules\":[{\"if_observed_all\":[\"E01_S03\"],\"answer\":\"GREEN\"},{\"if_observed_all\":[\"E01_S01\"],\"answer\":\"BLUE\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E01_CAT_Q2\",\"ask_after\":[\"E01_S01\",\"E01_S02\",\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"YES\",\"E01_S02\":\"YES\",\"E01_S03\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"E01_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"E01_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"E01_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the pickup color? Return exactly one of: BLUE, GREEN, BLACK, YELLOW, RED, UNKNOWN.\",\"allowed_answers\":[\"BLUE\",\"GREEN\",\"BLACK\",\"YELLOW\",\"RED\",\"UNKNOWN\"]},{\"question_id\":\"E01_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the pickup color BLUE? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"E01_CONTENT_Q1\",\"ask_after\":[\"E01_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"UNKNOWN\",\"E01_S02\":\"SMALL\",\"E01_S03\":\"SMALL\"},\"final_answer_full_evidence\":\"SMALL\",\"evidence_rules\":[{\"if_observed_all\":[\"E01_S02\"],\"answer\":\"SMALL\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E01_CONTENT_Q2\",\"ask_after\":[\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"UNKNOWN\",\"E01_S02\":\"UNKNOWN\",\"E01_S03\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"E01_S02\",\"E01_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"E01_CONTENT_Q1\",\"question_type\":\"secondary_slot_value\",\"prompt\":\"What is the box size? Return exactly one of: LARGE, MEDIUM, EXTRA_SMALL, SMALL, TALL, UNKNOWN.\",\"allowed_answers\":[\"LARGE\",\"MEDIUM\",\"EXTRA_SMALL\",\"SMALL\",\"TALL\",\"UNKNOWN\"]},{\"question_id\":\"E01_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=BOX_SIZE_SMALL_STATED. EVENT_2=PICKUP_COLOR_GREEN_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "E01",
+    "critical_span": "bins 0-2",
+    "end_bin": "2",
+    "generic_answer_rules": "[{\"question_id\":\"E01_GEN_Q1\",\"ask_after\":[\"E01_S01\",\"E01_S02\",\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"A\",\"E01_S02\":\"A>B\",\"E01_S03\":\"A>B>A\"},\"final_answer_full_evidence\":\"A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E01_GEN_Q2\",\"ask_after\":[\"E01_S01\",\"E01_S02\",\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"0\",\"E01_S02\":\"1\",\"E01_S03\":\"2\"},\"final_answer_full_evidence\":\"2\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E01_GEN_Q3\",\"ask_after\":[\"E01_S01\",\"E01_S02\",\"E01_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E01_S01\":\"A\",\"E01_S02\":\"B\",\"E01_S03\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"E01_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"E01_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"E01_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "E01_S01=0; E01_S02=1; E01_S03=2",
+    "sentence_metadata": "[{\"sentence_id\":\"E01_S01\",\"speaker\":\"A\",\"text\":\"The pickup color is blue.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E01_S02\",\"speaker\":\"B\",\"text\":\"The box size is small.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E01_S03\",\"speaker\":\"A\",\"text\":\"Return to the pickup color: use green.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "E01_S01,E01_S03,E01_S02",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"E01_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for pickup color heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"E01_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: The pickup color is blue.\nB: The box size is small.\nA: Return to the pickup color: use green.",
+    "transcript_with_pause_recommendations": "A: The pickup color is blue. (natural)\nB: The box size is small. (natural)\nA: Return to the pickup color: use green.",
+    "turn_bin_map": "T1=0; T2=1; T3=2",
+    "turn_count": "3"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "echo",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "sage",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_4",
+  "voice_pair_id": "pair_2"
+}

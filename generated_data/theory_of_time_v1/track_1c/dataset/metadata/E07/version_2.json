@@ -1,0 +1,548 @@
+{
+  "audio_duration_seconds": 25.8,
+  "audio_file_path": "episodes/E07/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "E07",
+  "generation_timestamp": "2026-06-04T14:22:07.966349+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E07_S01",
+          "E07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "RILEY",
+            "if_observed_all": [
+              "E07_S03"
+            ]
+          },
+          {
+            "answer": "MORGAN",
+            "if_observed_all": [
+              "E07_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "RILEY",
+        "prefix_answer_trace": {
+          "E07_S01": "MORGAN",
+          "E07_S02": "MORGAN",
+          "E07_S03": "RILEY",
+          "E07_S04": "RILEY",
+          "E07_S05": "RILEY",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E07_S01",
+          "E07_S02",
+          "E07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "E07_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "E07_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "E07_S01": "YES",
+          "E07_S02": "YES",
+          "E07_S03": "NO",
+          "E07_S04": "NO",
+          "E07_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "JORDAN",
+          "TAYLOR",
+          "MORGAN",
+          "RILEY",
+          "ALEX",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the project owner? Return exactly one of: JORDAN, TAYLOR, MORGAN, RILEY, ALEX, UNKNOWN.",
+        "question_id": "E07_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the project owner MORGAN? Return YES, NO, or UNKNOWN.",
+        "question_id": "E07_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "E07_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "R17",
+            "if_observed_all": [
+              "E07_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "R17",
+        "prefix_answer_trace": {
+          "E07_S01": "UNKNOWN",
+          "E07_S02": "R17",
+          "E07_S03": "R17",
+          "E07_S04": "R17",
+          "E07_S05": "R17",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E07_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "E07_S02",
+              "E07_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "E07_S01": "UNKNOWN",
+          "E07_S02": "UNKNOWN",
+          "E07_S03": "EVENT_1",
+          "E07_S04": "EVENT_1",
+          "E07_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "R16",
+          "R17",
+          "A17",
+          "R18",
+          "B22",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the budget code? Return exactly one of: R16, R17, A17, R18, B22, UNKNOWN.",
+        "question_id": "E07_CONTENT_Q1",
+        "question_type": "secondary_slot_value"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=BUDGET_CODE_R17_STATED. EVENT_2=RILEY_OWNER_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "E07_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "E07_S01",
+          "E07_S02",
+          "E07_S03",
+          "E07_S04",
+          "E07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "E07_S01": "A",
+          "E07_S02": "A>B",
+          "E07_S03": "A>B>A",
+          "E07_S04": "A>B>A>B",
+          "E07_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E07_S01",
+          "E07_S02",
+          "E07_S03",
+          "E07_S04",
+          "E07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "E07_S01": "0",
+          "E07_S02": "1",
+          "E07_S03": "2",
+          "E07_S04": "3",
+          "E07_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "E07_S01",
+          "E07_S02",
+          "E07_S03",
+          "E07_S04",
+          "E07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "E07_S01": "A",
+          "E07_S02": "B",
+          "E07_S03": "A",
+          "E07_S04": "B",
+          "E07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "E07_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "E07_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "E07_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "E07_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E07_S01",
+        "speaker": "A",
+        "text": "Morgan owns the project."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E07_S02",
+        "speaker": "B",
+        "text": "The budget code is R17."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E07_S03",
+        "speaker": "A",
+        "text": "Actually, Riley owns the project."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E07_S04",
+        "speaker": "B",
+        "text": "R17 is unchanged."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "E07_S05",
+        "speaker": "A",
+        "text": "Riley is the project owner."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for project owner heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "E07_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "E07_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "E07_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.0,
+      "pause_label": "natural",
+      "pause_start_time": 2.0
+    },
+    {
+      "after_sentence_id": "E07_S02",
+      "duration_seconds": 10.0,
+      "pause_end_time": 16.21,
+      "pause_label": "long",
+      "pause_start_time": 6.21
+    },
+    {
+      "after_sentence_id": "E07_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 20.19,
+      "pause_label": "natural",
+      "pause_start_time": 19.19
+    },
+    {
+      "after_sentence_id": "E07_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 23.58,
+      "pause_label": "natural",
+      "pause_start_time": 22.58
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/E07/version_2/E07_S01.wav",
+      "duration_seconds": 2.0,
+      "loudness_normalization": {
+        "applied_gain_db": -1.809525,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.321599,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.396088,
+        "original_speech_rms_dbfs": -22.190475
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "f4afcc9ee2d9759f68c50e0580212084b06e92f854a02448d486a045fd769467",
+      "sentence_end_time": 2.0,
+      "sentence_id": "E07_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Morgan owns the project.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/E07/version_2/E07_S02.wav",
+      "duration_seconds": 3.21,
+      "loudness_normalization": {
+        "applied_gain_db": -4.195619,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.327844,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.531433,
+        "original_speech_rms_dbfs": -19.804381
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "0960863ad8d3fb2d4baf49da4afb72bcfa2b0edc70e8367dbc6f9feb59369b93",
+      "sentence_end_time": 6.21,
+      "sentence_id": "E07_S02",
+      "sentence_start_time": 3.0,
+      "speaker": "B",
+      "text": "The budget code is R17.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/E07/version_2/E07_S03.wav",
+      "duration_seconds": 2.98,
+      "loudness_normalization": {
+        "applied_gain_db": -0.580758,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.53317,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.570038,
+        "original_speech_rms_dbfs": -23.419242
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "10f63363fbfb70a90a21ab3e02b1afdc0e476fc91e2206338596a443207c7e6e",
+      "sentence_end_time": 19.19,
+      "sentence_id": "E07_S03",
+      "sentence_start_time": 16.21,
+      "speaker": "A",
+      "text": "Actually, Riley owns the project.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/E07/version_2/E07_S04.wav",
+      "duration_seconds": 2.39,
+      "loudness_normalization": {
+        "applied_gain_db": -1.661577,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.421614,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.510498,
+        "original_speech_rms_dbfs": -22.338423
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "5d0dae042eee48816549d6fc64b7274d429f8ce1de163c7a8d15e22a7408e320",
+      "sentence_end_time": 22.58,
+      "sentence_id": "E07_S04",
+      "sentence_start_time": 20.19,
+      "speaker": "B",
+      "text": "R17 is unchanged.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/E07/version_2/E07_S05.wav",
+      "duration_seconds": 2.22,
+      "loudness_normalization": {
+        "applied_gain_db": 0.551841,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.543529,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.510071,
+        "original_speech_rms_dbfs": -24.551841
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "4cba77d0befa73d63d75f540facd934a456c177a85232d11f51e4d0de91dea6a",
+      "sentence_end_time": 25.8,
+      "sentence_id": "E07_S05",
+      "sentence_start_time": 23.58,
+      "speaker": "A",
+      "text": "Riley is the project owner.",
+      "voice": "ash"
+    }
+  ],
+  "source_row": {
+    "category": "E",
+    "category_label": "Topic switch with distractors",
+    "category_specific_answer_rules": "[{\"question_id\":\"E07_CAT_Q1\",\"ask_after\":[\"E07_S01\",\"E07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"MORGAN\",\"E07_S02\":\"MORGAN\",\"E07_S03\":\"RILEY\",\"E07_S04\":\"RILEY\",\"E07_S05\":\"RILEY\"},\"final_answer_full_evidence\":\"RILEY\",\"evidence_rules\":[{\"if_observed_all\":[\"E07_S03\"],\"answer\":\"RILEY\"},{\"if_observed_all\":[\"E07_S01\"],\"answer\":\"MORGAN\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E07_CAT_Q2\",\"ask_after\":[\"E07_S01\",\"E07_S02\",\"E07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"YES\",\"E07_S02\":\"YES\",\"E07_S03\":\"NO\",\"E07_S04\":\"NO\",\"E07_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"E07_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"E07_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"E07_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the project owner? Return exactly one of: JORDAN, TAYLOR, MORGAN, RILEY, ALEX, UNKNOWN.\",\"allowed_answers\":[\"JORDAN\",\"TAYLOR\",\"MORGAN\",\"RILEY\",\"ALEX\",\"UNKNOWN\"]},{\"question_id\":\"E07_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the project owner MORGAN? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"E07_CONTENT_Q1\",\"ask_after\":[\"E07_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"UNKNOWN\",\"E07_S02\":\"R17\",\"E07_S03\":\"R17\",\"E07_S04\":\"R17\",\"E07_S05\":\"R17\"},\"final_answer_full_evidence\":\"R17\",\"evidence_rules\":[{\"if_observed_all\":[\"E07_S02\"],\"answer\":\"R17\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"E07_CONTENT_Q2\",\"ask_after\":[\"E07_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"UNKNOWN\",\"E07_S02\":\"UNKNOWN\",\"E07_S03\":\"EVENT_1\",\"E07_S04\":\"EVENT_1\",\"E07_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"E07_S02\",\"E07_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"E07_CONTENT_Q1\",\"question_type\":\"secondary_slot_value\",\"prompt\":\"What is the budget code? Return exactly one of: R16, R17, A17, R18, B22, UNKNOWN.\",\"allowed_answers\":[\"R16\",\"R17\",\"A17\",\"R18\",\"B22\",\"UNKNOWN\"]},{\"question_id\":\"E07_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=BUDGET_CODE_R17_STATED. EVENT_2=RILEY_OWNER_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "E07",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"E07_GEN_Q1\",\"ask_after\":[\"E07_S01\",\"E07_S02\",\"E07_S03\",\"E07_S04\",\"E07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"A\",\"E07_S02\":\"A>B\",\"E07_S03\":\"A>B>A\",\"E07_S04\":\"A>B>A>B\",\"E07_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E07_GEN_Q2\",\"ask_after\":[\"E07_S01\",\"E07_S02\",\"E07_S03\",\"E07_S04\",\"E07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"0\",\"E07_S02\":\"1\",\"E07_S03\":\"2\",\"E07_S04\":\"3\",\"E07_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"E07_GEN_Q3\",\"ask_after\":[\"E07_S01\",\"E07_S02\",\"E07_S03\",\"E07_S04\",\"E07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"E07_S01\":\"A\",\"E07_S02\":\"B\",\"E07_S03\":\"A\",\"E07_S04\":\"B\",\"E07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"E07_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"E07_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"E07_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "E07_S01=0; E07_S02=1; E07_S03=2; E07_S04=3; E07_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"E07_S01\",\"speaker\":\"A\",\"text\":\"Morgan owns the project.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E07_S02\",\"speaker\":\"B\",\"text\":\"The budget code is R17.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E07_S03\",\"speaker\":\"A\",\"text\":\"Actually, Riley owns the project.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E07_S04\",\"speaker\":\"B\",\"text\":\"R17 is unchanged.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"E07_S05\",\"speaker\":\"A\",\"text\":\"Riley is the project owner.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "E07_S01,E07_S03,E07_S02",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"E07_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for project owner heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"E07_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Morgan owns the project.\nB: The budget code is R17.\nA: Actually, Riley owns the project.\nB: R17 is unchanged.\nA: Riley is the project owner.",
+    "transcript_with_pause_recommendations": "A: Morgan owns the project. (natural)\nB: The budget code is R17. (long)\nA: Actually, Riley owns the project. (natural)\nB: R17 is unchanged. (natural)\nA: Riley is the project owner.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

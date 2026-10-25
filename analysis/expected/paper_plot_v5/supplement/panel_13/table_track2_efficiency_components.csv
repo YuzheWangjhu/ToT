@@ -1,0 +1,251 @@
+model,family,n_tasks,n_reels,metric,value,supported_tasks,supported_reels
+Audio Flamingo Next,2A.1,110,22,budget_used,0.0,110,22
+Audio Flamingo Next,2A.2,176,22,budget_used,0.0,176,22
+Audio Flamingo Next,2A.3,44,22,budget_used,0.0,44,22
+Audio Flamingo Next,2B.1,44,22,budget_used,0.050909090909090904,44,22
+Audio Flamingo Next,2B.2,44,22,budget_used,0.0,44,22
+Audio Flamingo Next Think,2A.1,110,22,budget_used,0.0027965198863636365,110,22
+Audio Flamingo Next Think,2A.2,176,22,budget_used,0.0003773008404356061,176,22
+Audio Flamingo Next Think,2A.3,44,22,budget_used,9.46969696969697e-05,44,22
+Audio Flamingo Next Think,2B.1,44,22,budget_used,0.0,44,22
+Audio Flamingo Next Think,2B.2,44,22,budget_used,0.0,44,22
+GPT Audio,2A.1,110,22,budget_used,0.8182800662878789,110,22
+GPT Audio,2A.2,176,22,budget_used,0.9029452237215909,176,22
+GPT Audio,2A.3,44,22,budget_used,0.8251941287878789,44,22
+GPT Audio,2B.1,44,22,budget_used,0.7556723484848484,44,22
+GPT Audio,2B.2,44,22,budget_used,0.5141041092745638,44,22
+GPT Audio Mini,2A.1,110,22,budget_used,0.7578409090909091,110,22
+GPT Audio Mini,2A.2,176,22,budget_used,0.7471590909090909,176,22
+GPT Audio Mini,2A.3,44,22,budget_used,0.6781439393939395,44,22
+GPT Audio Mini,2B.1,44,22,budget_used,0.5236363636363636,44,22
+GPT Audio Mini,2B.2,44,22,budget_used,0.325068870523416,44,22
+Gemini 2 Flash,2A.1,110,22,budget_used,0.5664007679332387,110,22
+Gemini 2 Flash,2A.2,176,22,budget_used,0.6821362748579545,176,22
+Gemini 2 Flash,2A.3,44,22,budget_used,0.6352486742424243,44,22
+Gemini 2 Flash,2B.1,44,22,budget_used,0.3752410984848485,44,22
+Gemini 2 Flash,2B.2,44,22,budget_used,0.32989698117539024,44,22
+Gemini 3 Flash,2A.1,110,22,budget_used,0.6360839843749999,110,22
+Gemini 3 Flash,2A.2,176,22,budget_used,0.5712742660984849,176,22
+Gemini 3 Flash,2A.3,44,22,budget_used,0.5947159090909091,44,22
+Gemini 3 Flash,2B.1,44,22,budget_used,0.3121590909090909,44,22
+Gemini 3 Flash,2B.2,44,22,budget_used,0.20830463728191004,44,22
+Kimi Audio,2A.1,110,22,budget_used,0.1560916785037879,110,22
+Kimi Audio,2A.2,176,22,budget_used,0.02692945075757576,176,22
+Kimi Audio,2A.3,44,22,budget_used,0.03238636363636363,44,22
+Kimi Audio,2B.1,44,22,budget_used,0.0,44,22
+Kimi Audio,2B.2,44,22,budget_used,0.0025826446280991736,44,22
+MOSS Audio,2A.1,110,22,budget_used,0.98,110,22
+MOSS Audio,2A.2,176,22,budget_used,0.4406294389204546,176,22
+MOSS Audio,2A.3,44,22,budget_used,0.3054545454545454,44,22
+MOSS Audio,2B.1,44,22,budget_used,0.509090909090909,44,22
+MOSS Audio,2B.2,44,22,budget_used,0.18767217630853994,44,22
+Mimo Audio,2A.1,110,22,budget_used,0.8322088068181818,110,22
+Mimo Audio,2A.2,176,22,budget_used,0.7174923058712122,176,22
+Mimo Audio,2A.3,44,22,budget_used,0.6690909090909091,44,22
+Mimo Audio,2B.1,44,22,budget_used,0.27636363636363637,44,22
+Mimo Audio,2B.2,44,22,budget_used,0.32658976124885214,44,22
+Qwen2.5 Omni,2A.1,110,22,budget_used,0.5119122869318182,110,22
+Qwen2.5 Omni,2A.2,176,22,budget_used,0.6472981770833333,176,22
+Qwen2.5 Omni,2A.3,44,22,budget_used,0.33454545454545453,44,22
+Qwen2.5 Omni,2B.1,44,22,budget_used,0.11636363636363636,44,22
+Qwen2.5 Omni,2B.2,44,22,budget_used,0.4571424471992654,44,22
+Audio Flamingo Next,2A.1,110,22,replay_rate,,0,0
+Audio Flamingo Next,2A.2,176,22,replay_rate,,0,0
+Audio Flamingo Next,2A.3,44,22,replay_rate,,0,0
+Audio Flamingo Next,2B.1,44,22,replay_rate,0.0,7,5
+Audio Flamingo Next,2B.2,44,22,replay_rate,,0,0
+Audio Flamingo Next Think,2A.1,110,22,replay_rate,0.0,2,2
+Audio Flamingo Next Think,2A.2,176,22,replay_rate,0.0,11,9
+Audio Flamingo Next Think,2A.3,44,22,replay_rate,0.0,1,1
+Audio Flamingo Next Think,2B.1,44,22,replay_rate,,0,0
+Audio Flamingo Next Think,2B.2,44,22,replay_rate,,0,0
+GPT Audio,2A.1,110,22,replay_rate,0.010890151515151514,110,22
+GPT Audio,2A.2,176,22,replay_rate,0.009531266569017077,176,22
+GPT Audio,2A.3,44,22,replay_rate,0.054213038606641055,44,22
+GPT Audio,2B.1,44,22,replay_rate,0.0,44,22
+GPT Audio,2B.2,44,22,replay_rate,0.04187526407409285,44,22
+GPT Audio Mini,2A.1,110,22,replay_rate,0.0,110,22
+GPT Audio Mini,2A.2,176,22,replay_rate,0.0,176,22
+GPT Audio Mini,2A.3,44,22,replay_rate,0.0,44,22
+GPT Audio Mini,2B.1,44,22,replay_rate,0.0,44,22
+GPT Audio Mini,2B.2,44,22,replay_rate,0.030303030303030304,33,21
+Gemini 2 Flash,2A.1,110,22,replay_rate,0.01427447107297727,108,22
+Gemini 2 Flash,2A.2,176,22,replay_rate,0.0028983219054492964,174,22
+Gemini 2 Flash,2A.3,44,22,replay_rate,0.002066115702479339,44,22
+Gemini 2 Flash,2B.1,44,22,replay_rate,0.0,43,22
+Gemini 2 Flash,2B.2,44,22,replay_rate,0.010589145467783183,38,20
+Gemini 3 Flash,2A.1,110,22,replay_rate,0.009042621773923794,109,22
+Gemini 3 Flash,2A.2,176,22,replay_rate,0.00045120355014392256,161,22
+Gemini 3 Flash,2A.3,44,22,replay_rate,0.0002763596577216612,44,22
+Gemini 3 Flash,2B.1,44,22,replay_rate,0.0,44,22
+Gemini 3 Flash,2B.2,44,22,replay_rate,0.0,38,22
+Kimi Audio,2A.1,110,22,replay_rate,0.06059562333792573,64,19
+Kimi Audio,2A.2,176,22,replay_rate,0.17361111111111108,22,14
+Kimi Audio,2A.3,44,22,replay_rate,0.15555555555555556,9,7
+Kimi Audio,2B.1,44,22,replay_rate,,0,0
+Kimi Audio,2B.2,44,22,replay_rate,0.5,1,1
+MOSS Audio,2A.1,110,22,replay_rate,0.5227272727272727,110,22
+MOSS Audio,2A.2,176,22,replay_rate,0.6291508838383838,99,22
+MOSS Audio,2A.3,44,22,replay_rate,0.6666666666666666,14,10
+MOSS Audio,2B.1,44,22,replay_rate,0.10606060606060605,44,22
+MOSS Audio,2B.2,44,22,replay_rate,0.9078947368421053,19,12
+Mimo Audio,2A.1,110,22,replay_rate,0.4493371212121212,110,22
+Mimo Audio,2A.2,176,22,replay_rate,0.3767786212161584,162,22
+Mimo Audio,2A.3,44,22,replay_rate,0.4333333333333333,40,22
+Mimo Audio,2B.1,44,22,replay_rate,0.00980392156862745,36,21
+Mimo Audio,2B.2,44,22,replay_rate,0.2941274719444664,27,20
+Qwen2.5 Omni,2A.1,110,22,replay_rate,0.1335987586710478,105,22
+Qwen2.5 Omni,2A.2,176,22,replay_rate,0.2279310349588103,167,22
+Qwen2.5 Omni,2A.3,44,22,replay_rate,0.05,40,21
+Qwen2.5 Omni,2B.1,44,22,replay_rate,0.2777777777777778,9,9
+Qwen2.5 Omni,2B.2,44,22,replay_rate,0.28364921744456545,44,22
+Audio Flamingo Next,2A.1,110,22,unique_reel_coverage,0.0,110,22
+Audio Flamingo Next,2A.2,176,22,unique_reel_coverage,0.0,176,22
+Audio Flamingo Next,2A.3,44,22,unique_reel_coverage,0.0,44,22
+Audio Flamingo Next,2B.1,44,22,unique_reel_coverage,0.06673431126177029,44,22
+Audio Flamingo Next,2B.2,44,22,unique_reel_coverage,0.0,44,22
+Audio Flamingo Next Think,2A.1,110,22,unique_reel_coverage,0.002443686948479281,110,22
+Audio Flamingo Next Think,2A.2,176,22,unique_reel_coverage,0.00030832588750634096,176,22
+Audio Flamingo Next Think,2A.3,44,22,unique_reel_coverage,0.00012979596074970146,44,22
+Audio Flamingo Next Think,2B.1,44,22,unique_reel_coverage,0.0,44,22
+Audio Flamingo Next Think,2B.2,44,22,unique_reel_coverage,0.0,44,22
+GPT Audio,2A.1,110,22,unique_reel_coverage,0.8160752428688784,110,22
+GPT Audio,2A.2,176,22,unique_reel_coverage,0.7158707372762909,176,22
+GPT Audio,2A.3,44,22,unique_reel_coverage,0.9580070896587098,44,22
+GPT Audio,2B.1,44,22,unique_reel_coverage,0.9290406016531563,44,22
+GPT Audio,2B.2,44,22,unique_reel_coverage,0.7829652949132014,44,22
+GPT Audio Mini,2A.1,110,22,unique_reel_coverage,0.7511211116902411,110,22
+GPT Audio Mini,2A.2,176,22,unique_reel_coverage,0.5935283440521502,176,22
+GPT Audio Mini,2A.3,44,22,unique_reel_coverage,0.8395685600160454,44,22
+GPT Audio Mini,2B.1,44,22,unique_reel_coverage,0.6497169052209466,44,22
+GPT Audio Mini,2B.2,44,22,unique_reel_coverage,0.4900808381998884,44,22
+Gemini 2 Flash,2A.1,110,22,unique_reel_coverage,0.5559812626601017,110,22
+Gemini 2 Flash,2A.2,176,22,unique_reel_coverage,0.5391529051727376,176,22
+Gemini 2 Flash,2A.3,44,22,unique_reel_coverage,0.7858792356211469,44,22
+Gemini 2 Flash,2B.1,44,22,unique_reel_coverage,0.46969393564597073,44,22
+Gemini 2 Flash,2B.2,44,22,unique_reel_coverage,0.5375590559858815,44,22
+Gemini 3 Flash,2A.1,110,22,unique_reel_coverage,0.6326925986434355,110,22
+Gemini 3 Flash,2A.2,176,22,unique_reel_coverage,0.4564785409076264,176,22
+Gemini 3 Flash,2A.3,44,22,unique_reel_coverage,0.7350358803001527,44,22
+Gemini 3 Flash,2B.1,44,22,unique_reel_coverage,0.38878552074176287,44,22
+Gemini 3 Flash,2B.2,44,22,unique_reel_coverage,0.3410300433907722,44,22
+Kimi Audio,2A.1,110,22,unique_reel_coverage,0.10104192815508137,110,22
+Kimi Audio,2A.2,176,22,unique_reel_coverage,0.0125269842902985,176,22
+Kimi Audio,2A.3,44,22,unique_reel_coverage,0.020854745019595125,44,22
+Kimi Audio,2B.1,44,22,unique_reel_coverage,0.0,44,22
+Kimi Audio,2B.2,44,22,unique_reel_coverage,0.0017167054514935338,44,22
+MOSS Audio,2A.1,110,22,unique_reel_coverage,0.4715902789901467,110,22
+MOSS Audio,2A.2,176,22,unique_reel_coverage,0.17340250706179458,176,22
+MOSS Audio,2A.3,44,22,unique_reel_coverage,0.13261153736995224,44,22
+MOSS Audio,2B.1,44,22,unique_reel_coverage,0.5068493055618237,44,22
+MOSS Audio,2B.2,44,22,unique_reel_coverage,0.029439551591980986,44,22
+Mimo Audio,2A.1,110,22,unique_reel_coverage,0.3843802148636007,110,22
+Mimo Audio,2A.2,176,22,unique_reel_coverage,0.31070485983738805,176,22
+Mimo Audio,2A.3,44,22,unique_reel_coverage,0.3602509602036686,44,22
+Mimo Audio,2B.1,44,22,unique_reel_coverage,0.3349809879292425,44,22
+Mimo Audio,2B.2,44,22,unique_reel_coverage,0.2604241563668069,44,22
+Qwen2.5 Omni,2A.1,110,22,unique_reel_coverage,0.387506751250696,110,22
+Qwen2.5 Omni,2A.2,176,22,unique_reel_coverage,0.3687256636839443,176,22
+Qwen2.5 Omni,2A.3,44,22,unique_reel_coverage,0.3681210694633849,44,22
+Qwen2.5 Omni,2B.1,44,22,unique_reel_coverage,0.0806563505461383,44,22
+Qwen2.5 Omni,2B.2,44,22,unique_reel_coverage,0.3908019742065358,44,22
+Audio Flamingo Next,2A.1,110,22,mean_target_evidence_coverage,0.0,88,22
+Audio Flamingo Next,2A.2,176,22,mean_target_evidence_coverage,0.0,176,22
+Audio Flamingo Next,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Audio Flamingo Next,2B.1,44,22,mean_target_evidence_coverage,0.06290486856997629,44,22
+Audio Flamingo Next,2B.2,44,22,mean_target_evidence_coverage,0.0,44,22
+Audio Flamingo Next Think,2A.1,110,22,mean_target_evidence_coverage,0.00836780060468348,88,22
+Audio Flamingo Next Think,2A.2,176,22,mean_target_evidence_coverage,0.0,176,22
+Audio Flamingo Next Think,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Audio Flamingo Next Think,2B.1,44,22,mean_target_evidence_coverage,0.0,44,22
+Audio Flamingo Next Think,2B.2,44,22,mean_target_evidence_coverage,0.0,44,22
+GPT Audio,2A.1,110,22,mean_target_evidence_coverage,0.7186639564744923,88,22
+GPT Audio,2A.2,176,22,mean_target_evidence_coverage,0.7670454545454546,176,22
+GPT Audio,2A.3,44,22,mean_target_evidence_coverage,,0,0
+GPT Audio,2B.1,44,22,mean_target_evidence_coverage,0.9244376361544346,44,22
+GPT Audio,2B.2,44,22,mean_target_evidence_coverage,0.8030303030303031,44,22
+GPT Audio Mini,2A.1,110,22,mean_target_evidence_coverage,0.6983701987362108,88,22
+GPT Audio Mini,2A.2,176,22,mean_target_evidence_coverage,0.7203135357192415,176,22
+GPT Audio Mini,2A.3,44,22,mean_target_evidence_coverage,,0,0
+GPT Audio Mini,2B.1,44,22,mean_target_evidence_coverage,0.6382820836189755,44,22
+GPT Audio Mini,2B.2,44,22,mean_target_evidence_coverage,0.4924242424242424,44,22
+Gemini 2 Flash,2A.1,110,22,mean_target_evidence_coverage,0.48719599218420057,88,22
+Gemini 2 Flash,2A.2,176,22,mean_target_evidence_coverage,0.646639549355311,176,22
+Gemini 2 Flash,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Gemini 2 Flash,2B.1,44,22,mean_target_evidence_coverage,0.45466229676103664,44,22
+Gemini 2 Flash,2B.2,44,22,mean_target_evidence_coverage,0.537878787878788,44,22
+Gemini 3 Flash,2A.1,110,22,mean_target_evidence_coverage,0.5600327078218423,88,22
+Gemini 3 Flash,2A.2,176,22,mean_target_evidence_coverage,0.5415955004591368,176,22
+Gemini 3 Flash,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Gemini 3 Flash,2B.1,44,22,mean_target_evidence_coverage,0.3748175819261418,44,22
+Gemini 3 Flash,2B.2,44,22,mean_target_evidence_coverage,0.3947121735054753,44,22
+Kimi Audio,2A.1,110,22,mean_target_evidence_coverage,0.1647701836811311,88,22
+Kimi Audio,2A.2,176,22,mean_target_evidence_coverage,0.010990653331115353,176,22
+Kimi Audio,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Kimi Audio,2B.1,44,22,mean_target_evidence_coverage,0.0,44,22
+Kimi Audio,2B.2,44,22,mean_target_evidence_coverage,0.0,44,22
+MOSS Audio,2A.1,110,22,mean_target_evidence_coverage,0.3847911806228758,88,22
+MOSS Audio,2A.2,176,22,mean_target_evidence_coverage,0.18928930332911512,176,22
+MOSS Audio,2A.3,44,22,mean_target_evidence_coverage,,0,0
+MOSS Audio,2B.1,44,22,mean_target_evidence_coverage,0.491570737053067,44,22
+MOSS Audio,2B.2,44,22,mean_target_evidence_coverage,0.0303030303030303,44,22
+Mimo Audio,2A.1,110,22,mean_target_evidence_coverage,0.367399230149547,88,22
+Mimo Audio,2A.2,176,22,mean_target_evidence_coverage,0.34349076253283195,176,22
+Mimo Audio,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Mimo Audio,2B.1,44,22,mean_target_evidence_coverage,0.3227927952090047,44,22
+Mimo Audio,2B.2,44,22,mean_target_evidence_coverage,0.28787878787878785,44,22
+Qwen2.5 Omni,2A.1,110,22,mean_target_evidence_coverage,0.3779599870073311,88,22
+Qwen2.5 Omni,2A.2,176,22,mean_target_evidence_coverage,0.40782571641098275,176,22
+Qwen2.5 Omni,2A.3,44,22,mean_target_evidence_coverage,,0,0
+Qwen2.5 Omni,2B.1,44,22,mean_target_evidence_coverage,0.0793646533197166,44,22
+Qwen2.5 Omni,2B.2,44,22,mean_target_evidence_coverage,0.4325909613842632,44,22
+Audio Flamingo Next,2A.1,110,22,target_contact_rate,0.0,88,22
+Audio Flamingo Next,2A.2,176,22,target_contact_rate,0.0,176,22
+Audio Flamingo Next,2A.3,44,22,target_contact_rate,,0,0
+Audio Flamingo Next,2B.1,44,22,target_contact_rate,0.07954545454545454,44,22
+Audio Flamingo Next,2B.2,44,22,target_contact_rate,0.0,44,22
+Audio Flamingo Next Think,2A.1,110,22,target_contact_rate,0.022727272727272728,88,22
+Audio Flamingo Next Think,2A.2,176,22,target_contact_rate,0.0,176,22
+Audio Flamingo Next Think,2A.3,44,22,target_contact_rate,,0,0
+Audio Flamingo Next Think,2B.1,44,22,target_contact_rate,0.0,44,22
+Audio Flamingo Next Think,2B.2,44,22,target_contact_rate,0.0,44,22
+GPT Audio,2A.1,110,22,target_contact_rate,0.9090909090909091,88,22
+GPT Audio,2A.2,176,22,target_contact_rate,0.7670454545454546,176,22
+GPT Audio,2A.3,44,22,target_contact_rate,,0,0
+GPT Audio,2B.1,44,22,target_contact_rate,0.9772727272727273,44,22
+GPT Audio,2B.2,44,22,target_contact_rate,0.8030303030303031,44,22
+GPT Audio Mini,2A.1,110,22,target_contact_rate,0.9431818181818182,88,22
+GPT Audio Mini,2A.2,176,22,target_contact_rate,0.7272727272727273,176,22
+GPT Audio Mini,2A.3,44,22,target_contact_rate,,0,0
+GPT Audio Mini,2B.1,44,22,target_contact_rate,0.7727272727272727,44,22
+GPT Audio Mini,2B.2,44,22,target_contact_rate,0.4924242424242424,44,22
+Gemini 2 Flash,2A.1,110,22,target_contact_rate,0.6590909090909091,88,22
+Gemini 2 Flash,2A.2,176,22,target_contact_rate,0.6590909090909091,176,22
+Gemini 2 Flash,2A.3,44,22,target_contact_rate,,0,0
+Gemini 2 Flash,2B.1,44,22,target_contact_rate,0.6022727272727273,44,22
+Gemini 2 Flash,2B.2,44,22,target_contact_rate,0.537878787878788,44,22
+Gemini 3 Flash,2A.1,110,22,target_contact_rate,0.7840909090909091,88,22
+Gemini 3 Flash,2A.2,176,22,target_contact_rate,0.5454545454545454,176,22
+Gemini 3 Flash,2A.3,44,22,target_contact_rate,,0,0
+Gemini 3 Flash,2B.1,44,22,target_contact_rate,0.5056818181818181,44,22
+Gemini 3 Flash,2B.2,44,22,target_contact_rate,0.40151515151515144,44,22
+Kimi Audio,2A.1,110,22,target_contact_rate,0.2727272727272727,88,22
+Kimi Audio,2A.2,176,22,target_contact_rate,0.011363636363636364,176,22
+Kimi Audio,2A.3,44,22,target_contact_rate,,0,0
+Kimi Audio,2B.1,44,22,target_contact_rate,0.0,44,22
+Kimi Audio,2B.2,44,22,target_contact_rate,0.0,44,22
+MOSS Audio,2A.1,110,22,target_contact_rate,0.5113636363636364,88,22
+MOSS Audio,2A.2,176,22,target_contact_rate,0.19318181818181818,176,22
+MOSS Audio,2A.3,44,22,target_contact_rate,,0,0
+MOSS Audio,2B.1,44,22,target_contact_rate,0.625,44,22
+MOSS Audio,2B.2,44,22,target_contact_rate,0.0303030303030303,44,22
+Mimo Audio,2A.1,110,22,target_contact_rate,0.48863636363636365,88,22
+Mimo Audio,2A.2,176,22,target_contact_rate,0.34659090909090906,176,22
+Mimo Audio,2A.3,44,22,target_contact_rate,,0,0
+Mimo Audio,2B.1,44,22,target_contact_rate,0.4318181818181818,44,22
+Mimo Audio,2B.2,44,22,target_contact_rate,0.28787878787878785,44,22
+Qwen2.5 Omni,2A.1,110,22,target_contact_rate,0.5,88,22
+Qwen2.5 Omni,2A.2,176,22,target_contact_rate,0.40909090909090906,176,22
+Qwen2.5 Omni,2A.3,44,22,target_contact_rate,,0,0
+Qwen2.5 Omni,2B.1,44,22,target_contact_rate,0.10795454545454546,44,22
+Qwen2.5 Omni,2B.2,44,22,target_contact_rate,0.4393939393939394,44,22

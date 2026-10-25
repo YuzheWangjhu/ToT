@@ -1,0 +1,594 @@
+{
+  "audio_duration_seconds": 45.0,
+  "audio_file_path": "episodes/B09/version_2.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "B09",
+  "generation_timestamp": "2026-06-04T14:11:58.373409+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B09_S01",
+          "B09_S02",
+          "B09_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "B09_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "B09_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "B09_S01": "YES",
+          "B09_S02": "YES",
+          "B09_S03": "NO",
+          "B09_S04": "NO",
+          "B09_S05": "NO",
+          "B09_S06": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B09_S01",
+          "B09_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "RELEASE_SEATS",
+            "if_observed_all": [
+              "B09_S03"
+            ]
+          },
+          {
+            "answer": "RESERVE_SEATS",
+            "if_observed_all": [
+              "B09_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "RELEASE_SEATS",
+        "prefix_answer_trace": {
+          "B09_S01": "RESERVE_SEATS",
+          "B09_S02": "RESERVE_SEATS",
+          "B09_S03": "RELEASE_SEATS",
+          "B09_S04": "RELEASE_SEATS",
+          "B09_S05": "RELEASE_SEATS",
+          "B09_S06": "RELEASE_SEATS",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Should reserving seats for the workshop be done? Return YES, NO, or UNKNOWN.",
+        "question_id": "B09_CAT_Q1",
+        "question_type": "action_status"
+      },
+      {
+        "allowed_answers": [
+          "ADD_SEATS",
+          "REDUCE_SEATS",
+          "MOVE_SEATS",
+          "RESERVE_SEATS",
+          "RELEASE_SEATS",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the status of reserving seats for the workshop? Return exactly one of: ADD_SEATS, REDUCE_SEATS, MOVE_SEATS, RESERVE_SEATS, RELEASE_SEATS, UNKNOWN.",
+        "question_id": "B09_CAT_Q2",
+        "question_type": "action_plan"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "B09_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "B09_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "B09_S01": "UNKNOWN",
+          "B09_S02": "UNKNOWN",
+          "B09_S03": "A",
+          "B09_S04": "A",
+          "B09_S05": "A",
+          "B09_S06": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B09_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "B09_S01",
+              "B09_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "B09_S01": "UNKNOWN",
+          "B09_S02": "UNKNOWN",
+          "B09_S03": "EVENT_1",
+          "B09_S04": "EVENT_1",
+          "B09_S05": "EVENT_1",
+          "B09_S06": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says that the workshop is canceled? Return A, B, or UNKNOWN.",
+        "question_id": "B09_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=SEATS_RESERVED. EVENT_2=WORKSHOP_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "B09_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "B09_S01",
+          "B09_S02",
+          "B09_S03",
+          "B09_S04",
+          "B09_S05",
+          "B09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A>B",
+        "prefix_answer_trace": {
+          "B09_S01": "A",
+          "B09_S02": "A>B",
+          "B09_S03": "A>B>A",
+          "B09_S04": "A>B>A>B",
+          "B09_S05": "A>B>A>B>A",
+          "B09_S06": "A>B>A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B09_S01",
+          "B09_S02",
+          "B09_S03",
+          "B09_S04",
+          "B09_S05",
+          "B09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "5",
+        "prefix_answer_trace": {
+          "B09_S01": "0",
+          "B09_S02": "1",
+          "B09_S03": "2",
+          "B09_S04": "3",
+          "B09_S05": "4",
+          "B09_S06": "5",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "B09_S01",
+          "B09_S02",
+          "B09_S03",
+          "B09_S04",
+          "B09_S05",
+          "B09_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "B09_S01": "A",
+          "B09_S02": "B",
+          "B09_S03": "A",
+          "B09_S04": "B",
+          "B09_S05": "A",
+          "B09_S06": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "B09_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "B09_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "B09_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "B09_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S01",
+        "speaker": "A",
+        "text": "Reserve twenty seats for the workshop."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S02",
+        "speaker": "B",
+        "text": "I reserved twenty seats."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S03",
+        "speaker": "A",
+        "text": "The workshop is canceled."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S04",
+        "speaker": "B",
+        "text": "Should I release the seats?"
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S05",
+        "speaker": "A",
+        "text": "Yes, release all seats."
+      },
+      {
+        "abstract_end_bin": 5,
+        "abstract_start_bin": 5,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "B09_S06",
+        "speaker": "B",
+        "text": "Seats released."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for workshop seat status heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "B09_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "B09_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "B09_S01",
+      "duration_seconds": 10.0,
+      "pause_end_time": 12.97,
+      "pause_label": "long",
+      "pause_start_time": 2.97
+    },
+    {
+      "after_sentence_id": "B09_S02",
+      "duration_seconds": 10.0,
+      "pause_end_time": 25.21,
+      "pause_label": "long",
+      "pause_start_time": 15.21
+    },
+    {
+      "after_sentence_id": "B09_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 27.94,
+      "pause_label": "natural",
+      "pause_start_time": 26.94
+    },
+    {
+      "after_sentence_id": "B09_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 31.12,
+      "pause_label": "natural",
+      "pause_start_time": 30.12
+    },
+    {
+      "after_sentence_id": "B09_S05",
+      "duration_seconds": 10.0,
+      "pause_end_time": 43.6,
+      "pause_label": "long",
+      "pause_start_time": 33.6
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S01.wav",
+      "duration_seconds": 2.97,
+      "loudness_normalization": {
+        "applied_gain_db": -0.915881,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.327887,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.364349,
+        "original_speech_rms_dbfs": -23.084119
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "b83bcc851de7a474f4f00ae987414163dba9490a52b601f5ffe623796acabdaf",
+      "sentence_end_time": 2.97,
+      "sentence_id": "B09_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Reserve twenty seats for the workshop.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S02.wav",
+      "duration_seconds": 2.24,
+      "loudness_normalization": {
+        "applied_gain_db": -1.666116,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.328288,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.397705,
+        "original_speech_rms_dbfs": -22.333884
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "96ed357ba7ee734d5d2311c8cd7898204bc220084035634beb3c7d8b40f4a466",
+      "sentence_end_time": 15.21,
+      "sentence_id": "B09_S02",
+      "sentence_start_time": 12.97,
+      "speaker": "B",
+      "text": "I reserved twenty seats.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S03.wav",
+      "duration_seconds": 1.73,
+      "loudness_normalization": {
+        "applied_gain_db": -0.470234,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.417162,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.440369,
+        "original_speech_rms_dbfs": -23.529766
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "46ed1c1878865787d247ad3e49500fa4a3d3bea988b167c8fa3c8aa8c1d2dbc4",
+      "sentence_end_time": 26.94,
+      "sentence_id": "B09_S03",
+      "sentence_start_time": 25.21,
+      "speaker": "A",
+      "text": "The workshop is canceled.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S04.wav",
+      "duration_seconds": 2.18,
+      "loudness_normalization": {
+        "applied_gain_db": -1.132176,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.288588,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.328766,
+        "original_speech_rms_dbfs": -22.867824
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "f75bc58703ffc665dd204c888cd8e6dd541ae8579f01b18b6eb02b547b97e854",
+      "sentence_end_time": 30.12,
+      "sentence_id": "B09_S04",
+      "sentence_start_time": 27.94,
+      "speaker": "B",
+      "text": "Should I release the seats?",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S05.wav",
+      "duration_seconds": 2.48,
+      "loudness_normalization": {
+        "applied_gain_db": -1.40256,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.340428,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.400085,
+        "original_speech_rms_dbfs": -22.59744
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "10561e872f0d0e0de365a3e47dd31c19b6bcfdc9123185996060917d9ce094a6",
+      "sentence_end_time": 33.6,
+      "sentence_id": "B09_S05",
+      "sentence_start_time": 31.12,
+      "speaker": "A",
+      "text": "Yes, release all seats.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 5,
+      "abstract_start_bin": 5,
+      "audio_file_path": "sentence_clips/B09/version_2/B09_S06.wav",
+      "duration_seconds": 1.4,
+      "loudness_normalization": {
+        "applied_gain_db": -1.366002,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.298707,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.349579,
+        "original_speech_rms_dbfs": -22.633998
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "830d4c2b4438e339e8afd0e55b08d3af9b5d44739de30b8f3eb63d22171f9872",
+      "sentence_end_time": 45.0,
+      "sentence_id": "B09_S06",
+      "sentence_start_time": 43.6,
+      "speaker": "B",
+      "text": "Seats released.",
+      "voice": "marin"
+    }
+  ],
+  "source_row": {
+    "category": "B",
+    "category_label": "Cancellation and deletion",
+    "category_specific_answer_rules": "[{\"question_id\":\"B09_CAT_Q1\",\"ask_after\":[\"B09_S01\",\"B09_S02\",\"B09_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"YES\",\"B09_S02\":\"YES\",\"B09_S03\":\"NO\",\"B09_S04\":\"NO\",\"B09_S05\":\"NO\",\"B09_S06\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"B09_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"B09_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B09_CAT_Q2\",\"ask_after\":[\"B09_S01\",\"B09_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"RESERVE_SEATS\",\"B09_S02\":\"RESERVE_SEATS\",\"B09_S03\":\"RELEASE_SEATS\",\"B09_S04\":\"RELEASE_SEATS\",\"B09_S05\":\"RELEASE_SEATS\",\"B09_S06\":\"RELEASE_SEATS\"},\"final_answer_full_evidence\":\"RELEASE_SEATS\",\"evidence_rules\":[{\"if_observed_all\":[\"B09_S03\"],\"answer\":\"RELEASE_SEATS\"},{\"if_observed_all\":[\"B09_S01\"],\"answer\":\"RESERVE_SEATS\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"B09_CAT_Q1\",\"question_type\":\"action_status\",\"prompt\":\"Should reserving seats for the workshop be done? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]},{\"question_id\":\"B09_CAT_Q2\",\"question_type\":\"action_plan\",\"prompt\":\"What is the status of reserving seats for the workshop? Return exactly one of: ADD_SEATS, REDUCE_SEATS, MOVE_SEATS, RESERVE_SEATS, RELEASE_SEATS, UNKNOWN.\",\"allowed_answers\":[\"ADD_SEATS\",\"REDUCE_SEATS\",\"MOVE_SEATS\",\"RESERVE_SEATS\",\"RELEASE_SEATS\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"B09_CONTENT_Q1\",\"ask_after\":[\"B09_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"UNKNOWN\",\"B09_S02\":\"UNKNOWN\",\"B09_S03\":\"A\",\"B09_S04\":\"A\",\"B09_S05\":\"A\",\"B09_S06\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"B09_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"B09_CONTENT_Q2\",\"ask_after\":[\"B09_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"UNKNOWN\",\"B09_S02\":\"UNKNOWN\",\"B09_S03\":\"EVENT_1\",\"B09_S04\":\"EVENT_1\",\"B09_S05\":\"EVENT_1\",\"B09_S06\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"B09_S01\",\"B09_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"B09_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says that the workshop is canceled? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"B09_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=SEATS_RESERVED. EVENT_2=WORKSHOP_CANCELED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "B09",
+    "critical_span": "bins 0,2,4,5",
+    "end_bin": "5",
+    "generic_answer_rules": "[{\"question_id\":\"B09_GEN_Q1\",\"ask_after\":[\"B09_S01\",\"B09_S02\",\"B09_S03\",\"B09_S04\",\"B09_S05\",\"B09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"A\",\"B09_S02\":\"A>B\",\"B09_S03\":\"A>B>A\",\"B09_S04\":\"A>B>A>B\",\"B09_S05\":\"A>B>A>B>A\",\"B09_S06\":\"A>B>A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B09_GEN_Q2\",\"ask_after\":[\"B09_S01\",\"B09_S02\",\"B09_S03\",\"B09_S04\",\"B09_S05\",\"B09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"0\",\"B09_S02\":\"1\",\"B09_S03\":\"2\",\"B09_S04\":\"3\",\"B09_S05\":\"4\",\"B09_S06\":\"5\"},\"final_answer_full_evidence\":\"5\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"B09_GEN_Q3\",\"ask_after\":[\"B09_S01\",\"B09_S02\",\"B09_S03\",\"B09_S04\",\"B09_S05\",\"B09_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"B09_S01\":\"A\",\"B09_S02\":\"B\",\"B09_S03\":\"A\",\"B09_S04\":\"B\",\"B09_S05\":\"A\",\"B09_S06\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"B09_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"B09_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"B09_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "B09_S01=0; B09_S02=1; B09_S03=2; B09_S04=3; B09_S05=4; B09_S06=5",
+    "sentence_metadata": "[{\"sentence_id\":\"B09_S01\",\"speaker\":\"A\",\"text\":\"Reserve twenty seats for the workshop.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B09_S02\",\"speaker\":\"B\",\"text\":\"I reserved twenty seats.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B09_S03\",\"speaker\":\"A\",\"text\":\"The workshop is canceled.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B09_S04\",\"speaker\":\"B\",\"text\":\"Should I release the seats?\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B09_S05\",\"speaker\":\"A\",\"text\":\"Yes, release all seats.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"B09_S06\",\"speaker\":\"B\",\"text\":\"Seats released.\",\"abstract_start_bin\":5,\"abstract_end_bin\":5,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "B09_S01,B09_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"B09_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for workshop seat status heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"B09_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Reserve twenty seats for the workshop.\nB: I reserved twenty seats.\nA: The workshop is canceled.\nB: Should I release the seats?\nA: Yes, release all seats.\nB: Seats released.",
+    "transcript_with_pause_recommendations": "A: Reserve twenty seats for the workshop. (long)\nB: I reserved twenty seats. (long)\nA: The workshop is canceled. (natural)\nB: Should I release the seats? (natural)\nA: Yes, release all seats. (long)\nB: Seats released.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4; T6=5",
+    "turn_count": "6"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "ash",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "marin",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_2",
+  "voice_pair_id": "pair_1"
+}

@@ -1,0 +1,496 @@
+{
+  "audio_duration_seconds": 12.42,
+  "audio_file_path": "episodes/A04/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "A04",
+  "generation_timestamp": "2026-06-04T14:06:33.871403+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "A04_S01",
+          "A04_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "WEDNESDAY_AFTERNOON",
+            "if_observed_all": [
+              "A04_S03"
+            ]
+          },
+          {
+            "answer": "TUESDAY_MORNING",
+            "if_observed_all": [
+              "A04_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "WEDNESDAY_AFTERNOON",
+        "prefix_answer_trace": {
+          "A04_S01": "TUESDAY_MORNING",
+          "A04_S02": "TUESDAY_MORNING",
+          "A04_S03": "WEDNESDAY_AFTERNOON",
+          "A04_S04": "WEDNESDAY_AFTERNOON",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A04_S01",
+          "A04_S02",
+          "A04_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "A04_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "A04_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "A04_S01": "YES",
+          "A04_S02": "YES",
+          "A04_S03": "NO",
+          "A04_S04": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "WEDNESDAY_MORNING",
+          "WEDNESDAY_AFTERNOON",
+          "TUESDAY_AFTERNOON",
+          "MONDAY_MORNING",
+          "TUESDAY_MORNING",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the delivery time? Return exactly one of: WEDNESDAY_MORNING, WEDNESDAY_AFTERNOON, TUESDAY_AFTERNOON, MONDAY_MORNING, TUESDAY_MORNING, UNKNOWN.",
+        "question_id": "A04_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the delivery time TUESDAY_MORNING? Return YES, NO, or UNKNOWN.",
+        "question_id": "A04_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "A04_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "A04_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "A04_S01": "UNKNOWN",
+          "A04_S02": "UNKNOWN",
+          "A04_S03": "A",
+          "A04_S04": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A04_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "A04_S01",
+              "A04_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "A04_S01": "UNKNOWN",
+          "A04_S02": "UNKNOWN",
+          "A04_S03": "EVENT_1",
+          "A04_S04": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says the delivery time is Wednesday afternoon? Return A, B, or UNKNOWN.",
+        "question_id": "A04_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=TUESDAY_MORNING_IS_STATED. EVENT_2=WEDNESDAY_AFTERNOON_IS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "A04_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "A04_S01",
+          "A04_S02",
+          "A04_S03",
+          "A04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B",
+        "prefix_answer_trace": {
+          "A04_S01": "A",
+          "A04_S02": "A>B",
+          "A04_S03": "A>B>A",
+          "A04_S04": "A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A04_S01",
+          "A04_S02",
+          "A04_S03",
+          "A04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "3",
+        "prefix_answer_trace": {
+          "A04_S01": "0",
+          "A04_S02": "1",
+          "A04_S03": "2",
+          "A04_S04": "3",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A04_S01",
+          "A04_S02",
+          "A04_S03",
+          "A04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "A04_S01": "A",
+          "A04_S02": "B",
+          "A04_S03": "A",
+          "A04_S04": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A04_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "A04_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "A04_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "A04_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A04_S01",
+        "speaker": "A",
+        "text": "Delivery is scheduled for Tuesday morning."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A04_S02",
+        "speaker": "B",
+        "text": "Tuesday morning noted."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A04_S03",
+        "speaker": "A",
+        "text": "Actually, move it to Wednesday afternoon."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A04_S04",
+        "speaker": "B",
+        "text": "Wednesday afternoon, confirmed."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for delivery time heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "A04_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "A04_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "A04_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.98,
+      "pause_label": "natural",
+      "pause_start_time": 2.98
+    },
+    {
+      "after_sentence_id": "A04_S02",
+      "duration_seconds": 0.15,
+      "pause_end_time": 6.07,
+      "pause_label": "short",
+      "pause_start_time": 5.92
+    },
+    {
+      "after_sentence_id": "A04_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 10.04,
+      "pause_label": "natural",
+      "pause_start_time": 9.04
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/A04/version_3/A04_S01.wav",
+      "duration_seconds": 2.98,
+      "loudness_normalization": {
+        "applied_gain_db": 5.994682,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.437779,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.219543,
+        "original_speech_rms_dbfs": -29.994682
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "503dc62a98f495a35a0229531c71623488394b61cc0d2ddf357e9d39f1d67f3e",
+      "sentence_end_time": 2.98,
+      "sentence_id": "A04_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Delivery is scheduled for Tuesday morning.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/A04/version_3/A04_S02.wav",
+      "duration_seconds": 1.94,
+      "loudness_normalization": {
+        "applied_gain_db": -3.785595,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.269265,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.416351,
+        "original_speech_rms_dbfs": -20.214405
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "1de455bd198b94dc0fc9e21079796ac231f95c2f0cc99198408bbfd02231c557",
+      "sentence_end_time": 5.92,
+      "sentence_id": "A04_S02",
+      "sentence_start_time": 3.98,
+      "speaker": "B",
+      "text": "Tuesday morning noted.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/A04/version_3/A04_S03.wav",
+      "duration_seconds": 2.97,
+      "loudness_normalization": {
+        "applied_gain_db": 7.079164,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.354726,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.157013,
+        "original_speech_rms_dbfs": -31.079164
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "548b5ecd99e5c2db0d29801b69223e47e7195dc7360afeaf86c8a3dcbc012379",
+      "sentence_end_time": 9.04,
+      "sentence_id": "A04_S03",
+      "sentence_start_time": 6.07,
+      "speaker": "A",
+      "text": "Actually, move it to Wednesday afternoon.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/A04/version_3/A04_S04.wav",
+      "duration_seconds": 2.38,
+      "loudness_normalization": {
+        "applied_gain_db": -2.529783,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.390449,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.522461,
+        "original_speech_rms_dbfs": -21.470217
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "3df2068d74c6ef5a4a5c3a1935f57b2719f12512dcd4d326b21c1d8adaf98c01",
+      "sentence_end_time": 12.42,
+      "sentence_id": "A04_S04",
+      "sentence_start_time": 10.04,
+      "speaker": "B",
+      "text": "Wednesday afternoon, confirmed.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "A",
+    "category_label": "Correction and confirmation",
+    "category_specific_answer_rules": "[{\"question_id\":\"A04_CAT_Q1\",\"ask_after\":[\"A04_S01\",\"A04_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"TUESDAY_MORNING\",\"A04_S02\":\"TUESDAY_MORNING\",\"A04_S03\":\"WEDNESDAY_AFTERNOON\",\"A04_S04\":\"WEDNESDAY_AFTERNOON\"},\"final_answer_full_evidence\":\"WEDNESDAY_AFTERNOON\",\"evidence_rules\":[{\"if_observed_all\":[\"A04_S03\"],\"answer\":\"WEDNESDAY_AFTERNOON\"},{\"if_observed_all\":[\"A04_S01\"],\"answer\":\"TUESDAY_MORNING\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"A04_CAT_Q2\",\"ask_after\":[\"A04_S01\",\"A04_S02\",\"A04_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"YES\",\"A04_S02\":\"YES\",\"A04_S03\":\"NO\",\"A04_S04\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"A04_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"A04_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"A04_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the delivery time? Return exactly one of: WEDNESDAY_MORNING, WEDNESDAY_AFTERNOON, TUESDAY_AFTERNOON, MONDAY_MORNING, TUESDAY_MORNING, UNKNOWN.\",\"allowed_answers\":[\"WEDNESDAY_MORNING\",\"WEDNESDAY_AFTERNOON\",\"TUESDAY_AFTERNOON\",\"MONDAY_MORNING\",\"TUESDAY_MORNING\",\"UNKNOWN\"]},{\"question_id\":\"A04_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the delivery time TUESDAY_MORNING? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"A04_CONTENT_Q1\",\"ask_after\":[\"A04_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"UNKNOWN\",\"A04_S02\":\"UNKNOWN\",\"A04_S03\":\"A\",\"A04_S04\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"A04_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"A04_CONTENT_Q2\",\"ask_after\":[\"A04_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"UNKNOWN\",\"A04_S02\":\"UNKNOWN\",\"A04_S03\":\"EVENT_1\",\"A04_S04\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"A04_S01\",\"A04_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"A04_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says the delivery time is Wednesday afternoon? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"A04_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=TUESDAY_MORNING_IS_STATED. EVENT_2=WEDNESDAY_AFTERNOON_IS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "A04",
+    "critical_span": "bins 0,2,3",
+    "end_bin": "3",
+    "generic_answer_rules": "[{\"question_id\":\"A04_GEN_Q1\",\"ask_after\":[\"A04_S01\",\"A04_S02\",\"A04_S03\",\"A04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"A\",\"A04_S02\":\"A>B\",\"A04_S03\":\"A>B>A\",\"A04_S04\":\"A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"A04_GEN_Q2\",\"ask_after\":[\"A04_S01\",\"A04_S02\",\"A04_S03\",\"A04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"0\",\"A04_S02\":\"1\",\"A04_S03\":\"2\",\"A04_S04\":\"3\"},\"final_answer_full_evidence\":\"3\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"A04_GEN_Q3\",\"ask_after\":[\"A04_S01\",\"A04_S02\",\"A04_S03\",\"A04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A04_S01\":\"A\",\"A04_S02\":\"B\",\"A04_S03\":\"A\",\"A04_S04\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"A04_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"A04_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"A04_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "A04_S01=0; A04_S02=1; A04_S03=2; A04_S04=3",
+    "sentence_metadata": "[{\"sentence_id\":\"A04_S01\",\"speaker\":\"A\",\"text\":\"Delivery is scheduled for Tuesday morning.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A04_S02\",\"speaker\":\"B\",\"text\":\"Tuesday morning noted.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A04_S03\",\"speaker\":\"A\",\"text\":\"Actually, move it to Wednesday afternoon.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A04_S04\",\"speaker\":\"B\",\"text\":\"Wednesday afternoon, confirmed.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "A04_S01,A04_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"A04_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for delivery time heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"A04_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Delivery is scheduled for Tuesday morning.\nB: Tuesday morning noted.\nA: Actually, move it to Wednesday afternoon.\nB: Wednesday afternoon, confirmed.",
+    "transcript_with_pause_recommendations": "A: Delivery is scheduled for Tuesday morning. (natural)\nB: Tuesday morning noted. (short)\nA: Actually, move it to Wednesday afternoon. (natural)\nB: Wednesday afternoon, confirmed.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3",
+    "turn_count": "4"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

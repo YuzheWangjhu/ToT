@@ -1,0 +1,418 @@
+{"answer": {"card_id": "C_TARGET", "end_seconds": 354.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0001_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 622.5, "scene_rank": 2, "start_seconds": 354.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0001_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 927.0, "scene_rank": 3, "start_seconds": 623.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0001_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1105.5, "scene_rank": 4, "start_seconds": 927.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0001_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0001_absent_01"}
+{"answer": {"end_seconds": 611.179, "start_seconds": 606.235, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_exact_global_set1_01"}
+{"answer": {"end_seconds": 756.75, "start_seconds": 748.54, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 471.54, "start_seconds": 466.47, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_partial_global_set1_01"}
+{"answer": {"end_seconds": 1099.68, "start_seconds": 1091.94, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0001_set1_01"}
+{"answer": {"end_seconds": 252.824, "start_seconds": 245.801, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_exact_global_set2_01"}
+{"answer": {"end_seconds": 583.578, "start_seconds": 580.595, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 699.421, "start_seconds": 690.238, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_partial_global_set2_01"}
+{"answer": {"end_seconds": 71.25, "start_seconds": 60.75, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0001_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0001_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_A", "C_D", "C_C", "C_B"]}, "task_id": "T2V2_2B1_T2R_0001_exact_count_01"}
+{"answer": {"absent_card_id": "C_D", "ordered_card_ids": ["C_A", "C_E", "C_C", "C_B"]}, "task_id": "T2V2_2B1_T2R_0001_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_B"], "utterances": [{"end_seconds": 886.17, "scene_card_id": "C_A", "start_seconds": 882.71, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 972.38, "scene_card_id": "C_C", "start_seconds": 968.81, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 269.893, "scene_card_id": "C_B", "start_seconds": 264.09, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0001_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_B"], "utterances": [{"end_seconds": 561.33, "scene_card_id": "C_D", "start_seconds": 557.74, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 731.214, "scene_card_id": "C_B", "start_seconds": 728.112, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 134.86, "scene_card_id": "C_A", "start_seconds": 127.53, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0001_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 330.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0002_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 628.5, "scene_rank": 2, "start_seconds": 330.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0002_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 881.0, "scene_rank": 3, "start_seconds": 629.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0002_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1127.5, "scene_rank": 4, "start_seconds": 881.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0002_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0002_absent_01"}
+{"answer": {"end_seconds": 814.25, "start_seconds": 807.87, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_exact_global_set1_01"}
+{"answer": {"end_seconds": 439.35, "start_seconds": 435.51, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 1011.565, "start_seconds": 1002.098, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_partial_global_set1_01"}
+{"answer": {"end_seconds": 857.829, "start_seconds": 851.223, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0002_set1_01"}
+{"answer": {"end_seconds": 177.772, "start_seconds": 175.031, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_exact_global_set2_01"}
+{"answer": {"end_seconds": 940.95, "start_seconds": 932.62, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 164.392, "start_seconds": 156.108, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_partial_global_set2_01"}
+{"answer": {"end_seconds": 404.796, "start_seconds": 397.69, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0002_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0002_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_A", "C_B", "C_D"]}, "task_id": "T2V2_2B1_T2R_0002_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_D", "C_E", "C_B", "C_A"]}, "task_id": "T2V2_2B1_T2R_0002_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_C", "U_D"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 173.816, "scene_card_id": "C_D", "start_seconds": 169.394, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 534.982, "scene_card_id": "C_A", "start_seconds": 529.257, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 920.097, "scene_card_id": "C_B", "start_seconds": 911.993, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0002_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_D", "U_C"], "utterances": [{"end_seconds": 149.342, "scene_card_id": "C_A", "start_seconds": 144.215, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 1039.815, "scene_card_id": "C_B", "start_seconds": 1031.073, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 819.75, "scene_card_id": "C_D", "start_seconds": 814.53, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0002_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 272.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0003_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 604.5, "scene_rank": 2, "start_seconds": 272.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0003_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 941.0, "scene_rank": 3, "start_seconds": 605.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0003_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1191.5, "scene_rank": 4, "start_seconds": 941.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0003_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0003_absent_01"}
+{"answer": {"end_seconds": 707.38, "start_seconds": 699.95, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_exact_global_set1_01"}
+{"answer": {"end_seconds": 141.357, "start_seconds": 135.636, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 622.904, "start_seconds": 615.162, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_partial_global_set1_01"}
+{"answer": {"end_seconds": 342.583, "start_seconds": 330.758, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0003_set1_01"}
+{"answer": {"end_seconds": 428.197, "start_seconds": 421.214, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_exact_global_set2_01"}
+{"answer": {"end_seconds": 891.736, "start_seconds": 886.373, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 963.94, "start_seconds": 955.612, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_partial_global_set2_01"}
+{"answer": {"end_seconds": 112.21, "start_seconds": 105.965, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0003_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0003_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_A", "C_C", "C_B"]}, "task_id": "T2V2_2B1_T2R_0003_exact_count_01"}
+{"answer": {"absent_card_id": "C_A", "ordered_card_ids": ["C_E", "C_D", "C_B", "C_C"]}, "task_id": "T2V2_2B1_T2R_0003_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_C", "U_B"], "utterances": [{"end_seconds": 100.63, "scene_card_id": "C_B", "start_seconds": 96.33, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 1046.823, "scene_card_id": "C_A", "start_seconds": 1038.741, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 326.874, "scene_card_id": "C_D", "start_seconds": 319.971, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0003_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_C", "U_A"], "utterances": [{"end_seconds": 1188.762, "scene_card_id": "C_C", "start_seconds": 1181.617, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 391.025, "scene_card_id": "C_B", "start_seconds": 383.202, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 690.391, "scene_card_id": "C_D", "start_seconds": 682.947, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0003_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 330.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0004_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 608.5, "scene_rank": 2, "start_seconds": 330.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0004_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 907.0, "scene_rank": 3, "start_seconds": 609.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0004_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1199.5, "scene_rank": 4, "start_seconds": 907.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0004_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0004_absent_01"}
+{"answer": {"end_seconds": 1093.9, "start_seconds": 1082.88, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_exact_global_set1_01"}
+{"answer": {"end_seconds": 858.433, "start_seconds": 852.612, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 238.95, "start_seconds": 229.985, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_partial_global_set1_01"}
+{"answer": {"end_seconds": 743.397, "start_seconds": 733.292, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0004_set1_01"}
+{"answer": {"end_seconds": 311.861, "start_seconds": 306.739, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_exact_global_set2_01"}
+{"answer": {"end_seconds": 1192.525, "start_seconds": 1182.11, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 1181.65, "start_seconds": 1174.92, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_partial_global_set2_01"}
+{"answer": {"end_seconds": 418.213, "start_seconds": 408.228, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0004_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0004_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_A", "C_B", "C_D"]}, "task_id": "T2V2_2B1_T2R_0004_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_D", "C_A", "C_B", "C_E"]}, "task_id": "T2V2_2B1_T2R_0004_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_C"], "utterances": [{"end_seconds": 395.053, "scene_card_id": "C_B", "start_seconds": 386.007, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 227.95, "scene_card_id": "C_A", "start_seconds": 219.267, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 978.573, "scene_card_id": "C_D", "start_seconds": 968.203, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0004_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_C", "U_B"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 782.844, "scene_card_id": "C_D", "start_seconds": 776.535, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 472.021, "scene_card_id": "C_B", "start_seconds": 465.357, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 109.43, "scene_card_id": "C_A", "start_seconds": 102.288, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0004_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 240.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0005_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 468.5, "scene_rank": 2, "start_seconds": 240.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0005_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 691.0, "scene_rank": 3, "start_seconds": 469.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0005_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 987.5, "scene_rank": 4, "start_seconds": 691.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0005_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0005_absent_01"}
+{"answer": {"end_seconds": 856.3, "start_seconds": 849.16, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_exact_global_set1_01"}
+{"answer": {"end_seconds": 313.106, "start_seconds": 306.892, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 384.054, "start_seconds": 374.887, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_partial_global_set1_01"}
+{"answer": {"end_seconds": 559.306, "start_seconds": 553.418, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0005_set1_01"}
+{"answer": {"end_seconds": 565.794, "start_seconds": 560.127, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_exact_global_set2_01"}
+{"answer": {"end_seconds": 275.064, "start_seconds": 267.8, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 37.551, "start_seconds": 28.588, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_partial_global_set2_01"}
+{"answer": {"end_seconds": 975.701, "start_seconds": 968.332, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0005_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0005_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_B", "C_A", "C_C", "C_D"]}, "task_id": "T2V2_2B1_T2R_0005_exact_count_01"}
+{"answer": {"absent_card_id": "C_E", "ordered_card_ids": ["C_D", "C_B", "C_A", "C_C"]}, "task_id": "T2V2_2B1_T2R_0005_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_C", "U_D", "U_A"], "utterances": [{"end_seconds": 821.28, "scene_card_id": "C_D", "start_seconds": 814.88, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 28.942, "scene_card_id": "C_B", "start_seconds": 20.958, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 625.155, "scene_card_id": "C_C", "start_seconds": 617.472, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0005_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_C", "U_D"], "utterances": [{"end_seconds": 137.53, "scene_card_id": "C_D", "start_seconds": 132.34, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 256.389, "scene_card_id": "C_A", "start_seconds": 250.045, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 524.68, "scene_card_id": "C_B", "start_seconds": 518.64, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0005_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 262.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0006_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 520.5, "scene_rank": 2, "start_seconds": 262.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0006_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 753.0, "scene_rank": 3, "start_seconds": 521.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0006_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 987.5, "scene_rank": 4, "start_seconds": 753.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0006_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0006_absent_01"}
+{"answer": {"end_seconds": 681.58, "start_seconds": 671.89, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_exact_global_set1_01"}
+{"answer": {"end_seconds": 943.99, "start_seconds": 938.66, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 79.274, "start_seconds": 69.469, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_partial_global_set1_01"}
+{"answer": {"end_seconds": 697.85, "start_seconds": 690.16, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0006_set1_01"}
+{"answer": {"end_seconds": 672.932, "start_seconds": 666.247, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_exact_global_set2_01"}
+{"answer": {"end_seconds": 193.44, "start_seconds": 184.83, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 792.693, "start_seconds": 781.746, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_partial_global_set2_01"}
+{"answer": {"end_seconds": 406.55, "start_seconds": 398.2, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0006_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0006_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_A", "C_B", "C_D"]}, "task_id": "T2V2_2B1_T2R_0006_exact_count_01"}
+{"answer": {"absent_card_id": "C_E", "ordered_card_ids": ["C_B", "C_C", "C_A", "C_D"]}, "task_id": "T2V2_2B1_T2R_0006_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_D", "U_B"], "utterances": [{"end_seconds": 139.537, "scene_card_id": "C_B", "start_seconds": 130.254, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 839.522, "scene_card_id": "C_D", "start_seconds": 833.039, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 276.235, "scene_card_id": "C_C", "start_seconds": 268.946, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0006_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_D", "U_C"], "utterances": [{"end_seconds": 230.75, "scene_card_id": "C_B", "start_seconds": 225.35, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 629.821, "scene_card_id": "C_A", "start_seconds": 618.298, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 343.652, "scene_card_id": "C_C", "start_seconds": 331.762, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0006_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 258.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0007_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 478.5, "scene_rank": 2, "start_seconds": 258.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0007_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 723.0, "scene_rank": 3, "start_seconds": 479.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0007_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 873.5, "scene_rank": 4, "start_seconds": 723.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0007_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0007_absent_01"}
+{"answer": {"end_seconds": 323.07, "start_seconds": 316.98, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_exact_global_set1_01"}
+{"answer": {"end_seconds": 758.79, "start_seconds": 752.51, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 59.67, "start_seconds": 49.54, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_partial_global_set1_01"}
+{"answer": {"end_seconds": 291.483, "start_seconds": 286.46, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0007_set1_01"}
+{"answer": {"end_seconds": 145.79, "start_seconds": 137.82, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_exact_global_set2_01"}
+{"answer": {"end_seconds": 433.62, "start_seconds": 428.69, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 526.608, "start_seconds": 521.666, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_partial_global_set2_01"}
+{"answer": {"end_seconds": 663.82, "start_seconds": 655.84, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0007_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0007_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_C", "C_B", "C_A"]}, "task_id": "T2V2_2B1_T2R_0007_exact_count_01"}
+{"answer": {"absent_card_id": "C_B", "ordered_card_ids": ["C_A", "C_D", "C_E", "C_C"]}, "task_id": "T2V2_2B1_T2R_0007_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_C"], "utterances": [{"end_seconds": 567.91, "scene_card_id": "C_B", "start_seconds": 561.04, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 780.534, "scene_card_id": "C_C", "start_seconds": 774.027, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 178.13, "scene_card_id": "C_A", "start_seconds": 170.71, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0007_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_B", "U_C"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 335.78, "scene_card_id": "C_C", "start_seconds": 328.83, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 543.2, "scene_card_id": "C_B", "start_seconds": 536.18, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 161.61, "scene_card_id": "C_A", "start_seconds": 154.87, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0007_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 282.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0008_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 570.5, "scene_rank": 2, "start_seconds": 282.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0008_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 821.0, "scene_rank": 3, "start_seconds": 571.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0008_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1095.5, "scene_rank": 4, "start_seconds": 821.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0008_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0008_absent_01"}
+{"answer": {"end_seconds": 479.22, "start_seconds": 470.541, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_exact_global_set1_01"}
+{"answer": {"end_seconds": 628.72, "start_seconds": 620.3, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 57.442, "start_seconds": 48.216, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_partial_global_set1_01"}
+{"answer": {"end_seconds": 785.71, "start_seconds": 781.65, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0008_set1_01"}
+{"answer": {"end_seconds": 486.98, "start_seconds": 479.97, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_exact_global_set2_01"}
+{"answer": {"end_seconds": 878.615, "start_seconds": 870.63, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 735.96, "start_seconds": 728.55, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_partial_global_set2_01"}
+{"answer": {"end_seconds": 160.37, "start_seconds": 149.64, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0008_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0008_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_B", "C_D", "C_A"]}, "task_id": "T2V2_2B1_T2R_0008_exact_count_01"}
+{"answer": {"absent_card_id": "C_D", "ordered_card_ids": ["C_E", "C_B", "C_C", "C_A"]}, "task_id": "T2V2_2B1_T2R_0008_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_D", "U_C"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 143.02, "scene_card_id": "C_C", "start_seconds": 133.78, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 1029.43, "scene_card_id": "C_A", "start_seconds": 1018.0, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 720.401, "scene_card_id": "C_B", "start_seconds": 712.977, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0008_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_B", "U_D"], "utterances": [{"end_seconds": 149.12, "scene_card_id": "C_A", "start_seconds": 144.43, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 410.746, "scene_card_id": "C_D", "start_seconds": 403.222, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 1062.856, "scene_card_id": "C_C", "start_seconds": 1055.752, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0008_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 240.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0009_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 506.5, "scene_rank": 2, "start_seconds": 240.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0009_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 745.0, "scene_rank": 3, "start_seconds": 507.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0009_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 957.5, "scene_rank": 4, "start_seconds": 745.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0009_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0009_absent_01"}
+{"answer": {"end_seconds": 126.35, "start_seconds": 120.1, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_exact_global_set1_01"}
+{"answer": {"end_seconds": 904.955, "start_seconds": 902.113, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 38.591, "start_seconds": 31.661, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_partial_global_set1_01"}
+{"answer": {"end_seconds": 328.094, "start_seconds": 319.812, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0009_set1_01"}
+{"answer": {"end_seconds": 279.9, "start_seconds": 268.374, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_exact_global_set2_01"}
+{"answer": {"end_seconds": 185.714, "start_seconds": 176.574, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 791.93, "start_seconds": 782.503, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_partial_global_set2_01"}
+{"answer": {"end_seconds": 568.491, "start_seconds": 560.207, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0009_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0009_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_B", "C_A", "C_D"]}, "task_id": "T2V2_2B1_T2R_0009_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_D", "C_B", "C_A", "C_E"]}, "task_id": "T2V2_2B1_T2R_0009_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_C", "U_A"], "utterances": [{"end_seconds": 885.72, "scene_card_id": "C_D", "start_seconds": 881.48, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 366.19, "scene_card_id": "C_A", "start_seconds": 359.3, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 590.811, "scene_card_id": "C_B", "start_seconds": 583.068, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0009_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_D"], "utterances": [{"end_seconds": 426.968, "scene_card_id": "C_A", "start_seconds": 420.407, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 164.153, "scene_card_id": "C_C", "start_seconds": 155.442, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 596.94, "scene_card_id": "C_B", "start_seconds": 591.21, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0009_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 212.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0010_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 490.5, "scene_rank": 2, "start_seconds": 212.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0010_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 735.0, "scene_rank": 3, "start_seconds": 491.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0010_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 947.5, "scene_rank": 4, "start_seconds": 735.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0010_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0010_absent_01"}
+{"answer": {"end_seconds": 644.257, "start_seconds": 639.555, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_exact_global_set1_01"}
+{"answer": {"end_seconds": 764.867, "start_seconds": 759.445, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 651.56, "start_seconds": 644.65, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_partial_global_set1_01"}
+{"answer": {"end_seconds": 364.95, "start_seconds": 359.89, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0010_set1_01"}
+{"answer": {"end_seconds": 200.13, "start_seconds": 194.73, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_exact_global_set2_01"}
+{"answer": {"end_seconds": 594.951, "start_seconds": 588.866, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 169.254, "start_seconds": 160.352, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_partial_global_set2_01"}
+{"answer": {"end_seconds": 908.445, "start_seconds": 903.282, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0010_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0010_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_B", "C_A", "C_D"]}, "task_id": "T2V2_2B1_T2R_0010_exact_count_01"}
+{"answer": {"absent_card_id": "C_E", "ordered_card_ids": ["C_C", "C_A", "C_D", "C_B"]}, "task_id": "T2V2_2B1_T2R_0010_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_C", "U_A"], "utterances": [{"end_seconds": 874.626, "scene_card_id": "C_A", "start_seconds": 868.303, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 356.15, "scene_card_id": "C_C", "start_seconds": 351.05, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 100.088, "scene_card_id": "C_D", "start_seconds": 92.157, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0010_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_C"], "utterances": [{"end_seconds": 304.26, "scene_card_id": "C_B", "start_seconds": 298.23, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 77.005, "scene_card_id": "C_A", "start_seconds": 71.102, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 686.037, "scene_card_id": "C_C", "start_seconds": 677.234, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0010_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 226.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0011_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 488.5, "scene_rank": 2, "start_seconds": 226.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0011_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 727.0, "scene_rank": 3, "start_seconds": 489.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0011_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 927.5, "scene_rank": 4, "start_seconds": 727.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0011_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0011_absent_01"}
+{"answer": {"end_seconds": 601.625, "start_seconds": 593.211, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_exact_global_set1_01"}
+{"answer": {"end_seconds": 67.242, "start_seconds": 63.798, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 348.428, "start_seconds": 338.185, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_partial_global_set1_01"}
+{"answer": {"end_seconds": 536.744, "start_seconds": 525.937, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0011_set1_01"}
+{"answer": {"end_seconds": 497.961, "start_seconds": 491.459, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_exact_global_set2_01"}
+{"answer": {"end_seconds": 248.883, "start_seconds": 241.679, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 799.841, "start_seconds": 792.636, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_partial_global_set2_01"}
+{"answer": {"end_seconds": 77.684, "start_seconds": 71.622, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0011_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0011_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_B", "C_A", "C_C"]}, "task_id": "T2V2_2B1_T2R_0011_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_A", "C_E", "C_B", "C_D"]}, "task_id": "T2V2_2B1_T2R_0011_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_C", "U_D"], "utterances": [{"end_seconds": 18.089, "scene_card_id": "C_A", "start_seconds": 11.223, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 449.483, "scene_card_id": "C_D", "start_seconds": 440.757, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 862.385, "scene_card_id": "C_B", "start_seconds": 854.643, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0011_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_C", "U_B", "U_D"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 677.533, "scene_card_id": "C_A", "start_seconds": 669.329, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 401.862, "scene_card_id": "C_D", "start_seconds": 394.9, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 776.133, "scene_card_id": "C_C", "start_seconds": 768.689, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0011_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 252.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0012_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 502.5, "scene_rank": 2, "start_seconds": 252.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0012_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 725.0, "scene_rank": 3, "start_seconds": 503.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0012_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 899.5, "scene_rank": 4, "start_seconds": 725.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0012_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0012_absent_01"}
+{"answer": {"end_seconds": 705.018, "start_seconds": 696.635, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_exact_global_set1_01"}
+{"answer": {"end_seconds": 23.24, "start_seconds": 15.42, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 642.59, "start_seconds": 636.6, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_partial_global_set1_01"}
+{"answer": {"end_seconds": 31.26, "start_seconds": 26.05, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0012_set1_01"}
+{"answer": {"end_seconds": 589.04, "start_seconds": 581.98, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_exact_global_set2_01"}
+{"answer": {"end_seconds": 402.89, "start_seconds": 397.96, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 750.28, "start_seconds": 740.75, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_partial_global_set2_01"}
+{"answer": {"end_seconds": 43.535, "start_seconds": 37.373, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0012_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0012_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_B", "C_D", "C_C", "C_A"]}, "task_id": "T2V2_2B1_T2R_0012_exact_count_01"}
+{"answer": {"absent_card_id": "C_E", "ordered_card_ids": ["C_B", "C_A", "C_D", "C_C"]}, "task_id": "T2V2_2B1_T2R_0012_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_D"], "utterances": [{"end_seconds": 329.605, "scene_card_id": "C_D", "start_seconds": 320.122, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 144.69, "scene_card_id": "C_A", "start_seconds": 136.15, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 791.653, "scene_card_id": "C_B", "start_seconds": 783.989, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0012_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_C"], "utterances": [{"end_seconds": 679.978, "scene_card_id": "C_B", "start_seconds": 671.656, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 783.6, "scene_card_id": "C_D", "start_seconds": 774.62, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 378.26, "scene_card_id": "C_C", "start_seconds": 372.85, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0012_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 228.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0013_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 446.5, "scene_rank": 2, "start_seconds": 228.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0013_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 707.0, "scene_rank": 3, "start_seconds": 447.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0013_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 931.5, "scene_rank": 4, "start_seconds": 707.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0013_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0013_absent_01"}
+{"answer": {"end_seconds": 288.031, "start_seconds": 281.507, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_exact_global_set1_01"}
+{"answer": {"end_seconds": 538.396, "start_seconds": 533.071, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 249.357, "start_seconds": 239.792, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_partial_global_set1_01"}
+{"answer": {"end_seconds": 161.751, "start_seconds": 153.245, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0013_set1_01"}
+{"answer": {"end_seconds": 70.44, "start_seconds": 65.11, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_exact_global_set2_01"}
+{"answer": {"end_seconds": 429.086, "start_seconds": 424.023, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 819.55, "start_seconds": 813.59, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_partial_global_set2_01"}
+{"answer": {"end_seconds": 498.24, "start_seconds": 488.47, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0013_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0013_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_B", "C_A", "C_C"]}, "task_id": "T2V2_2B1_T2R_0013_exact_count_01"}
+{"answer": {"absent_card_id": "C_A", "ordered_card_ids": ["C_C", "C_D", "C_B", "C_E"]}, "task_id": "T2V2_2B1_T2R_0013_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_C"], "utterances": [{"end_seconds": 508.905, "scene_card_id": "C_C", "start_seconds": 499.077, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 58.827, "scene_card_id": "C_A", "start_seconds": 52.242, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 748.85, "scene_card_id": "C_D", "start_seconds": 741.89, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0013_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_D", "U_C"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 120.14, "scene_card_id": "C_A", "start_seconds": 109.26, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 837.49, "scene_card_id": "C_C", "start_seconds": 829.34, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 304.349, "scene_card_id": "C_D", "start_seconds": 296.1, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0013_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 234.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0014_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 472.5, "scene_rank": 2, "start_seconds": 234.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0014_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 701.0, "scene_rank": 3, "start_seconds": 473.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0014_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 957.5, "scene_rank": 4, "start_seconds": 701.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0014_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0014_absent_01"}
+{"answer": {"end_seconds": 161.491, "start_seconds": 157.629, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_exact_global_set1_01"}
+{"answer": {"end_seconds": 366.335, "start_seconds": 360.233, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 807.34, "start_seconds": 798.52, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_partial_global_set1_01"}
+{"answer": {"end_seconds": 144.602, "start_seconds": 135.857, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0014_set1_01"}
+{"answer": {"end_seconds": 954.048, "start_seconds": 948.625, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_exact_global_set2_01"}
+{"answer": {"end_seconds": 153.687, "start_seconds": 149.284, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 389.043, "start_seconds": 381.618, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_partial_global_set2_01"}
+{"answer": {"end_seconds": 665.457, "start_seconds": 658.632, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0014_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0014_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_A", "C_D", "C_C", "C_B"]}, "task_id": "T2V2_2B1_T2R_0014_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_D", "C_B", "C_A", "C_E"]}, "task_id": "T2V2_2B1_T2R_0014_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_B", "U_C"], "utterances": [{"end_seconds": 254.625, "scene_card_id": "C_B", "start_seconds": 248.621, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 654.5, "scene_card_id": "C_C", "start_seconds": 649.057, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 798.09, "scene_card_id": "C_D", "start_seconds": 790.06, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0014_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_B", "U_C"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 493.476, "scene_card_id": "C_D", "start_seconds": 488.527, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 919.81, "scene_card_id": "C_B", "start_seconds": 912.35, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 30.059, "scene_card_id": "C_C", "start_seconds": 23.716, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0014_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 232.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0015_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 448.5, "scene_rank": 2, "start_seconds": 232.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0015_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 617.0, "scene_rank": 3, "start_seconds": 449.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0015_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 853.5, "scene_rank": 4, "start_seconds": 617.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0015_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0015_absent_01"}
+{"answer": {"end_seconds": 53.695, "start_seconds": 48.006, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_exact_global_set1_01"}
+{"answer": {"end_seconds": 472.49, "start_seconds": 465.604, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 293.78, "start_seconds": 285.59, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_partial_global_set1_01"}
+{"answer": {"end_seconds": 21.726, "start_seconds": 12.331, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0015_set1_01"}
+{"answer": {"end_seconds": 305.15, "start_seconds": 300.99, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_exact_global_set2_01"}
+{"answer": {"end_seconds": 100.287, "start_seconds": 95.915, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 694.737, "start_seconds": 685.811, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_partial_global_set2_01"}
+{"answer": {"end_seconds": 551.271, "start_seconds": 545.408, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0015_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0015_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_B", "C_C", "C_A"]}, "task_id": "T2V2_2B1_T2R_0015_exact_count_01"}
+{"answer": {"absent_card_id": "C_B", "ordered_card_ids": ["C_C", "C_D", "C_A", "C_E"]}, "task_id": "T2V2_2B1_T2R_0015_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_C", "U_B"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 783.922, "scene_card_id": "C_C", "start_seconds": 777.52, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 568.574, "scene_card_id": "C_B", "start_seconds": 561.449, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 406.52, "scene_card_id": "C_A", "start_seconds": 401.17, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0015_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_C", "U_A"], "utterances": [{"end_seconds": 776.07, "scene_card_id": "C_D", "start_seconds": 769.22, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 265.132, "scene_card_id": "C_A", "start_seconds": 259.847, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 34.207, "scene_card_id": "C_B", "start_seconds": 26.803, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0015_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 182.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0016_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 372.5, "scene_rank": 2, "start_seconds": 182.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0016_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 623.0, "scene_rank": 3, "start_seconds": 373.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0016_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 875.5, "scene_rank": 4, "start_seconds": 623.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0016_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0016_absent_01"}
+{"answer": {"end_seconds": 698.725, "start_seconds": 689.898, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_exact_global_set1_01"}
+{"answer": {"end_seconds": 255.59, "start_seconds": 249.02, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 456.492, "start_seconds": 447.127, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_partial_global_set1_01"}
+{"answer": {"end_seconds": 642.011, "start_seconds": 635.167, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0016_set1_01"}
+{"answer": {"end_seconds": 402.49, "start_seconds": 399.39, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_exact_global_set2_01"}
+{"answer": {"end_seconds": 720.17, "start_seconds": 715.809, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 48.32, "start_seconds": 41.37, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_partial_global_set2_01"}
+{"answer": {"end_seconds": 266.343, "start_seconds": 260.941, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0016_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0016_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_C", "C_A", "C_B"]}, "task_id": "T2V2_2B1_T2R_0016_exact_count_01"}
+{"answer": {"absent_card_id": "C_A", "ordered_card_ids": ["C_D", "C_B", "C_C", "C_E"]}, "task_id": "T2V2_2B1_T2R_0016_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_C", "U_D", "U_B"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 464.94, "scene_card_id": "C_D", "start_seconds": 457.95, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 142.145, "scene_card_id": "C_C", "start_seconds": 135.543, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 227.034, "scene_card_id": "C_A", "start_seconds": 220.552, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0016_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_C", "U_D", "U_B"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 420.781, "scene_card_id": "C_A", "start_seconds": 413.652, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 21.828, "scene_card_id": "C_D", "start_seconds": 15.022, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 201.227, "scene_card_id": "C_B", "start_seconds": 195.722, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0016_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 220.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0017_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 434.5, "scene_rank": 2, "start_seconds": 220.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0017_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 619.0, "scene_rank": 3, "start_seconds": 435.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0017_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 965.5, "scene_rank": 4, "start_seconds": 619.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0017_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0017_absent_01"}
+{"answer": {"end_seconds": 297.92, "start_seconds": 292.977, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_exact_global_set1_01"}
+{"answer": {"end_seconds": 591.63, "start_seconds": 587.41, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 811.98, "start_seconds": 807.47, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_partial_global_set1_01"}
+{"answer": {"end_seconds": 259.4, "start_seconds": 253.69, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0017_set1_01"}
+{"answer": {"end_seconds": 939.54, "start_seconds": 934.21, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_exact_global_set2_01"}
+{"answer": {"end_seconds": 387.26, "start_seconds": 381.22, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 48.23, "start_seconds": 43.13, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_partial_global_set2_01"}
+{"answer": {"end_seconds": 144.1, "start_seconds": 138.81, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0017_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0017_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_B", "C_A", "C_D", "C_C"]}, "task_id": "T2V2_2B1_T2R_0017_exact_count_01"}
+{"answer": {"absent_card_id": "C_A", "ordered_card_ids": ["C_D", "C_B", "C_C", "C_E"]}, "task_id": "T2V2_2B1_T2R_0017_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_C", "U_A", "U_B"], "utterances": [{"end_seconds": 455.251, "scene_card_id": "C_D", "start_seconds": 449.11, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 888.32, "scene_card_id": "C_A", "start_seconds": 879.94, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 59.59, "scene_card_id": "C_C", "start_seconds": 53.71, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0017_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_C"], "utterances": [{"end_seconds": 250.42, "scene_card_id": "C_A", "start_seconds": 245.34, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 632.12, "scene_card_id": "C_C", "start_seconds": 626.36, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 120.01, "scene_card_id": "C_B", "start_seconds": 113.86, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0017_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 292.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0018_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 560.5, "scene_rank": 2, "start_seconds": 292.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0018_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 767.0, "scene_rank": 3, "start_seconds": 561.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0018_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 1017.5, "scene_rank": 4, "start_seconds": 767.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0018_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0018_absent_01"}
+{"answer": {"end_seconds": 632.16, "start_seconds": 624.62, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_exact_global_set1_01"}
+{"answer": {"end_seconds": 974.67, "start_seconds": 969.57, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 223.63, "start_seconds": 212.97, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_partial_global_set1_01"}
+{"answer": {"end_seconds": 601.915, "start_seconds": 591.185, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0018_set1_01"}
+{"answer": {"end_seconds": 55.234, "start_seconds": 48.475, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_exact_global_set2_01"}
+{"answer": {"end_seconds": 651.85, "start_seconds": 647.41, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 851.82, "start_seconds": 844.9, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_partial_global_set2_01"}
+{"answer": {"end_seconds": 411.034, "start_seconds": 403.209, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0018_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0018_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_B", "C_D", "C_C", "C_A"]}, "task_id": "T2V2_2B1_T2R_0018_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_E", "C_D", "C_A", "C_B"]}, "task_id": "T2V2_2B1_T2R_0018_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_C"], "utterances": [{"end_seconds": 365.204, "scene_card_id": "C_A", "start_seconds": 355.912, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 841.081, "scene_card_id": "C_C", "start_seconds": 835.94, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 251.09, "scene_card_id": "C_D", "start_seconds": 243.34, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0018_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_C"], "utterances": [{"end_seconds": 377.337, "scene_card_id": "C_A", "start_seconds": 372.052, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 620.375, "scene_card_id": "C_D", "start_seconds": 611.15, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 14.364, "scene_card_id": "C_B", "start_seconds": 3.82, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0018_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 250.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0019_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 440.5, "scene_rank": 2, "start_seconds": 250.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0019_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 657.0, "scene_rank": 3, "start_seconds": 441.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0019_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 875.5, "scene_rank": 4, "start_seconds": 657.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0019_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0019_absent_01"}
+{"answer": {"end_seconds": 758.893, "start_seconds": 749.29, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_exact_global_set1_01"}
+{"answer": {"end_seconds": 343.625, "start_seconds": 336.262, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 296.79, "start_seconds": 285.68, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_partial_global_set1_01"}
+{"answer": {"end_seconds": 78.44, "start_seconds": 71.57, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0019_set1_01"}
+{"answer": {"end_seconds": 132.71, "start_seconds": 126.52, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_exact_global_set2_01"}
+{"answer": {"end_seconds": 830.617, "start_seconds": 822.534, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 536.049, "start_seconds": 524.645, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_partial_global_set2_01"}
+{"answer": {"end_seconds": 676.572, "start_seconds": 666.407, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0019_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0019_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_C", "C_A", "C_D", "C_B"]}, "task_id": "T2V2_2B1_T2R_0019_exact_count_01"}
+{"answer": {"absent_card_id": "C_A", "ordered_card_ids": ["C_E", "C_B", "C_D", "C_C"]}, "task_id": "T2V2_2B1_T2R_0019_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_B", "U_A"], "utterances": [{"end_seconds": 724.524, "scene_card_id": "C_C", "start_seconds": 716.958, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 562.454, "scene_card_id": "C_B", "start_seconds": 554.928, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 142.259, "scene_card_id": "C_A", "start_seconds": 133.713, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0019_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_C", "U_B"], "utterances": [{"end_seconds": 55.09, "scene_card_id": "C_C", "start_seconds": 46.98, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 648.024, "scene_card_id": "C_A", "start_seconds": 640.362, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 274.4, "scene_card_id": "C_B", "start_seconds": 266.3, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0019_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 234.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0020_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 440.5, "scene_rank": 2, "start_seconds": 234.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0020_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 669.0, "scene_rank": 3, "start_seconds": 441.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0020_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 877.5, "scene_rank": 4, "start_seconds": 669.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0020_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0020_absent_01"}
+{"answer": {"end_seconds": 695.53, "start_seconds": 687.92, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_exact_global_set1_01"}
+{"answer": {"end_seconds": 273.07, "start_seconds": 268.62, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 456.7, "start_seconds": 447.73, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_partial_global_set1_01"}
+{"answer": {"end_seconds": 799.105, "start_seconds": 789.677, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0020_set1_01"}
+{"answer": {"end_seconds": 540.014, "start_seconds": 532.608, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_exact_global_set2_01"}
+{"answer": {"end_seconds": 203.929, "start_seconds": 198.942, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 427.74, "start_seconds": 420.04, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_partial_global_set2_01"}
+{"answer": {"end_seconds": 174.058, "start_seconds": 170.096, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0020_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0020_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_D", "C_C", "C_B", "C_A"]}, "task_id": "T2V2_2B1_T2R_0020_exact_count_01"}
+{"answer": {"absent_card_id": "C_D", "ordered_card_ids": ["C_C", "C_A", "C_E", "C_B"]}, "task_id": "T2V2_2B1_T2R_0020_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_C"], "utterances": [{"end_seconds": 436.322, "scene_card_id": "C_A", "start_seconds": 430.638, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 123.44, "scene_card_id": "C_D", "start_seconds": 116.11, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 657.4, "scene_card_id": "C_B", "start_seconds": 647.42, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0020_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_D", "U_A"], "utterances": [{"end_seconds": 724.32, "scene_card_id": "C_B", "start_seconds": 715.88, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 64.53, "scene_card_id": "C_D", "start_seconds": 57.71, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 511.89, "scene_card_id": "C_A", "start_seconds": 502.76, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0020_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 230.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0021_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 520.5, "scene_rank": 2, "start_seconds": 230.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0021_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 717.0, "scene_rank": 3, "start_seconds": 521.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0021_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 881.5, "scene_rank": 4, "start_seconds": 717.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0021_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0021_absent_01"}
+{"answer": {"end_seconds": 332.33, "start_seconds": 327.05, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_exact_global_set1_01"}
+{"answer": {"end_seconds": 566.142, "start_seconds": 561.898, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 269.42, "start_seconds": 260.75, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_partial_global_set1_01"}
+{"answer": {"end_seconds": 213.2, "start_seconds": 208.28, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0021_set1_01"}
+{"answer": {"end_seconds": 151.13, "start_seconds": 142.64, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_exact_global_set2_01"}
+{"answer": {"end_seconds": 508.54, "start_seconds": 503.27, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 824.213, "start_seconds": 816.548, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_partial_global_set2_01"}
+{"answer": {"end_seconds": 659.16, "start_seconds": 650.67, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0021_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0021_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_A", "C_C", "C_D", "C_B"]}, "task_id": "T2V2_2B1_T2R_0021_exact_count_01"}
+{"answer": {"absent_card_id": "C_C", "ordered_card_ids": ["C_A", "C_D", "C_B", "C_E"]}, "task_id": "T2V2_2B1_T2R_0021_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_D", "U_A", "U_B"], "utterances": [{"end_seconds": 591.928, "scene_card_id": "C_D", "start_seconds": 584.085, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 783.027, "scene_card_id": "C_C", "start_seconds": 779.104, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 188.8, "scene_card_id": "C_B", "start_seconds": 181.97, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0021_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_D", "U_C"], "utterances": [{"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_A"}, {"end_seconds": 107.069, "scene_card_id": "C_D", "start_seconds": 97.624, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": 867.0, "scene_card_id": "C_C", "start_seconds": 861.01, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 434.39, "scene_card_id": "C_B", "start_seconds": 427.65, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0021_set2_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 252.0, "scene_rank": 1, "start_seconds": 0.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0022_present_01"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 476.5, "scene_rank": 2, "start_seconds": 252.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0022_present_02"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 711.0, "scene_rank": 3, "start_seconds": 477.0, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0022_present_03"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": 861.5, "scene_rank": 4, "start_seconds": 711.5, "status": "PRESENT"}, "task_id": "T2V2_2A1_T2R_0022_present_04"}
+{"answer": {"card_id": "C_TARGET", "end_seconds": null, "scene_rank": null, "start_seconds": null, "status": "ABSENT"}, "task_id": "T2V2_2A1_T2R_0022_absent_01"}
+{"answer": {"end_seconds": 248.09, "start_seconds": 238.407, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_exact_global_set1_01"}
+{"answer": {"end_seconds": 796.21, "start_seconds": 792.61, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_exact_card_conditioned_set1_02"}
+{"answer": {"end_seconds": 656.36, "start_seconds": 646.67, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_partial_global_set1_01"}
+{"answer": {"end_seconds": 728.531, "start_seconds": 719.769, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_partial_card_conditioned_set1_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0022_set1_01"}
+{"answer": {"end_seconds": 125.09, "start_seconds": 118.09, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_exact_global_set2_01"}
+{"answer": {"end_seconds": 550.13, "start_seconds": 544.96, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_exact_card_conditioned_set2_02"}
+{"answer": {"end_seconds": 60.95, "start_seconds": 50.1, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_partial_global_set2_01"}
+{"answer": {"end_seconds": 305.16, "start_seconds": 295.56, "status": "PRESENT"}, "task_id": "T2V2_2A2_T2R_0022_partial_card_conditioned_set2_02"}
+{"answer": {"occurrences": [], "status": "ABSENT"}, "task_id": "T2V2_2A3_T2R_0022_set2_01"}
+{"answer": {"absent_card_id": null, "ordered_card_ids": ["C_A", "C_C", "C_B", "C_D"]}, "task_id": "T2V2_2B1_T2R_0022_exact_count_01"}
+{"answer": {"absent_card_id": "C_B", "ordered_card_ids": ["C_C", "C_E", "C_A", "C_D"]}, "task_id": "T2V2_2B1_T2R_0022_extra_count_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_B", "U_A", "U_D"], "utterances": [{"end_seconds": 351.79, "scene_card_id": "C_C", "start_seconds": 344.33, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": 32.053, "scene_card_id": "C_A", "start_seconds": 22.368, "status": "PRESENT", "utterance_id": "U_B"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_C"}, {"end_seconds": 628.94, "scene_card_id": "C_D", "start_seconds": 620.98, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0022_set1_01"}
+{"answer": {"ordered_real_utterance_ids": ["U_A", "U_C", "U_D"], "utterances": [{"end_seconds": 365.6, "scene_card_id": "C_A", "start_seconds": 357.06, "status": "PRESENT", "utterance_id": "U_A"}, {"end_seconds": null, "scene_card_id": null, "start_seconds": null, "status": "ABSENT", "utterance_id": "U_B"}, {"end_seconds": 636.65, "scene_card_id": "C_B", "start_seconds": 629.45, "status": "PRESENT", "utterance_id": "U_C"}, {"end_seconds": 792.167, "scene_card_id": "C_C", "start_seconds": 786.76, "status": "PRESENT", "utterance_id": "U_D"}]}, "task_id": "T2V2_2B2_T2R_0022_set2_01"}

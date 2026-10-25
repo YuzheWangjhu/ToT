@@ -1,0 +1,545 @@
+{
+  "audio_duration_seconds": 35.8,
+  "audio_file_path": "episodes/A06/version_4.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "A06",
+  "generation_timestamp": "2026-06-04T14:07:24.794200+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "A06_S01",
+          "A06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EAST_DOCK",
+            "if_observed_all": [
+              "A06_S03"
+            ]
+          },
+          {
+            "answer": "NORTH_DOCK",
+            "if_observed_all": [
+              "A06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EAST_DOCK",
+        "prefix_answer_trace": {
+          "A06_S01": "NORTH_DOCK",
+          "A06_S02": "NORTH_DOCK",
+          "A06_S03": "EAST_DOCK",
+          "A06_S04": "EAST_DOCK",
+          "A06_S05": "EAST_DOCK",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A06_S01",
+          "A06_S02",
+          "A06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "A06_S03"
+            ]
+          },
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "A06_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "A06_S01": "YES",
+          "A06_S02": "YES",
+          "A06_S03": "NO",
+          "A06_S04": "NO",
+          "A06_S05": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "SOUTH_DOCK",
+          "EAST_DOCK",
+          "NORTH_DOCK",
+          "WEST_DOCK",
+          "CENTRAL_DOCK",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the shipment dock? Return exactly one of: SOUTH_DOCK, EAST_DOCK, NORTH_DOCK, WEST_DOCK, CENTRAL_DOCK, UNKNOWN.",
+        "question_id": "A06_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the shipment dock NORTH_DOCK? Return YES, NO, or UNKNOWN.",
+        "question_id": "A06_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "A06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "A06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "A06_S01": "UNKNOWN",
+          "A06_S02": "UNKNOWN",
+          "A06_S03": "A",
+          "A06_S04": "A",
+          "A06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A06_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "A06_S01",
+              "A06_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "A06_S01": "UNKNOWN",
+          "A06_S02": "UNKNOWN",
+          "A06_S03": "EVENT_1",
+          "A06_S04": "EVENT_1",
+          "A06_S05": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first says the shipment dock is east dock? Return A, B, or UNKNOWN.",
+        "question_id": "A06_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=NORTH_DOCK_IS_STATED. EVENT_2=EAST_DOCK_IS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "A06_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "A06_S01",
+          "A06_S02",
+          "A06_S03",
+          "A06_S04",
+          "A06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "A06_S01": "A",
+          "A06_S02": "A>B",
+          "A06_S03": "A>B>A",
+          "A06_S04": "A>B>A>B",
+          "A06_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A06_S01",
+          "A06_S02",
+          "A06_S03",
+          "A06_S04",
+          "A06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "A06_S01": "0",
+          "A06_S02": "1",
+          "A06_S03": "2",
+          "A06_S04": "3",
+          "A06_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "A06_S01",
+          "A06_S02",
+          "A06_S03",
+          "A06_S04",
+          "A06_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "A06_S01": "A",
+          "A06_S02": "B",
+          "A06_S03": "A",
+          "A06_S04": "B",
+          "A06_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "A06_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "A06_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "A06_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "A06_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A06_S01",
+        "speaker": "A",
+        "text": "Send the shipment to the north dock."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A06_S02",
+        "speaker": "B",
+        "text": "North dock is on the label."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A06_S03",
+        "speaker": "A",
+        "text": "Correction, send it to the east dock."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A06_S04",
+        "speaker": "B",
+        "text": "I changed the label to east dock."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "A06_S05",
+        "speaker": "A",
+        "text": "Good, east dock is final."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for shipment dock heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "A06_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "A06_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "A06_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.5,
+      "pause_label": "natural",
+      "pause_start_time": 2.5
+    },
+    {
+      "after_sentence_id": "A06_S02",
+      "duration_seconds": 10.0,
+      "pause_end_time": 16.21,
+      "pause_label": "long",
+      "pause_start_time": 6.21
+    },
+    {
+      "after_sentence_id": "A06_S03",
+      "duration_seconds": 10.0,
+      "pause_end_time": 28.72,
+      "pause_label": "long",
+      "pause_start_time": 18.72
+    },
+    {
+      "after_sentence_id": "A06_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 32.83,
+      "pause_label": "natural",
+      "pause_start_time": 31.83
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/A06/version_4/A06_S01.wav",
+      "duration_seconds": 2.5,
+      "loudness_normalization": {
+        "applied_gain_db": -1.590145,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.392365,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.471191,
+        "original_speech_rms_dbfs": -22.409855
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "3efd9c15d104ae8f8b9bf8a5421f5dd40bbd0e286774312e19db86eed67a9766",
+      "sentence_end_time": 2.5,
+      "sentence_id": "A06_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Send the shipment to the north dock.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/A06/version_4/A06_S02.wav",
+      "duration_seconds": 2.71,
+      "loudness_normalization": {
+        "applied_gain_db": 7.914515,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.316452,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.127228,
+        "original_speech_rms_dbfs": -31.914515
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "500d9c481b420ab061866a9899e11d416ab83b3fa73f2d1dd9ed4758ff41f684",
+      "sentence_end_time": 6.21,
+      "sentence_id": "A06_S02",
+      "sentence_start_time": 3.5,
+      "speaker": "B",
+      "text": "North dock is on the label.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/A06/version_4/A06_S03.wav",
+      "duration_seconds": 2.51,
+      "loudness_normalization": {
+        "applied_gain_db": -0.973038,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.530907,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.593842,
+        "original_speech_rms_dbfs": -23.026962
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "af9bfc3fbc294ad150bd4dd8386cde00e91e495486c6fc02dffca9c4f8855592",
+      "sentence_end_time": 18.72,
+      "sentence_id": "A06_S03",
+      "sentence_start_time": 16.21,
+      "speaker": "A",
+      "text": "Correction, send it to the east dock.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/A06/version_4/A06_S04.wav",
+      "duration_seconds": 3.11,
+      "loudness_normalization": {
+        "applied_gain_db": 8.931263,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.417531,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.149323,
+        "original_speech_rms_dbfs": -32.931263
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "23994c34e329756cf4520a28d4c51b1c0aea5f85e015bdb64f987287d571c4fc",
+      "sentence_end_time": 31.83,
+      "sentence_id": "A06_S04",
+      "sentence_start_time": 28.72,
+      "speaker": "B",
+      "text": "I changed the label to east dock.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/A06/version_4/A06_S05.wav",
+      "duration_seconds": 2.97,
+      "loudness_normalization": {
+        "applied_gain_db": -1.557267,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.414311,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.495667,
+        "original_speech_rms_dbfs": -22.442733
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "e237625f16118abfc3284e26c96d5a0bbbf09c4184e1276202cda92698539c5a",
+      "sentence_end_time": 35.8,
+      "sentence_id": "A06_S05",
+      "sentence_start_time": 32.83,
+      "speaker": "A",
+      "text": "Good, east dock is final.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "A",
+    "category_label": "Correction and confirmation",
+    "category_specific_answer_rules": "[{\"question_id\":\"A06_CAT_Q1\",\"ask_after\":[\"A06_S01\",\"A06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"NORTH_DOCK\",\"A06_S02\":\"NORTH_DOCK\",\"A06_S03\":\"EAST_DOCK\",\"A06_S04\":\"EAST_DOCK\",\"A06_S05\":\"EAST_DOCK\"},\"final_answer_full_evidence\":\"EAST_DOCK\",\"evidence_rules\":[{\"if_observed_all\":[\"A06_S03\"],\"answer\":\"EAST_DOCK\"},{\"if_observed_all\":[\"A06_S01\"],\"answer\":\"NORTH_DOCK\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"A06_CAT_Q2\",\"ask_after\":[\"A06_S01\",\"A06_S02\",\"A06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"YES\",\"A06_S02\":\"YES\",\"A06_S03\":\"NO\",\"A06_S04\":\"NO\",\"A06_S05\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"A06_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"A06_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"A06_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the shipment dock? Return exactly one of: SOUTH_DOCK, EAST_DOCK, NORTH_DOCK, WEST_DOCK, CENTRAL_DOCK, UNKNOWN.\",\"allowed_answers\":[\"SOUTH_DOCK\",\"EAST_DOCK\",\"NORTH_DOCK\",\"WEST_DOCK\",\"CENTRAL_DOCK\",\"UNKNOWN\"]},{\"question_id\":\"A06_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the shipment dock NORTH_DOCK? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"A06_CONTENT_Q1\",\"ask_after\":[\"A06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"UNKNOWN\",\"A06_S02\":\"UNKNOWN\",\"A06_S03\":\"A\",\"A06_S04\":\"A\",\"A06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"A06_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"A06_CONTENT_Q2\",\"ask_after\":[\"A06_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"UNKNOWN\",\"A06_S02\":\"UNKNOWN\",\"A06_S03\":\"EVENT_1\",\"A06_S04\":\"EVENT_1\",\"A06_S05\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"A06_S01\",\"A06_S03\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"A06_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first says the shipment dock is east dock? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"A06_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=NORTH_DOCK_IS_STATED. EVENT_2=EAST_DOCK_IS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "A06",
+    "critical_span": "bins 0,2,3,4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"A06_GEN_Q1\",\"ask_after\":[\"A06_S01\",\"A06_S02\",\"A06_S03\",\"A06_S04\",\"A06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"A\",\"A06_S02\":\"A>B\",\"A06_S03\":\"A>B>A\",\"A06_S04\":\"A>B>A>B\",\"A06_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"A06_GEN_Q2\",\"ask_after\":[\"A06_S01\",\"A06_S02\",\"A06_S03\",\"A06_S04\",\"A06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"0\",\"A06_S02\":\"1\",\"A06_S03\":\"2\",\"A06_S04\":\"3\",\"A06_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"A06_GEN_Q3\",\"ask_after\":[\"A06_S01\",\"A06_S02\",\"A06_S03\",\"A06_S04\",\"A06_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"A06_S01\":\"A\",\"A06_S02\":\"B\",\"A06_S03\":\"A\",\"A06_S04\":\"B\",\"A06_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"A06_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"A06_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"A06_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "A06_S01=0; A06_S02=1; A06_S03=2; A06_S04=3; A06_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"A06_S01\",\"speaker\":\"A\",\"text\":\"Send the shipment to the north dock.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A06_S02\",\"speaker\":\"B\",\"text\":\"North dock is on the label.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A06_S03\",\"speaker\":\"A\",\"text\":\"Correction, send it to the east dock.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A06_S04\",\"speaker\":\"B\",\"text\":\"I changed the label to east dock.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"A06_S05\",\"speaker\":\"A\",\"text\":\"Good, east dock is final.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "A06_S01,A06_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"A06_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for shipment dock heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"A06_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Send the shipment to the north dock.\nB: North dock is on the label.\nA: Correction, send it to the east dock.\nB: I changed the label to east dock.\nA: Good, east dock is final.",
+    "transcript_with_pause_recommendations": "A: Send the shipment to the north dock. (natural)\nB: North dock is on the label. (long)\nA: Correction, send it to the east dock. (long)\nB: I changed the label to east dock. (natural)\nA: Good, east dock is final.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "male",
+  "speaker_A_voice": "echo",
+  "speaker_B_gender": "female",
+  "speaker_B_voice": "sage",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_4",
+  "voice_pair_id": "pair_2"
+}

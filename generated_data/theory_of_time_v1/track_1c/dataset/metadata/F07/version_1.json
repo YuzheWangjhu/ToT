@@ -1,0 +1,524 @@
+{
+  "audio_duration_seconds": 24.58,
+  "audio_file_path": "episodes/F07/version_1.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "F07",
+  "generation_timestamp": "2026-06-04T14:25:33.705535+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F07_S01",
+          "F07_S02",
+          "F07_S03",
+          "F07_S04",
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "If F07_S05 is observed, place OPEN_SUPPORT_TICKET before all other fully observed action sentences from this conversation, then list the other observed action codes in their original sentence order. If F07_S05 is not observed, list observed original action codes in sentence order. Return UNKNOWN if no action sentence is observed."
+          }
+        ],
+        "final_answer_full_evidence": "OPEN_SUPPORT_TICKET>GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD",
+        "prefix_answer_trace": {
+          "F07_S01": "GREET_CUSTOMER",
+          "F07_S02": "GREET_CUSTOMER>VERIFY_ORDER_NUMBER",
+          "F07_S03": "GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS",
+          "F07_S04": "GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD",
+          "F07_S05": "OPEN_SUPPORT_TICKET>GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "F07_S05",
+              "F07_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "F07_S01": "UNKNOWN",
+          "F07_S02": "UNKNOWN",
+          "F07_S03": "UNKNOWN",
+          "F07_S04": "UNKNOWN",
+          "F07_S05": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "prompt": "What procedure order is supported by the speech heard so far? Use only these action codes: GREET_CUSTOMER, VERIFY_ORDER_NUMBER, CHECK_DELIVERY_ADDRESS, CONFIRM_PAYMENT_METHOD, OPEN_SUPPORT_TICKET. Return known action codes in order separated by \">\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \">\" with no spaces.",
+        "question_id": "F07_CAT_Q1",
+        "question_type": "procedure_order_supported"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Does OPEN_SUPPORT_TICKET happen before GREET_CUSTOMER? Return YES, NO, or UNKNOWN.",
+        "question_id": "F07_CAT_Q2",
+        "question_type": "procedure_pairwise_order"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "F07_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "VERIFY_ORDER_NUMBER",
+            "if_observed_all": [
+              "F07_S01",
+              "F07_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "VERIFY_ORDER_NUMBER",
+        "prefix_answer_trace": {
+          "F07_S01": "UNKNOWN",
+          "F07_S02": "VERIFY_ORDER_NUMBER",
+          "F07_S03": "VERIFY_ORDER_NUMBER",
+          "F07_S04": "VERIFY_ORDER_NUMBER",
+          "F07_S05": "VERIFY_ORDER_NUMBER",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "F07_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F07_S01": "UNKNOWN",
+          "F07_S02": "UNKNOWN",
+          "F07_S03": "UNKNOWN",
+          "F07_S04": "UNKNOWN",
+          "F07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "REVIEW_FORM",
+          "OPEN_SUPPORT_TICKET",
+          "CHECK_DELIVERY_ADDRESS",
+          "CONFIRM_PAYMENT_METHOD",
+          "VERIFY_ORDER_NUMBER",
+          "NONE",
+          "UNKNOWN"
+        ],
+        "prompt": "What action happens after GREET_CUSTOMER? Return exactly one of: REVIEW_FORM, OPEN_SUPPORT_TICKET, CHECK_DELIVERY_ADDRESS, CONFIRM_PAYMENT_METHOD, VERIFY_ORDER_NUMBER, NONE, UNKNOWN.",
+        "question_id": "F07_CONTENT_Q1",
+        "question_type": "next_action"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker says the action OPEN_SUPPORT_TICKET? Return A, B, or UNKNOWN.",
+        "question_id": "F07_CONTENT_Q2",
+        "question_type": "speaker_content_attribution"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "F07_S01",
+          "F07_S02",
+          "F07_S03",
+          "F07_S04",
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B>A",
+        "prefix_answer_trace": {
+          "F07_S01": "A",
+          "F07_S02": "A>B",
+          "F07_S03": "A>B>A",
+          "F07_S04": "A>B>A>B",
+          "F07_S05": "A>B>A>B>A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F07_S01",
+          "F07_S02",
+          "F07_S03",
+          "F07_S04",
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "4",
+        "prefix_answer_trace": {
+          "F07_S01": "0",
+          "F07_S02": "1",
+          "F07_S03": "2",
+          "F07_S04": "3",
+          "F07_S05": "4",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "F07_S01",
+          "F07_S02",
+          "F07_S03",
+          "F07_S04",
+          "F07_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "F07_S01": "A",
+          "F07_S02": "B",
+          "F07_S03": "A",
+          "F07_S04": "B",
+          "F07_S05": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "F07_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "F07_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "F07_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "F07_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F07_S01",
+        "speaker": "A",
+        "text": "First greet the customer."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F07_S02",
+        "speaker": "B",
+        "text": "Then verify the order number."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F07_S03",
+        "speaker": "A",
+        "text": "Check the delivery address."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F07_S04",
+        "speaker": "B",
+        "text": "Confirm the payment method."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "F07_S05",
+        "speaker": "A",
+        "text": "Before greeting the customer, open the support ticket."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "F07_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "F07_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "F07_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.78,
+      "pause_label": "natural",
+      "pause_start_time": 1.78
+    },
+    {
+      "after_sentence_id": "F07_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 6.44,
+      "pause_label": "natural",
+      "pause_start_time": 5.44
+    },
+    {
+      "after_sentence_id": "F07_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 9.11,
+      "pause_label": "natural",
+      "pause_start_time": 8.11
+    },
+    {
+      "after_sentence_id": "F07_S04",
+      "duration_seconds": 10.0,
+      "pause_end_time": 21.27,
+      "pause_label": "long",
+      "pause_start_time": 11.27
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/F07/version_1/F07_S01.wav",
+      "duration_seconds": 1.78,
+      "loudness_normalization": {
+        "applied_gain_db": 0.650498,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.380415,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.352966,
+        "original_speech_rms_dbfs": -24.650498
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "ac0c2b5b8525a1380fe27eb03f1152023d33714c3d73e534dfb3282bc26fe04c",
+      "sentence_end_time": 1.78,
+      "sentence_id": "F07_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "First greet the customer.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/F07/version_1/F07_S02.wav",
+      "duration_seconds": 2.66,
+      "loudness_normalization": {
+        "applied_gain_db": -1.438499,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.384354,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.453583,
+        "original_speech_rms_dbfs": -22.561501
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "95533a5392b7ba8b87cbb949a80f1d29450e256cf3866baa2a96b5be7113e67b",
+      "sentence_end_time": 5.44,
+      "sentence_id": "F07_S02",
+      "sentence_start_time": 2.78,
+      "speaker": "B",
+      "text": "Then verify the order number.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/F07/version_1/F07_S03.wav",
+      "duration_seconds": 1.67,
+      "loudness_normalization": {
+        "applied_gain_db": -1.420492,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.303473,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.357391,
+        "original_speech_rms_dbfs": -22.579508
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "a6685c1d202e288787414ec960c06f41bfa064c97f93a6e4ff5d34f0a093649c",
+      "sentence_end_time": 8.11,
+      "sentence_id": "F07_S03",
+      "sentence_start_time": 6.44,
+      "speaker": "A",
+      "text": "Check the delivery address.",
+      "voice": "marin"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/F07/version_1/F07_S04.wav",
+      "duration_seconds": 2.16,
+      "loudness_normalization": {
+        "applied_gain_db": 0.704549,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.347212,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.32016,
+        "original_speech_rms_dbfs": -24.704549
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "121f2133abc3c6a8281f32ffe76b6d41d3c123b1ae6ce0b9a09be1a2a7d5e9bf",
+      "sentence_end_time": 11.27,
+      "sentence_id": "F07_S04",
+      "sentence_start_time": 9.11,
+      "speaker": "B",
+      "text": "Confirm the payment method.",
+      "voice": "ash"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/F07/version_1/F07_S05.wav",
+      "duration_seconds": 3.31,
+      "loudness_normalization": {
+        "applied_gain_db": -3.699604,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.316833,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.485077,
+        "original_speech_rms_dbfs": -20.300396
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "dbd51b337c1b5d3d54a239db17096f9816f9eefb7e343cc68aa9f0f9f8bd149a",
+      "sentence_end_time": 24.58,
+      "sentence_id": "F07_S05",
+      "sentence_start_time": 21.27,
+      "speaker": "A",
+      "text": "Before greeting the customer, open the support ticket.",
+      "voice": "marin"
+    }
+  ],
+  "source_row": {
+    "category": "F",
+    "category_label": "Temporal instruction sequence",
+    "category_specific_answer_rules": "[{\"question_id\":\"F07_CAT_Q1\",\"ask_after\":[\"F07_S01\",\"F07_S02\",\"F07_S03\",\"F07_S04\",\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"GREET_CUSTOMER\",\"F07_S02\":\"GREET_CUSTOMER>VERIFY_ORDER_NUMBER\",\"F07_S03\":\"GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS\",\"F07_S04\":\"GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD\",\"F07_S05\":\"OPEN_SUPPORT_TICKET>GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD\"},\"final_answer_full_evidence\":\"OPEN_SUPPORT_TICKET>GREET_CUSTOMER>VERIFY_ORDER_NUMBER>CHECK_DELIVERY_ADDRESS>CONFIRM_PAYMENT_METHOD\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"If F07_S05 is observed, place OPEN_SUPPORT_TICKET before all other fully observed action sentences from this conversation, then list the other observed action codes in their original sentence order. If F07_S05 is not observed, list observed original action codes in sentence order. Return UNKNOWN if no action sentence is observed.\"}]},{\"question_id\":\"F07_CAT_Q2\",\"ask_after\":[\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"UNKNOWN\",\"F07_S02\":\"UNKNOWN\",\"F07_S03\":\"UNKNOWN\",\"F07_S04\":\"UNKNOWN\",\"F07_S05\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"F07_S05\",\"F07_S01\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"F07_CAT_Q1\",\"question_type\":\"procedure_order_supported\",\"prompt\":\"What procedure order is supported by the speech heard so far? Use only these action codes: GREET_CUSTOMER, VERIFY_ORDER_NUMBER, CHECK_DELIVERY_ADDRESS, CONFIRM_PAYMENT_METHOD, OPEN_SUPPORT_TICKET. Return known action codes in order separated by \\\">\\\", or UNKNOWN if no action is supported. Required answer format: UNKNOWN or action codes separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F07_CAT_Q2\",\"question_type\":\"procedure_pairwise_order\",\"prompt\":\"Does OPEN_SUPPORT_TICKET happen before GREET_CUSTOMER? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"F07_CONTENT_Q1\",\"ask_after\":[\"F07_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"UNKNOWN\",\"F07_S02\":\"VERIFY_ORDER_NUMBER\",\"F07_S03\":\"VERIFY_ORDER_NUMBER\",\"F07_S04\":\"VERIFY_ORDER_NUMBER\",\"F07_S05\":\"VERIFY_ORDER_NUMBER\"},\"final_answer_full_evidence\":\"VERIFY_ORDER_NUMBER\",\"evidence_rules\":[{\"if_observed_all\":[\"F07_S01\",\"F07_S02\"],\"answer\":\"VERIFY_ORDER_NUMBER\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"F07_CONTENT_Q2\",\"ask_after\":[\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"UNKNOWN\",\"F07_S02\":\"UNKNOWN\",\"F07_S03\":\"UNKNOWN\",\"F07_S04\":\"UNKNOWN\",\"F07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"F07_S05\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"F07_CONTENT_Q1\",\"question_type\":\"next_action\",\"prompt\":\"What action happens after GREET_CUSTOMER? Return exactly one of: REVIEW_FORM, OPEN_SUPPORT_TICKET, CHECK_DELIVERY_ADDRESS, CONFIRM_PAYMENT_METHOD, VERIFY_ORDER_NUMBER, NONE, UNKNOWN.\",\"allowed_answers\":[\"REVIEW_FORM\",\"OPEN_SUPPORT_TICKET\",\"CHECK_DELIVERY_ADDRESS\",\"CONFIRM_PAYMENT_METHOD\",\"VERIFY_ORDER_NUMBER\",\"NONE\",\"UNKNOWN\"]},{\"question_id\":\"F07_CONTENT_Q2\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker says the action OPEN_SUPPORT_TICKET? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "conversation_id": "F07",
+    "critical_span": "bins 0-4",
+    "end_bin": "4",
+    "generic_answer_rules": "[{\"question_id\":\"F07_GEN_Q1\",\"ask_after\":[\"F07_S01\",\"F07_S02\",\"F07_S03\",\"F07_S04\",\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"A\",\"F07_S02\":\"A>B\",\"F07_S03\":\"A>B>A\",\"F07_S04\":\"A>B>A>B\",\"F07_S05\":\"A>B>A>B>A\"},\"final_answer_full_evidence\":\"A>B>A>B>A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F07_GEN_Q2\",\"ask_after\":[\"F07_S01\",\"F07_S02\",\"F07_S03\",\"F07_S04\",\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"0\",\"F07_S02\":\"1\",\"F07_S03\":\"2\",\"F07_S04\":\"3\",\"F07_S05\":\"4\"},\"final_answer_full_evidence\":\"4\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"F07_GEN_Q3\",\"ask_after\":[\"F07_S01\",\"F07_S02\",\"F07_S03\",\"F07_S04\",\"F07_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"F07_S01\":\"A\",\"F07_S02\":\"B\",\"F07_S03\":\"A\",\"F07_S04\":\"B\",\"F07_S05\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"F07_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"F07_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"F07_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "F07_S01=0; F07_S02=1; F07_S03=2; F07_S04=3; F07_S05=4",
+    "sentence_metadata": "[{\"sentence_id\":\"F07_S01\",\"speaker\":\"A\",\"text\":\"First greet the customer.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F07_S02\",\"speaker\":\"B\",\"text\":\"Then verify the order number.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F07_S03\",\"speaker\":\"A\",\"text\":\"Check the delivery address.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F07_S04\",\"speaker\":\"B\",\"text\":\"Confirm the payment method.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"F07_S05\",\"speaker\":\"A\",\"text\":\"Before greeting the customer, open the support ticket.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B -> A",
+    "start_bin": "0",
+    "target_evidence_sentences": "F07_S01,F07_S02,F07_S03,F07_S04,F07_S05",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"F07_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for procedure actions heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"F07_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: First greet the customer.\nB: Then verify the order number.\nA: Check the delivery address.\nB: Confirm the payment method.\nA: Before greeting the customer, open the support ticket.",
+    "transcript_with_pause_recommendations": "A: First greet the customer. (natural)\nB: Then verify the order number. (natural)\nA: Check the delivery address. (natural)\nB: Confirm the payment method. (long)\nA: Before greeting the customer, open the support ticket.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4",
+    "turn_count": "5"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "marin",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "ash",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_1",
+  "voice_pair_id": "pair_1"
+}

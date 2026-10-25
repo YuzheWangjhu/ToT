@@ -1,0 +1,622 @@
+{
+  "audio_duration_seconds": 15.91,
+  "audio_file_path": "episodes/D10/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "D10",
+  "generation_timestamp": "2026-06-04T14:20:09.484532+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D10_S01",
+          "D10_S02",
+          "D10_S03",
+          "D10_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "DANA",
+            "if_observed_all": [
+              "D10_S05"
+            ]
+          },
+          {
+            "answer": "DANA",
+            "if_observed_all": [
+              "D10_S03"
+            ]
+          },
+          {
+            "answer": "UNRESOLVED",
+            "if_observed_all": [
+              "D10_S02"
+            ]
+          },
+          {
+            "answer": "DANA",
+            "if_observed_all": [
+              "D10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "DANA",
+        "prefix_answer_trace": {
+          "D10_S01": "DANA",
+          "D10_S02": "UNRESOLVED",
+          "D10_S03": "DANA",
+          "D10_S04": "DANA",
+          "D10_S05": "DANA",
+          "D10_S06": "DANA",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D10_S01",
+          "D10_S02",
+          "D10_S03",
+          "D10_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D10_S05"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D10_S03"
+            ]
+          },
+          {
+            "answer": "UNKNOWN",
+            "if_observed_all": [
+              "D10_S02"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D10_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "D10_S01": "NO",
+          "D10_S02": "UNKNOWN",
+          "D10_S03": "NO",
+          "D10_S04": "NO",
+          "D10_S05": "NO",
+          "D10_S06": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "ALMA",
+          "OMAR",
+          "MARCUS",
+          "DANA",
+          "PRIYA",
+          "UNRESOLVED",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the primary report recipient? Return exactly one of: ALMA, OMAR, MARCUS, DANA, PRIYA, UNRESOLVED, UNKNOWN.",
+        "question_id": "D10_CAT_Q1",
+        "question_type": "decision_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the primary report recipient MARCUS? Return YES, NO, or UNKNOWN.",
+        "question_id": "D10_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D10_S05",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "D10_S05"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "D10_S01": "UNKNOWN",
+          "D10_S02": "UNKNOWN",
+          "D10_S03": "UNKNOWN",
+          "D10_S04": "UNKNOWN",
+          "D10_S05": "A",
+          "D10_S06": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D10_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "D10_S01",
+              "D10_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "D10_S01": "UNKNOWN",
+          "D10_S02": "EVENT_1",
+          "D10_S03": "EVENT_1",
+          "D10_S04": "EVENT_1",
+          "D10_S05": "EVENT_1",
+          "D10_S06": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first supports the selected value by saying: Dana is primary? Return A, B, or UNKNOWN.",
+        "question_id": "D10_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=DANA_STATED. EVENT_2=MARCUS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "D10_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "D10_S01",
+          "D10_S02",
+          "D10_S03",
+          "D10_S04",
+          "D10_S05",
+          "D10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B",
+        "prefix_answer_trace": {
+          "D10_S01": "A",
+          "D10_S02": "A",
+          "D10_S03": "A>B",
+          "D10_S04": "A>B",
+          "D10_S05": "A>B>A",
+          "D10_S06": "A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D10_S01",
+          "D10_S02",
+          "D10_S03",
+          "D10_S04",
+          "D10_S05",
+          "D10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "3",
+        "prefix_answer_trace": {
+          "D10_S01": "0",
+          "D10_S02": "0",
+          "D10_S03": "1",
+          "D10_S04": "1",
+          "D10_S05": "2",
+          "D10_S06": "3",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D10_S01",
+          "D10_S02",
+          "D10_S03",
+          "D10_S04",
+          "D10_S05",
+          "D10_S06",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "D10_S01": "A",
+          "D10_S02": "A",
+          "D10_S03": "B",
+          "D10_S04": "B",
+          "D10_S05": "A",
+          "D10_S06": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D10_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "D10_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "D10_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "D10_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S01",
+        "speaker": "A",
+        "text": "Send the report to Dana."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S02",
+        "speaker": "A",
+        "text": "Wait, Marcus asked for it too."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S03",
+        "speaker": "B",
+        "text": "Dana is the owner."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S04",
+        "speaker": "B",
+        "text": "Marcus only needs a copy."
+      },
+      {
+        "abstract_end_bin": 4,
+        "abstract_start_bin": 4,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S05",
+        "speaker": "A",
+        "text": "So Dana is primary."
+      },
+      {
+        "abstract_end_bin": 5,
+        "abstract_start_bin": 5,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D10_S06",
+        "speaker": "B",
+        "text": "Yes, copy Marcus."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for primary report recipient heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "D10_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "D10_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "D10_S01",
+      "duration_seconds": 0.15,
+      "pause_end_time": 2.3,
+      "pause_label": "short",
+      "pause_start_time": 2.15
+    },
+    {
+      "after_sentence_id": "D10_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 5.92,
+      "pause_label": "natural",
+      "pause_start_time": 4.92
+    },
+    {
+      "after_sentence_id": "D10_S03",
+      "duration_seconds": 0.15,
+      "pause_end_time": 7.77,
+      "pause_label": "short",
+      "pause_start_time": 7.62
+    },
+    {
+      "after_sentence_id": "D10_S04",
+      "duration_seconds": 1.0,
+      "pause_end_time": 10.77,
+      "pause_label": "natural",
+      "pause_start_time": 9.77
+    },
+    {
+      "after_sentence_id": "D10_S05",
+      "duration_seconds": 1.0,
+      "pause_end_time": 14.17,
+      "pause_label": "natural",
+      "pause_start_time": 13.17
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S01.wav",
+      "duration_seconds": 2.15,
+      "loudness_normalization": {
+        "applied_gain_db": 6.082591,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.463932,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.230316,
+        "original_speech_rms_dbfs": -30.082591
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "077e6d974246273ee5b20c98c33d6c56535f8992fdb8498b1ffdccd2702195dc",
+      "sentence_end_time": 2.15,
+      "sentence_id": "D10_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "Send the report to Dana.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S02.wav",
+      "duration_seconds": 2.62,
+      "loudness_normalization": {
+        "applied_gain_db": 7.45325,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.593764,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.25174,
+        "original_speech_rms_dbfs": -31.45325
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "e748d307a66d491e361868661b7bfdba8605574ebf5dcd783e67a025e1684264",
+      "sentence_end_time": 4.92,
+      "sentence_id": "D10_S02",
+      "sentence_start_time": 2.3,
+      "speaker": "A",
+      "text": "Wait, Marcus asked for it too.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S03.wav",
+      "duration_seconds": 1.7,
+      "loudness_normalization": {
+        "applied_gain_db": -3.195312,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.331907,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.479492,
+        "original_speech_rms_dbfs": -20.804688
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "short",
+      "request_metadata_hash": "d80990c9da82188e1cc0f4ce0d3bddcac3bbf0f78174f8fa02f9a3f32bf9db1d",
+      "sentence_end_time": 7.62,
+      "sentence_id": "D10_S03",
+      "sentence_start_time": 5.92,
+      "speaker": "B",
+      "text": "Dana is the owner.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S04.wav",
+      "duration_seconds": 2.0,
+      "loudness_normalization": {
+        "applied_gain_db": -3.5908,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.332857,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.503265,
+        "original_speech_rms_dbfs": -20.4092
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "e6c2dc075215ca950c6fc7747d3dad3fe4c9a4b4fc2b880cb14785d7ae0f4a0e",
+      "sentence_end_time": 9.77,
+      "sentence_id": "D10_S04",
+      "sentence_start_time": 7.77,
+      "speaker": "B",
+      "text": "Marcus only needs a copy.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 4,
+      "abstract_start_bin": 4,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S05.wav",
+      "duration_seconds": 2.4,
+      "loudness_normalization": {
+        "applied_gain_db": 9.014344,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.497961,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.176392,
+        "original_speech_rms_dbfs": -33.014344
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "d4a99abff58e095a77498d0721f15590383ffcc117ae4ef528b09e26f00e0352",
+      "sentence_end_time": 13.17,
+      "sentence_id": "D10_S05",
+      "sentence_start_time": 10.77,
+      "speaker": "A",
+      "text": "So Dana is primary.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 5,
+      "abstract_start_bin": 5,
+      "audio_file_path": "sentence_clips/D10/version_3/D10_S06.wav",
+      "duration_seconds": 1.74,
+      "loudness_normalization": {
+        "applied_gain_db": -3.626395,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.391599,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.594513,
+        "original_speech_rms_dbfs": -20.373605
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "7c0d992cc1e2f1828ecf59a9778b787029035d3a2adfa64a2c0e183175dd2a80",
+      "sentence_end_time": 15.91,
+      "sentence_id": "D10_S06",
+      "sentence_start_time": 14.17,
+      "speaker": "B",
+      "text": "Yes, copy Marcus.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "D",
+    "category_label": "Disagreement and final resolution",
+    "category_specific_answer_rules": "[{\"question_id\":\"D10_CAT_Q1\",\"ask_after\":[\"D10_S01\",\"D10_S02\",\"D10_S03\",\"D10_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"DANA\",\"D10_S02\":\"UNRESOLVED\",\"D10_S03\":\"DANA\",\"D10_S04\":\"DANA\",\"D10_S05\":\"DANA\",\"D10_S06\":\"DANA\"},\"final_answer_full_evidence\":\"DANA\",\"evidence_rules\":[{\"if_observed_all\":[\"D10_S05\"],\"answer\":\"DANA\"},{\"if_observed_all\":[\"D10_S03\"],\"answer\":\"DANA\"},{\"if_observed_all\":[\"D10_S02\"],\"answer\":\"UNRESOLVED\"},{\"if_observed_all\":[\"D10_S01\"],\"answer\":\"DANA\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D10_CAT_Q2\",\"ask_after\":[\"D10_S01\",\"D10_S02\",\"D10_S03\",\"D10_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"NO\",\"D10_S02\":\"UNKNOWN\",\"D10_S03\":\"NO\",\"D10_S04\":\"NO\",\"D10_S05\":\"NO\",\"D10_S06\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"D10_S05\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D10_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D10_S02\"],\"answer\":\"UNKNOWN\"},{\"if_observed_all\":[\"D10_S01\"],\"answer\":\"NO\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"D10_CAT_Q1\",\"question_type\":\"decision_value\",\"prompt\":\"What is the primary report recipient? Return exactly one of: ALMA, OMAR, MARCUS, DANA, PRIYA, UNRESOLVED, UNKNOWN.\",\"allowed_answers\":[\"ALMA\",\"OMAR\",\"MARCUS\",\"DANA\",\"PRIYA\",\"UNRESOLVED\",\"UNKNOWN\"]},{\"question_id\":\"D10_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the primary report recipient MARCUS? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"D10_CONTENT_Q1\",\"ask_after\":[\"D10_S05\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"UNKNOWN\",\"D10_S02\":\"UNKNOWN\",\"D10_S03\":\"UNKNOWN\",\"D10_S04\":\"UNKNOWN\",\"D10_S05\":\"A\",\"D10_S06\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"D10_S05\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D10_CONTENT_Q2\",\"ask_after\":[\"D10_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"UNKNOWN\",\"D10_S02\":\"EVENT_1\",\"D10_S03\":\"EVENT_1\",\"D10_S04\":\"EVENT_1\",\"D10_S05\":\"EVENT_1\",\"D10_S06\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"D10_S01\",\"D10_S02\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"D10_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first supports the selected value by saying: Dana is primary? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"D10_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=DANA_STATED. EVENT_2=MARCUS_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "D10",
+    "critical_span": "bins 0-5",
+    "end_bin": "5",
+    "generic_answer_rules": "[{\"question_id\":\"D10_GEN_Q1\",\"ask_after\":[\"D10_S01\",\"D10_S02\",\"D10_S03\",\"D10_S04\",\"D10_S05\",\"D10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"A\",\"D10_S02\":\"A\",\"D10_S03\":\"A>B\",\"D10_S04\":\"A>B\",\"D10_S05\":\"A>B>A\",\"D10_S06\":\"A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D10_GEN_Q2\",\"ask_after\":[\"D10_S01\",\"D10_S02\",\"D10_S03\",\"D10_S04\",\"D10_S05\",\"D10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"0\",\"D10_S02\":\"0\",\"D10_S03\":\"1\",\"D10_S04\":\"1\",\"D10_S05\":\"2\",\"D10_S06\":\"3\"},\"final_answer_full_evidence\":\"3\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D10_GEN_Q3\",\"ask_after\":[\"D10_S01\",\"D10_S02\",\"D10_S03\",\"D10_S04\",\"D10_S05\",\"D10_S06\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D10_S01\":\"A\",\"D10_S02\":\"A\",\"D10_S03\":\"B\",\"D10_S04\":\"B\",\"D10_S05\":\"A\",\"D10_S06\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"D10_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"D10_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"D10_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "D10_S01=0; D10_S02=1; D10_S03=2; D10_S04=3; D10_S05=4; D10_S06=5",
+    "sentence_metadata": "[{\"sentence_id\":\"D10_S01\",\"speaker\":\"A\",\"text\":\"Send the report to Dana.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D10_S02\",\"speaker\":\"A\",\"text\":\"Wait, Marcus asked for it too.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D10_S03\",\"speaker\":\"B\",\"text\":\"Dana is the owner.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D10_S04\",\"speaker\":\"B\",\"text\":\"Marcus only needs a copy.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D10_S05\",\"speaker\":\"A\",\"text\":\"So Dana is primary.\",\"abstract_start_bin\":4,\"abstract_end_bin\":4,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D10_S06\",\"speaker\":\"B\",\"text\":\"Yes, copy Marcus.\",\"abstract_start_bin\":5,\"abstract_end_bin\":5,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> A -> B -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "D10_S01,D10_S02,D10_S03,D10_S05",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"D10_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for primary report recipient heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"D10_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: Send the report to Dana.\nA: Wait, Marcus asked for it too.\nB: Dana is the owner.\nB: Marcus only needs a copy.\nA: So Dana is primary.\nB: Yes, copy Marcus.",
+    "transcript_with_pause_recommendations": "A: Send the report to Dana. (short)\nA: Wait, Marcus asked for it too. (natural)\nB: Dana is the owner. (short)\nB: Marcus only needs a copy. (natural)\nA: So Dana is primary. (natural)\nB: Yes, copy Marcus.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3; T5=4; T6=5",
+    "turn_count": "6"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

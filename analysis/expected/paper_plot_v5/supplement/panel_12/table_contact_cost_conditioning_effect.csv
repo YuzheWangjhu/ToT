@@ -1,0 +1,11 @@
+model,contact_cost_gain_seconds,contact_cost_gain_ci_95_lower_seconds,contact_cost_gain_ci_95_upper_seconds,supported_reels_conditioning
+Audio Flamingo Next,,,,0
+Audio Flamingo Next Think,,,,0
+GPT Audio,10.931818181818182,-84.91079545454544,108.90965909090907,22
+GPT Audio Mini,17.454545454545453,-82.9090909090909,113.45454545454545,22
+Gemini 2 Flash,-1.3054285714285736,-76.18967678571428,71.80386726190476,21
+Gemini 3 Flash,-30.026315789473685,-147.23815789473682,89.97499999999998,19
+Kimi Audio,,,,0
+MOSS Audio,0.0,0.0,0.0,2
+Mimo Audio,0.0,0.0,0.0,9
+Qwen2.5 Omni,-99.07692307692308,-239.69230769230768,40.92307692307692,13

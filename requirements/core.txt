@@ -1,0 +1,6 @@
+# Validated with Python 3.10.19; core tests need no GPU or provider access.
+numpy==2.2.6
+openai==2.14.0
+requests==2.32.5
+soundfile==0.13.1
+scipy==1.15.2

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-24",
+  "scope": "Offline reproducibility validation after organizing model configurations, maintenance commands, and analysis documentation.",
+  "python": "3.10.19",
+  "offline_tests": {
+    "status": "passed",
+    "count": 158,
+    "command": "python -s -B -m unittest discover -s tests",
+    "environment": "Existing Python environment; tests run in an isolated release copy."
+  },
+  "offline_smoke": {
+    "status": "passed",
+    "command": "python -s -B scripts/smoke_test.py --output-root <new scratch directory>",
+    "results": 3,
+    "adapter": "scripted dummy adapter"
+  },
+  "dataset_verification": {
+    "command": "python -s -B scripts/verify_datasets.py --audio --group synthetic",
+    "status": "passed",
+    "scope": "metadata_and_audio",
+    "metadata_files": 268,
+    "audio_files_verified": 260,
+    "episode_counts": {
+      "1a": 10,
+      "1b": 10,
+      "1c": 240,
+      "2": 22
+    },
+    "track3_task_count": 418
+  },
+  "archived_inputs": {
+    "status": "passed",
+    "command": "python -s -B scripts/reproduce_paper.py --extract-only",
+    "records_verified": 10572,
+    "frozen_input_counts": {
+      "track1_metrics": 48,
+      "track1_results": 3000,
+      "track2_results": 7524
+    }
+  },
+  "analysis_reproduction": {
+    "status": "passed",
+    "scope": "Prior full reproduction report renamed without changing its bytes. Notebook, plot generator, analysis helpers, frozen inputs, and expected artifacts remain byte-identical; full recomputation was not repeated for this organization change.",
+    "numerically_equal_tables": 40,
+    "pixel_equal_figures": 20,
+    "recipe": "requirements/rendering-linux.yml",
+    "report": "provenance/analysis_reproduction.json",
+    "report_sha256": "895358b5511e30e737ac4c547f57c02b9e446d7cfbaeae80adfa216e9ab174c5"
+  },
+  "release_integrity": {
+    "status": "passed",
+    "command": "python -B scripts/check_release.py",
+    "files": 675,
+    "inventory_excludes_its_own_hash": true
+  },
+  "documentation": {
+    "relative_links": "passed"
+  },
+  "limitations": [
+    "No live model inference, paid API calls, dependency installation, model downloads, or corpus downloads were performed.",
+    "External corpus audio was not reconstructed; frozen metadata and prior reconstruction evidence were preserved."
+  ],
+  "repository_layout": {
+    "status": "passed",
+    "model_configurations": 10,
+    "configuration_bytes_preserved": true,
+    "credential_paths": "Relative paths resolve from the repository root; absolute paths are unchanged.",
+    "retry_configuration": "scripts/rerun_api_errors.py requires --adapter-config independently of --model-dir.",
+    "maintenance_entrypoints": "Both scripts pass --help from outside the repository.",
+    "archive_layout": "Original model/result paths remain unchanged and excluded from the repository inventory.",
+    "tests": "tests/test_repository_layout.py"
+  }
+}

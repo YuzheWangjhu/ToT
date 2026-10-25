@@ -1,0 +1,493 @@
+{
+  "audio_duration_seconds": 19.15,
+  "audio_file_path": "episodes/C04/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "C04",
+  "generation_timestamp": "2026-06-04T14:13:42.738973+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "TWO_THIRTY",
+            "if_observed_all": [
+              "C04_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "TWO_THIRTY",
+        "prefix_answer_trace": {
+          "C04_S01": "UNKNOWN",
+          "C04_S02": "UNKNOWN",
+          "C04_S03": "UNKNOWN",
+          "C04_S04": "TWO_THIRTY",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "YES",
+            "if_observed_all": [
+              "C04_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "YES",
+        "prefix_answer_trace": {
+          "C04_S01": "UNKNOWN",
+          "C04_S02": "UNKNOWN",
+          "C04_S03": "UNKNOWN",
+          "C04_S04": "YES",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "TWO_THIRTY",
+          "NOON",
+          "ONE_OCLOCK",
+          "ONE_THIRTY",
+          "ELEVEN_OCLOCK",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the client call time? Return exactly one of: TWO_THIRTY, NOON, ONE_OCLOCK, ONE_THIRTY, ELEVEN_OCLOCK, UNKNOWN.",
+        "question_id": "C04_CAT_Q1",
+        "question_type": "slot_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the client call time TWO_THIRTY? Return YES, NO, or UNKNOWN.",
+        "question_id": "C04_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "B",
+            "if_observed_all": [
+              "C04_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "C04_S01": "UNKNOWN",
+          "C04_S02": "UNKNOWN",
+          "C04_S03": "UNKNOWN",
+          "C04_S04": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "C04_S02",
+              "C04_S04"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "C04_S01": "UNKNOWN",
+          "C04_S02": "UNKNOWN",
+          "C04_S03": "UNKNOWN",
+          "C04_S04": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first provides this information: the client call starts at two thirty? Return A, B, or UNKNOWN.",
+        "question_id": "C04_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=INVITE_CHECK_MENTIONED. EVENT_2=CALL_TIME_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "C04_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B",
+        "prefix_answer_trace": {
+          "C04_S01": "A",
+          "C04_S02": "A>B",
+          "C04_S03": "A>B>A",
+          "C04_S04": "A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "3",
+        "prefix_answer_trace": {
+          "C04_S01": "0",
+          "C04_S02": "1",
+          "C04_S03": "2",
+          "C04_S04": "3",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "C04_S01",
+          "C04_S02",
+          "C04_S03",
+          "C04_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "C04_S01": "A",
+          "C04_S02": "B",
+          "C04_S03": "A",
+          "C04_S04": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "C04_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "C04_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "C04_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "C04_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C04_S01",
+        "speaker": "A",
+        "text": "What time is the client call?"
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C04_S02",
+        "speaker": "B",
+        "text": "I need to open the invite."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C04_S03",
+        "speaker": "A",
+        "text": "The agenda is ready."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "C04_S04",
+        "speaker": "B",
+        "text": "The call starts at two thirty."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for client call time heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "C04_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "C04_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "C04_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 2.93,
+      "pause_label": "natural",
+      "pause_start_time": 1.93
+    },
+    {
+      "after_sentence_id": "C04_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 5.55,
+      "pause_label": "natural",
+      "pause_start_time": 4.55
+    },
+    {
+      "after_sentence_id": "C04_S03",
+      "duration_seconds": 10.0,
+      "pause_end_time": 17.15,
+      "pause_label": "long",
+      "pause_start_time": 7.15
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/C04/version_3/C04_S01.wav",
+      "duration_seconds": 1.93,
+      "loudness_normalization": {
+        "applied_gain_db": 8.763784,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.378001,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.137817,
+        "original_speech_rms_dbfs": -32.763784
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "313b1afc0e3cf66eb90cbb2955247015dcebc3af1d31d1469708f4f8ed56f97f",
+      "sentence_end_time": 1.93,
+      "sentence_id": "C04_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "What time is the client call?",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/C04/version_3/C04_S02.wav",
+      "duration_seconds": 1.62,
+      "loudness_normalization": {
+        "applied_gain_db": -1.612375,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.328627,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.39566,
+        "original_speech_rms_dbfs": -22.387625
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "811c6eb0a3954e1a0e91b5d8cdcdd21568be8d14baab071e453aeacf12bad913",
+      "sentence_end_time": 4.55,
+      "sentence_id": "C04_S02",
+      "sentence_start_time": 2.93,
+      "speaker": "B",
+      "text": "I need to open the invite.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/C04/version_3/C04_S03.wav",
+      "duration_seconds": 1.6,
+      "loudness_normalization": {
+        "applied_gain_db": 11.465775,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.354961,
+        "normalized_speech_rms_dbfs": -24.000001,
+        "original_peak": 0.094818,
+        "original_speech_rms_dbfs": -35.465775
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "long",
+      "request_metadata_hash": "8a59c6c8120033eb58e00d43c0e6b39b0daad1940963538ea99be47d0ece069e",
+      "sentence_end_time": 7.15,
+      "sentence_id": "C04_S03",
+      "sentence_start_time": 5.55,
+      "speaker": "A",
+      "text": "The agenda is ready.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/C04/version_3/C04_S04.wav",
+      "duration_seconds": 2.0,
+      "loudness_normalization": {
+        "applied_gain_db": -2.969862,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.275833,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.388275,
+        "original_speech_rms_dbfs": -21.030138
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "b38f0594cded40e627466445c1e6f15a78e2b53b03f5dbbfbae280f1d50af08f",
+      "sentence_end_time": 19.15,
+      "sentence_id": "C04_S04",
+      "sentence_start_time": 17.15,
+      "speaker": "B",
+      "text": "The call starts at two thirty.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "C",
+    "category_label": "Delayed answer and deferred resolution",
+    "category_specific_answer_rules": "[{\"question_id\":\"C04_CAT_Q1\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"UNKNOWN\",\"C04_S02\":\"UNKNOWN\",\"C04_S03\":\"UNKNOWN\",\"C04_S04\":\"TWO_THIRTY\"},\"final_answer_full_evidence\":\"TWO_THIRTY\",\"evidence_rules\":[{\"if_observed_all\":[\"C04_S04\"],\"answer\":\"TWO_THIRTY\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"C04_CAT_Q2\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"UNKNOWN\",\"C04_S02\":\"UNKNOWN\",\"C04_S03\":\"UNKNOWN\",\"C04_S04\":\"YES\"},\"final_answer_full_evidence\":\"YES\",\"evidence_rules\":[{\"if_observed_all\":[\"C04_S04\"],\"answer\":\"YES\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"C04_CAT_Q1\",\"question_type\":\"slot_value\",\"prompt\":\"What is the client call time? Return exactly one of: TWO_THIRTY, NOON, ONE_OCLOCK, ONE_THIRTY, ELEVEN_OCLOCK, UNKNOWN.\",\"allowed_answers\":[\"TWO_THIRTY\",\"NOON\",\"ONE_OCLOCK\",\"ONE_THIRTY\",\"ELEVEN_OCLOCK\",\"UNKNOWN\"]},{\"question_id\":\"C04_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the client call time TWO_THIRTY? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"C04_CONTENT_Q1\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"UNKNOWN\",\"C04_S02\":\"UNKNOWN\",\"C04_S03\":\"UNKNOWN\",\"C04_S04\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"if_observed_all\":[\"C04_S04\"],\"answer\":\"B\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"C04_CONTENT_Q2\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"UNKNOWN\",\"C04_S02\":\"UNKNOWN\",\"C04_S03\":\"UNKNOWN\",\"C04_S04\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"C04_S02\",\"C04_S04\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"C04_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first provides this information: the client call starts at two thirty? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"C04_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=INVITE_CHECK_MENTIONED. EVENT_2=CALL_TIME_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "C04",
+    "critical_span": "bins 0,1,3",
+    "end_bin": "3",
+    "generic_answer_rules": "[{\"question_id\":\"C04_GEN_Q1\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"A\",\"C04_S02\":\"A>B\",\"C04_S03\":\"A>B>A\",\"C04_S04\":\"A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"C04_GEN_Q2\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"0\",\"C04_S02\":\"1\",\"C04_S03\":\"2\",\"C04_S04\":\"3\"},\"final_answer_full_evidence\":\"3\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"C04_GEN_Q3\",\"ask_after\":[\"C04_S01\",\"C04_S02\",\"C04_S03\",\"C04_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"C04_S01\":\"A\",\"C04_S02\":\"B\",\"C04_S03\":\"A\",\"C04_S04\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"C04_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"C04_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"C04_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "C04_S01=0; C04_S02=1; C04_S03=2; C04_S04=3",
+    "sentence_metadata": "[{\"sentence_id\":\"C04_S01\",\"speaker\":\"A\",\"text\":\"What time is the client call?\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C04_S02\",\"speaker\":\"B\",\"text\":\"I need to open the invite.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C04_S03\",\"speaker\":\"A\",\"text\":\"The agenda is ready.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"C04_S04\",\"speaker\":\"B\",\"text\":\"The call starts at two thirty.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "C04_S04",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"C04_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for client call time heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"C04_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: What time is the client call?\nB: I need to open the invite.\nA: The agenda is ready.\nB: The call starts at two thirty.",
+    "transcript_with_pause_recommendations": "A: What time is the client call? (natural)\nB: I need to open the invite. (natural)\nA: The agenda is ready. (long)\nB: The call starts at two thirty.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3",
+    "turn_count": "4"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

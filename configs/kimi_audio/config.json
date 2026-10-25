@@ -1,0 +1,15 @@
+{
+  "adapter_type": "kimi_audio",
+  "model_id": "moonshotai/Kimi-Audio-7B-Instruct",
+  "device_map": "auto",
+  "torch_dtype": "auto",
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "track2_supported_conditions": ["active"],
+  "track2_supports_text_only": true,
+  "track2_supports_output_token_override": true,
+  "track2_max_audio_seconds": 384,
+  "track2_max_audio_bytes": 13000000
+}

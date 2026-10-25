@@ -1,0 +1,524 @@
+{
+  "audio_duration_seconds": 13.8,
+  "audio_file_path": "episodes/D03/version_3.wav",
+  "bin_metadata_pending": true,
+  "channels": 1,
+  "conversation_id": "D03",
+  "generation_timestamp": "2026-06-04T14:17:41.590708+00:00",
+  "output_format": "wav",
+  "parsed_metadata": {
+    "category_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D03_S01",
+          "D03_S02",
+          "D03_S03",
+          "D03_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "FIVE_THOUSAND",
+            "if_observed_all": [
+              "D03_S04"
+            ]
+          },
+          {
+            "answer": "UNRESOLVED",
+            "if_observed_all": [
+              "D03_S02"
+            ]
+          },
+          {
+            "answer": "FIVE_THOUSAND",
+            "if_observed_all": [
+              "D03_S03"
+            ]
+          },
+          {
+            "answer": "FIVE_THOUSAND",
+            "if_observed_all": [
+              "D03_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "FIVE_THOUSAND",
+        "prefix_answer_trace": {
+          "D03_S01": "FIVE_THOUSAND",
+          "D03_S02": "UNRESOLVED",
+          "D03_S03": "UNRESOLVED",
+          "D03_S04": "FIVE_THOUSAND",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_CAT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D03_S01",
+          "D03_S02",
+          "D03_S03",
+          "D03_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D03_S04"
+            ]
+          },
+          {
+            "answer": "UNKNOWN",
+            "if_observed_all": [
+              "D03_S02"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D03_S03"
+            ]
+          },
+          {
+            "answer": "NO",
+            "if_observed_all": [
+              "D03_S01"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "NO",
+        "prefix_answer_trace": {
+          "D03_S01": "NO",
+          "D03_S02": "UNKNOWN",
+          "D03_S03": "UNKNOWN",
+          "D03_S04": "NO",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_CAT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "category_specific_questions": [
+      {
+        "allowed_answers": [
+          "FOUR_THOUSAND",
+          "TEN_THOUSAND",
+          "SIX_THOUSAND",
+          "FIVE_THOUSAND",
+          "SEVEN_THOUSAND",
+          "UNRESOLVED",
+          "UNKNOWN"
+        ],
+        "prompt": "What is the budget limit? Return exactly one of: FOUR_THOUSAND, TEN_THOUSAND, SIX_THOUSAND, FIVE_THOUSAND, SEVEN_THOUSAND, UNRESOLVED, UNKNOWN.",
+        "question_id": "D03_CAT_Q1",
+        "question_type": "decision_value"
+      },
+      {
+        "allowed_answers": [
+          "YES",
+          "NO",
+          "UNKNOWN"
+        ],
+        "prompt": "Is the budget limit SIX_THOUSAND? Return YES, NO, or UNKNOWN.",
+        "question_id": "D03_CAT_Q2",
+        "question_type": "candidate_value"
+      }
+    ],
+    "conversation_content_specific_answer_rules": [
+      {
+        "ask_after": [
+          "D03_S03",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "A",
+            "if_observed_all": [
+              "D03_S03"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "A",
+        "prefix_answer_trace": {
+          "D03_S01": "UNKNOWN",
+          "D03_S02": "UNKNOWN",
+          "D03_S03": "A",
+          "D03_S04": "A",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_CONTENT_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D03_S02",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "answer": "EVENT_1",
+            "if_observed_all": [
+              "D03_S01",
+              "D03_S02"
+            ]
+          },
+          {
+            "default": "UNKNOWN"
+          }
+        ],
+        "final_answer_full_evidence": "EVENT_1",
+        "prefix_answer_trace": {
+          "D03_S01": "UNKNOWN",
+          "D03_S02": "EVENT_1",
+          "D03_S03": "EVENT_1",
+          "D03_S04": "EVENT_1",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_CONTENT_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "conversation_content_specific_questions": [
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Which speaker first supports the selected value by saying: finance capped the budget at five thousand? Return A, B, or UNKNOWN.",
+        "question_id": "D03_CONTENT_Q1",
+        "question_type": "speaker_content_attribution"
+      },
+      {
+        "allowed_answers": [
+          "EVENT_1",
+          "EVENT_2",
+          "SAME_TIME",
+          "UNKNOWN"
+        ],
+        "prompt": "Which event happens earlier? EVENT_1=FIVE_THOUSAND_STATED. EVENT_2=SIX_THOUSAND_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.",
+        "question_id": "D03_CONTENT_Q2",
+        "question_type": "content_order"
+      }
+    ],
+    "generic_answer_rules": [
+      {
+        "ask_after": [
+          "D03_S01",
+          "D03_S02",
+          "D03_S03",
+          "D03_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "A>B>A>B",
+        "prefix_answer_trace": {
+          "D03_S01": "A",
+          "D03_S02": "A>B",
+          "D03_S03": "A>B>A",
+          "D03_S04": "A>B>A>B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_GEN_Q1",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D03_S01",
+          "D03_S02",
+          "D03_S03",
+          "D03_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "3",
+        "prefix_answer_trace": {
+          "D03_S01": "0",
+          "D03_S02": "1",
+          "D03_S03": "2",
+          "D03_S04": "3",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_GEN_Q2",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      },
+      {
+        "ask_after": [
+          "D03_S01",
+          "D03_S02",
+          "D03_S03",
+          "D03_S04",
+          "END"
+        ],
+        "evidence_rules": [
+          {
+            "compute_from_observed_sentence_ids": "Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries."
+          }
+        ],
+        "final_answer_full_evidence": "B",
+        "prefix_answer_trace": {
+          "D03_S01": "A",
+          "D03_S02": "B",
+          "D03_S03": "A",
+          "D03_S04": "B",
+          "START": "UNKNOWN"
+        },
+        "question_id": "D03_GEN_Q3",
+        "sentence_observation_rule": "A sentence is observed only when the full sentence has been explored."
+      }
+    ],
+    "generic_questions": [
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \">\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \">\" with no spaces.",
+        "question_id": "D03_GEN_Q1",
+        "question_type": "speaker_handoff_path"
+      },
+      {
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.",
+        "question_id": "D03_GEN_Q2",
+        "question_type": "speaker_handoff_count"
+      },
+      {
+        "allowed_answers": [
+          "A",
+          "B",
+          "UNKNOWN"
+        ],
+        "prompt": "Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.",
+        "question_id": "D03_GEN_Q3",
+        "question_type": "final_heard_speaker"
+      }
+    ],
+    "sentence_metadata": [
+      {
+        "abstract_end_bin": 0,
+        "abstract_start_bin": 0,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D03_S01",
+        "speaker": "A",
+        "text": "The budget limit is five thousand."
+      },
+      {
+        "abstract_end_bin": 1,
+        "abstract_start_bin": 1,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D03_S02",
+        "speaker": "B",
+        "text": "I have six thousand in the plan."
+      },
+      {
+        "abstract_end_bin": 2,
+        "abstract_start_bin": 2,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D03_S03",
+        "speaker": "A",
+        "text": "Finance capped it at five thousand."
+      },
+      {
+        "abstract_end_bin": 3,
+        "abstract_start_bin": 3,
+        "observation_rule": "full_sentence_required",
+        "sentence_id": "D03_S04",
+        "speaker": "B",
+        "text": "Then five thousand is the limit."
+      }
+    ],
+    "timing_questions": [
+      {
+        "allowed_answer_format": "START <i> END <j> | UNKNOWN",
+        "answer_provided": false,
+        "prompt": "When is the evidence for budget limit heard? Return START <i> END <j>, or UNKNOWN.",
+        "question_id": "D03_TIMING_Q1",
+        "question_type": "semantic_evidence_localization"
+      },
+      {
+        "allowed_answer_format": "comma-separated A/B/AB/00/??",
+        "answer_provided": false,
+        "prompt": "Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.",
+        "question_id": "D03_TIMING_Q2",
+        "question_type": "speaker_activity_raster"
+      }
+    ]
+  },
+  "pause_durations_seconds": {
+    "long": 10.0,
+    "natural": 1.0,
+    "short": 0.15
+  },
+  "pauses": [
+    {
+      "after_sentence_id": "D03_S01",
+      "duration_seconds": 1.0,
+      "pause_end_time": 3.73,
+      "pause_label": "natural",
+      "pause_start_time": 2.73
+    },
+    {
+      "after_sentence_id": "D03_S02",
+      "duration_seconds": 1.0,
+      "pause_end_time": 7.53,
+      "pause_label": "natural",
+      "pause_start_time": 6.53
+    },
+    {
+      "after_sentence_id": "D03_S03",
+      "duration_seconds": 1.0,
+      "pause_end_time": 11.22,
+      "pause_label": "natural",
+      "pause_start_time": 10.22
+    }
+  ],
+  "samplerate": 24000,
+  "sentence_bin_map": null,
+  "sentences": [
+    {
+      "abstract_end_bin": 0,
+      "abstract_start_bin": 0,
+      "audio_file_path": "sentence_clips/D03/version_3/D03_S01.wav",
+      "duration_seconds": 2.73,
+      "loudness_normalization": {
+        "applied_gain_db": 8.595527,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.409581,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.152252,
+        "original_speech_rms_dbfs": -32.595527
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "5c56f8054912e3460922c164b02876a3b2812b1bd7bfb4fb6def3ac9e3f7d1df",
+      "sentence_end_time": 2.73,
+      "sentence_id": "D03_S01",
+      "sentence_start_time": 0.0,
+      "speaker": "A",
+      "text": "The budget limit is five thousand.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 1,
+      "abstract_start_bin": 1,
+      "audio_file_path": "sentence_clips/D03/version_3/D03_S02.wav",
+      "duration_seconds": 2.8,
+      "loudness_normalization": {
+        "applied_gain_db": -2.554228,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.342684,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.459839,
+        "original_speech_rms_dbfs": -21.445772
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "c7a0f97fffad6fda3c2f3783321f467af8b97c085dbd78552c536c054917f3d9",
+      "sentence_end_time": 6.53,
+      "sentence_id": "D03_S02",
+      "sentence_start_time": 3.73,
+      "speaker": "B",
+      "text": "I have six thousand in the plan.",
+      "voice": "echo"
+    },
+    {
+      "abstract_end_bin": 2,
+      "abstract_start_bin": 2,
+      "audio_file_path": "sentence_clips/D03/version_3/D03_S03.wav",
+      "duration_seconds": 2.69,
+      "loudness_normalization": {
+        "applied_gain_db": 6.290696,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.536948,
+        "normalized_speech_rms_dbfs": -23.999999,
+        "original_peak": 0.260254,
+        "original_speech_rms_dbfs": -30.290696
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "natural",
+      "request_metadata_hash": "cf452a1ae26dc3598ffaaff1925692a5f821f26086fd942f92ab79a9cdfd2168",
+      "sentence_end_time": 10.22,
+      "sentence_id": "D03_S03",
+      "sentence_start_time": 7.53,
+      "speaker": "A",
+      "text": "Finance capped it at five thousand.",
+      "voice": "sage"
+    },
+    {
+      "abstract_end_bin": 3,
+      "abstract_start_bin": 3,
+      "audio_file_path": "sentence_clips/D03/version_3/D03_S04.wav",
+      "duration_seconds": 2.58,
+      "loudness_normalization": {
+        "applied_gain_db": -3.105003,
+        "loudness_normalization_peak_ceiling": 0.95,
+        "loudness_normalization_target_dbfs": -24.0,
+        "normalized_peak": 0.41749,
+        "normalized_speech_rms_dbfs": -24.0,
+        "original_peak": 0.596893,
+        "original_speech_rms_dbfs": -20.894997
+      },
+      "observation_rule": "full_sentence_required",
+      "pause_label": "none",
+      "request_metadata_hash": "b80f1966fe3c6ef8a25be88bb3126181a7947ad42bfe039597ecfa9e7cf6e187",
+      "sentence_end_time": 13.8,
+      "sentence_id": "D03_S04",
+      "sentence_start_time": 11.22,
+      "speaker": "B",
+      "text": "Then five thousand is the limit.",
+      "voice": "echo"
+    }
+  ],
+  "source_row": {
+    "category": "D",
+    "category_label": "Disagreement and final resolution",
+    "category_specific_answer_rules": "[{\"question_id\":\"D03_CAT_Q1\",\"ask_after\":[\"D03_S01\",\"D03_S02\",\"D03_S03\",\"D03_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"FIVE_THOUSAND\",\"D03_S02\":\"UNRESOLVED\",\"D03_S03\":\"UNRESOLVED\",\"D03_S04\":\"FIVE_THOUSAND\"},\"final_answer_full_evidence\":\"FIVE_THOUSAND\",\"evidence_rules\":[{\"if_observed_all\":[\"D03_S04\"],\"answer\":\"FIVE_THOUSAND\"},{\"if_observed_all\":[\"D03_S02\"],\"answer\":\"UNRESOLVED\"},{\"if_observed_all\":[\"D03_S03\"],\"answer\":\"FIVE_THOUSAND\"},{\"if_observed_all\":[\"D03_S01\"],\"answer\":\"FIVE_THOUSAND\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D03_CAT_Q2\",\"ask_after\":[\"D03_S01\",\"D03_S02\",\"D03_S03\",\"D03_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"NO\",\"D03_S02\":\"UNKNOWN\",\"D03_S03\":\"UNKNOWN\",\"D03_S04\":\"NO\"},\"final_answer_full_evidence\":\"NO\",\"evidence_rules\":[{\"if_observed_all\":[\"D03_S04\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D03_S02\"],\"answer\":\"UNKNOWN\"},{\"if_observed_all\":[\"D03_S03\"],\"answer\":\"NO\"},{\"if_observed_all\":[\"D03_S01\"],\"answer\":\"NO\"},{\"default\":\"UNKNOWN\"}]}]",
+    "category_specific_questions": "[{\"question_id\":\"D03_CAT_Q1\",\"question_type\":\"decision_value\",\"prompt\":\"What is the budget limit? Return exactly one of: FOUR_THOUSAND, TEN_THOUSAND, SIX_THOUSAND, FIVE_THOUSAND, SEVEN_THOUSAND, UNRESOLVED, UNKNOWN.\",\"allowed_answers\":[\"FOUR_THOUSAND\",\"TEN_THOUSAND\",\"SIX_THOUSAND\",\"FIVE_THOUSAND\",\"SEVEN_THOUSAND\",\"UNRESOLVED\",\"UNKNOWN\"]},{\"question_id\":\"D03_CAT_Q2\",\"question_type\":\"candidate_value\",\"prompt\":\"Is the budget limit SIX_THOUSAND? Return YES, NO, or UNKNOWN.\",\"allowed_answers\":[\"YES\",\"NO\",\"UNKNOWN\"]}]",
+    "conversation_content_specific_answer_rules": "[{\"question_id\":\"D03_CONTENT_Q1\",\"ask_after\":[\"D03_S03\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"UNKNOWN\",\"D03_S02\":\"UNKNOWN\",\"D03_S03\":\"A\",\"D03_S04\":\"A\"},\"final_answer_full_evidence\":\"A\",\"evidence_rules\":[{\"if_observed_all\":[\"D03_S03\"],\"answer\":\"A\"},{\"default\":\"UNKNOWN\"}]},{\"question_id\":\"D03_CONTENT_Q2\",\"ask_after\":[\"D03_S02\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"UNKNOWN\",\"D03_S02\":\"EVENT_1\",\"D03_S03\":\"EVENT_1\",\"D03_S04\":\"EVENT_1\"},\"final_answer_full_evidence\":\"EVENT_1\",\"evidence_rules\":[{\"if_observed_all\":[\"D03_S01\",\"D03_S02\"],\"answer\":\"EVENT_1\"},{\"default\":\"UNKNOWN\"}]}]",
+    "conversation_content_specific_questions": "[{\"question_id\":\"D03_CONTENT_Q1\",\"question_type\":\"speaker_content_attribution\",\"prompt\":\"Which speaker first supports the selected value by saying: finance capped the budget at five thousand? Return A, B, or UNKNOWN.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]},{\"question_id\":\"D03_CONTENT_Q2\",\"question_type\":\"content_order\",\"prompt\":\"Which event happens earlier? EVENT_1=FIVE_THOUSAND_STATED. EVENT_2=SIX_THOUSAND_STATED. Return EVENT_1, EVENT_2, SAME_TIME, or UNKNOWN.\",\"allowed_answers\":[\"EVENT_1\",\"EVENT_2\",\"SAME_TIME\",\"UNKNOWN\"]}]",
+    "conversation_id": "D03",
+    "critical_span": "bins 0-3",
+    "end_bin": "3",
+    "generic_answer_rules": "[{\"question_id\":\"D03_GEN_Q1\",\"ask_after\":[\"D03_S01\",\"D03_S02\",\"D03_S03\",\"D03_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"A\",\"D03_S02\":\"A>B\",\"D03_S03\":\"A>B>A\",\"D03_S04\":\"A>B>A>B\"},\"final_answer_full_evidence\":\"A>B>A>B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D03_GEN_Q2\",\"ask_after\":[\"D03_S01\",\"D03_S02\",\"D03_S03\",\"D03_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"0\",\"D03_S02\":\"1\",\"D03_S03\":\"2\",\"D03_S04\":\"3\"},\"final_answer_full_evidence\":\"3\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]},{\"question_id\":\"D03_GEN_Q3\",\"ask_after\":[\"D03_S01\",\"D03_S02\",\"D03_S03\",\"D03_S04\",\"END\"],\"sentence_observation_rule\":\"A sentence is observed only when the full sentence has been explored.\",\"prefix_answer_trace\":{\"START\":\"UNKNOWN\",\"D03_S01\":\"A\",\"D03_S02\":\"B\",\"D03_S03\":\"A\",\"D03_S04\":\"B\"},\"final_answer_full_evidence\":\"B\",\"evidence_rules\":[{\"compute_from_observed_sentence_ids\":\"Sort fully observed sentence IDs by time; require the first sentence of the full conversation to be observed for A/B anchoring; then collapse adjacent same-speaker entries.\"}]}]",
+    "generic_questions": "[{\"question_id\":\"D03_GEN_Q1\",\"question_type\":\"speaker_handoff_path\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, return the speaker handoff path among the heard segments. Record only changes from one speaker to the other. Use A and B separated by \\\">\\\". If Speaker A has not been heard, return UNKNOWN. Required answer format: UNKNOWN or a speaker handoff path using only A and B separated by \\\">\\\" with no spaces.\"},{\"question_id\":\"D03_GEN_Q2\",\"question_type\":\"speaker_handoff_count\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Using only speech segments heard so far, how many speaker handoffs occur? Return an integer only, or UNKNOWN if Speaker A has not been heard. Required answer format: UNKNOWN or a non-negative integer.\"},{\"question_id\":\"D03_GEN_Q3\",\"question_type\":\"final_heard_speaker\",\"prompt\":\"Speaker A is the first speaker in the full conversation. Speaker B is the other speaker. Which speaker is the final heard speech segment? Return A, B, or UNKNOWN if Speaker A has not been heard.\",\"allowed_answers\":[\"A\",\"B\",\"UNKNOWN\"]}]",
+    "sentence_bin_map": "D03_S01=0; D03_S02=1; D03_S03=2; D03_S04=3",
+    "sentence_metadata": "[{\"sentence_id\":\"D03_S01\",\"speaker\":\"A\",\"text\":\"The budget limit is five thousand.\",\"abstract_start_bin\":0,\"abstract_end_bin\":0,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D03_S02\",\"speaker\":\"B\",\"text\":\"I have six thousand in the plan.\",\"abstract_start_bin\":1,\"abstract_end_bin\":1,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D03_S03\",\"speaker\":\"A\",\"text\":\"Finance capped it at five thousand.\",\"abstract_start_bin\":2,\"abstract_end_bin\":2,\"observation_rule\":\"full_sentence_required\"},{\"sentence_id\":\"D03_S04\",\"speaker\":\"B\",\"text\":\"Then five thousand is the limit.\",\"abstract_start_bin\":3,\"abstract_end_bin\":3,\"observation_rule\":\"full_sentence_required\"}]",
+    "speaker_sequence": "A -> B -> A -> B",
+    "start_bin": "0",
+    "target_evidence_sentences": "D03_S01,D03_S02,D03_S03",
+    "timing_answers": "",
+    "timing_questions": "[{\"question_id\":\"D03_TIMING_Q1\",\"question_type\":\"semantic_evidence_localization\",\"prompt\":\"When is the evidence for budget limit heard? Return START <i> END <j>, or UNKNOWN.\",\"allowed_answer_format\":\"START <i> END <j> | UNKNOWN\",\"answer_provided\":false},{\"question_id\":\"D03_TIMING_Q2\",\"question_type\":\"speaker_activity_raster\",\"prompt\":\"Return the speaker/silence raster for bins heard so far. Use A, B, AB, 00, and ??. Return comma-separated values only.\",\"allowed_answer_format\":\"comma-separated A/B/AB/00/??\",\"answer_provided\":false}]",
+    "transcript": "A: The budget limit is five thousand.\nB: I have six thousand in the plan.\nA: Finance capped it at five thousand.\nB: Then five thousand is the limit.",
+    "transcript_with_pause_recommendations": "A: The budget limit is five thousand. (natural)\nB: I have six thousand in the plan. (natural)\nA: Finance capped it at five thousand. (natural)\nB: Then five thousand is the limit.",
+    "turn_bin_map": "T1=0; T2=1; T3=2; T4=3",
+    "turn_count": "4"
+  },
+  "speaker_A_gender": "female",
+  "speaker_A_voice": "sage",
+  "speaker_B_gender": "male",
+  "speaker_B_voice": "echo",
+  "track_id": "1c",
+  "tts_instruction": "Speak clearly in a neutral conversational tone, at a normal speed. Do not add extra words.",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_speed": 1.0,
+  "turn_bin_map": null,
+  "variant_id": "version_3",
+  "voice_pair_id": "pair_2"
+}

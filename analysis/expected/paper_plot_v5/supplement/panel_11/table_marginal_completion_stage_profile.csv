@@ -1,0 +1,301 @@
+model,family,stage,stage_index,marginal_completion_rate,supported_tasks,n_reels,rate_type
+Audio Flamingo Next,2A.1,Final answer task-core correct,4,0.2,110,22,independent marginal
+Audio Flamingo Next,2A.1,Final ledger complete,3,0.0,110,22,independent marginal
+Audio Flamingo Next,2A.1,Final ledger target-correct,2,0.0,110,22,independent marginal
+Audio Flamingo Next,2A.1,Relevant evidence reached,0,0.0,110,22,independent marginal
+Audio Flamingo Next,2A.1,Required targets contacted,1,0.0,110,22,independent marginal
+Audio Flamingo Next,2A.1,Strict task complete,5,0.2,110,22,independent marginal
+Audio Flamingo Next,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.2,Relevant evidence reached,0,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.2,Required targets contacted,1,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+Audio Flamingo Next,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+Audio Flamingo Next,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.1,Final answer task-core correct,4,0.08181818181818182,110,22,independent marginal
+Audio Flamingo Next Think,2A.1,Final ledger complete,3,0.0,110,22,independent marginal
+Audio Flamingo Next Think,2A.1,Final ledger target-correct,2,0.0,110,22,independent marginal
+Audio Flamingo Next Think,2A.1,Relevant evidence reached,0,0.00909090909090909,110,22,independent marginal
+Audio Flamingo Next Think,2A.1,Required targets contacted,1,0.01818181818181818,110,22,independent marginal
+Audio Flamingo Next Think,2A.1,Strict task complete,5,0.08181818181818182,110,22,independent marginal
+Audio Flamingo Next Think,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.2,Relevant evidence reached,0,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.2,Required targets contacted,1,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+Audio Flamingo Next Think,2A.3,Final answer task-core correct,4,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2A.3,Strict task complete,5,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Audio Flamingo Next Think,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+GPT Audio,2A.1,Final answer task-core correct,4,0.34545454545454546,110,22,independent marginal
+GPT Audio,2A.1,Final ledger complete,3,0.20909090909090908,110,22,independent marginal
+GPT Audio,2A.1,Final ledger target-correct,2,0.20909090909090908,110,22,independent marginal
+GPT Audio,2A.1,Relevant evidence reached,0,0.6727272727272727,110,22,independent marginal
+GPT Audio,2A.1,Required targets contacted,1,0.9181818181818182,110,22,independent marginal
+GPT Audio,2A.1,Strict task complete,5,0.34545454545454546,110,22,independent marginal
+GPT Audio,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+GPT Audio,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+GPT Audio,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+GPT Audio,2A.2,Relevant evidence reached,0,0.7670454545454546,176,22,independent marginal
+GPT Audio,2A.2,Required targets contacted,1,0.7670454545454546,176,22,independent marginal
+GPT Audio,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+GPT Audio,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+GPT Audio,2A.3,Final ledger complete,3,0.045454545454545456,44,22,independent marginal
+GPT Audio,2A.3,Final ledger target-correct,2,0.045454545454545456,44,22,independent marginal
+GPT Audio,2A.3,Relevant evidence reached,0,0.9090909090909091,44,22,independent marginal
+GPT Audio,2A.3,Required targets contacted,1,0.9090909090909091,44,22,independent marginal
+GPT Audio,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+GPT Audio,2B.1,Final answer task-core correct,4,0.6818181818181818,44,22,independent marginal
+GPT Audio,2B.1,Final ledger complete,3,0.045454545454545456,44,22,independent marginal
+GPT Audio,2B.1,Final ledger target-correct,2,0.045454545454545456,44,22,independent marginal
+GPT Audio,2B.1,Relevant evidence reached,0,0.9545454545454546,44,22,independent marginal
+GPT Audio,2B.1,Required targets contacted,1,0.9545454545454546,44,22,independent marginal
+GPT Audio,2B.1,Strict task complete,5,0.6818181818181818,44,22,independent marginal
+GPT Audio,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+GPT Audio,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+GPT Audio,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+GPT Audio,2B.2,Relevant evidence reached,0,0.5909090909090909,44,22,independent marginal
+GPT Audio,2B.2,Required targets contacted,1,0.5909090909090909,44,22,independent marginal
+GPT Audio,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+GPT Audio Mini,2A.1,Final answer task-core correct,4,0.4,110,22,independent marginal
+GPT Audio Mini,2A.1,Final ledger complete,3,0.2,110,22,independent marginal
+GPT Audio Mini,2A.1,Final ledger target-correct,2,0.2,110,22,independent marginal
+GPT Audio Mini,2A.1,Relevant evidence reached,0,0.5545454545454546,110,22,independent marginal
+GPT Audio Mini,2A.1,Required targets contacted,1,0.8909090909090909,110,22,independent marginal
+GPT Audio Mini,2A.1,Strict task complete,5,0.4,110,22,independent marginal
+GPT Audio Mini,2A.2,Final answer task-core correct,4,0.005681818181818182,176,22,independent marginal
+GPT Audio Mini,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+GPT Audio Mini,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+GPT Audio Mini,2A.2,Relevant evidence reached,0,0.7159090909090909,176,22,independent marginal
+GPT Audio Mini,2A.2,Required targets contacted,1,0.7272727272727273,176,22,independent marginal
+GPT Audio Mini,2A.2,Strict task complete,5,0.005681818181818182,176,22,independent marginal
+GPT Audio Mini,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+GPT Audio Mini,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+GPT Audio Mini,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+GPT Audio Mini,2A.3,Relevant evidence reached,0,0.6363636363636364,44,22,independent marginal
+GPT Audio Mini,2A.3,Required targets contacted,1,0.6363636363636364,44,22,independent marginal
+GPT Audio Mini,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+GPT Audio Mini,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+GPT Audio Mini,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+GPT Audio Mini,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+GPT Audio Mini,2B.1,Relevant evidence reached,0,0.45454545454545453,44,22,independent marginal
+GPT Audio Mini,2B.1,Required targets contacted,1,0.45454545454545453,44,22,independent marginal
+GPT Audio Mini,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+GPT Audio Mini,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+GPT Audio Mini,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+GPT Audio Mini,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+GPT Audio Mini,2B.2,Relevant evidence reached,0,0.18181818181818182,44,22,independent marginal
+GPT Audio Mini,2B.2,Required targets contacted,1,0.18181818181818182,44,22,independent marginal
+GPT Audio Mini,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Gemini 2 Flash,2A.1,Final answer task-core correct,4,0.2818181818181818,110,22,independent marginal
+Gemini 2 Flash,2A.1,Final ledger complete,3,0.10909090909090909,110,22,independent marginal
+Gemini 2 Flash,2A.1,Final ledger target-correct,2,0.10909090909090909,110,22,independent marginal
+Gemini 2 Flash,2A.1,Relevant evidence reached,0,0.33636363636363636,110,22,independent marginal
+Gemini 2 Flash,2A.1,Required targets contacted,1,0.5909090909090909,110,22,independent marginal
+Gemini 2 Flash,2A.1,Strict task complete,5,0.2818181818181818,110,22,independent marginal
+Gemini 2 Flash,2A.2,Final answer task-core correct,4,0.03977272727272727,176,22,independent marginal
+Gemini 2 Flash,2A.2,Final ledger complete,3,0.03977272727272727,176,22,independent marginal
+Gemini 2 Flash,2A.2,Final ledger target-correct,2,0.03977272727272727,176,22,independent marginal
+Gemini 2 Flash,2A.2,Relevant evidence reached,0,0.6420454545454546,176,22,independent marginal
+Gemini 2 Flash,2A.2,Required targets contacted,1,0.6590909090909091,176,22,independent marginal
+Gemini 2 Flash,2A.2,Strict task complete,5,0.03977272727272727,176,22,independent marginal
+Gemini 2 Flash,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+Gemini 2 Flash,2A.3,Final ledger complete,3,0.20454545454545456,44,22,independent marginal
+Gemini 2 Flash,2A.3,Final ledger target-correct,2,0.20454545454545456,44,22,independent marginal
+Gemini 2 Flash,2A.3,Relevant evidence reached,0,0.6590909090909091,44,22,independent marginal
+Gemini 2 Flash,2A.3,Required targets contacted,1,0.6590909090909091,44,22,independent marginal
+Gemini 2 Flash,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+Gemini 2 Flash,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.1,Relevant evidence reached,0,0.1590909090909091,44,22,independent marginal
+Gemini 2 Flash,2B.1,Required targets contacted,1,0.20454545454545456,44,22,independent marginal
+Gemini 2 Flash,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Gemini 2 Flash,2B.2,Relevant evidence reached,0,0.3409090909090909,44,22,independent marginal
+Gemini 2 Flash,2B.2,Required targets contacted,1,0.3409090909090909,44,22,independent marginal
+Gemini 2 Flash,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Gemini 3 Flash,2A.1,Final answer task-core correct,4,0.4,110,22,independent marginal
+Gemini 3 Flash,2A.1,Final ledger complete,3,0.23636363636363636,110,22,independent marginal
+Gemini 3 Flash,2A.1,Final ledger target-correct,2,0.23636363636363636,110,22,independent marginal
+Gemini 3 Flash,2A.1,Relevant evidence reached,0,0.44545454545454544,110,22,independent marginal
+Gemini 3 Flash,2A.1,Required targets contacted,1,0.7272727272727273,110,22,independent marginal
+Gemini 3 Flash,2A.1,Strict task complete,5,0.4,110,22,independent marginal
+Gemini 3 Flash,2A.2,Final answer task-core correct,4,0.22727272727272727,176,22,independent marginal
+Gemini 3 Flash,2A.2,Final ledger complete,3,0.22727272727272727,176,22,independent marginal
+Gemini 3 Flash,2A.2,Final ledger target-correct,2,0.22727272727272727,176,22,independent marginal
+Gemini 3 Flash,2A.2,Relevant evidence reached,0,0.5397727272727273,176,22,independent marginal
+Gemini 3 Flash,2A.2,Required targets contacted,1,0.5454545454545454,176,22,independent marginal
+Gemini 3 Flash,2A.2,Strict task complete,5,0.22727272727272727,176,22,independent marginal
+Gemini 3 Flash,2A.3,Final answer task-core correct,4,0.9090909090909091,44,22,independent marginal
+Gemini 3 Flash,2A.3,Final ledger complete,3,0.22727272727272727,44,22,independent marginal
+Gemini 3 Flash,2A.3,Final ledger target-correct,2,0.22727272727272727,44,22,independent marginal
+Gemini 3 Flash,2A.3,Relevant evidence reached,0,0.5,44,22,independent marginal
+Gemini 3 Flash,2A.3,Required targets contacted,1,0.5,44,22,independent marginal
+Gemini 3 Flash,2A.3,Strict task complete,5,0.9090909090909091,44,22,independent marginal
+Gemini 3 Flash,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.1,Relevant evidence reached,0,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.1,Required targets contacted,1,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Gemini 3 Flash,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Kimi Audio,2A.1,Final answer task-core correct,4,0.2,110,22,independent marginal
+Kimi Audio,2A.1,Final ledger complete,3,0.0,110,22,independent marginal
+Kimi Audio,2A.1,Final ledger target-correct,2,0.0,110,22,independent marginal
+Kimi Audio,2A.1,Relevant evidence reached,0,0.06363636363636363,110,22,independent marginal
+Kimi Audio,2A.1,Required targets contacted,1,0.21818181818181817,110,22,independent marginal
+Kimi Audio,2A.1,Strict task complete,5,0.2,110,22,independent marginal
+Kimi Audio,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+Kimi Audio,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+Kimi Audio,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+Kimi Audio,2A.2,Relevant evidence reached,0,0.011363636363636364,176,22,independent marginal
+Kimi Audio,2A.2,Required targets contacted,1,0.011363636363636364,176,22,independent marginal
+Kimi Audio,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+Kimi Audio,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+Kimi Audio,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+Kimi Audio,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+Kimi Audio,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+Kimi Audio,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+Kimi Audio,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+Kimi Audio,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Kimi Audio,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Kimi Audio,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Kimi Audio,2B.1,Relevant evidence reached,0,0.0,44,22,independent marginal
+Kimi Audio,2B.1,Required targets contacted,1,0.0,44,22,independent marginal
+Kimi Audio,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Kimi Audio,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+MOSS Audio,2A.1,Final answer task-core correct,4,0.2,110,22,independent marginal
+MOSS Audio,2A.1,Final ledger complete,3,0.0,110,22,independent marginal
+MOSS Audio,2A.1,Final ledger target-correct,2,0.0,110,22,independent marginal
+MOSS Audio,2A.1,Relevant evidence reached,0,0.2636363636363636,110,22,independent marginal
+MOSS Audio,2A.1,Required targets contacted,1,0.44545454545454544,110,22,independent marginal
+MOSS Audio,2A.1,Strict task complete,5,0.2,110,22,independent marginal
+MOSS Audio,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+MOSS Audio,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+MOSS Audio,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+MOSS Audio,2A.2,Relevant evidence reached,0,0.1875,176,22,independent marginal
+MOSS Audio,2A.2,Required targets contacted,1,0.19318181818181818,176,22,independent marginal
+MOSS Audio,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+MOSS Audio,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+MOSS Audio,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+MOSS Audio,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+MOSS Audio,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+MOSS Audio,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+MOSS Audio,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+MOSS Audio,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+MOSS Audio,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+MOSS Audio,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+MOSS Audio,2B.1,Relevant evidence reached,0,0.20454545454545456,44,22,independent marginal
+MOSS Audio,2B.1,Required targets contacted,1,0.20454545454545456,44,22,independent marginal
+MOSS Audio,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+MOSS Audio,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Mimo Audio,2A.1,Final answer task-core correct,4,0.22727272727272727,110,22,independent marginal
+Mimo Audio,2A.1,Final ledger complete,3,0.07272727272727272,110,22,independent marginal
+Mimo Audio,2A.1,Final ledger target-correct,2,0.07272727272727272,110,22,independent marginal
+Mimo Audio,2A.1,Relevant evidence reached,0,0.22727272727272727,110,22,independent marginal
+Mimo Audio,2A.1,Required targets contacted,1,0.39090909090909093,110,22,independent marginal
+Mimo Audio,2A.1,Strict task complete,5,0.22727272727272727,110,22,independent marginal
+Mimo Audio,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+Mimo Audio,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+Mimo Audio,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+Mimo Audio,2A.2,Relevant evidence reached,0,0.3409090909090909,176,22,independent marginal
+Mimo Audio,2A.2,Required targets contacted,1,0.3465909090909091,176,22,independent marginal
+Mimo Audio,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+Mimo Audio,2A.3,Final answer task-core correct,4,0.5909090909090909,44,22,independent marginal
+Mimo Audio,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+Mimo Audio,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+Mimo Audio,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+Mimo Audio,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+Mimo Audio,2A.3,Strict task complete,5,0.5909090909090909,44,22,independent marginal
+Mimo Audio,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Mimo Audio,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Mimo Audio,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Mimo Audio,2B.1,Relevant evidence reached,0,0.022727272727272728,44,22,independent marginal
+Mimo Audio,2B.1,Required targets contacted,1,0.022727272727272728,44,22,independent marginal
+Mimo Audio,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Mimo Audio,2B.2,Strict task complete,5,0.0,44,22,independent marginal
+Qwen2.5 Omni,2A.1,Final answer task-core correct,4,0.2,110,22,independent marginal
+Qwen2.5 Omni,2A.1,Final ledger complete,3,0.0,110,22,independent marginal
+Qwen2.5 Omni,2A.1,Final ledger target-correct,2,0.0,110,22,independent marginal
+Qwen2.5 Omni,2A.1,Relevant evidence reached,0,0.22727272727272727,110,22,independent marginal
+Qwen2.5 Omni,2A.1,Required targets contacted,1,0.4,110,22,independent marginal
+Qwen2.5 Omni,2A.1,Strict task complete,5,0.2,110,22,independent marginal
+Qwen2.5 Omni,2A.2,Final answer task-core correct,4,0.0,176,22,independent marginal
+Qwen2.5 Omni,2A.2,Final ledger complete,3,0.0,176,22,independent marginal
+Qwen2.5 Omni,2A.2,Final ledger target-correct,2,0.0,176,22,independent marginal
+Qwen2.5 Omni,2A.2,Relevant evidence reached,0,0.4090909090909091,176,22,independent marginal
+Qwen2.5 Omni,2A.2,Required targets contacted,1,0.4090909090909091,176,22,independent marginal
+Qwen2.5 Omni,2A.2,Strict task complete,5,0.0,176,22,independent marginal
+Qwen2.5 Omni,2A.3,Final answer task-core correct,4,1.0,44,22,independent marginal
+Qwen2.5 Omni,2A.3,Final ledger complete,3,0.0,44,22,independent marginal
+Qwen2.5 Omni,2A.3,Final ledger target-correct,2,0.0,44,22,independent marginal
+Qwen2.5 Omni,2A.3,Relevant evidence reached,0,0.0,44,22,independent marginal
+Qwen2.5 Omni,2A.3,Required targets contacted,1,0.0,44,22,independent marginal
+Qwen2.5 Omni,2A.3,Strict task complete,5,1.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Final answer task-core correct,4,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Final ledger complete,3,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Final ledger target-correct,2,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Relevant evidence reached,0,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Required targets contacted,1,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.1,Strict task complete,5,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Final answer task-core correct,4,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Final ledger complete,3,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Final ledger target-correct,2,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Relevant evidence reached,0,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Required targets contacted,1,0.0,44,22,independent marginal
+Qwen2.5 Omni,2B.2,Strict task complete,5,0.0,44,22,independent marginal

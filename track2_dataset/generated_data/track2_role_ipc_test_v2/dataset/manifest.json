@@ -1,0 +1,1546 @@
+{
+  "absent_scene_cards": [
+    {
+      "absent_scene_id": "track2_role_ipc_test_S0340_I00001110_P1681_P1682",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0002",
+      "donor_scene_rank": "2",
+      "scene_card_text": "Two friends are debating a topic on which they hold opposing views. They explain their perspectives, challenge each other's arguments, and try to manage disagreement as one side becomes more passionate and emotionally invested.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0001"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S0340_I00001104_P1681_P1682",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0001",
+      "donor_scene_rank": "1",
+      "scene_card_text": "An employee is discussing a mistake they made at work with their supervisor, apologizing for the inconvenience and explaining how they plan to avoid repeating it. The supervisor evaluates the explanation, alternating between support and disappointment while questioning whether the employee has learned from the incident.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0002"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S0563_I00001225_P1840_P1841",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0004",
+      "donor_scene_rank": "2",
+      "scene_card_text": "A customer is asking an employee detailed questions about a technology product to understand how it works and what its specifications mean. The employee answers mainly in technical terms and seems to treat some of the questions as unnecessary, while the customer remains curious and eager to learn more before deciding what to think about the product.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0003"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S0563_I00001223_P1840_P1841",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0003",
+      "donor_scene_rank": "1",
+      "scene_card_text": "A job interviewer is questioning a candidate about their skills, experience, and suitability for a position, including challenging areas of their qualifications. The candidate responds by describing relevant examples, personal experiences, and enthusiasm for contributing to the organization.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0004"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2019_I00001100_P1272A_P1274A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0008",
+      "donor_scene_rank": "3",
+      "scene_card_text": "A tenant discusses unresolved maintenance problems with the landlord and asks for a rent reduction as part of a mutually workable solution. The landlord listens to the concerns, asks for clarification, and explores possible ways to address the repairs and any rent adjustment without committing to a specific outcome.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0005"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2018_I00001014_P1273A_P1274A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0007",
+      "donor_scene_rank": "2",
+      "scene_card_text": "A new pet owner is consulting a veterinarian about how to care for their pet. The discussion likely covers basic pet care questions, responsibilities, and any early concerns the owner has about keeping the animal healthy and well looked after.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0006"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2018_I00001011_P1273A_P1274A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0006",
+      "donor_scene_rank": "3",
+      "scene_card_text": "A customer contacts an internet service help desk to report frustration with repeated internet outages and asks for help resolving the issue. The help desk representative explains possible technical causes, gives guidance or troubleshooting steps, and reassures the customer that the problem is being addressed and should be fixed promptly.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0007"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2047_I00001047_P1304A_P1305A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0012",
+      "donor_scene_rank": "3",
+      "scene_card_text": "A parent and grandparent discuss childcare and parenting, with the parent sharing experiences and ideas while seeking the grandparent\u2019s perspective. The grandparent offers practical guidance about the child\u2019s needs, routines, and logistics, and they work through possible solutions together.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0008"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2051_I00001005_P1308A_P1309A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0020",
+      "donor_scene_rank": "2",
+      "scene_card_text": "Two people navigate a tentative flirtation, with one person making cautious romantic advances and the other reacting with surprise, curiosity, and uncertainty. The discussion concerns whether the interest is sincere and whether a genuine connection is developing between them.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0009"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2049_I00001107_P1304A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0017",
+      "donor_scene_rank": "1",
+      "scene_card_text": "A tutor is trying to help a student understand a difficult academic concept by offering reassurance, explanations, and alternative examples. The student resists the help, questions the usefulness of the explanations, and shows little willingness to engage with the tutoring session.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0010"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2048_I00000697_P1305A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0015",
+      "donor_scene_rank": "4",
+      "scene_card_text": "A skilled chef is teaching a novice cook cooking techniques and practical kitchen tips, treating the guidance like a guarded secret. The novice asks eager, flattering questions to draw out more detailed instruction and prove they are capable of learning from the chef.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0011"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2047_I00001049_P1304A_P1305A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0013",
+      "donor_scene_rank": "2",
+      "scene_card_text": "A married couple is discussing whether to spend money on home renovations or prioritize saving for their children's future. One spouse argues that improving their shared living space would benefit the family\u2019s quality of life, while the other acknowledges those points but raises concerns about long-term financial priorities and seeks a compromise.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0012"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2047_I00001046_P1304A_P1305A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0012",
+      "donor_scene_rank": "2",
+      "scene_card_text": "A customer contacts a help desk to report service outages and provide details about what has been happening. The help desk representative listens to the complaint, acknowledges the disruption, and explains possible troubleshooting steps or solutions.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0013"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2048_I00000696_P1305A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0015",
+      "donor_scene_rank": "3",
+      "scene_card_text": "Friends are discussing where to eat and trying to choose a restaurant that will suit the group. One friend is concerned about accommodating everyone's preferences and finding a compromise, while another is relaxed about the decision and willing to go along with almost any suggestion.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0014"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2048_I00000689_P1305A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0014",
+      "donor_scene_rank": "1",
+      "scene_card_text": "Two coworkers are discussing ideas or suggestions for a work task, with one trying to understand the proposed plan and repeatedly asking for clarification. The other coworker pushes for efficiency and responds dismissively to questions or concerns rather than working through the ideas collaboratively.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0015"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2049_I00001111_P1304A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0017",
+      "donor_scene_rank": "3",
+      "scene_card_text": "A novice cook is asking a skilled chef for clarification while learning how to prepare a recipe. The chef explains the steps, ingredients, measurements, timing, and technique in practical terms so the novice can follow the cooking process.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0016"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2049_I00001104_P1304A_P1306A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0016",
+      "donor_scene_rank": "1",
+      "scene_card_text": "An employee is discussing a mistake they made at work with their supervisor, apologizing for the inconvenience and explaining how they plan to avoid repeating it. The supervisor evaluates the explanation, alternating between support and disappointment while questioning whether the employee has learned from the incident.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0017"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2017_I00001161_P1273A_P2072A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0005",
+      "donor_scene_rank": "1",
+      "scene_card_text": "A bartender greets a returning regular customer and comments on their absence or loyalty to the bar. The customer gives brief, reserved responses and seems uncomfortable with the bartender\u2019s familiar, teasing attention.",
+      "source_relation": "other_reel",
+      "target_reel_id": "T2R_0018"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2051_I00001004_P1308A_P1309A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0020",
+      "donor_scene_rank": "1",
+      "scene_card_text": "A person who has recently gone through a breakup is sharing their doubts, sadness, and feelings of helplessness with a close friend. The friend is trying to console them, validate their feelings, and offer emotional support and advice as they process the end of the relationship.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0019"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2051_I00001000_P1308A_P1309A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0019",
+      "donor_scene_rank": "2",
+      "scene_card_text": "A couple is discussing plans for their wedding, especially whether it should be large and extravagant. One partner voices reluctance and frustration about the size and expense, while the other is interested in a more elaborate celebration and listens without pushing back verbally.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0020"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2052_I00000640_P1307A_P1309A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0022",
+      "donor_scene_rank": "4",
+      "scene_card_text": "Two longtime friends are catching up at a reunion after time apart. They exchange life updates, reminisce about shared memories, and express appreciation for the chance to reconnect.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0021"
+    },
+    {
+      "absent_scene_id": "track2_role_ipc_test_S2052_I00000639_P1307A_P1309A",
+      "audit_note": "",
+      "audit_status": "accept",
+      "donor_reel_id": "T2R_0021",
+      "donor_scene_rank": "3",
+      "scene_card_text": "A library patron is asking a librarian to locate a specific resource but provides little explanation, expecting the librarian to find it quickly. The librarian seeks clarification and tries to determine what material the patron needs, while the patron resists giving helpful details.",
+      "source_relation": "same_session_same_dyad_other_reel",
+      "target_reel_id": "T2R_0022"
+    }
+  ],
+  "boundary_margin": 30.0,
+  "dataset_id": "track2_role_ipc_test_v2",
+  "dataset_seed": 20260720,
+  "episode_count": 22,
+  "episodes": [
+    {
+      "audio_path": "episodes/T2R_0001.wav",
+      "candidate_reel_id": "T2RC_test_S0340_P1681__P1682_0012_0001",
+      "duration_seconds": 1105.5,
+      "dyad_key": "P1681__P1682",
+      "num_channels": 1,
+      "num_frames": 53064000,
+      "peak_abs_before_write": 0.9990000128746033,
+      "reel_id": "T2R_0001",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 354.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0071/V01_S0340_I00001104_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0070/V01_S0340_I00001104_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001104_P1681_P1682",
+          "scene_rank": 1,
+          "source_interaction_id": 1104,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 622.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0076/V01_S0340_I00001105_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0025/V01_S0340_I00001105_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001105_P1681_P1682",
+          "scene_rank": 2,
+          "source_interaction_id": 1105,
+          "start_seconds": 354.5
+        },
+        {
+          "end_seconds": 927.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0049/V01_S0340_I00001106_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0042/V01_S0340_I00001106_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001106_P1681_P1682",
+          "scene_rank": 3,
+          "source_interaction_id": 1106,
+          "start_seconds": 623.0
+        },
+        {
+          "end_seconds": 1105.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0057/V01_S0340_I00001108_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0004/V01_S0340_I00001108_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001108_P1681_P1682",
+          "scene_rank": 4,
+          "source_interaction_id": 1108,
+          "start_seconds": 927.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1105.5,
+      "session_id": "S0340",
+      "sha256_audio": "9764b702dbd2451c9b056ed727ff1d21c3f00e41f5f28e3134025c39233baef1",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0002.wav",
+      "candidate_reel_id": "T2RC_test_S0340_P1681__P1682_0012_0070",
+      "duration_seconds": 1127.5,
+      "dyad_key": "P1681__P1682",
+      "num_channels": 1,
+      "num_frames": 54120000,
+      "peak_abs_before_write": 0.9990000128746033,
+      "reel_id": "T2R_0002",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 330.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0062/V01_S0340_I00001109_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0067/V01_S0340_I00001109_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001109_P1681_P1682",
+          "scene_rank": 1,
+          "source_interaction_id": 1109,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 628.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0073/V01_S0340_I00001110_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0034/V01_S0340_I00001110_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001110_P1681_P1682",
+          "scene_rank": 2,
+          "source_interaction_id": 1110,
+          "start_seconds": 330.5
+        },
+        {
+          "end_seconds": 881.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0012/V01_S0340_I00001111_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0076/V01_S0340_I00001111_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001111_P1681_P1682",
+          "scene_rank": 3,
+          "source_interaction_id": 1111,
+          "start_seconds": 629.0
+        },
+        {
+          "end_seconds": 1127.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0062/V01_S0340_I00001112_P1681.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0023/V01_S0340_I00001112_P1682.wav",
+          "scene_id": "track2_role_ipc_test_S0340_I00001112_P1681_P1682",
+          "scene_rank": 4,
+          "source_interaction_id": 1112,
+          "start_seconds": 881.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1127.5,
+      "session_id": "S0340",
+      "sha256_audio": "a74b6a22f9d4e9c2e2669245945512e4591e583ce3e0440982678b69f3de3cc4",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0003.wav",
+      "candidate_reel_id": "T2RC_test_S0563_P1840__P1841_0013_0026",
+      "duration_seconds": 1191.5,
+      "dyad_key": "P1840__P1841",
+      "num_channels": 1,
+      "num_frames": 57192000,
+      "peak_abs_before_write": 0.5019989013671875,
+      "reel_id": "T2R_0003",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 272.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0013/V01_S0563_I00001223_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0006/V01_S0563_I00001223_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001223_P1840_P1841",
+          "scene_rank": 1,
+          "source_interaction_id": 1223,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 604.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0014/V01_S0563_I00001226_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0013/V01_S0563_I00001226_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001226_P1840_P1841",
+          "scene_rank": 2,
+          "source_interaction_id": 1226,
+          "start_seconds": 272.5
+        },
+        {
+          "end_seconds": 941.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0024/V01_S0563_I00001227_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0045/V01_S0563_I00001227_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001227_P1840_P1841",
+          "scene_rank": 3,
+          "source_interaction_id": 1227,
+          "start_seconds": 605.0
+        },
+        {
+          "end_seconds": 1191.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0069/V01_S0563_I00001232_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0010/V01_S0563_I00001232_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001232_P1840_P1841",
+          "scene_rank": 4,
+          "source_interaction_id": 1232,
+          "start_seconds": 941.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1191.5,
+      "session_id": "S0563",
+      "sha256_audio": "7d78ee09b3ae8a4645f65fcf3233be850547cd7b570195eb2eb58876234f5c2e",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0004.wav",
+      "candidate_reel_id": "T2RC_test_S0563_P1840__P1841_0013_0045",
+      "duration_seconds": 1199.5,
+      "dyad_key": "P1840__P1841",
+      "num_channels": 1,
+      "num_frames": 57576000,
+      "peak_abs_before_write": 0.5013580322265625,
+      "reel_id": "T2R_0004",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 330.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0037/V01_S0563_I00001224_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0023/V01_S0563_I00001224_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001224_P1840_P1841",
+          "scene_rank": 1,
+          "source_interaction_id": 1224,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 608.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0003/V01_S0563_I00001225_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0075/V01_S0563_I00001225_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001225_P1840_P1841",
+          "scene_rank": 2,
+          "source_interaction_id": 1225,
+          "start_seconds": 330.5
+        },
+        {
+          "end_seconds": 907.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0063/V01_S0563_I00001233_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0018/V01_S0563_I00001233_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001233_P1840_P1841",
+          "scene_rank": 3,
+          "source_interaction_id": 1233,
+          "start_seconds": 609.0
+        },
+        {
+          "end_seconds": 1199.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0056/V01_S0563_I00001235_P1840.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0063/V01_S0563_I00001235_P1841.wav",
+          "scene_id": "track2_role_ipc_test_S0563_I00001235_P1840_P1841",
+          "scene_rank": 4,
+          "source_interaction_id": 1235,
+          "start_seconds": 907.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1199.5,
+      "session_id": "S0563",
+      "sha256_audio": "fba9294ac660b2ee0c64c8dc642cf2192809688c40ace02aea3f64cd5cc4f5ad",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0005.wav",
+      "candidate_reel_id": "T2RC_test_S2017_P1273A__P2072A_0014_0021",
+      "duration_seconds": 987.5,
+      "dyad_key": "P1273A__P2072A",
+      "num_channels": 1,
+      "num_frames": 47400000,
+      "peak_abs_before_write": 0.561065673828125,
+      "reel_id": "T2R_0005",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 240.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0076/V00_S2017_I00001161_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0043/V00_S2017_I00001161_P2072A.wav",
+          "scene_id": "track2_role_ipc_test_S2017_I00001161_P1273A_P2072A",
+          "scene_rank": 1,
+          "source_interaction_id": 1161,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 468.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0056/V00_S2017_I00001162_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0041/V00_S2017_I00001162_P2072A.wav",
+          "scene_id": "track2_role_ipc_test_S2017_I00001162_P1273A_P2072A",
+          "scene_rank": 2,
+          "source_interaction_id": 1162,
+          "start_seconds": 240.5
+        },
+        {
+          "end_seconds": 691.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0052/V00_S2017_I00001163_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0036/V00_S2017_I00001163_P2072A.wav",
+          "scene_id": "track2_role_ipc_test_S2017_I00001163_P1273A_P2072A",
+          "scene_rank": 3,
+          "source_interaction_id": 1163,
+          "start_seconds": 469.0
+        },
+        {
+          "end_seconds": 987.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0057/V00_S2017_I00001164_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0048/V00_S2017_I00001164_P2072A.wav",
+          "scene_id": "track2_role_ipc_test_S2017_I00001164_P1273A_P2072A",
+          "scene_rank": 4,
+          "source_interaction_id": 1164,
+          "start_seconds": 691.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 987.5,
+      "session_id": "S2017",
+      "sha256_audio": "aa4e961be15f467cd2f4434b7b262dae1f20e319b5f8d383bf1c37daa3017027",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0006.wav",
+      "candidate_reel_id": "T2RC_test_S2018_P1273A__P1274A_0015_0002",
+      "duration_seconds": 987.5,
+      "dyad_key": "P1273A__P1274A",
+      "num_channels": 1,
+      "num_frames": 47400000,
+      "peak_abs_before_write": 0.50006103515625,
+      "reel_id": "T2R_0006",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 262.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0003/V00_S2018_I00001009_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0007/V00_S2018_I00001009_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001009_P1273A_P1274A",
+          "scene_rank": 1,
+          "source_interaction_id": 1009,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 520.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0027/V00_S2018_I00001010_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0038/V00_S2018_I00001010_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001010_P1273A_P1274A",
+          "scene_rank": 2,
+          "source_interaction_id": 1010,
+          "start_seconds": 262.5
+        },
+        {
+          "end_seconds": 753.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0031/V00_S2018_I00001011_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0040/V00_S2018_I00001011_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001011_P1273A_P1274A",
+          "scene_rank": 3,
+          "source_interaction_id": 1011,
+          "start_seconds": 521.0
+        },
+        {
+          "end_seconds": 987.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0039/V00_S2018_I00001013_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0052/V00_S2018_I00001013_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001013_P1273A_P1274A",
+          "scene_rank": 4,
+          "source_interaction_id": 1013,
+          "start_seconds": 753.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 987.5,
+      "session_id": "S2018",
+      "sha256_audio": "c9990337a7cbfd082c94505fc9bb92393400c76fe13ddd4788358da0d6f5abac",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0007.wav",
+      "candidate_reel_id": "T2RC_test_S2018_P1273A__P1274A_0015_0069",
+      "duration_seconds": 873.5,
+      "dyad_key": "P1273A__P1274A",
+      "num_channels": 1,
+      "num_frames": 41928000,
+      "peak_abs_before_write": 0.4227142333984375,
+      "reel_id": "T2R_0007",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 258.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0048/V00_S2018_I00001012_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0032/V00_S2018_I00001012_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001012_P1273A_P1274A",
+          "scene_rank": 1,
+          "source_interaction_id": 1012,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 478.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0067/V00_S2018_I00001014_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0054/V00_S2018_I00001014_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001014_P1273A_P1274A",
+          "scene_rank": 2,
+          "source_interaction_id": 1014,
+          "start_seconds": 258.5
+        },
+        {
+          "end_seconds": 723.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0068/V00_S2018_I00001015_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0068/V00_S2018_I00001015_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001015_P1273A_P1274A",
+          "scene_rank": 3,
+          "source_interaction_id": 1015,
+          "start_seconds": 479.0
+        },
+        {
+          "end_seconds": 873.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0034/V00_S2018_I00001016_P1273A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0041/V00_S2018_I00001016_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2018_I00001016_P1273A_P1274A",
+          "scene_rank": 4,
+          "source_interaction_id": 1016,
+          "start_seconds": 723.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 873.5,
+      "session_id": "S2018",
+      "sha256_audio": "50f9d5e880349bdd2e0ff8f54ff8a8cd083f4ff90f69713b7a4ee83b095abd8c",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0008.wav",
+      "candidate_reel_id": "T2RC_test_S2019_P1272A__P1274A_0016_0031",
+      "duration_seconds": 1095.5,
+      "dyad_key": "P1272A__P1274A",
+      "num_channels": 1,
+      "num_frames": 52584000,
+      "peak_abs_before_write": 0.4989776611328125,
+      "reel_id": "T2R_0008",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 282.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0055/V00_S2019_I00001097_P1272A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0040/V00_S2019_I00001097_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2019_I00001097_P1272A_P1274A",
+          "scene_rank": 1,
+          "source_interaction_id": 1097,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 570.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0057/V00_S2019_I00001098_P1272A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0075/V00_S2019_I00001098_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2019_I00001098_P1272A_P1274A",
+          "scene_rank": 2,
+          "source_interaction_id": 1098,
+          "start_seconds": 282.5
+        },
+        {
+          "end_seconds": 821.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0057/V00_S2019_I00001100_P1272A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0045/V00_S2019_I00001100_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2019_I00001100_P1272A_P1274A",
+          "scene_rank": 3,
+          "source_interaction_id": 1100,
+          "start_seconds": 571.0
+        },
+        {
+          "end_seconds": 1095.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0024/V00_S2019_I00001101_P1272A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0031/V00_S2019_I00001101_P1274A.wav",
+          "scene_id": "track2_role_ipc_test_S2019_I00001101_P1272A_P1274A",
+          "scene_rank": 4,
+          "source_interaction_id": 1101,
+          "start_seconds": 821.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1095.5,
+      "session_id": "S2019",
+      "sha256_audio": "308b2a25b370025befd2d36e54d3d78e87bf4310dd127b4ac722f10a5df90e78",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0009.wav",
+      "candidate_reel_id": "T2RC_test_S2035_P1292A__P1293A_0017_0021",
+      "duration_seconds": 957.5,
+      "dyad_key": "P1292A__P1293A",
+      "num_channels": 1,
+      "num_frames": 45960000,
+      "peak_abs_before_write": 0.4999847412109375,
+      "reel_id": "T2R_0009",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 240.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0062/V00_S2035_I00000992_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0068/V00_S2035_I00000992_P1293A.wav",
+          "scene_id": "track2_role_ipc_test_S2035_I00000992_P1292A_P1293A",
+          "scene_rank": 1,
+          "source_interaction_id": 992,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 506.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0039/V00_S2035_I00000994_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0008/V00_S2035_I00000994_P1293A.wav",
+          "scene_id": "track2_role_ipc_test_S2035_I00000994_P1292A_P1293A",
+          "scene_rank": 2,
+          "source_interaction_id": 994,
+          "start_seconds": 240.5
+        },
+        {
+          "end_seconds": 745.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0029/V00_S2035_I00000995_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0012/V00_S2035_I00000995_P1293A.wav",
+          "scene_id": "track2_role_ipc_test_S2035_I00000995_P1292A_P1293A",
+          "scene_rank": 3,
+          "source_interaction_id": 995,
+          "start_seconds": 507.0
+        },
+        {
+          "end_seconds": 957.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0051/V00_S2035_I00000996_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0038/V00_S2035_I00000996_P1293A.wav",
+          "scene_id": "track2_role_ipc_test_S2035_I00000996_P1292A_P1293A",
+          "scene_rank": 4,
+          "source_interaction_id": 996,
+          "start_seconds": 745.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 957.5,
+      "session_id": "S2035",
+      "sha256_audio": "f72b03029775ba75e815a1c4cae1579b0246472cf0a9a89b3c02e935936ec2a8",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0010.wav",
+      "candidate_reel_id": "T2RC_test_S2036_P1293A__P1294A_0018_0015",
+      "duration_seconds": 947.5,
+      "dyad_key": "P1293A__P1294A",
+      "num_channels": 1,
+      "num_frames": 45480000,
+      "peak_abs_before_write": 0.4598388671875,
+      "reel_id": "T2R_0010",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 212.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0042/V00_S2036_I00000711_P1293A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0060/V00_S2036_I00000711_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2036_I00000711_P1293A_P1294A",
+          "scene_rank": 1,
+          "source_interaction_id": 711,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 490.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0008/V00_S2036_I00000713_P1293A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0043/V00_S2036_I00000713_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2036_I00000713_P1293A_P1294A",
+          "scene_rank": 2,
+          "source_interaction_id": 713,
+          "start_seconds": 212.5
+        },
+        {
+          "end_seconds": 735.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0043/V00_S2036_I00000714_P1293A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0024/V00_S2036_I00000714_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2036_I00000714_P1293A_P1294A",
+          "scene_rank": 3,
+          "source_interaction_id": 714,
+          "start_seconds": 491.0
+        },
+        {
+          "end_seconds": 947.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0045/V00_S2036_I00000715_P1293A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0023/V00_S2036_I00000715_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2036_I00000715_P1293A_P1294A",
+          "scene_rank": 4,
+          "source_interaction_id": 715,
+          "start_seconds": 735.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 947.5,
+      "session_id": "S2036",
+      "sha256_audio": "f9d693a56b042921c1519e21278734414b33a4700c8cb62f146b8155f4952ca7",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0011.wav",
+      "candidate_reel_id": "T2RC_test_S2037_P1292A__P1294A_0019_0019",
+      "duration_seconds": 927.5,
+      "dyad_key": "P1292A__P1294A",
+      "num_channels": 1,
+      "num_frames": 44520000,
+      "peak_abs_before_write": 0.3428497314453125,
+      "reel_id": "T2R_0011",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 226.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0004/V00_S2037_I00001087_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0061/V00_S2037_I00001087_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2037_I00001087_P1292A_P1294A",
+          "scene_rank": 1,
+          "source_interaction_id": 1087,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 488.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0063/V00_S2037_I00001091_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0072/V00_S2037_I00001091_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2037_I00001091_P1292A_P1294A",
+          "scene_rank": 2,
+          "source_interaction_id": 1091,
+          "start_seconds": 226.5
+        },
+        {
+          "end_seconds": 727.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0062/V00_S2037_I00001093_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0019/V00_S2037_I00001093_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2037_I00001093_P1292A_P1294A",
+          "scene_rank": 3,
+          "source_interaction_id": 1093,
+          "start_seconds": 489.0
+        },
+        {
+          "end_seconds": 927.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0030/V00_S2037_I00001094_P1292A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0055/V00_S2037_I00001094_P1294A.wav",
+          "scene_id": "track2_role_ipc_test_S2037_I00001094_P1292A_P1294A",
+          "scene_rank": 4,
+          "source_interaction_id": 1094,
+          "start_seconds": 727.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 927.5,
+      "session_id": "S2037",
+      "sha256_audio": "1abfcd9fcd3a703aaebab86fe2b90743aa2b2ab5c87d7e57ccdf5ccbc5f2d86d",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0012.wav",
+      "candidate_reel_id": "T2RC_test_S2047_P1304A__P1305A_0020_0004",
+      "duration_seconds": 899.5,
+      "dyad_key": "P1304A__P1305A",
+      "num_channels": 1,
+      "num_frames": 43176000,
+      "peak_abs_before_write": 0.5704803466796875,
+      "reel_id": "T2R_0012",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 252.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0077/V00_S2047_I00001045_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0057/V00_S2047_I00001045_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001045_P1304A_P1305A",
+          "scene_rank": 1,
+          "source_interaction_id": 1045,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 502.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0058/V00_S2047_I00001046_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0040/V00_S2047_I00001046_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001046_P1304A_P1305A",
+          "scene_rank": 2,
+          "source_interaction_id": 1046,
+          "start_seconds": 252.5
+        },
+        {
+          "end_seconds": 725.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0058/V00_S2047_I00001047_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0037/V00_S2047_I00001047_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001047_P1304A_P1305A",
+          "scene_rank": 3,
+          "source_interaction_id": 1047,
+          "start_seconds": 503.0
+        },
+        {
+          "end_seconds": 899.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0058/V00_S2047_I00001052_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0049/V00_S2047_I00001052_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001052_P1304A_P1305A",
+          "scene_rank": 4,
+          "source_interaction_id": 1052,
+          "start_seconds": 725.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 899.5,
+      "session_id": "S2047",
+      "sha256_audio": "233c26fb298beabe6f0ac796f801abee6a2d5125082acf8c3dcdd225442045cc",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0013.wav",
+      "candidate_reel_id": "T2RC_test_S2047_P1304A__P1305A_0020_0067",
+      "duration_seconds": 931.5,
+      "dyad_key": "P1304A__P1305A",
+      "num_channels": 1,
+      "num_frames": 44712000,
+      "peak_abs_before_write": 0.50543212890625,
+      "reel_id": "T2R_0013",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 228.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0060/V00_S2047_I00001048_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0041/V00_S2047_I00001048_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001048_P1304A_P1305A",
+          "scene_rank": 1,
+          "source_interaction_id": 1048,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 446.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0039/V00_S2047_I00001049_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0017/V00_S2047_I00001049_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001049_P1304A_P1305A",
+          "scene_rank": 2,
+          "source_interaction_id": 1049,
+          "start_seconds": 228.5
+        },
+        {
+          "end_seconds": 707.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0068/V00_S2047_I00001050_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0018/V00_S2047_I00001050_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001050_P1304A_P1305A",
+          "scene_rank": 3,
+          "source_interaction_id": 1050,
+          "start_seconds": 447.0
+        },
+        {
+          "end_seconds": 931.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0056/V00_S2047_I00001188_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0076/V00_S2047_I00001188_P1305A.wav",
+          "scene_id": "track2_role_ipc_test_S2047_I00001188_P1304A_P1305A",
+          "scene_rank": 4,
+          "source_interaction_id": 1188,
+          "start_seconds": 707.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 931.5,
+      "session_id": "S2047",
+      "sha256_audio": "cefa64f3d25beeabae9053de3fce3d7a2c73c41d2277df933d9dffd700bb80ba",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0014.wav",
+      "candidate_reel_id": "T2RC_test_S2048_P1305A__P1306A_0021_0016",
+      "duration_seconds": 957.5,
+      "dyad_key": "P1305A__P1306A",
+      "num_channels": 1,
+      "num_frames": 45960000,
+      "peak_abs_before_write": 0.4908905029296875,
+      "reel_id": "T2R_0014",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 234.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0050/V00_S2048_I00000689_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0046/V00_S2048_I00000689_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000689_P1305A_P1306A",
+          "scene_rank": 1,
+          "source_interaction_id": 689,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 472.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0051/V00_S2048_I00000691_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0001/V00_S2048_I00000691_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000691_P1305A_P1306A",
+          "scene_rank": 2,
+          "source_interaction_id": 691,
+          "start_seconds": 234.5
+        },
+        {
+          "end_seconds": 701.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0022/V00_S2048_I00000692_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0019/V00_S2048_I00000692_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000692_P1305A_P1306A",
+          "scene_rank": 3,
+          "source_interaction_id": 692,
+          "start_seconds": 473.0
+        },
+        {
+          "end_seconds": 957.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0035/V00_S2048_I00000693_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0062/V00_S2048_I00000693_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000693_P1305A_P1306A",
+          "scene_rank": 4,
+          "source_interaction_id": 693,
+          "start_seconds": 701.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 957.5,
+      "session_id": "S2048",
+      "sha256_audio": "aaf0925783715d64a9a529818b848369dc70c18a10cf187e931dc517d6fd82b3",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0015.wav",
+      "candidate_reel_id": "T2RC_test_S2048_P1305A__P1306A_0021_0055",
+      "duration_seconds": 853.5,
+      "dyad_key": "P1305A__P1306A",
+      "num_channels": 1,
+      "num_frames": 40968000,
+      "peak_abs_before_write": 0.486572265625,
+      "reel_id": "T2R_0015",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 232.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0059/V00_S2048_I00000690_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0064/V00_S2048_I00000690_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000690_P1305A_P1306A",
+          "scene_rank": 1,
+          "source_interaction_id": 690,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 448.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0042/V00_S2048_I00000695_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0004/V00_S2048_I00000695_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000695_P1305A_P1306A",
+          "scene_rank": 2,
+          "source_interaction_id": 695,
+          "start_seconds": 232.5
+        },
+        {
+          "end_seconds": 617.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0019/V00_S2048_I00000696_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0055/V00_S2048_I00000696_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000696_P1305A_P1306A",
+          "scene_rank": 3,
+          "source_interaction_id": 696,
+          "start_seconds": 449.0
+        },
+        {
+          "end_seconds": 853.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0061/V00_S2048_I00000697_P1305A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0049/V00_S2048_I00000697_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2048_I00000697_P1305A_P1306A",
+          "scene_rank": 4,
+          "source_interaction_id": 697,
+          "start_seconds": 617.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 853.5,
+      "session_id": "S2048",
+      "sha256_audio": "5ebaf1bdc73560af04777f4af3e9249182927f508511befd74086b5fc0ac9083",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0016.wav",
+      "candidate_reel_id": "T2RC_test_S2049_P1304A__P1306A_0022_0002",
+      "duration_seconds": 875.5,
+      "dyad_key": "P1304A__P1306A",
+      "num_channels": 1,
+      "num_frames": 42024000,
+      "peak_abs_before_write": 0.502166748046875,
+      "reel_id": "T2R_0016",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 182.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0011/V00_S2049_I00001104_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0040/V00_S2049_I00001104_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001104_P1304A_P1306A",
+          "scene_rank": 1,
+          "source_interaction_id": 1104,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 372.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0068/V00_S2049_I00001105_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0065/V00_S2049_I00001105_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001105_P1304A_P1306A",
+          "scene_rank": 2,
+          "source_interaction_id": 1105,
+          "start_seconds": 182.5
+        },
+        {
+          "end_seconds": 623.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0076/V00_S2049_I00001106_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0075/V00_S2049_I00001106_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001106_P1304A_P1306A",
+          "scene_rank": 3,
+          "source_interaction_id": 1106,
+          "start_seconds": 373.0
+        },
+        {
+          "end_seconds": 875.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0002/V00_S2049_I00001108_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0034/V00_S2049_I00001108_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001108_P1304A_P1306A",
+          "scene_rank": 4,
+          "source_interaction_id": 1108,
+          "start_seconds": 623.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 875.5,
+      "session_id": "S2049",
+      "sha256_audio": "ecec63e52e4e1b852cdde1ce08aa3910377b42b88a0ef0bca70d9dce5b351924",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0017.wav",
+      "candidate_reel_id": "T2RC_test_S2049_P1304A__P1306A_0022_0069",
+      "duration_seconds": 965.5,
+      "dyad_key": "P1304A__P1306A",
+      "num_channels": 1,
+      "num_frames": 46344000,
+      "peak_abs_before_write": 0.41046142578125,
+      "reel_id": "T2R_0017",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 220.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0048/V00_S2049_I00001107_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0019/V00_S2049_I00001107_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001107_P1304A_P1306A",
+          "scene_rank": 1,
+          "source_interaction_id": 1107,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 434.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0005/V00_S2049_I00001109_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0075/V00_S2049_I00001109_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001109_P1304A_P1306A",
+          "scene_rank": 2,
+          "source_interaction_id": 1109,
+          "start_seconds": 220.5
+        },
+        {
+          "end_seconds": 619.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0016/V00_S2049_I00001111_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0011/V00_S2049_I00001111_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001111_P1304A_P1306A",
+          "scene_rank": 3,
+          "source_interaction_id": 1111,
+          "start_seconds": 435.0
+        },
+        {
+          "end_seconds": 965.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0032/V00_S2049_I00001112_P1304A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0008/V00_S2049_I00001112_P1306A.wav",
+          "scene_id": "track2_role_ipc_test_S2049_I00001112_P1304A_P1306A",
+          "scene_rank": 4,
+          "source_interaction_id": 1112,
+          "start_seconds": 619.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 965.5,
+      "session_id": "S2049",
+      "sha256_audio": "cfa6087adbcc11df57191cb7c70e74ef454cd8ac9f0889045aa711d7069960cb",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0018.wav",
+      "candidate_reel_id": "T2RC_test_S2050_P1307A__P1308A_0023_0017",
+      "duration_seconds": 1017.5,
+      "dyad_key": "P1307A__P1308A",
+      "num_channels": 1,
+      "num_frames": 48840000,
+      "peak_abs_before_write": 0.4969482421875,
+      "reel_id": "T2R_0018",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 292.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0005/V00_S2050_I00001124_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0047/V00_S2050_I00001124_P1308A.wav",
+          "scene_id": "track2_role_ipc_test_S2050_I00001124_P1307A_P1308A",
+          "scene_rank": 1,
+          "source_interaction_id": 1124,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 560.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0019/V00_S2050_I00001127_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0059/V00_S2050_I00001127_P1308A.wav",
+          "scene_id": "track2_role_ipc_test_S2050_I00001127_P1307A_P1308A",
+          "scene_rank": 2,
+          "source_interaction_id": 1127,
+          "start_seconds": 292.5
+        },
+        {
+          "end_seconds": 767.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0061/V00_S2050_I00001128_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0011/V00_S2050_I00001128_P1308A.wav",
+          "scene_id": "track2_role_ipc_test_S2050_I00001128_P1307A_P1308A",
+          "scene_rank": 3,
+          "source_interaction_id": 1128,
+          "start_seconds": 561.0
+        },
+        {
+          "end_seconds": 1017.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0025/V00_S2050_I00001129_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0005/V00_S2050_I00001129_P1308A.wav",
+          "scene_id": "track2_role_ipc_test_S2050_I00001129_P1307A_P1308A",
+          "scene_rank": 4,
+          "source_interaction_id": 1129,
+          "start_seconds": 767.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 1017.5,
+      "session_id": "S2050",
+      "sha256_audio": "ebaf54b0b42ed0163719e96f1fe924401905528737f0d8d1c2f40addb98486b7",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0019.wav",
+      "candidate_reel_id": "T2RC_test_S2051_P1308A__P1309A_0024_0001",
+      "duration_seconds": 875.5,
+      "dyad_key": "P1308A__P1309A",
+      "num_channels": 1,
+      "num_frames": 42024000,
+      "peak_abs_before_write": 0.5003814697265625,
+      "reel_id": "T2R_0019",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 250.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0051/V00_S2051_I00000999_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0032/V00_S2051_I00000999_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00000999_P1308A_P1309A",
+          "scene_rank": 1,
+          "source_interaction_id": 999,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 440.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0021/V00_S2051_I00001000_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0002/V00_S2051_I00001000_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001000_P1308A_P1309A",
+          "scene_rank": 2,
+          "source_interaction_id": 1000,
+          "start_seconds": 250.5
+        },
+        {
+          "end_seconds": 657.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0049/V00_S2051_I00001001_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0072/V00_S2051_I00001001_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001001_P1308A_P1309A",
+          "scene_rank": 3,
+          "source_interaction_id": 1001,
+          "start_seconds": 441.0
+        },
+        {
+          "end_seconds": 875.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0073/V00_S2051_I00001002_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0029/V00_S2051_I00001002_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001002_P1308A_P1309A",
+          "scene_rank": 4,
+          "source_interaction_id": 1002,
+          "start_seconds": 657.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 875.5,
+      "session_id": "S2051",
+      "sha256_audio": "4d0f2600cdbfbe0ccd64f7453dacabfdfdaac52237c894137c967482bac2fd54",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0020.wav",
+      "candidate_reel_id": "T2RC_test_S2051_P1308A__P1309A_0024_0070",
+      "duration_seconds": 877.5,
+      "dyad_key": "P1308A__P1309A",
+      "num_channels": 1,
+      "num_frames": 42120000,
+      "peak_abs_before_write": 0.40765380859375,
+      "reel_id": "T2R_0020",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 234.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0010/V00_S2051_I00001004_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0069/V00_S2051_I00001004_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001004_P1308A_P1309A",
+          "scene_rank": 1,
+          "source_interaction_id": 1004,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 440.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0069/V00_S2051_I00001005_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0011/V00_S2051_I00001005_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001005_P1308A_P1309A",
+          "scene_rank": 2,
+          "source_interaction_id": 1005,
+          "start_seconds": 234.5
+        },
+        {
+          "end_seconds": 669.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0021/V00_S2051_I00001006_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0058/V00_S2051_I00001006_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001006_P1308A_P1309A",
+          "scene_rank": 3,
+          "source_interaction_id": 1006,
+          "start_seconds": 441.0
+        },
+        {
+          "end_seconds": 877.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0059/V00_S2051_I00001007_P1308A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0029/V00_S2051_I00001007_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2051_I00001007_P1308A_P1309A",
+          "scene_rank": 4,
+          "source_interaction_id": 1007,
+          "start_seconds": 669.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 877.5,
+      "session_id": "S2051",
+      "sha256_audio": "1127e065494d0fc2fe6a57327a88d10f38fd4016543bfd0f7a0fd67ac6bfede4",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0021.wav",
+      "candidate_reel_id": "T2RC_test_S2052_P1307A__P1309A_0025_0014",
+      "duration_seconds": 881.5,
+      "dyad_key": "P1307A__P1309A",
+      "num_channels": 1,
+      "num_frames": 42312000,
+      "peak_abs_before_write": 0.50042724609375,
+      "reel_id": "T2R_0021",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 230.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0029/V00_S2052_I00000634_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0035/V00_S2052_I00000634_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000634_P1307A_P1309A",
+          "scene_rank": 1,
+          "source_interaction_id": 634,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 520.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0047/V00_S2052_I00000635_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0012/V00_S2052_I00000635_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000635_P1307A_P1309A",
+          "scene_rank": 2,
+          "source_interaction_id": 635,
+          "start_seconds": 230.5
+        },
+        {
+          "end_seconds": 717.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0043/V00_S2052_I00000639_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0070/V00_S2052_I00000639_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000639_P1307A_P1309A",
+          "scene_rank": 3,
+          "source_interaction_id": 639,
+          "start_seconds": 521.0
+        },
+        {
+          "end_seconds": 881.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0061/V00_S2052_I00000641_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0024/V00_S2052_I00000641_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000641_P1307A_P1309A",
+          "scene_rank": 4,
+          "source_interaction_id": 641,
+          "start_seconds": 717.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 881.5,
+      "session_id": "S2052",
+      "sha256_audio": "62282454a2103a96a0330fbb163e8e284f72ef4bf1b4bf5dd9be7414617c7453",
+      "source_split": "test"
+    },
+    {
+      "audio_path": "episodes/T2R_0022.wav",
+      "candidate_reel_id": "T2RC_test_S2052_P1307A__P1309A_0025_0057",
+      "duration_seconds": 861.5,
+      "dyad_key": "P1307A__P1309A",
+      "num_channels": 1,
+      "num_frames": 41352000,
+      "peak_abs_before_write": 0.499786376953125,
+      "reel_id": "T2R_0022",
+      "sample_rate": 48000,
+      "scenes": [
+        {
+          "end_seconds": 252.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0018/V00_S2052_I00000636_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0013/V00_S2052_I00000636_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000636_P1307A_P1309A",
+          "scene_rank": 1,
+          "source_interaction_id": 636,
+          "start_seconds": 0.0
+        },
+        {
+          "end_seconds": 476.5,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0057/V00_S2052_I00000637_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0016/V00_S2052_I00000637_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000637_P1307A_P1309A",
+          "scene_rank": 2,
+          "source_interaction_id": 637,
+          "start_seconds": 252.5
+        },
+        {
+          "end_seconds": 711.0,
+          "gap_after_seconds": 0.5,
+          "participant1_wav_relpath": "improvised/test/0000/0074/V00_S2052_I00000638_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0069/V00_S2052_I00000638_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000638_P1307A_P1309A",
+          "scene_rank": 3,
+          "source_interaction_id": 638,
+          "start_seconds": 477.0
+        },
+        {
+          "end_seconds": 861.5,
+          "gap_after_seconds": 0.0,
+          "participant1_wav_relpath": "improvised/test/0000/0063/V00_S2052_I00000640_P1307A.wav",
+          "participant2_wav_relpath": "improvised/test/0000/0060/V00_S2052_I00000640_P1309A.wav",
+          "scene_id": "track2_role_ipc_test_S2052_I00000640_P1307A_P1309A",
+          "scene_rank": 4,
+          "source_interaction_id": 640,
+          "start_seconds": 711.5
+        }
+      ],
+      "selected_reel_audio_duration_sec": 861.5,
+      "session_id": "S2052",
+      "sha256_audio": "7c1e3b576e8848c1b3720372f17b21cb66299f56391cc5d795ac96b9f05cd971",
+      "source_split": "test"
+    }
+  ],
+  "gap_seconds": 0.5,
+  "global_longest_scene_duration": 354.0,
+  "max_single_query_seconds": 384.0,
+  "scene_card_revisions": [
+    {
+      "audit_note": "",
+      "audit_status": "accept",
+      "original_scene_card_text": "Two people are discussing their experiences with recovery, sharing personal stories about challenges they have faced and what gives them hope. They compare perspectives on resilience and offer each other encouragement while trying to connect over similar struggles.",
+      "proposed_scene_card_text": "Two people are discussing their experiences with recovery, sharing personal stories about challenges they have faced and what gives them hope. They compare perspectives on resilience and offer encouragement and opinions while trying to connect over similar struggles.",
+      "reel_id": "T2R_0009",
+      "scene_id": "track2_role_ipc_test_S2035_I00000996_P1292A_P1293A",
+      "scene_rank": "4"
+    }
+  ],
+  "source_artifacts": {
+    "absent_card_reviews": {
+      "path": "track2_human_audit/audit_results/track2_absent_scene_card_reviews.csv",
+      "sha256": "5c5bec2a8ff3aaa1f5e8ca6ed55290963d2ed082086fa7b689958431eb1d6842"
+    },
+    "absent_utterances": {
+      "path": "track2_dataset/track2_role_ipc_absent_utterance_candidate_pool_v2.csv",
+      "sha256": "700833f98a5bcd6dd98d259593be09daeb3eb34c07eef21a926211334ca943e1"
+    },
+    "candidates": {
+      "path": "track2_dataset/track2_role_ipc_utterance_candidate_pool_v2.csv",
+      "sha256": "98f77d345c7ac140b502f1ca5306604fb406066cb59ed69c60c573dde660b6eb"
+    },
+    "human_audit": {
+      "path": "track2_human_audit/audit_results/track2_human_audit_progress_2026-07-20T04-52-43-406Z.json",
+      "sha256": "ff385486a106e63399da2f16b013763a4fe955aeebca4c8b903e083addb148e8"
+    },
+    "scene_card_revision": {
+      "path": "track2_human_audit/audit_results/track2_scene_card_revision_review.csv",
+      "sha256": "93d92e0740019ac0537ebfd222eae39c0fb016a57532d699b2771fc6b4c83e95"
+    },
+    "scene_cards": {
+      "path": "track2_dataset/track2_role_ipc_scene_cards_v3.csv",
+      "sha256": "4a0fcdd2a001975b541185c1adbf09a17f0ff60a9e305adee4139d90084dba2e"
+    },
+    "scene_metadata": {
+      "path": "track2_dataset/track2_role_ipc_scene_candidates_scene_filter_v1.csv",
+      "sha256": "4b190583e38a61f10a6394ed63a16ea659d95bb9a0ff6739cc8a7b6d06dca8cf"
+    },
+    "selected_scenes": {
+      "path": "track2_dataset/track2_role_ipc_selected_reel_scenes_test_v1.csv",
+      "sha256": "b9cf81ae5bafa03d98b1b9e070d2d069e3f6d540df25ef976bd5d74aa77f1109"
+    },
+    "v1_manifest": {
+      "path": "track2_dataset/generated_data/track2_role_ipc_test_v1/dataset/manifest.json",
+      "sha256": "2fbb69c8139714d1af0fddf3e6cfb981928f4e3f6e3f9efdc6e4f6d8b198ba5a"
+    }
+  },
+  "split": "test",
+  "task_count": 418,
+  "task_counts_by_family": {
+    "2A.1": 110,
+    "2A.2": 176,
+    "2A.3": 44,
+    "2B.1": 44,
+    "2B.2": 44
+  },
+  "track_id": "2"
+}

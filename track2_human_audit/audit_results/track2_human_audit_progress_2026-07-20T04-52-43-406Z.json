@@ -1,0 +1,4961 @@
+{
+  "audit_dataset_id": "track2_role_ipc_human_audit_v2_candidates",
+  "exported_at": "2026-07-20T04:52:43.406Z",
+  "state": {
+    "scenes": {
+      "track2_role_ipc_test_S0340_I00001104_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0001_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "60.75",
+                "corrected_end_seconds": "71.25"
+              }
+            }
+          },
+          "T2R_0001_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Is there anything else that you feel that you need to do for this company? Or do you feel that you're satisfied with your work?",
+            "corrections": {}
+          },
+          "T2R_0001_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "127.53",
+                "corrected_end_seconds": "134.86"
+              }
+            }
+          },
+          "T2R_0001_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001105_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0001_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "466.47",
+                "corrected_end_seconds": "471.54"
+              }
+            }
+          },
+          "T2R_0001_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Okay, we have like a smorgasbord of like different international foods.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "557.74",
+                "corrected_end_seconds": "561.33"
+              }
+            }
+          },
+          "T2R_0001_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Listen, I'm not- I judge on my own, but I- if people want to do that, that's totally fine.",
+            "corrections": {}
+          },
+          "T2R_0001_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001106_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0001_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So umm yeah, I would love to know some ideas that you might have in your expertise of what I could do to kind of help out my health.",
+            "corrections": {}
+          },
+          "T2R_0001_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "882.71",
+                "corrected_end_seconds": "886.17"
+              }
+            }
+          },
+          "T2R_0001_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, I'm already taking umm like a like a multivitamin that has, I think it's like B12 or something.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "748.54",
+                "corrected_end_seconds": "756.75"
+              }
+            }
+          },
+          "T2R_0001_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001108_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0001_S4_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Stutter transcribed. ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Right, okay, so you're one of the people that's on defense, right? So like what- what- went wrong there? You're calling out defense and you're a part of this, so what?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1091.94",
+                "corrected_end_seconds": "1099.68"
+              }
+            }
+          },
+          "T2R_0001_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Overlapping speech",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I think what went wrong is that umm defense, you know they weren't really- they weren't really stopping the- the- the- the players.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1079.91",
+                "corrected_end_seconds": "1091.65"
+              }
+            }
+          },
+          "T2R_0001_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "Overlapping speech",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1099.57",
+                "corrected_end_seconds": "1102.85"
+              }
+            }
+          },
+          "T2R_0001_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "and enthusiastically contribute to this. Oh my gosh.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "968.81",
+                "corrected_end_seconds": "972.38"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001109_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0002_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "OK, great. It's been a month of us in our- in our- in the season so far. So I'm not quite sure why you've missed so much.",
+            "corrections": {}
+          },
+          "T2R_0002_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So we really need everybody there at all times, right, everybody? What do we say? A 100% attendance.",
+            "corrections": {}
+          },
+          "T2R_0002_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001110_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0002_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "435.51",
+                "corrected_end_seconds": "439.35"
+              }
+            }
+          },
+          "T2R_0002_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "575.60",
+                "corrected_end_seconds": "578.38"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001111_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0002_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I think there's a couple other credentials. I'm not even old enough to do that now. So like what- what what do you mean by that?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "814.53",
+                "corrected_end_seconds": "819.75"
+              }
+            }
+          },
+          "T2R_0002_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "807.87",
+                "corrected_end_seconds": "814.25"
+              }
+            }
+          },
+          "T2R_0002_S3_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Overlapping speech",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "663.48",
+                "corrected_end_seconds": "671.17"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0340_I00001112_P1681_P1682": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0002_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0002_S4_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I'm not saying anything about the- the- that universe. He's just- he's just an actor. We can forget about him for a second.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "932.62",
+                "corrected_end_seconds": "940.95"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001223_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0003_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So may I ask why you want to work here specifically around the Los Angeles area? ",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "96.33",
+                "corrected_end_seconds": "100.63"
+              }
+            }
+          },
+          "T2R_0003_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001226_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0003_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001227_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0003_S3_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Oh my god, you are going to love- you are going to love it there, babe. Like it's been ah... I can't- I can't remember the last time. When was it? Like what seven years I haven't been to Hawaii?",
+            "corrections": {}
+          },
+          "T2R_0003_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But I don't want you to be like on your nerves all the time, you know. Like if you don't like water, it's OK. We can do other things.",
+            "corrections": {}
+          },
+          "T2R_0003_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "699.95",
+                "corrected_end_seconds": "707.38"
+              }
+            }
+          },
+          "T2R_0003_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001232_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0003_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, no, I've just been coughing a lot and you know, my heart has just not been the best right now, just been getting a lot of heartburns and stuff.",
+            "corrections": {}
+          },
+          "T2R_0003_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0003_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yes, I totally understand, but yeah, medicine, water, exercise, and good like sleep routine, you're gonna be totally fine.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001224_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0004_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0004_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, that's not what we discussed in the meeting yesterday. So it's not like you're going to get the whole credit. We are here like talking, the both of us.",
+            "corrections": {}
+          },
+          "T2R_0004_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0004_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001225_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0004_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah like, what's the new things that I can found in in this one- that I can find in this one? Why would I buy the new one instead of sticking with my old one?",
+            "corrections": {}
+          },
+          "T2R_0004_S2_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, even though they quote unquote say they have new features, they're still the- it's still the same. So I would kind of just keep the phone, if I were you.",
+            "corrections": {}
+          },
+          "T2R_0004_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I saw that with this new one, you can like erase people that you don't want like on the pictures. Can you show me how to do that?",
+            "corrections": {}
+          },
+          "T2R_0004_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001233_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0004_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0004_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0004_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "How long am I going to live, doctor? Especially with- with chemo and with- with all this like treatment.",
+            "corrections": {}
+          },
+          "T2R_0004_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "What's best for you? And I'm actually available like for the next two weeks, so.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S0563_I00001235_P1840_P1841": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0004_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1174.92",
+                "corrected_end_seconds": "1181.65"
+              }
+            }
+          },
+          "T2R_0004_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So I don't- I don't understand what's going on. Like, I always pay the first of each month. I've never complained about anything. All I asked for was this maintenance.",
+            "corrections": {}
+          },
+          "T2R_0004_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I will call in someone and they can definitely check- check to see what's going on with this sink, dishwasher, whatever the hell it is.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1082.88",
+                "corrected_end_seconds": "1093.90"
+              }
+            }
+          },
+          "T2R_0004_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, if it doesn't happen this week, something about the rent reduction needs- needs to happen, because I know there are laws that protect me.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2017_I00001161_P1273A_P2072A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0005_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S1_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "No salt this time, okay. So, how are you feeling? Where'd you end up going? Why haven't you been back in a while? ",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "132.34",
+                "corrected_end_seconds": "137.53"
+              }
+            }
+          },
+          "T2R_0005_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "157.31",
+                "corrected_end_seconds": "166.05"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2017_I00001162_P1273A_P2072A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0005_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2017_I00001163_P1273A_P2072A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0005_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And then at 9.30, um, he's gonna wash up. He knows how to take his own bath, okay? So the bath and everything's prepped in the sh- bathroom.",
+            "corrections": {}
+          },
+          "T2R_0005_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "518.64",
+                "corrected_end_seconds": "524.68"
+              }
+            }
+          },
+          "T2R_0005_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "There um, are his veggies, and please make sure he eats some, because otherwise, he won't be getting his greens, you know what I'm saying?",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2017_I00001164_P1273A_P2072A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0005_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0005_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "814.88",
+                "corrected_end_seconds": "821.28"
+              }
+            }
+          },
+          "T2R_0005_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "849.16",
+                "corrected_end_seconds": "856.30"
+              }
+            }
+          },
+          "T2R_0005_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And for you to make these accusations is really um just, I don't understand where that's coming from. I told you what's happening.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "955.37",
+                "corrected_end_seconds": "962.17"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001009_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0006_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0006_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0006_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "225.35",
+                "corrected_end_seconds": "230.75"
+              }
+            }
+          },
+          "T2R_0006_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "184.83",
+                "corrected_end_seconds": "193.44"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001010_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0006_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "398.20",
+                "corrected_end_seconds": "406.55"
+              }
+            }
+          },
+          "T2R_0006_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0006_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And I feel like I'm ready to take on uh more of a leadership role and to possibly- and to possibly receive a pay increase because I",
+            "corrections": {}
+          },
+          "T2R_0006_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But always in a position there is more to learn and there's a lot more um time to be given.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001011_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0006_S3_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "It's a pretty- it is a pretty old building, I agree, but they did have somebody come through last year to reprogram a lot of the routers and things like that.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "690.16",
+                "corrected_end_seconds": "697.85"
+              }
+            }
+          },
+          "T2R_0006_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "If you could do that work someplace else, if you need, you know, consistent internet, otherwise it's gonna probably be, you know, spotty for a while until the work is done.",
+            "corrections": {}
+          },
+          "T2R_0006_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Okay, is there, all right, so, ma'am, is it- is- it'll fix itself. I'm sorry, internets don't generally fix themselves the way that you think they do.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "671.89",
+                "corrected_end_seconds": "681.58"
+              }
+            }
+          },
+          "T2R_0006_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001013_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0006_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0006_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0006_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "We got to figure something out about this hair in the drain situation. Look, I shed a little bit too.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "938.66",
+                "corrected_end_seconds": "943.99"
+              }
+            }
+          },
+          "T2R_0006_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "840.26",
+                "corrected_end_seconds": "847.74"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001012_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0007_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Particularly the living room, but I'm open to possibly the uh... No, I'm gonna stick with the living room. I'm gonna stick with the living room on this one, yeah.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "49.54",
+                "corrected_end_seconds": "59.67"
+              }
+            }
+          },
+          "T2R_0007_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And she's six feet tall because she's from the ground up. She's a- She's an island that sits on the- on the floor and, you know, and then in the corner somewhere.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "170.71",
+                "corrected_end_seconds": "178.13"
+              }
+            }
+          },
+          "T2R_0007_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "154.87",
+                "corrected_end_seconds": "161.61"
+              }
+            }
+          },
+          "T2R_0007_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "137.82",
+                "corrected_end_seconds": "145.79"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001014_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0007_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0007_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "328.83",
+                "corrected_end_seconds": "335.78"
+              }
+            }
+          },
+          "T2R_0007_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "How often should I be taking him out for walks? Am I taking him- taking him out at least like four or five times a day?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "316.98",
+                "corrected_end_seconds": "323.07"
+              }
+            }
+          },
+          "T2R_0007_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "No \"Oh, God\" in the given timestamps",
+            "corrected_transcript_text": "So, how do you deal with leaving a dog at home all day by themselves like that? Like, how do I... ",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "428.69",
+                "corrected_end_seconds": "433.62"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001015_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0007_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "655.84",
+                "corrected_end_seconds": "663.82"
+              }
+            }
+          },
+          "T2R_0007_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "561.04",
+                "corrected_end_seconds": "567.91"
+              }
+            }
+          },
+          "T2R_0007_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Have we- Have we notified any security police to let them know that of the situation and what we're going to be doing?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "536.18",
+                "corrected_end_seconds": "543.20"
+              }
+            }
+          },
+          "T2R_0007_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2018_I00001016_P1273A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0007_S4_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Another speaker interrupts this given sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "855.14",
+                "corrected_end_seconds": "862.36"
+              }
+            }
+          },
+          "T2R_0007_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Another speaker interrupts this given sentence multiple times.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So, oh, she died at 92. Yeah, so we grew up on this goulash that we're gonna make together.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "733.60",
+                "corrected_end_seconds": "741.11"
+              }
+            }
+          },
+          "T2R_0007_S4_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "It's a long recipe, a lot of steps, but I know that you're in- you're in- you're into it, and I know that you're ready.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "752.51",
+                "corrected_end_seconds": "758.79"
+              }
+            }
+          },
+          "T2R_0007_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2019_I00001097_P1272A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0008_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And then they eventually put me on uh... this one medication for blood pressure. I just can't remember. It starts with a P, uh... pacifications or pas- paslophilus or whatever.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "149.64",
+                "corrected_end_seconds": "160.37"
+              }
+            }
+          },
+          "T2R_0008_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "133.78",
+                "corrected_end_seconds": "143.02"
+              }
+            }
+          },
+          "T2R_0008_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "144.43",
+                "corrected_end_seconds": "149.12"
+              }
+            }
+          },
+          "T2R_0008_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2019_I00001098_P1272A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0008_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "\"I mean\" is saif by the other speaker.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Doc, look, I read a case where- I read a case where somebody went into the hospital for general elective surgery, and they were supposed to be in and out, and somehow...",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "369.99",
+                "corrected_end_seconds": "380.00"
+              }
+            }
+          },
+          "T2R_0008_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0008_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "you will feel, you will be in dreamland and you- it'll be like you came back from a vacation, feeling refreshed, amazing, your body's gonna feel amazing.",
+            "corrections": {}
+          },
+          "T2R_0008_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Will I be able to, when I come out of it, am- am I gonna have an appetite? Can I eat steak or something like that?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "479.97",
+                "corrected_end_seconds": "486.98"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2019_I00001100_P1272A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0008_S3_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I have long hours at my job and it's really hard to have to boil water and- and bathe my child and then cook and all of that stuff.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "728.55",
+                "corrected_end_seconds": "735.96"
+              }
+            }
+          },
+          "T2R_0008_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0008_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So the- the sink in the shower has been leaking for a couple of weeks and it's not like a small drip.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "620.30",
+                "corrected_end_seconds": "628.72"
+              }
+            }
+          },
+          "T2R_0008_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "781.65",
+                "corrected_end_seconds": "785.71"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2019_I00001101_P1272A_P1274A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0008_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1018.00",
+                "corrected_end_seconds": "1029.43"
+              }
+            }
+          },
+          "T2R_0008_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "Another speaker interrputs this given sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "1063.42",
+                "corrected_end_seconds": "1071.22"
+              }
+            }
+          },
+          "T2R_0008_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0008_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2035_I00000992_P1292A_P1293A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0009_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2035_I00000994_P1292A_P1293A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0009_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "359.30",
+                "corrected_end_seconds": "366.19"
+              }
+            }
+          },
+          "T2R_0009_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2035_I00000995_P1292A_P1293A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0009_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "Another speaker interrputs this given sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Of course, absolutely. So great. So she has- you have not been putting her on the ground at all? You've just used pee pads and what may have you?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "605.60",
+                "corrected_end_seconds": "613.02"
+              }
+            }
+          },
+          "T2R_0009_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "591.21",
+                "corrected_end_seconds": "596.94"
+              }
+            }
+          },
+          "T2R_0009_S3_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I think she's missing about one or two vaccines. I think she was a- just a little bit too small to get those two vaccines.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2035_I00000996_P1292A_P1293A": {
+        "scene_card_status": "issue",
+        "scene_card_note": "Participant B isn't offering as much encouragement",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0009_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "881.48",
+                "corrected_end_seconds": "885.72"
+              }
+            }
+          },
+          "T2R_0009_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0009_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And everybody's just been so gracious, but it's also really nice that people you know, just let me be, right?",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2036_I00000711_P1293A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0010_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I think you know, in every business, there's nothing like that strength of heart that is gonna get you through the tough times, and there will be tough times.",
+            "corrections": {}
+          },
+          "T2R_0010_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "194.73",
+                "corrected_end_seconds": "200.13"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2036_I00000713_P1293A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0010_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And so he was like, oh, babe, you need to work, you need to come out over here. So that's what, you know, like, ugh.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "359.89",
+                "corrected_end_seconds": "364.95"
+              }
+            }
+          },
+          "T2R_0010_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "351.05",
+                "corrected_end_seconds": "356.15"
+              }
+            }
+          },
+          "T2R_0010_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I mean, I'm pretty in shape, but I feel like I don't have the qualifications to really take on people in that- in that way.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "298.23",
+                "corrected_end_seconds": "304.26"
+              }
+            }
+          },
+          "T2R_0010_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "Another speaker interrputs this given sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2036_I00000714_P1293A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0010_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, maybe we could bring someone in like once every two months, you know? I think that And they do like a bang-up job. I think that that would be great.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "644.65",
+                "corrected_end_seconds": "651.56"
+              }
+            }
+          },
+          "T2R_0010_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2036_I00000715_P1293A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0010_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": " Another speaker interrputs this given sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "909.24",
+                "corrected_end_seconds": "919.92"
+              }
+            }
+          },
+          "T2R_0010_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0010_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But we lose Darth Vader in the last one, which is like a pretty powerful moment.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2037_I00001087_P1292A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0011_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I really like working there. I just- it's- I have to move. That's the only reason I'm really leaving.",
+            "corrections": {}
+          },
+          "T2R_0011_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2037_I00001091_P1292A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0011_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Okay, um, crazy thing is I feel pretty good. I don't really think I have this, what did you call it again?",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2037_I00001093_P1292A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0011_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, here's the thing is, I've got a sharp eye, and I've noticed not only have you been pocketing money, but you've also been hiding and hoarding property.",
+            "corrections": {}
+          },
+          "T2R_0011_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2037_I00001094_P1292A_P1294A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0011_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, I know sometimes I hear them talk about, you know, uh, long hours and how they don't like them.",
+            "corrections": {}
+          },
+          "T2R_0011_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0011_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001045_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0012_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Where do you see me as far as like climbing up? Or how long would it take me to get to where you are is my real question.",
+            "corrections": {}
+          },
+          "T2R_0012_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "136.15",
+                "corrected_end_seconds": "144.69"
+              }
+            }
+          },
+          "T2R_0012_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "15.42",
+                "corrected_end_seconds": "23.24"
+              }
+            }
+          },
+          "T2R_0012_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "26.05",
+                "corrected_end_seconds": "31.26"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001046_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0012_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "walk through through or walk you through? ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So I have to walk through through a couple of things. So you did try the unplug and plug it back scenario just to see if it was OK.",
+            "corrections": {}
+          },
+          "T2R_0012_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yes, I did the usual you know, resets. I even called my property management to see if maybe there was a some sort of connective issue kind of thing going on.",
+            "corrections": {}
+          },
+          "T2R_0012_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "372.85",
+                "corrected_end_seconds": "378.26"
+              }
+            }
+          },
+          "T2R_0012_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "397.96",
+                "corrected_end_seconds": "402.89"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001047_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0012_S3_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Oh, it was- it was tough. Like, that 10 and that 8-year-old, when they were two and the other one fresh out the womb, now that was tough.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "636.60",
+                "corrected_end_seconds": "642.59"
+              }
+            }
+          },
+          "T2R_0012_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Like your child just may start saying words like, hey, you can talk now. So just stuff like that you have to get- get used to. But it's all- it's all fun.",
+            "corrections": {}
+          },
+          "T2R_0012_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Like I, we- we're starting to get some little babbles that I feel like sound like something, but, you know, to her dad, it doesn't really sound like anything.",
+            "corrections": {}
+          },
+          "T2R_0012_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Talk to them. And sometimes you got to let them you know, make mistakes. That's- that's the main thing. You tell them it's hot, they don't believe that, touch it.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "581.98",
+                "corrected_end_seconds": "589.04"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001052_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0012_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Career-wise, I'm in- I s- I'm in maybe a 100,000 in student loans. So I got to start making that money back right now. So I got my degree in psychology, my master's.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "740.75",
+                "corrected_end_seconds": "750.28"
+              }
+            }
+          },
+          "T2R_0012_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0012_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "774.62",
+                "corrected_end_seconds": "783.60"
+              }
+            }
+          },
+          "T2R_0012_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "Another speaker interrupts the sentence.",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001048_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0013_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0013_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0013_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "109.26",
+                "corrected_end_seconds": "120.14"
+              }
+            }
+          },
+          "T2R_0013_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "65.11",
+                "corrected_end_seconds": "70.44"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001049_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0013_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I have my ideas, but before I make my suggestion, because I think you'll really be interested in it, I'm think- want to know what you're thinking, what we should- what direction to go.",
+            "corrections": {}
+          },
+          "T2R_0013_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0013_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Like, we've already- we're already putting money, compound interest is already happening, so they're already in a really good position, more than most children, I would say.",
+            "corrections": {}
+          },
+          "T2R_0013_S2_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "We're putting it into like a great future, though. It's not like we're just putting it away and like it's not doing anything. It's for our kids.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001050_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0013_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "488.47",
+                "corrected_end_seconds": "498.24"
+              }
+            }
+          },
+          "T2R_0013_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0013_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "I'm not sure about the last word. ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And yeah, like I don't- I- my phone might be available, but I like have to you know, get going. And I don't know if I- I won't be able to call.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "539.56",
+                "corrected_end_seconds": "546.69"
+              }
+            }
+          },
+          "T2R_0013_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Because we have a nighttime routine, so Alexa knows a routine. So you can just say, hey, Alexa, like play common music, whatever.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2047_I00001188_P1304A_P1305A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0013_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "813.59",
+                "corrected_end_seconds": "819.55"
+              }
+            }
+          },
+          "T2R_0013_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I don't know who thought about this, if they've even talked with anyone around here, but we're all- we're- I can speak for everyone that we are not okay with this.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "741.89",
+                "corrected_end_seconds": "748.85"
+              }
+            }
+          },
+          "T2R_0013_S4_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I mean, if you go to any other neighborhood in L.A., it's- it's- Silver Lake is just unbearable. I just- we don't want to deal with this. Like- it's not okay.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "829.34",
+                "corrected_end_seconds": "837.49"
+              }
+            }
+          },
+          "T2R_0013_S4_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So then that means there's- they'll be bringing in vendors and people that are unfamiliar to the neighborhood. And we like our tight-knit community.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "807.29",
+                "corrected_end_seconds": "813.54"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000689_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0014_S1_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Do you see what you're doing now? Are you trying to emotionally affect me? Because you're- you're- you're going on and on and on. This is why we work the numbers.",
+            "corrections": {}
+          },
+          "T2R_0014_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000691_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0014_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I draw for you, I make your dream into reality, and then you tell me what you think it's worth, and I'll give it- give it to you for that option.",
+            "corrections": {}
+          },
+          "T2R_0014_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "ANother speaker interrupts this sentence. ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000692_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0014_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0014_S3_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "For whatever. No, my- my kid has a strict regimen. He goes to the best private school in town.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000693_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0014_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "798.52",
+                "corrected_end_seconds": "807.34"
+              }
+            }
+          },
+          "T2R_0014_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I mean, that's why I'm thinking you can probably give me a little- a little insight because I guess the responsible thing to do would be to start paying my bills back.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "790.06",
+                "corrected_end_seconds": "798.09"
+              }
+            }
+          },
+          "T2R_0014_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "912.35",
+                "corrected_end_seconds": "919.81"
+              }
+            }
+          },
+          "T2R_0014_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000690_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0015_S1_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "No, you've been absolutely wonderful. We love having you here. You have been divine. You feel like family already. You haven't been here very- you haven't been here, what, four months, five months?",
+            "corrections": {}
+          },
+          "T2R_0015_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000695_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0015_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But, like, no, this is, if we're going to fix the problem, we need to know that this is done or not. Like, did you send an email, call?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "285.59",
+                "corrected_end_seconds": "293.78"
+              }
+            }
+          },
+          "T2R_0015_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yes. No, I get it. I get it. It's tough work. It's very hard. But you know, I need to live. I need to you know, have hot- hot showers.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "401.17",
+                "corrected_end_seconds": "406.52"
+              }
+            }
+          },
+          "T2R_0015_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "300.99",
+                "corrected_end_seconds": "305.15"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000696_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0015_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2048_I00000697_P1305A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0015_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0015_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, okay, but can you do that before? Because if you're going to- if you're going to follow in the line, you've got to be able to do the same thing.",
+            "corrections": {}
+          },
+          "T2R_0015_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So before I even tell you the process, can you open yourself up? You need to like do a little wiggle, kind of take a deep breath.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "769.22",
+                "corrected_end_seconds": "776.07"
+              }
+            }
+          },
+          "T2R_0015_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001104_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0016_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And that's how I ended up missing the deadline. But again, whatever I can do to fix it, I'm sorry that I actually umm... became",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "41.37",
+                "corrected_end_seconds": "48.32"
+              }
+            }
+          },
+          "T2R_0016_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001105_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0016_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S2_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But I'm- I'm struggling to see how you don't see that. Why isn't this like a 100% guarantee we should be signing this thing?",
+            "corrections": {}
+          },
+          "T2R_0016_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "249.02",
+                "corrected_end_seconds": "255.59"
+              }
+            }
+          },
+          "T2R_0016_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001106_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0016_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "It is. It's a lot of great taste and health and stuff. Have you even tried anything that's vegan or gluten-free or you know, not processed or anything like that?",
+            "corrections": {}
+          },
+          "T2R_0016_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I mean, I'm working on a budget. Can we like uh figure out a budget? You know, fast food is a little cheaper. I feel like healthy stuff is always organic.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "457.95",
+                "corrected_end_seconds": "464.94"
+              }
+            }
+          },
+          "T2R_0016_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "399.39",
+                "corrected_end_seconds": "402.49"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001108_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0016_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "last word unclear",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0016_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001107_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0017_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "43.13",
+                "corrected_end_seconds": "48.23"
+              }
+            }
+          },
+          "T2R_0017_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "53.71",
+                "corrected_end_seconds": "59.59"
+              }
+            }
+          },
+          "T2R_0017_S1_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Well, also, you know, I was sick that day. It's not really, uh... I'm just telling you I need an 85.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "113.86",
+                "corrected_end_seconds": "120.01"
+              }
+            }
+          },
+          "T2R_0017_S1_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Very, very professional. Yes. Anatomy is my thing. It's my go-to. It's why you're here with me.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "138.81",
+                "corrected_end_seconds": "144.10"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001109_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0017_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, you know, once when the money, I was, you know, in college, I told you a lot, I was scared to even do the whole family thing.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "253.69",
+                "corrected_end_seconds": "259.40"
+              }
+            }
+          },
+          "T2R_0017_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "245.34",
+                "corrected_end_seconds": "250.42"
+              }
+            }
+          },
+          "T2R_0017_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0017_S2_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Like we always say, it's- it's more than one woman in the world, man. She was one person you thought... She was.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "381.22",
+                "corrected_end_seconds": "387.26"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001111_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0017_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "Other speaker interrupts several times. ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "592.81",
+                "corrected_end_seconds": "601.42"
+              }
+            }
+          },
+          "T2R_0017_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Oh, OK. Yeah, I can- I can do that. Do you add like anything extra to it, or just regular spaghetti and meatballs?",
+            "corrections": {}
+          },
+          "T2R_0017_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "587.41",
+                "corrected_end_seconds": "591.63"
+              }
+            }
+          },
+          "T2R_0017_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2049_I00001112_P1304A_P1306A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0017_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Now, if I did, I would have said aperture on this side, plummeture on this side. I didn't say that. I told you how I would like it.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "807.47",
+                "corrected_end_seconds": "811.98"
+              }
+            }
+          },
+          "T2R_0017_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "People still eat apples. That's- that's going to stay here. Ok? I don't need your ideas and all this extra stuff. I know your grannies- I don't need- I don't need the actual conversation at that point.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "879.94",
+                "corrected_end_seconds": "888.32"
+              }
+            }
+          },
+          "T2R_0017_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "626.36",
+                "corrected_end_seconds": "632.12"
+              }
+            }
+          },
+          "T2R_0017_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "934.21",
+                "corrected_end_seconds": "939.54"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2050_I00001124_P1307A_P1308A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0018_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "212.97",
+                "corrected_end_seconds": "223.63"
+              }
+            }
+          },
+          "T2R_0018_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "243.34",
+                "corrected_end_seconds": "251.09"
+              }
+            }
+          },
+          "T2R_0018_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0018_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2050_I00001127_P1307A_P1308A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0018_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I've been given- I've been given many different dates, but, you know, you can't really listen to any of them. You just, you know, be your own best advocate.",
+            "corrections": {}
+          },
+          "T2R_0018_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0018_S2_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Don't- don't get too upset about that. Everybody dies alone. Nobody gets to take anyone with them when they die.",
+            "corrections": {}
+          },
+          "T2R_0018_S2_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "We are. Like I just- I just fear like the- like what thewhat the doctors are saying, it's like not- it's not gonna be true for me.",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2050_I00001128_P1307A_P1308A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0018_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, but people are so much more willing to you know, divorce their husbands when they're actually not great now than before. So there's more single people your age, I promise you.",
+            "corrections": {}
+          },
+          "T2R_0018_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0018_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "624.62",
+                "corrected_end_seconds": "632.16"
+              }
+            }
+          },
+          "T2R_0018_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "647.41",
+                "corrected_end_seconds": "651.85"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2050_I00001129_P1307A_P1308A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0018_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "844.90",
+                "corrected_end_seconds": "851.82"
+              }
+            }
+          },
+          "T2R_0018_S4_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "Other speaker interrupts. ",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah. Because we can't- we can't have them ruining this night. Like this is going to be the start of something new. You know what I'm saying?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "984.23",
+                "corrected_end_seconds": "990.90"
+              }
+            }
+          },
+          "T2R_0018_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "969.57",
+                "corrected_end_seconds": "974.67"
+              }
+            }
+          },
+          "T2R_0018_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00000999_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0019_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "71.57",
+                "corrected_end_seconds": "78.44"
+              }
+            }
+          },
+          "T2R_0019_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0019_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Okay, okay. Na- nature is a, it's a large term, it's an umbrella term, any particular type- any- have you seen some of my nature paintings?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "46.98",
+                "corrected_end_seconds": "55.09"
+              }
+            }
+          },
+          "T2R_0019_S1_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Do you do like by the square foot? Like, what- yeah- or is it just by easiness? I don't know how you do it.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "126.52",
+                "corrected_end_seconds": "132.71"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001000_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0019_S2_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I do too. I do too, babe. But the only thing I've just, like what- how- how- how big are you thinking? Because the planning will get overwhelming, like, depending on how big.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "285.68",
+                "corrected_end_seconds": "296.79"
+              }
+            }
+          },
+          "T2R_0019_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "266.30",
+                "corrected_end_seconds": "274.40"
+              }
+            }
+          },
+          "T2R_0019_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0019_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "So- so one day, I don't want it to take over our lives, you know when it comes to planning.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "344.13",
+                "corrected_end_seconds": "349.62"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001001_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0019_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Vice president. And, I, you know, that's not where I could even come close to being if I stayed. I got to take it. I got to take it.",
+            "corrections": {}
+          },
+          "T2R_0019_S3_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Doesn't mean we have to stay. They're going to be branching out, too. They're going to be branching out. We could maybe- maybe bring back a franchise out here.",
+            "corrections": {}
+          },
+          "T2R_0019_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I just don't know if it's possible, you know. I- I wish you could stay here, but you got a VP. You're my brother. I'm happy for you, man.",
+            "corrections": {}
+          },
+          "T2R_0019_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "No, I- I would, I want to stay close to you. Like, you know how important family is, but I just don't know.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "497.95",
+                "corrected_end_seconds": "505.40"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001002_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0019_S4_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Your thesis, you know, it's- it's really strong, but I feel like in the middle, you know, around pages three and four, is where things get kind of lost.",
+            "corrections": {}
+          },
+          "T2R_0019_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "The thesis statement is there. I know what point you're trying to make. But I feel... And I'm with you. I- I- I get the point.",
+            "corrections": {}
+          },
+          "T2R_0019_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0019_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001004_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0020_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0020_S1_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Usually what happens is on the rebound, whether it's a new job, new relationship, it's usually- it's usually a better situation, I think.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "116.11",
+                "corrected_end_seconds": "123.44"
+              }
+            }
+          },
+          "T2R_0020_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "57.71",
+                "corrected_end_seconds": "64.53"
+              }
+            }
+          },
+          "T2R_0020_S1_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001005_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0020_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Mm-hmm. Well, I'm glad. You know, I- I always liked Julie, but I always... You know, I felt like you guys are so different, you know?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "420.04",
+                "corrected_end_seconds": "427.74"
+              }
+            }
+          },
+          "T2R_0020_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0020_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "268.62",
+                "corrected_end_seconds": "273.07"
+              }
+            }
+          },
+          "T2R_0020_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "320.77",
+                "corrected_end_seconds": "324.00"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001006_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0020_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But you know what? This is what it's like to be an American. Second Amendment rights. We're doing our thing. We're speaking for the people that aren't- aren't able to speak.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "447.73",
+                "corrected_end_seconds": "456.70"
+              }
+            }
+          },
+          "T2R_0020_S3_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "It's going to show like when people post videos and pictures that- that- how important our message is, because you know, it's going to show how- how intensely we have to protect ourselves. ",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "647.42",
+                "corrected_end_seconds": "657.40"
+              }
+            }
+          },
+          "T2R_0020_S3_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I'm glad I stopped you, but you know what? We're- we're supposed to absorb it. You know, let- let them wreck themselves, you know? Let them wreck themselves.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "502.76",
+                "corrected_end_seconds": "511.89"
+              }
+            }
+          },
+          "T2R_0020_S3_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "There's going to be probably 10,000 people. But, you know, are we in communication? Have- have you gotten in communication with the police department?",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2051_I00001007_P1308A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0020_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "I can't find anything at the Chinese, at the old, we're talking about Chinatown, right? Yeah, I mean, they've got like 105 things on the menu and there's- all of them have meat.",
+            "corrections": {}
+          },
+          "T2R_0020_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "715.88",
+                "corrected_end_seconds": "724.32"
+              }
+            }
+          },
+          "T2R_0020_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "687.92",
+                "corrected_end_seconds": "695.53"
+              }
+            }
+          },
+          "T2R_0020_S4_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "I'm not sure if the word is \"Bacardi\"",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "824.27",
+                "corrected_end_seconds": "829.47"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000634_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0021_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "208.28",
+                "corrected_end_seconds": "213.20"
+              }
+            }
+          },
+          "T2R_0021_S1_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "181.97",
+                "corrected_end_seconds": "188.80"
+              }
+            }
+          },
+          "T2R_0021_S1_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0021_S1_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "But, um- I- you know, we- we're really busy today, and I just wanted to come out and greet you and help you find what you're looking for.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "142.64",
+                "corrected_end_seconds": "151.13"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000635_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0021_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "260.75",
+                "corrected_end_seconds": "269.42"
+              }
+            }
+          },
+          "T2R_0021_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "427.65",
+                "corrected_end_seconds": "434.39"
+              }
+            }
+          },
+          "T2R_0021_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "327.05",
+                "corrected_end_seconds": "332.33"
+              }
+            }
+          },
+          "T2R_0021_S2_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "503.27",
+                "corrected_end_seconds": "508.54"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000639_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0021_S3_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "650.67",
+                "corrected_end_seconds": "659.16"
+              }
+            }
+          },
+          "T2R_0021_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0021_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0021_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "620.59",
+                "corrected_end_seconds": "626.89"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000641_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0021_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0021_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0021_S4_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Yeah, and I just don't. We'll- we'll give you a good tip. We'll- we'll give you a good review on Yelp.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "861.01",
+                "corrected_end_seconds": "867.00"
+              }
+            }
+          },
+          "T2R_0021_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "842.54",
+                "corrected_end_seconds": "845.19"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000636_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0022_S1_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "50.10",
+                "corrected_end_seconds": "60.95"
+              }
+            }
+          },
+          "T2R_0022_S1_U02": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "No, I understand. I understand. But, you know, we- we talked about it. $6000 a month? Who's- who's got that money? I mean, I don't, you know?",
+            "corrections": {}
+          },
+          "T2R_0022_S1_U03": {
+            "candidate_status": "issue",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Adam, he's- he's falling far- farther into dementia. So I- I just think if you were here more that you would understand where I'm coming from.",
+            "corrections": {}
+          },
+          "T2R_0022_S1_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "And you're off on your- your working trips. And remember when he fell in the kitchen because nobody was here and he was thirsty?",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "118.09",
+                "corrected_end_seconds": "125.09"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000637_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0022_S2_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "295.56",
+                "corrected_end_seconds": "305.16"
+              }
+            }
+          },
+          "T2R_0022_S2_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "344.33",
+                "corrected_end_seconds": "351.79"
+              }
+            }
+          },
+          "T2R_0022_S2_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "357.06",
+                "corrected_end_seconds": "365.60"
+              }
+            }
+          },
+          "T2R_0022_S2_U04": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Don't be concerned. I- again, I've pres- I've filled this prescription for hundreds of people. It's a very common prescription. And again, don't be thrown off by the commercials.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "447.76",
+                "corrected_end_seconds": "458.42"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000638_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0022_S3_U01": {
+            "candidate_status": "issue",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "Okay. Well, still, I don't- I don't want to feel like three times a day I'm sticking my finger in an electrical outlet. You know, that's what the sciatica feels like.",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "646.67",
+                "corrected_end_seconds": "656.36"
+              }
+            }
+          },
+          "T2R_0022_S3_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "620.98",
+                "corrected_end_seconds": "628.94"
+              }
+            }
+          },
+          "T2R_0022_S3_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "629.45",
+                "corrected_end_seconds": "636.65"
+              }
+            }
+          },
+          "T2R_0022_S3_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "544.96",
+                "corrected_end_seconds": "550.13"
+              }
+            }
+          }
+        },
+        "transcript_edits": {}
+      },
+      "track2_role_ipc_test_S2052_I00000640_P1307A_P1309A": {
+        "scene_card_status": "ok",
+        "scene_card_note": "",
+        "question_status": "",
+        "question_note": "",
+        "overall_status": "",
+        "recommended_action": "",
+        "auditor_notes": "",
+        "task_reviews": {},
+        "candidate_reviews": {
+          "T2R_0022_S4_U01": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0022_S4_U02": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          },
+          "T2R_0022_S4_U03": {
+            "candidate_status": "ok",
+            "timestamp_status": "corrected",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {
+              "utterance": {
+                "corrected_start_seconds": "792.61",
+                "corrected_end_seconds": "796.21"
+              }
+            }
+          },
+          "T2R_0022_S4_U04": {
+            "candidate_status": "ok",
+            "timestamp_status": "ok",
+            "candidate_note": "",
+            "timestamp_note": "",
+            "corrected_transcript_text": "",
+            "corrections": {}
+          }
+        },
+        "transcript_edits": {}
+      }
+    },
+    "absent_candidate_reviews": {
+      "T2R_0001_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": "So I don't think that that's forgivable. And some of the opinions that he has, that he's pushing onto his followers, are making those followers do."
+      },
+      "T2R_0001_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0002_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0002_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0003_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0003_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0004_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0004_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0005_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0005_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0006_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0006_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0007_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0007_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0008_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0008_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0009_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0009_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0010_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0010_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0011_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0011_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0012_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0012_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0013_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0013_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0014_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0014_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0015_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0015_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0016_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0016_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0017_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0017_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0018_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0018_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0019_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0019_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0020_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0020_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0021_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0021_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0022_SET1_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      },
+      "T2R_0022_SET2_FAKE": {
+        "candidate_status": "ok",
+        "candidate_note": "",
+        "corrected_transcript_text": ""
+      }
+    },
+    "savedAt": "2026-07-20T04:52:43.402Z"
+  }
+}
